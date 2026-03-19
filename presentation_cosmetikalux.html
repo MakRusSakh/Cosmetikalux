@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>КорпСервис Консалтинг — CosmetikaLux</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0f1b33;
+    --navy-mid: #162544;
+    --navy-light: #1e3259;
+    --gold: #c9a24e;
+    --gold-light: #dbb96a;
+    --gold-pale: #f0dba8;
+    --white: #ffffff;
+    --gray: #e8e8e8;
+    --text-light: #cbd5e1;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Playfair Display', Georgia, serif;
+    background: #2a2a2a;
+    color: var(--white);
+  }
+
+  /* ── Page (A4 landscape) ── */
+  .slide {
+    width: 297mm;
+    height: 210mm;
+    background: var(--navy);
+    margin: 10mm auto;
+    padding: 18mm 22mm;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+    display: flex;
+    flex-direction: column;
+  }
+  .slide:last-child { page-break-after: avoid; }
+
+  /* ── Decorative elements ── */
+  .slide::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold-light) 50%, var(--gold) 80%, transparent 100%);
+  }
+  .slide::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1.5px;
+    background: linear-gradient(90deg, transparent 0%, var(--gold) 30%, var(--gold) 70%, transparent 100%);
+    opacity: .4;
+  }
+
+  /* ── Corner ornaments ── */
+  .corner-tl, .corner-br {
+    position: absolute;
+    width: 60px; height: 60px;
+    border-color: var(--gold);
+    border-style: solid;
+    opacity: .35;
+  }
+  .corner-tl { top: 12mm; left: 16mm; border-width: 1.5px 0 0 1.5px; }
+  .corner-br { bottom: 12mm; right: 16mm; border-width: 0 1.5px 1.5px 0; }
+
+  /* ── Footer on each slide ── */
+  .slide-footer {
+    position: absolute;
+    bottom: 8mm;
+    left: 22mm;
+    right: 22mm;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8pt;
+    color: var(--gold);
+    opacity: .55;
+    letter-spacing: .5px;
+  }
+
+  /* ── Typography ── */
+  h1 {
+    font-size: 30pt;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 20pt;
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 1px;
+    margin-bottom: 5mm;
+    line-height: 1.25;
+  }
+  h3 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--gold-light);
+    margin-bottom: 3mm;
+    letter-spacing: .5px;
+  }
+  p, li, td, th {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 10.5pt;
+    line-height: 1.55;
+    color: var(--text-light);
+  }
+  .accent { color: var(--gold); font-weight: 600; }
+  .highlight { color: var(--gold-light); }
+  .dim { opacity: .65; font-size: 9pt; }
+  .small { font-size: 9pt; }
+
+  /* ── Slide 1: Title ── */
+  .title-slide {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .title-slide .company-name {
+    font-size: 14pt;
+    font-weight: 500;
+    color: var(--gold);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 6mm;
+  }
+  .title-slide .divider {
+    width: 80mm;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin: 6mm auto;
+  }
+  .title-slide h1 {
+    font-size: 28pt;
+    margin-bottom: 2mm;
+  }
+  .title-slide .subtitle {
+    font-size: 13pt;
+    color: var(--text-light);
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 4mm;
+  }
+  .title-slide .meta {
+    font-size: 9.5pt;
+    color: var(--gold);
+    opacity: .7;
+    margin-top: 8mm;
+    letter-spacing: 1px;
+  }
+
+  /* ── Tables ── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th {
+    text-align: left;
+    font-size: 9pt;
+    font-weight: 600;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 2.5mm 3mm;
+    border-bottom: 1px solid var(--gold);
+    opacity: .8;
+  }
+  td {
+    padding: 2.2mm 3mm;
+    border-bottom: 1px solid rgba(201,162,78,.12);
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  .table-accent td { background: rgba(201,162,78,.06); }
+  .table-total td {
+    border-top: 1.5px solid var(--gold);
+    font-weight: 700;
+    color: var(--gold);
+    padding-top: 3mm;
+  }
+
+  /* ── Score badge ── */
+  .score-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4mm;
+    background: rgba(220,60,60,.12);
+    border: 1px solid rgba(220,60,60,.3);
+    border-radius: 6px;
+    padding: 3mm 5mm;
+    margin: 3mm 0;
+  }
+  .score-badge .num {
+    font-size: 28pt;
+    font-weight: 800;
+    color: #e05555;
+  }
+  .score-badge .label {
+    font-size: 10pt;
+    color: #e88;
+  }
+
+  /* ── Columns ── */
+  .cols { display: flex; gap: 6mm; flex: 1; }
+  .col { flex: 1; }
+
+  /* ── Card style blocks ── */
+  .card {
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(201,162,78,.15);
+    border-radius: 5px;
+    padding: 4mm 5mm;
+    margin-bottom: 3mm;
+  }
+  .card h3 { margin-bottom: 1.5mm; font-size: 11pt; }
+  .card p { font-size: 9.5pt; }
+
+  /* ── Bullet lists ── */
+  ul { list-style: none; padding-left: 0; }
+  ul li {
+    padding-left: 5mm;
+    position: relative;
+    margin-bottom: 1.5mm;
+    font-size: 10pt;
+  }
+  ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    background: var(--gold);
+    border-radius: 50%;
+    opacity: .6;
+  }
+
+  /* ── Package boxes ── */
+  .pkg {
+    border: 1.5px solid var(--gold);
+    border-radius: 6px;
+    padding: 4mm 5mm;
+    flex: 1;
+    position: relative;
+  }
+  .pkg.recommended {
+    border-color: var(--gold-light);
+    background: rgba(201,162,78,.07);
+    box-shadow: 0 0 20px rgba(201,162,78,.1);
+  }
+  .pkg .badge {
+    position: absolute;
+    top: -3mm;
+    right: 5mm;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 7pt;
+    font-weight: 700;
+    padding: 1mm 3mm;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+  }
+  .pkg .price {
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--gold);
+    margin: 2mm 0;
+  }
+  .pkg .price .old {
+    font-size: 10pt;
+    text-decoration: line-through;
+    opacity: .5;
+    color: var(--text-light);
+    margin-left: 2mm;
+  }
+  .pkg ul li { font-size: 9pt; margin-bottom: 1mm; }
+
+  /* ── Print ── */
+  @media print {
+    body { background: white; }
+    .slide {
+      margin: 0;
+      box-shadow: none;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    @page {
+      size: 297mm 210mm;
+      margin: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════════════
+     SLIDE 1 — TITLE
+     ════════════════════════════════════════════════════════════ -->
+<div class="slide title-slide">
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <div class="company-name">КорпСервис Консалтинг</div>
+  <div class="divider"></div>
+  <h1>Новый сайт CosmetikaLux</h1>
+  <p class="subtitle">Аудит текущего сайта и коммерческое предложение</p>
+  <div class="divider"></div>
+  <p class="meta">Южно-Сахалинск &nbsp;&bull;&nbsp; Март 2026</p>
+  <div class="slide-footer">
+    <span>КорпСервис Консалтинг</span>
+    <span>Конфиденциально</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     SLIDE 2 — AUDIT RESULTS
+     ════════════════════════════════════════════════════════════ -->
+<div class="slide">
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <h2>Результаты аудита cosmetikalux.ru</h2>
+  <div class="cols">
+    <div class="col">
+      <div class="score-badge">
+        <span class="num">2.1</span>
+        <span class="label">из 10<br>общая оценка</span>
+      </div>
+      <p style="margin: 4mm 0 3mm; font-size: 10pt;">Проверено <span class="accent">60+ параметров</span> по 7 направлениям. Выявлено <span class="accent">29 критических</span> и 31 важная проблема.</p>
+      <table style="margin-top:2mm;">
+        <tr><td>Техническая база</td><td class="accent" style="text-align:right">3 / 10</td></tr>
+        <tr><td>UX / UI дизайн</td><td class="accent" style="text-align:right">3 / 10</td></tr>
+        <tr><td>E-commerce функции</td><td class="accent" style="text-align:right">2 / 10</td></tr>
+        <tr><td>Контент</td><td class="accent" style="text-align:right">1 / 10</td></tr>
+        <tr><td>SEO</td><td class="accent" style="text-align:right">1 / 10</td></tr>
+        <tr><td>Маркетинг</td><td class="accent" style="text-align:right">2 / 10</td></tr>
+        <tr><td>Юридическое</td><td class="accent" style="text-align:right">1 / 10</td></tr>
+      </table>
+    </div>
+    <div class="col">
+      <h3>Ключевые проблемы</h3>
+      <ul>
+        <li>Нет описаний товаров — состав, применение, объём</li>
+        <li>Только 5 страниц в индексе Google из сотен</li>
+        <li>Sitemap.xml, meta description — отсутствуют</li>
+        <li>Schema.org полностью отсутствует</li>
+        <li>Нет оферты, политики ПД, реквизитов</li>
+        <li>Нет фильтров и сортировки при 96+ товарах</li>
+        <li>Нет онлайн-оплаты и описания способов оплаты</li>
+        <li>0 отзывов, рейтинг 2.9/5 на 2ГИС</li>
+      </ul>
+      <p style="margin-top: 4mm; font-size: 9.5pt; font-style: italic; opacity:.7;">
+        Платформа Nethouse не позволяет решить большинство проблем — необходима миграция.
+      </p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>КорпСервис Консалтинг</span>
+    <span>2</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     SLIDE 3 — SOLUTION
+     ════════════════════════════════════════════════════════════ -->
+<div class="slide">
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <h2>Наше решение: модульный подход</h2>
+  <p style="margin-bottom: 5mm; font-size: 11pt;">
+    Готовый интернет-магазин <span class="accent">+ подключаемые модули</span> — платите только за то, что нужно сейчас. Остальное — в любой момент, без переделки.
+  </p>
+  <div class="cols">
+    <div class="col">
+      <div class="card">
+        <h3>Базовый сайт</h3>
+        <p>Полноценный магазин, который заменяет Nethouse и сразу продаёт: каталог с фильтрами, корзина, оплата, личный кабинет, SEO, адаптивный дизайн.</p>
+      </div>
+      <div class="card">
+        <h3>Модули — подключаются позже</h3>
+        <p>Каждый модуль самостоятельный. Порядок подключения — любой. Архитектура базового сайта уже готова к расширению.</p>
+      </div>
+    </div>
+    <div class="col">
+      <h3 style="margin-bottom:2mm;">Что входит в базовый сайт</h3>
+      <ul>
+        <li>Каталог с фильтрами: бренд, тип кожи, цена</li>
+        <li>Страница товара: галерея, состав, применение</li>
+        <li>Корзина и оформление заказа</li>
+        <li>Онлайн-оплата через ЮKassa (карта, СБП)</li>
+        <li>Личный кабинет: заказы, профиль, история</li>
+        <li>SEO: мета-теги, sitemap, Schema.org</li>
+        <li>Адаптивный премиум-дизайн</li>
+        <li>Админ-панель: товары, заказы, статусы</li>
+        <li>Информационные страницы и юр. документы</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>КорпСервис Консалтинг</span>
+    <span>3</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     SLIDE 4 — MODULES & PRICING
+     ════════════════════════════════════════════════════════════ -->
+<div class="slide">
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <h2>Модули и стоимость</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:40%">Модуль</th>
+        <th style="width:18%">Стоимость</th>
+        <th style="width:15%">Срок</th>
+        <th>Ключевая ценность</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-accent">
+        <td><span class="accent">Базовый сайт</span></td>
+        <td><span class="accent">250 000 &#8381;</span></td>
+        <td>4-5 недель</td>
+        <td>Полноценный интернет-магазин</td>
+      </tr>
+      <tr>
+        <td>Интеграция с 1С</td>
+        <td>30 000 &#8381;</td>
+        <td>1 неделя</td>
+        <td>Автосинхронизация остатков и цен</td>
+      </tr>
+      <tr>
+        <td>Автоматическая доставка (СДЭК + Почта)</td>
+        <td>35 000 &#8381;</td>
+        <td>1 неделя</td>
+        <td>Расчёт стоимости, выбор ПВЗ, трекинг</td>
+      </tr>
+      <tr>
+        <td>Бонусная программа</td>
+        <td>25 000 &#8381;</td>
+        <td>0.5-1 нед.</td>
+        <td>4 уровня лояльности, кэшбэк</td>
+      </tr>
+      <tr>
+        <td>Промокоды и акции</td>
+        <td>20 000 &#8381;</td>
+        <td>0.5 нед.</td>
+        <td>Скидки, купоны, товар дня</td>
+      </tr>
+      <tr>
+        <td>Email / SMS уведомления</td>
+        <td>15 000 &#8381;</td>
+        <td>0.5 нед.</td>
+        <td>Статусы заказов, брошенные корзины</td>
+      </tr>
+      <tr>
+        <td>Блог</td>
+        <td>20 000 &#8381;</td>
+        <td>0.5-1 нед.</td>
+        <td>SEO-трафик, контент-маркетинг</td>
+      </tr>
+      <tr>
+        <td>Расширенный личный кабинет</td>
+        <td>20 000 &#8381;</td>
+        <td>1 неделя</td>
+        <td>Избранное, профиль кожи, подписки</td>
+      </tr>
+      <tr>
+        <td>ИИ Beauty-консультант &laquo;Лина&raquo;</td>
+        <td>100 000 &#8381;</td>
+        <td>2-3 нед.</td>
+        <td>Персональный подбор 24/7, +15-25% чек</td>
+      </tr>
+      <tr class="table-total">
+        <td>Все модули вместе</td>
+        <td>515 000 &#8381;</td>
+        <td>~11-13 нед.</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="slide-footer">
+    <span>КорпСервис Консалтинг</span>
+    <span>4</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     SLIDE 5 — PACKAGES
+     ════════════════════════════════════════════════════════════ -->
+<div class="slide">
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <h2>Готовые комплекты</h2>
+  <div class="cols" style="margin-top: 3mm; gap: 5mm;">
+    <!-- СТАРТ -->
+    <div class="pkg">
+      <h3>&laquo;Старт&raquo;</h3>
+      <div class="price">250 000 &#8381;</div>
+      <p class="small dim" style="margin-bottom:3mm;">4-5 недель</p>
+      <ul>
+        <li>Базовый сайт &mdash; полноценный магазин</li>
+        <li>Каталог с фильтрами, корзина, оплата</li>
+        <li>SEO, адаптив, админка</li>
+        <li>Модули подключаются позже</li>
+      </ul>
+      <p class="small dim" style="margin-top:3mm; font-style:italic;">Идеально, если основные продажи пока через Instagram и оффлайн</p>
+    </div>
+    <!-- БИЗНЕС -->
+    <div class="pkg recommended">
+      <div class="badge">Рекомендуем</div>
+      <h3>&laquo;Бизнес&raquo;</h3>
+      <div class="price">355 000 &#8381; <span class="old">395 000</span></div>
+      <p class="small dim" style="margin-bottom:3mm;">8-10 недель &nbsp;&bull;&nbsp; экономия ~10%</p>
+      <ul>
+        <li>Всё из &laquo;Старт&raquo;</li>
+        <li>Интеграция с 1С</li>
+        <li>Автоматическая доставка</li>
+        <li>Бонусная программа</li>
+        <li>Промокоды и акции</li>
+        <li>Email / SMS уведомления</li>
+        <li>Расширенный личный кабинет</li>
+      </ul>
+      <p class="small dim" style="margin-top:3mm; font-style:italic;">Полная автоматизация магазина</p>
+    </div>
+    <!-- ПРЕМИУМ -->
+    <div class="pkg">
+      <h3>&laquo;Премиум&raquo;</h3>
+      <div class="price">440 000 &#8381; <span class="old">515 000</span></div>
+      <p class="small dim" style="margin-bottom:3mm;">11-13 недель &nbsp;&bull;&nbsp; экономия ~15%</p>
+      <ul>
+        <li>Всё из &laquo;Бизнес&raquo;</li>
+        <li>Блог с SEO-оптимизацией</li>
+        <li>ИИ-консультант &laquo;Лина&raquo;</li>
+        <li>Максимальное преимущество</li>
+      </ul>
+      <p class="small dim" style="margin-top:3mm; font-style:italic;">Ни у одного конкурента в Южно-Сахалинске нет ИИ-консультанта</p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>КорпСервис Консалтинг</span>
+    <span>5</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     SLIDE 6 — EXPECTED RESULTS
+     ════════════════════════════════════════════════════════════ -->
+<div class="slide">
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <h2>Ожидаемые результаты</h2>
+  <div class="cols">
+    <div class="col">
+      <h3>Метрики до и после</h3>
+      <table>
+        <thead>
+          <tr><th>Метрика</th><th>Сейчас</th><th>После запуска</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Страниц в Google</td>
+            <td>5</td>
+            <td class="accent">200+</td>
+          </tr>
+          <tr>
+            <td>Органический трафик</td>
+            <td>~0 / мес</td>
+            <td class="accent">500-2000 / мес</td>
+          </tr>
+          <tr>
+            <td>Конверсия сайта</td>
+            <td>&lt;1%</td>
+            <td class="accent">2-4%</td>
+          </tr>
+          <tr>
+            <td>Средний чек</td>
+            <td>базовый</td>
+            <td class="accent">+15-25%</td>
+          </tr>
+          <tr>
+            <td>Повторные покупки</td>
+            <td>~0%</td>
+            <td class="accent">20-30%</td>
+          </tr>
+          <tr>
+            <td>Юридические риски</td>
+            <td style="color:#e55;">Высокие</td>
+            <td class="accent">Минимальные</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <h3>Конкурентные преимущества</h3>
+      <ul>
+        <li>Премиальный дизайн вместо шаблона Nethouse</li>
+        <li>Полноценное SEO с первого дня запуска</li>
+        <li>Фильтры, сортировка, удобный поиск</li>
+        <li>Онлайн-оплата и автоматическая доставка</li>
+        <li>Бонусная система — причина вернуться</li>
+        <li>ИИ-консультант — уникально для региона</li>
+      </ul>
+      <h3 style="margin-top:6mm;">Эффект ИИ-консультанта &laquo;Лина&raquo;</h3>
+      <table>
+        <tr><td>Средний чек</td><td class="accent" style="text-align:right;">+15-25%</td></tr>
+        <tr><td>Конверсия</td><td class="accent" style="text-align:right;">+10-20%</td></tr>
+        <tr><td>Время на сайте</td><td class="accent" style="text-align:right;">5-8 мин</td></tr>
+        <tr><td>Нагрузка на менеджера</td><td class="accent" style="text-align:right;">-40-60%</td></tr>
+        <tr><td>Доступность</td><td class="accent" style="text-align:right;">24/7</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>КорпСервис Консалтинг</span>
+    <span>6</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     SLIDE 7 — NEXT STEPS
+     ════════════════════════════════════════════════════════════ -->
+<div class="slide" style="justify-content: center; align-items: center; text-align: center;">
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <p style="font-size: 11pt; color: var(--gold); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 6mm;">Следующий шаг</p>
+  <div style="width:80mm; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); margin:0 auto 8mm;"></div>
+  <h1 style="font-size: 24pt; margin-bottom: 6mm; line-height:1.35;">Выберите комплект<br>или отдельные модули</h1>
+  <p style="font-size: 12pt; color: var(--text-light); max-width: 180mm; margin: 0 auto 10mm;">
+    Обсудим детали, ответим на вопросы, адаптируем предложение<br>под ваши задачи и бюджет.
+  </p>
+  <div style="width:80mm; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); margin:0 auto 10mm;"></div>
+  <div style="display:flex; gap:12mm; justify-content:center; margin-top:2mm;">
+    <div>
+      <p class="dim" style="margin-bottom:1mm; text-transform:uppercase; letter-spacing:1px;">Компания</p>
+      <p class="accent" style="font-size:12pt;">КорпСервис Консалтинг</p>
+    </div>
+  </div>
+  <p style="margin-top: 12mm; font-size: 9pt; opacity: .45; letter-spacing: .5px;">
+    Все цены ориентировочны и могут быть скорректированы после обсуждения требований.<br>
+    Стоимость серверов и внешних сервисов (ЮKassa, СДЭК API, SMS) оплачивается отдельно.
+  </p>
+  <div class="slide-footer">
+    <span>КорпСервис Консалтинг</span>
+    <span>7</span>
+  </div>
+</div>
+
+</body>
+</html>
