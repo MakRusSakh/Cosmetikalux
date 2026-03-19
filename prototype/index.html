@@ -202,19 +202,42 @@ ul{list-style:none}
 .ingredient-mini .name{font-size:14px;font-weight:600}
 .ingredient-mini .cnt{font-size:12px;color:var(--text-tertiary)}
 
-/* ===== 9. REVIEWS ===== */
-.reviews{padding:56px 0;background:var(--bg-secondary)}
-.reviews-scroll{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px;scrollbar-width:none}
-.reviews-scroll::-webkit-scrollbar{display:none}
-.review-card{flex:0 0 85%;scroll-snap-align:start;background:var(--bg-surface);border-radius:var(--radius-md);padding:24px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:12px}
-.review-stars{color:var(--accent-gold);font-size:16px;letter-spacing:2px}
-.review-text{font-size:15px;font-style:italic;line-height:1.6;color:var(--text-primary);flex:1}
-.review-author{font-size:13px;font-weight:600;color:var(--text-secondary)}
+/* ===== 9. REVIEWS — 3D ARC CAROUSEL ===== */
+.reviews{padding:80px 0 60px;background:var(--bg-secondary);overflow:hidden}
+.reviews .section-header{text-align:center;margin-bottom:56px}
+.reviews-carousel-wrapper{position:relative;max-width:1200px;margin:0 auto;padding:0 60px}
+.reviews-carousel{position:relative;height:360px;perspective:1200px;perspective-origin:50% 50%}
+.review-card{position:absolute;width:380px;left:50%;top:0;margin-left:-190px;background:var(--bg-surface);border-radius:var(--radius-lg);padding:32px;box-shadow:var(--shadow-md);display:flex;flex-direction:column;gap:14px;transition:all .7s cubic-bezier(0.4,0,0.2,1);cursor:pointer;user-select:none;border:1px solid var(--border-light)}
+.review-card::before{content:'';position:absolute;inset:0;border-radius:var(--radius-lg);background:var(--gradient-cta);opacity:0;transition:opacity .5s ease;pointer-events:none;z-index:-1}
+.review-card.active::before{opacity:.06}
+.review-card.active{box-shadow:var(--shadow-lg),0 0 40px rgba(200,162,200,0.12);border-color:rgba(200,162,200,0.3)}
+.review-quote-mark{font-size:48px;line-height:1;color:var(--accent-primary);opacity:.25;font-family:Georgia,serif;margin-bottom:-8px}
+.review-stars{color:var(--accent-gold);font-size:15px;letter-spacing:2px}
+.review-text{font-size:15px;font-style:italic;line-height:1.7;color:var(--text-primary);flex:1}
+.review-divider{width:32px;height:1.5px;background:var(--accent-primary);opacity:.4}
+.review-author{font-size:14px;font-weight:600;color:var(--text-primary)}
 .review-loc{font-size:12px;color:var(--text-tertiary)}
-.review-product{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--accent-primary);margin-top:4px}
-.reviews-summary{display:flex;justify-content:center;margin-top:28px}
-.reviews-summary-pill{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:var(--bg-surface);border-radius:var(--radius-full);box-shadow:var(--shadow-sm);font-size:14px;font-weight:500;color:var(--text-secondary)}
-.reviews-summary-pill .star{color:var(--accent-gold)}
+.review-product{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--accent-primary);margin-top:2px}
+.reviews-nav{display:flex;justify-content:center;align-items:center;gap:24px;margin-top:40px}
+.reviews-nav-btn{width:48px;height:48px;border-radius:50%;border:1.5px solid var(--border-medium);background:var(--bg-surface);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .3s ease;color:var(--text-secondary)}
+.reviews-nav-btn:hover{border-color:var(--accent-primary);color:var(--accent-primary);box-shadow:var(--shadow-sm)}
+.reviews-nav-btn svg{width:18px;height:18px;stroke:currentColor;stroke-width:2;fill:none}
+.reviews-dots{display:flex;gap:8px;align-items:center}
+.reviews-dot{width:8px;height:8px;border-radius:50%;background:var(--border-medium);cursor:pointer;transition:all .4s ease}
+.reviews-dot.active{background:var(--accent-primary);width:24px;border-radius:4px}
+.reviews-summary{display:flex;justify-content:center;margin-top:36px}
+.reviews-summary-pill{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;background:var(--bg-surface);border-radius:var(--radius-full);box-shadow:var(--shadow-sm);font-size:15px;font-weight:500;color:var(--text-secondary);border:1px solid var(--border-light)}
+.reviews-summary-pill .star{color:var(--accent-gold);font-size:18px}
+
+/* Mobile carousel adjustments */
+@media(max-width:639px){
+.reviews-carousel{height:320px}
+.review-card{width:300px;margin-left:-150px;padding:24px}
+.reviews-carousel-wrapper{padding:0 20px}
+}
+@media(min-width:640px) and (max-width:1023px){
+.review-card{width:340px;margin-left:-170px}
+}
 
 /* ===== 10. BRANDS ===== */
 .brands{padding:56px 0}
@@ -323,8 +346,6 @@ ul{list-style:none}
 .ingredient-main{flex-direction:row;text-align:left;gap:40px}
 .ingredient-circle{width:200px;height:200px;font-size:72px}
 .ingredient-minis{grid-template-columns:repeat(4,1fr)}
-.reviews-scroll{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible}
-.review-card{flex:auto}
 .footer-grid{grid-template-columns:1.5fr 1fr 1fr 1.2fr}
 }
 
@@ -689,34 +710,87 @@ ul{list-style:none}
   </div>
 </section>
 
-<!-- ========== 9. REVIEWS ========== -->
+<!-- ========== 9. REVIEWS — 3D ARC CAROUSEL ========== -->
 <section class="reviews reveal">
   <div class="container">
-    <div class="section-header" style="text-align:center">
+    <div class="section-header">
       <h2 class="h2-section">Что говорят наши покупатели</h2>
       <span class="gold-line" style="margin:12px auto 0"></span>
     </div>
-    <div class="reviews-scroll" style="margin-top:32px">
-      <div class="review-card">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="review-text">&laquo;Кожа стала гладкой за 2 недели! COSRX Snail Mucin &mdash; моя находка года.&raquo;</p>
-        <div class="review-author">Мария, 32 года</div>
-        <div class="review-loc">Южно-Сахалинск</div>
-        <div class="review-product">COSRX Snail Mucin</div>
+    <div class="reviews-carousel-wrapper">
+      <div class="reviews-carousel" id="reviews-carousel">
+        <div class="review-card">
+          <div class="review-quote-mark">&ldquo;</div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">Кожа стала гладкой за 2 недели! COSRX Snail Mucin &mdash; моя находка года. Текстура невесомая, впитывается мгновенно.</p>
+          <div class="review-divider"></div>
+          <div class="review-author">Мария, 32 года</div>
+          <div class="review-loc">Южно-Сахалинск</div>
+          <div class="review-product">COSRX Snail Mucin</div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote-mark">&ldquo;</div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">Заказываю уже третий раз. Доставка до Хабаровска за 4 дня, всё в оригинальной упаковке. Сервис на высоте!</p>
+          <div class="review-divider"></div>
+          <div class="review-author">Елена, 41 год</div>
+          <div class="review-loc">Хабаровск</div>
+          <div class="review-product">Sulwhasoo набор</div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote-mark">&ldquo;</div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <p class="review-text">Отличный тонер, кожа стала ровнее и свежее. Единственное &mdash; хотелось бы больше объём, уходит быстро.</p>
+          <div class="review-divider"></div>
+          <div class="review-author">Анна, 28 лет</div>
+          <div class="review-loc">Москва</div>
+          <div class="review-product">Some By Mi Toner</div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote-mark">&ldquo;</div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">Sulwhasoo First Care Serum &mdash; это другой уровень. Аромат, текстура, результат. Кожа сияет уже через неделю.</p>
+          <div class="review-divider"></div>
+          <div class="review-author">Ирина, 45 лет</div>
+          <div class="review-loc">Владивосток</div>
+          <div class="review-product">Sulwhasoo First Care</div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote-mark">&ldquo;</div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">Наконец нашла кушон для своего тона кожи! HERA ложится как вторая кожа, держится весь день.</p>
+          <div class="review-divider"></div>
+          <div class="review-author">Дарья, 26 лет</div>
+          <div class="review-loc">Новосибирск</div>
+          <div class="review-product">HERA UV Mist Cushion</div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote-mark">&ldquo;</div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">Dr.Jart+ Ceramidin спас мою кожу зимой. Никакого шелушения, барьер восстановился за 5 дней.</p>
+          <div class="review-divider"></div>
+          <div class="review-author">Светлана, 37 лет</div>
+          <div class="review-loc">Красноярск</div>
+          <div class="review-product">Dr.Jart+ Ceramidin</div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote-mark">&ldquo;</div>
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <p class="review-text">Laneige Lip Sleeping Mask &mdash; маст-хэв! Губы мягкие с утра, аромат ягодный, хватает на полгода.</p>
+          <div class="review-divider"></div>
+          <div class="review-author">Ольга, 31 год</div>
+          <div class="review-loc">Екатеринбург</div>
+          <div class="review-product">Laneige Lip Mask</div>
+        </div>
       </div>
-      <div class="review-card">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="review-text">&laquo;Заказываю уже третий раз. Доставка до Хабаровска за 4 дня. Всё оригинал.&raquo;</p>
-        <div class="review-author">Елена, 41 год</div>
-        <div class="review-loc">Хабаровск</div>
-        <div class="review-product">Sulwhasoo набор</div>
-      </div>
-      <div class="review-card">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-        <p class="review-text">&laquo;Отличный тонер, кожа стала ровнее. Единственное &mdash; хотелось бы больше объём.&raquo;</p>
-        <div class="review-author">Анна, 28 лет</div>
-        <div class="review-loc">Москва</div>
-        <div class="review-product">Some By Mi Toner</div>
+      <div class="reviews-nav">
+        <button class="reviews-nav-btn" id="rev-prev" aria-label="Предыдущий">
+          <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="reviews-dots" id="reviews-dots"></div>
+        <button class="reviews-nav-btn" id="rev-next" aria-label="Следующий">
+          <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+        </button>
       </div>
     </div>
     <div class="reviews-summary">
@@ -926,6 +1000,115 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     }
   });
 });
+
+/* 6. Reviews 3D Arc Carousel */
+(function() {
+  var carousel = document.getElementById('reviews-carousel');
+  if (!carousel) return;
+  var cards = carousel.querySelectorAll('.review-card');
+  var total = cards.length;
+  var current = 0;
+  var autoTimer;
+
+  /* Build dots */
+  var dotsContainer = document.getElementById('reviews-dots');
+  for (var i = 0; i < total; i++) {
+    var dot = document.createElement('span');
+    dot.className = 'reviews-dot' + (i === 0 ? ' active' : '');
+    dot.dataset.index = i;
+    dot.addEventListener('click', function() {
+      goTo(parseInt(this.dataset.index));
+    });
+    dotsContainer.appendChild(dot);
+  }
+
+  function positionCards() {
+    cards.forEach(function(card, i) {
+      /* Calculate offset from current */
+      var offset = i - current;
+      /* Wrap around for smooth feel */
+      if (offset > Math.floor(total / 2)) offset -= total;
+      if (offset < -Math.floor(total / 2)) offset += total;
+
+      var absOffset = Math.abs(offset);
+      /* Arc: x is horizontal spread, y curves down like a bowl */
+      var xSpread = offset * 220;
+      var yDrop = Math.pow(absOffset, 1.6) * 28;
+      /* Rotate slightly for arc feel */
+      var rotateY = offset * -6;
+      var rotateZ = offset * -1.5;
+      /* Scale down further cards */
+      var scale = Math.max(0.55, 1 - absOffset * 0.12);
+      /* Opacity fades for far cards */
+      var opacity = Math.max(0, 1 - absOffset * 0.28);
+      /* Z-index: center is on top */
+      var zIndex = total - absOffset;
+
+      card.style.transform =
+        'translateX(' + xSpread + 'px) ' +
+        'translateY(' + yDrop + 'px) ' +
+        'rotateY(' + rotateY + 'deg) ' +
+        'rotateZ(' + rotateZ + 'deg) ' +
+        'scale(' + scale + ')';
+      card.style.opacity = opacity;
+      card.style.zIndex = zIndex;
+      card.style.pointerEvents = absOffset === 0 ? 'auto' : 'none';
+
+      if (offset === 0) {
+        card.classList.add('active');
+      } else {
+        card.classList.remove('active');
+      }
+    });
+
+    /* Update dots */
+    var dots = dotsContainer.querySelectorAll('.reviews-dot');
+    dots.forEach(function(d, i) {
+      d.classList.toggle('active', i === current);
+    });
+  }
+
+  function goTo(index) {
+    current = ((index % total) + total) % total;
+    positionCards();
+    resetAuto();
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  document.getElementById('rev-next').addEventListener('click', next);
+  document.getElementById('rev-prev').addEventListener('click', prev);
+
+  /* Touch / swipe support */
+  var startX = 0;
+  var isDragging = false;
+  carousel.addEventListener('touchstart', function(e) {
+    startX = e.touches[0].clientX;
+    isDragging = true;
+  }, {passive: true});
+  carousel.addEventListener('touchend', function(e) {
+    if (!isDragging) return;
+    isDragging = false;
+    var diff = e.changedTouches[0].clientX - startX;
+    if (Math.abs(diff) > 40) {
+      if (diff > 0) prev(); else next();
+    }
+  });
+
+  /* Auto-rotate */
+  function resetAuto() {
+    clearInterval(autoTimer);
+    autoTimer = setInterval(next, 5000);
+  }
+
+  /* Pause on hover */
+  carousel.addEventListener('mouseenter', function() { clearInterval(autoTimer); });
+  carousel.addEventListener('mouseleave', resetAuto);
+
+  positionCards();
+  resetAuto();
+})();
 </script>
 </body>
 </html>
