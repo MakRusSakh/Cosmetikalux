@@ -32,7 +32,7 @@
     height: 210mm;
     background: radial-gradient(ellipse at 20% 0%, #2d4a7a 0%, var(--navy-mid) 35%, var(--navy) 70%, #111d35 100%);
     margin: 10mm auto;
-    padding: 18mm 22mm;
+    padding: 14mm 20mm 16mm;
     position: relative;
     overflow: hidden;
     page-break-after: always;
@@ -87,15 +87,15 @@
     border-style: solid;
     opacity: .35;
   }
-  .corner-tl { top: 12mm; left: 16mm; border-width: 1.5px 0 0 1.5px; }
-  .corner-br { bottom: 12mm; right: 16mm; border-width: 0 1.5px 1.5px 0; }
+  .corner-tl { top: 10mm; left: 14mm; border-width: 1.5px 0 0 1.5px; }
+  .corner-br { bottom: 10mm; right: 14mm; border-width: 0 1.5px 1.5px 0; }
 
   /* ── Footer on each slide ── */
   .slide-footer {
     position: absolute;
-    bottom: 8mm;
-    left: 22mm;
-    right: 22mm;
+    bottom: 6mm;
+    left: 20mm;
+    right: 20mm;
     display: flex;
     justify-content: space-between;
     font-size: 8pt;
@@ -417,6 +417,14 @@
         <h3>Модули — подключаются позже</h3>
         <p>Каждый модуль самостоятельный. Порядок подключения — любой. Архитектура базового сайта уже готова к расширению.</p>
       </div>
+      <div class="card">
+        <h3>Профессиональный контент</h3>
+        <p>Переработка всех текстов: структурированные описания товаров, информационные страницы, юридические документы. Контент, который помогает покупателю принять решение.</p>
+      </div>
+      <div class="card">
+        <h3>Поддержка после запуска</h3>
+        <p>Консультации по работе с админ-панелью, помощь с наполнением каталога, техническая поддержка в первый месяц после запуска.</p>
+      </div>
     </div>
     <div class="col">
       <h3 style="margin-bottom:2mm;">Что входит в базовый сайт</h3>
@@ -430,7 +438,12 @@
         <li>Адаптивный премиум-дизайн</li>
         <li>Админ-панель: товары, заказы, статусы</li>
         <li>Информационные страницы и юр. документы</li>
+        <li>Профессиональная переработка всех текстов</li>
       </ul>
+      <div style="margin-top:4mm; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.15); border-radius: 5px; padding: 3mm 4mm;">
+        <p style="font-size: 9.5pt; color: var(--gold-light); font-weight: 600; margin-bottom: 1mm;">Принцип модульности</p>
+        <p style="font-size: 9pt; opacity:.75;">Начните с базы — добавляйте возможности по мере роста бизнеса. Каждый модуль усиливает систему, но не зависит от других. Это снижает порог входа и позволяет распределить вложения во времени.</p>
+      </div>
     </div>
   </div>
   <div class="slide-footer">
@@ -520,6 +533,20 @@
       </tr>
     </tbody>
   </table>
+  <div style="display: flex; gap: 5mm; margin-top: 4mm;">
+    <div style="flex:1; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.12); border-radius: 5px; padding: 3mm 4mm;">
+      <p style="font-size: 9.5pt; color: var(--gold-light); font-weight: 600; margin-bottom: 1mm;">Гибкость подключения</p>
+      <p style="font-size: 9pt; opacity:.75;">Модули можно подключать в любом порядке и в любое время. Нет обязательных зависимостей — каждый модуль работает самостоятельно.</p>
+    </div>
+    <div style="flex:1; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.12); border-radius: 5px; padding: 3mm 4mm;">
+      <p style="font-size: 9.5pt; color: var(--gold-light); font-weight: 600; margin-bottom: 1mm;">Экономия в комплектах</p>
+      <p style="font-size: 9pt; opacity:.75;">При заказе нескольких модулей одновременно — скидка до 15%. Подробности на следующем слайде.</p>
+    </div>
+    <div style="flex:1; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.12); border-radius: 5px; padding: 3mm 4mm;">
+      <p style="font-size: 9.5pt; color: var(--gold-light); font-weight: 600; margin-bottom: 1mm;">Оплата поэтапно</p>
+      <p style="font-size: 9pt; opacity:.75;">Предоплата 50% — начало работы. Остаток — при сдаче. Каждый модуль оплачивается отдельно.</p>
+    </div>
+  </div>
   <div class="slide-footer">
     <span>КорпСервис Консалтинг</span>
     <span>4</span>
@@ -548,6 +575,10 @@
         <li>Модули подключаются позже</li>
       </ul>
       <p class="small dim" style="margin-top:3mm; font-style:italic;">Идеально, если основные продажи пока через Instagram и оффлайн</p>
+      <div style="margin-top:3mm; border-top: 1px solid rgba(201,162,78,.15); padding-top:2.5mm;">
+        <p style="font-size:8.5pt; color: var(--gold-light); opacity:.8;">Что получаете:</p>
+        <p style="font-size:8.5pt; opacity:.6;">Профессиональный сайт, который работает на вас круглосуточно. Клиенты находят вас в Google, выбирают товары и оплачивают онлайн.</p>
+      </div>
     </div>
     <!-- БИЗНЕС -->
     <div class="pkg recommended">
@@ -565,6 +596,10 @@
         <li>Расширенный личный кабинет</li>
       </ul>
       <p class="small dim" style="margin-top:3mm; font-style:italic;">Полная автоматизация магазина</p>
+      <div style="margin-top:3mm; border-top: 1px solid rgba(201,162,78,.15); padding-top:2.5mm;">
+        <p style="font-size:8.5pt; color: var(--gold-light); opacity:.8;">Что получаете:</p>
+        <p style="font-size:8.5pt; opacity:.6;">Магазин, который работает без ручного труда: синхронизация остатков, автоматическая доставка, лояльные клиенты возвращаются сами.</p>
+      </div>
     </div>
     <!-- ПРЕМИУМ -->
     <div class="pkg">
@@ -578,6 +613,10 @@
         <li>Максимальное преимущество</li>
       </ul>
       <p class="small dim" style="margin-top:3mm; font-style:italic;">Ни у одного конкурента в Южно-Сахалинске нет ИИ-консультанта</p>
+      <div style="margin-top:3mm; border-top: 1px solid rgba(201,162,78,.15); padding-top:2.5mm;">
+        <p style="font-size:8.5pt; color: var(--gold-light); opacity:.8;">Что получаете:</p>
+        <p style="font-size:8.5pt; opacity:.6;">Технологическое превосходство над конкурентами. ИИ-консультант увеличивает средний чек и конверсию, блог приводит органический трафик.</p>
+      </div>
     </div>
   </div>
   <div class="slide-footer">
@@ -646,7 +685,7 @@
         <li>Бонусная система — причина вернуться</li>
         <li>ИИ-консультант — уникально для региона</li>
       </ul>
-      <h3 style="margin-top:6mm;">Эффект ИИ-консультанта &laquo;Лина&raquo;</h3>
+      <h3 style="margin-top:5mm;">Эффект ИИ-консультанта &laquo;Лина&raquo;</h3>
       <table>
         <tr><td>Средний чек</td><td class="accent" style="text-align:right;">+15-25%</td></tr>
         <tr><td>Конверсия</td><td class="accent" style="text-align:right;">+10-20%</td></tr>
@@ -656,6 +695,24 @@
       </table>
     </div>
   </div>
+  <div style="display: flex; gap: 5mm; margin-top: 4mm;">
+    <div style="flex:1; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.12); border-radius: 5px; padding: 3mm 4mm; text-align:center;">
+      <p style="font-size: 18pt; font-weight: 700; color: var(--gold); margin-bottom:1mm;">в 5-8 раз</p>
+      <p style="font-size: 8.5pt; opacity:.7;">дешевле физической точки</p>
+    </div>
+    <div style="flex:1; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.12); border-radius: 5px; padding: 3mm 4mm; text-align:center;">
+      <p style="font-size: 18pt; font-weight: 700; color: var(--gold); margin-bottom:1mm;">24/7</p>
+      <p style="font-size: 8.5pt; opacity:.7;">продажи без выходных</p>
+    </div>
+    <div style="flex:1; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.12); border-radius: 5px; padding: 3mm 4mm; text-align:center;">
+      <p style="font-size: 18pt; font-weight: 700; color: var(--gold); margin-bottom:1mm;">вся Россия</p>
+      <p style="font-size: 8.5pt; opacity:.7;">география без границ</p>
+    </div>
+    <div style="flex:1; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.12); border-radius: 5px; padding: 3mm 4mm; text-align:center;">
+      <p style="font-size: 18pt; font-weight: 700; color: var(--gold); margin-bottom:1mm;">0 &#8381;</p>
+      <p style="font-size: 8.5pt; opacity:.7;">аренда и коммунальные</p>
+    </div>
+  </div>
   <div class="slide-footer">
     <span>КорпСервис Консалтинг</span>
     <span>6</span>
@@ -663,7 +720,57 @@
 </div>
 
 <!-- ════════════════════════════════════════════════════════════════
-     SLIDE 7 — NEXT STEPS
+     SLIDE 7 — INVESTMENT ANALOGY
+     ════════════════════════════════════════════════════════════ -->
+<div class="slide">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <h2>Интернет-магазин — это торговая точка</h2>
+  <p style="font-size: 11pt; margin-bottom: 5mm;">
+    Вложения в онлайн-магазин работают по той же логике, что и вложения в физическую торговую точку — но с другой экономикой.
+  </p>
+  <div class="cols">
+    <div class="col">
+      <h3>Физическая точка</h3>
+      <table>
+        <tr><td>Аренда помещения</td><td style="text-align:right; white-space:nowrap;">от 80 000 &#8381;/мес</td></tr>
+        <tr><td>Ремонт и оборудование</td><td style="text-align:right; white-space:nowrap;">от 500 000 &#8381;</td></tr>
+        <tr><td>Зарплата продавца</td><td style="text-align:right; white-space:nowrap;">от 45 000 &#8381;/мес</td></tr>
+        <tr><td>Коммунальные</td><td style="text-align:right; white-space:nowrap;">от 15 000 &#8381;/мес</td></tr>
+        <tr><td>График работы</td><td style="text-align:right;">10-12 ч/день</td></tr>
+        <tr><td>Охват</td><td style="text-align:right;">1 район города</td></tr>
+      </table>
+      <p style="margin-top:3mm; font-size:9.5pt; opacity:.7;">Вложения за первый год: <span class="accent">~2 200 000 &#8381;</span></p>
+    </div>
+    <div class="col">
+      <h3>Интернет-магазин</h3>
+      <table>
+        <tr><td>Разработка (единоразово)</td><td style="text-align:right; white-space:nowrap;" class="accent">250-440 000 &#8381;</td></tr>
+        <tr><td>Хостинг и домен</td><td style="text-align:right; white-space:nowrap;" class="accent">~2 000 &#8381;/мес</td></tr>
+        <tr><td>Продавец</td><td style="text-align:right;" class="accent">Не нужен</td></tr>
+        <tr><td>Коммунальные</td><td style="text-align:right;" class="accent">0 &#8381;</td></tr>
+        <tr><td>График работы</td><td style="text-align:right;" class="accent">24/7, 365 дней</td></tr>
+        <tr><td>Охват</td><td style="text-align:right;" class="accent">Вся Россия</td></tr>
+      </table>
+      <p style="margin-top:3mm; font-size:9.5pt; opacity:.7;">Вложения за первый год: <span class="accent">~275-465 000 &#8381;</span></p>
+    </div>
+  </div>
+  <div style="margin-top: 5mm; background: rgba(201,162,78,.07); border: 1px solid rgba(201,162,78,.2); border-radius: 6px; padding: 4mm 6mm; text-align:center;">
+    <p style="font-size: 12pt; color: var(--gold-light); font-weight: 600; line-height:1.5;">
+      Одна физическая точка стоит в 5-8 раз дороже — и обслуживает только тех, кто зашёл.<br>
+      <span style="font-size:10.5pt; opacity:.8; font-weight:400;">Интернет-магазин работает на вас круглосуточно, без аренды и продавцов, на всю страну.</span>
+    </p>
+  </div>
+  <div class="slide-footer">
+    <span>КорпСервис Консалтинг</span>
+    <span>7</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════
+     SLIDE 8 — NEXT STEPS
      ════════════════════════════════════════════════════════════ -->
 <div class="slide" style="justify-content: center; align-items: center; text-align: center;">
   <div class="glow glow-1"></div>
@@ -676,20 +783,20 @@
   <p style="font-size: 12pt; color: var(--text-light); max-width: 180mm; margin: 0 auto 10mm;">
     Обсудим детали, ответим на вопросы, адаптируем предложение<br>под ваши задачи и бюджет.
   </p>
-  <div style="width:80mm; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); margin:0 auto 10mm;"></div>
+  <div style="width:80mm; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); margin:0 auto 8mm;"></div>
   <div style="display:flex; gap:12mm; justify-content:center; margin-top:2mm;">
     <div>
       <p class="dim" style="margin-bottom:1mm; text-transform:uppercase; letter-spacing:1px;">Компания</p>
       <p class="accent" style="font-size:12pt;">КорпСервис Консалтинг</p>
     </div>
   </div>
-  <p style="margin-top: 12mm; font-size: 9pt; opacity: .45; letter-spacing: .5px;">
+  <p style="margin-top: 10mm; font-size: 9pt; opacity: .45; letter-spacing: .5px;">
     Все цены ориентировочны и могут быть скорректированы после обсуждения требований.<br>
     Стоимость серверов и внешних сервисов (ЮKassa, СДЭК API, SMS) оплачивается отдельно.
   </p>
   <div class="slide-footer">
     <span>КорпСервис Консалтинг</span>
-    <span>7</span>
+    <span>8</span>
   </div>
 </div>
 
