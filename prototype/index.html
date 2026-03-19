@@ -65,8 +65,8 @@ ul{list-style:none}
 @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* ===== 1. HEADER ===== */
-.header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);height:56px;display:flex;align-items:center;border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
-.header.scrolled{border-bottom-color:var(--border-light);box-shadow:var(--shadow-sm)}
+.header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);height:56px;display:flex;align-items:center;border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s,border-radius .4s ease,max-width .4s ease,margin .4s ease,top .3s ease}
+.header.scrolled{border-bottom-color:var(--border-light);box-shadow:var(--shadow-md);max-width:1280px;margin:0 auto;border-radius:0 0 var(--radius-lg) var(--radius-lg);top:8px;border:1px solid var(--border-light);border-top:none}
 .header .container{display:flex;align-items:center;justify-content:space-between;width:100%}
 .logo{font-size:24px;font-weight:700;letter-spacing:-0.01em}
 .logo .lux{color:var(--accent-primary)}
@@ -101,15 +101,11 @@ ul{list-style:none}
 .hero-ctas{display:flex;flex-direction:column;gap:12px;align-items:center}
 .hero-image{display:flex;justify-content:center}
 .hero-img-placeholder{width:100%;max-width:340px;aspect-ratio:3/4;border-radius:var(--radius-xl);background:linear-gradient(135deg,var(--accent-light) 0%,var(--accent-rose) 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;position:relative;overflow:hidden}
-.hero-img-placeholder .hero-emoji{font-size:80px;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.08))}
-.hero-img-placeholder .hero-deco{font-size:32px;opacity:.5}
+.hero-img-placeholder .photo-placeholder{font-size:18px}
 
-/* Floating petals */
-.petal{position:absolute;font-size:20px;opacity:.3;animation:float-petal 8s ease-in-out infinite}
-.petal:nth-child(1){top:10%;left:5%;animation-delay:0s}
-.petal:nth-child(2){top:30%;right:8%;animation-delay:2s;font-size:16px}
-.petal:nth-child(3){bottom:20%;left:12%;animation-delay:4s;font-size:24px}
-@keyframes float-petal{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-20px) rotate(15deg)}}
+/* Photo placeholders */
+.photo-placeholder{font-size:14px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.06em;text-transform:uppercase;background:rgba(255,255,255,0.5);padding:8px 16px;border-radius:var(--radius-sm);border:1.5px dashed var(--border-medium)}
+.photo-placeholder.small{font-size:11px;padding:6px 10px;flex-shrink:0}
 
 /* Hero entrance */
 .hero-text{animation:fadeInUp .8s ease both;animation-delay:.2s}
@@ -137,7 +133,7 @@ ul{list-style:none}
 .concern-card{flex:0 0 180px;aspect-ratio:3/4;border-radius:var(--radius-md);overflow:hidden;position:relative;scroll-snap-align:start;cursor:pointer;transition:transform .3s}
 .concern-card:hover{transform:scale(1.03)}
 .concern-bg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
-.concern-bg .emoji{font-size:56px}
+.concern-bg .photo-placeholder{font-size:13px}
 .concern-overlay{position:absolute;bottom:0;left:0;right:0;padding:16px 12px;background:linear-gradient(transparent,rgba(0,0,0,0.45));color:#fff}
 .concern-name{font-size:15px;font-weight:600}
 .concern-count{font-size:12px;opacity:.85}
@@ -414,18 +410,7 @@ ul{list-style:none}
       </div>
       <div class="hero-image">
         <div class="hero-img-placeholder">
-          <span class="petal">&#127800;</span>
-          <span class="petal">&#127804;</span>
-          <span class="petal">&#127801;</span>
-          <span class="hero-emoji">&#129507;</span>
-          <span class="hero-deco">&#127804; &#10024; &#127800;</span>
-          <svg width="120" height="120" viewBox="0 0 120 120" style="opacity:.18;position:absolute;bottom:12%;right:10%">
-            <path d="M60 10 C70 30, 90 40, 110 60 C90 80, 70 90, 60 110 C50 90, 30 80, 10 60 C30 40, 50 30, 60 10Z" fill="none" stroke="#C8A2C8" stroke-width="1.5"/>
-          </svg>
-          <svg width="80" height="80" viewBox="0 0 80 80" style="opacity:.15;position:absolute;top:15%;left:8%">
-            <circle cx="40" cy="40" r="30" fill="none" stroke="#E8C4C4" stroke-width="1"/>
-            <path d="M40 15 C48 28, 55 35, 68 40 C55 45, 48 52, 40 65 C32 52, 25 45, 12 40 C25 35, 32 28, 40 15Z" fill="none" stroke="#E8C4C4" stroke-width="1"/>
-          </svg>
+          <span style="font-size:18px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.04em">ФОТО 1</span>
         </div>
       </div>
     </div>
@@ -477,23 +462,23 @@ ul{list-style:none}
     </div>
     <div class="concerns-scroll">
       <div class="concern-card">
-        <div class="concern-bg" style="background:linear-gradient(135deg,#E8F4F8,#d4ecf2)"><span class="emoji">&#128167;</span></div>
+        <div class="concern-bg" style="background:linear-gradient(135deg,#E8F4F8,#d4ecf2)"><span class="photo-placeholder">фото 2</span></div>
         <div class="concern-overlay"><div class="concern-name">Увлажнение</div><div class="concern-count">47 средств</div></div>
       </div>
       <div class="concern-card">
-        <div class="concern-bg" style="background:linear-gradient(135deg,#F0E4F0,#e4d4e4)"><span class="emoji">&#129524;</span></div>
+        <div class="concern-bg" style="background:linear-gradient(135deg,#F0E4F0,#e4d4e4)"><span class="photo-placeholder">фото 3</span></div>
         <div class="concern-overlay"><div class="concern-name">Против акне</div><div class="concern-count">32 средства</div></div>
       </div>
       <div class="concern-card">
-        <div class="concern-bg" style="background:linear-gradient(135deg,#FAF5EB,#f0e8d6)"><span class="emoji">&#10024;</span></div>
+        <div class="concern-bg" style="background:linear-gradient(135deg,#FAF5EB,#f0e8d6)"><span class="photo-placeholder">фото 4</span></div>
         <div class="concern-overlay"><div class="concern-name">Anti-age</div><div class="concern-count">28 средств</div></div>
       </div>
       <div class="concern-card">
-        <div class="concern-bg" style="background:linear-gradient(135deg,#F0EBE6,#e4ddd4)"><span class="emoji">&#129531;</span></div>
+        <div class="concern-bg" style="background:linear-gradient(135deg,#F0EBE6,#e4ddd4)"><span class="photo-placeholder">фото 5</span></div>
         <div class="concern-overlay"><div class="concern-name">Чистота пор</div><div class="concern-count">35 средств</div></div>
       </div>
       <div class="concern-card">
-        <div class="concern-bg" style="background:linear-gradient(135deg,#FFF8F5,#ffeee6)"><span class="emoji">&#9728;&#65039;</span></div>
+        <div class="concern-bg" style="background:linear-gradient(135deg,#FFF8F5,#ffeee6)"><span class="photo-placeholder">фото 6</span></div>
         <div class="concern-overlay"><div class="concern-name">SPF-защита</div><div class="concern-count">19 средств</div></div>
       </div>
     </div>
@@ -521,7 +506,7 @@ ul{list-style:none}
       <!-- Card 1: COSRX -->
       <div class="product-card">
         <div class="product-img">
-          <div class="product-img-bg" style="background:linear-gradient(135deg,#FAF5EB,#F0E4F0)">&#129522;</div>
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#FAF5EB,#F0E4F0)"><span class="photo-placeholder">фото 7</span></div>
           <span class="product-badge badge-gold">Хит #1</span>
           <button class="product-wishlist" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
         </div>
@@ -536,7 +521,7 @@ ul{list-style:none}
       <!-- Card 2: Sulwhasoo -->
       <div class="product-card">
         <div class="product-img">
-          <div class="product-img-bg" style="background:linear-gradient(135deg,#FFF8F5,#FAF5EB)">&#129476;</div>
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#FFF8F5,#FAF5EB)"><span class="photo-placeholder">фото 8</span></div>
           <span class="product-badge badge-red">-9%</span>
           <button class="product-wishlist" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
         </div>
@@ -551,7 +536,7 @@ ul{list-style:none}
       <!-- Card 3: MISSHA -->
       <div class="product-card">
         <div class="product-img">
-          <div class="product-img-bg" style="background:linear-gradient(135deg,#F0E4F0,#E8F4F8)">&#129514;</div>
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#F0E4F0,#E8F4F8)"><span class="photo-placeholder">фото 9</span></div>
           <span class="product-badge badge-gold">Хит #3</span>
           <button class="product-wishlist" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
         </div>
@@ -566,7 +551,7 @@ ul{list-style:none}
       <!-- Card 4: Some By Mi -->
       <div class="product-card">
         <div class="product-img">
-          <div class="product-img-bg" style="background:linear-gradient(135deg,#E8F4F8,#F0E4F0)">&#129523;</div>
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#E8F4F8,#F0E4F0)"><span class="photo-placeholder">фото 10</span></div>
           <span class="product-badge badge-lavender">Новинка</span>
           <button class="product-wishlist" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
         </div>
@@ -597,7 +582,7 @@ ul{list-style:none}
         <a href="#" class="btn-primary btn-text">Смотреть акции</a>
         <div class="promo-code">Промокод: <strong>ВЕСНА30</strong></div>
       </div>
-      <div class="promo-image">&#127800;</div>
+      <div class="promo-image"><span class="photo-placeholder">фото 11</span></div>
     </div>
   </div>
 </section>
@@ -615,7 +600,7 @@ ul{list-style:none}
       <!-- New 1: Medicube -->
       <div class="product-card">
         <div class="product-img">
-          <div class="product-img-bg" style="background:linear-gradient(135deg,#F0E4F0,#FFF8F5)">&#129516;</div>
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#F0E4F0,#FFF8F5)"><span class="photo-placeholder">фото 12</span></div>
           <span class="product-badge badge-lavender">Новинка</span>
           <button class="product-wishlist" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
         </div>
@@ -630,7 +615,7 @@ ul{list-style:none}
       <!-- New 2: Hera -->
       <div class="product-card">
         <div class="product-img">
-          <div class="product-img-bg" style="background:linear-gradient(135deg,#FAF5EB,#F0E4F0)">&#128132;</div>
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#FAF5EB,#F0E4F0)"><span class="photo-placeholder">фото 13</span></div>
           <span class="product-badge badge-lavender">Новинка</span>
           <button class="product-wishlist" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
         </div>
@@ -645,7 +630,7 @@ ul{list-style:none}
       <!-- New 3: Dr.Jart+ -->
       <div class="product-card">
         <div class="product-img">
-          <div class="product-img-bg" style="background:linear-gradient(135deg,#E8F4F8,#FAF5EB)">&#129507;</div>
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#E8F4F8,#FAF5EB)"><span class="photo-placeholder">фото 14</span></div>
           <span class="product-badge badge-lavender">Новинка</span>
           <button class="product-wishlist" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
         </div>
@@ -660,7 +645,7 @@ ul{list-style:none}
       <!-- New 4: Laneige (СКОРО) -->
       <div class="product-card" style="position:relative">
         <div class="product-img">
-          <div class="product-img-bg" style="background:linear-gradient(135deg,#FFF8F5,#F0E4F0)">&#128139;</div>
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#FFF8F5,#F0E4F0)"><span class="photo-placeholder">фото 15</span></div>
           <span class="product-badge badge-red">-25%</span>
           <button class="product-wishlist" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
         </div>
@@ -688,7 +673,7 @@ ul{list-style:none}
       <span class="gold-line" style="margin:12px auto 0"></span>
     </div>
     <div class="ingredient-main" style="margin-top:32px">
-      <div class="ingredient-circle">&#129514;</div>
+      <div class="ingredient-circle"><span class="photo-placeholder">фото 16</span></div>
       <div>
         <div class="ingredient-name">Ниацинамид (Vitamin B3)</div>
         <p class="ingredient-desc">Осветляет пигментацию, сужает поры, укрепляет защитный барьер кожи. Концентрация от 2% до 10%. Подходит всем типам кожи.</p>
@@ -696,10 +681,10 @@ ul{list-style:none}
       </div>
     </div>
     <div class="ingredient-minis">
-      <div class="ingredient-mini"><span class="emoji">&#128012;</span><div class="info"><div class="name">Муцин улитки</div><div class="cnt">8 средств</div></div></div>
-      <div class="ingredient-mini"><span class="emoji">&#128300;</span><div class="info"><div class="name">Ретинол</div><div class="cnt">5 средств</div></div></div>
-      <div class="ingredient-mini"><span class="emoji">&#127807;</span><div class="info"><div class="name">Центелла азиатика</div><div class="cnt">14 средств</div></div></div>
-      <div class="ingredient-mini"><span class="emoji">&#128167;</span><div class="info"><div class="name">Гиалуроновая кислота</div><div class="cnt">11 средств</div></div></div>
+      <div class="ingredient-mini"><span class="photo-placeholder small">фото 17</span><div class="info"><div class="name">Муцин улитки</div><div class="cnt">8 средств</div></div></div>
+      <div class="ingredient-mini"><span class="photo-placeholder small">фото 18</span><div class="info"><div class="name">Ретинол</div><div class="cnt">5 средств</div></div></div>
+      <div class="ingredient-mini"><span class="photo-placeholder small">фото 19</span><div class="info"><div class="name">Центелла азиатика</div><div class="cnt">14 средств</div></div></div>
+      <div class="ingredient-mini"><span class="photo-placeholder small">фото 20</span><div class="info"><div class="name">Гиалуроновая кислота</div><div class="cnt">11 средств</div></div></div>
     </div>
   </div>
 </section>
@@ -794,7 +779,7 @@ ul{list-style:none}
       <input type="email" class="subscribe-input" placeholder="Ваш email" required>
       <button type="submit" class="btn-primary btn-text">Подписаться</button>
     </form>
-    <p class="subscribe-bonus">&#127873; Скидка 10% на первый заказ при подписке</p>
+    <p class="subscribe-bonus">Скидка 10% на первый заказ при подписке</p>
     <p class="subscribe-legal">Нажимая &laquo;Подписаться&raquo;, вы соглашаетесь с политикой конфиденциальности</p>
   </div>
 </section>
