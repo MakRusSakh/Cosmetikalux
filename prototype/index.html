@@ -99,8 +99,9 @@ ul{list-style:none}
 .hero-text .h1-hero{margin-bottom:16px}
 .hero-subtitle{font-size:16px;font-style:italic;color:var(--text-secondary);margin-bottom:32px;max-width:440px;margin-left:auto;margin-right:auto}
 .hero-ctas{display:flex;flex-direction:column;gap:12px;align-items:center}
-.hero-image{display:flex;justify-content:center}
-.hero-img-placeholder{width:100%;max-width:340px;aspect-ratio:3/4;border-radius:var(--radius-xl);background:linear-gradient(135deg,var(--accent-light) 0%,var(--accent-rose) 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;position:relative;overflow:hidden}
+.hero-image{display:flex;justify-content:center;align-items:center}
+.hero-img-placeholder{width:100%;max-width:340px;aspect-ratio:4/4;border-radius:var(--radius-xl);background:linear-gradient(135deg,var(--accent-light) 0%,var(--accent-rose) 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;position:relative;overflow:hidden;filter:drop-shadow(0 32px 24px rgba(160,120,160,0.18)) drop-shadow(0 12px 8px rgba(160,120,160,0.10))}
+.hero-img-placeholder img{object-fit:cover;width:100%;height:100%;border-radius:var(--radius-xl)}
 .hero-img-placeholder .photo-placeholder{font-size:18px}
 
 /* Photo placeholders */
@@ -329,8 +330,8 @@ ul{list-style:none}
 .hero-text{flex:1;text-align:left}
 .hero-subtitle{margin-left:0}
 .hero-ctas{justify-content:flex-start}
-.hero-image{flex:0 0 42%}
-.hero-img-placeholder{max-width:100%}
+.hero-image{flex:0 0 42%;position:relative}
+.hero-img-placeholder{max-width:100%;aspect-ratio:5/4}
 .trust-grid{grid-template-columns:repeat(4,1fr);gap:0}
 .trust-item{border-right:1px solid var(--border-light)}
 .trust-item:last-child{border-right:none}
