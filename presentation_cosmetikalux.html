@@ -7,9 +7,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --navy: #0f1b33;
-    --navy-mid: #162544;
-    --navy-light: #1e3259;
+    --navy: #1a2a4a;
+    --navy-mid: #213358;
+    --navy-light: #2a3f6b;
     --gold: #c9a24e;
     --gold-light: #dbb96a;
     --gold-pale: #f0dba8;
@@ -30,7 +30,7 @@
   .slide {
     width: 297mm;
     height: 210mm;
-    background: var(--navy);
+    background: radial-gradient(ellipse at 20% 0%, #2d4a7a 0%, var(--navy-mid) 35%, var(--navy) 70%, #111d35 100%);
     margin: 10mm auto;
     padding: 18mm 22mm;
     position: relative;
@@ -41,13 +41,34 @@
   }
   .slide:last-child { page-break-after: avoid; }
 
+  /* ── Ambient glow ── */
+  .slide .glow {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(80px);
+    opacity: .08;
+  }
+  .slide .glow-1 {
+    width: 400px; height: 400px;
+    background: var(--gold);
+    top: -100px; right: -50px;
+  }
+  .slide .glow-2 {
+    width: 300px; height: 300px;
+    background: #4a7ab5;
+    bottom: -80px; left: -60px;
+    opacity: .06;
+  }
+
   /* ── Decorative elements ── */
   .slide::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 3px;
-    background: linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold-light) 50%, var(--gold) 80%, transparent 100%);
+    background: linear-gradient(90deg, transparent 0%, var(--gold) 15%, var(--gold-light) 40%, #fff 50%, var(--gold-light) 60%, var(--gold) 85%, transparent 100%);
+    z-index: 2;
   }
   .slide::after {
     content: '';
@@ -305,6 +326,8 @@
      SLIDE 1 — TITLE
      ════════════════════════════════════════════════════════════ -->
 <div class="slide title-slide">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
   <div class="corner-tl"></div>
   <div class="corner-br"></div>
   <div class="company-name">КорпСервис Консалтинг</div>
@@ -323,6 +346,8 @@
      SLIDE 2 — AUDIT RESULTS
      ════════════════════════════════════════════════════════════ -->
 <div class="slide">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
   <div class="corner-tl"></div>
   <div class="corner-br"></div>
   <h2>Результаты аудита cosmetikalux.ru</h2>
@@ -346,7 +371,7 @@
     <div class="col">
       <h3>Ключевые проблемы</h3>
       <ul>
-        <li>Нет описаний товаров — состав, применение, объём</li>
+        <li>Описания товаров неструктурированны и неудобны для покупателя</li>
         <li>Только 5 страниц в индексе Google из сотен</li>
         <li>Sitemap.xml, meta description — отсутствуют</li>
         <li>Schema.org полностью отсутствует</li>
@@ -355,7 +380,11 @@
         <li>Нет онлайн-оплаты и описания способов оплаты</li>
         <li>0 отзывов, рейтинг 2.9/5 на 2ГИС</li>
       </ul>
-      <p style="margin-top: 4mm; font-size: 9.5pt; font-style: italic; opacity:.7;">
+      <div style="margin-top: 4mm; background: rgba(201,162,78,.08); border-left: 2.5px solid var(--gold); padding: 3mm 4mm; border-radius: 0 4px 4px 0;">
+        <p style="font-size: 10pt; color: var(--gold-light); font-weight: 600; margin-bottom: 1mm;">Контент сайта требует профессиональной переработки</p>
+        <p style="font-size: 9pt; opacity:.75;">Описания товаров существуют, но подаются неудобно для покупателя — нет структуры, нет акцентов, сложно принять решение о покупке. Тексты категорий и информационные страницы необходимо переработать.</p>
+      </div>
+      <p style="margin-top: 2.5mm; font-size: 9pt; font-style: italic; opacity:.6;">
         Платформа Nethouse не позволяет решить большинство проблем — необходима миграция.
       </p>
     </div>
@@ -370,6 +399,8 @@
      SLIDE 3 — SOLUTION
      ════════════════════════════════════════════════════════════ -->
 <div class="slide">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
   <div class="corner-tl"></div>
   <div class="corner-br"></div>
   <h2>Наше решение: модульный подход</h2>
@@ -412,6 +443,8 @@
      SLIDE 4 — MODULES & PRICING
      ════════════════════════════════════════════════════════════ -->
 <div class="slide">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
   <div class="corner-tl"></div>
   <div class="corner-br"></div>
   <h2>Модули и стоимость</h2>
@@ -497,6 +530,8 @@
      SLIDE 5 — PACKAGES
      ════════════════════════════════════════════════════════════ -->
 <div class="slide">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
   <div class="corner-tl"></div>
   <div class="corner-br"></div>
   <h2>Готовые комплекты</h2>
@@ -555,6 +590,8 @@
      SLIDE 6 — EXPECTED RESULTS
      ════════════════════════════════════════════════════════════ -->
 <div class="slide">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
   <div class="corner-tl"></div>
   <div class="corner-br"></div>
   <h2>Ожидаемые результаты</h2>
@@ -629,6 +666,8 @@
      SLIDE 7 — NEXT STEPS
      ════════════════════════════════════════════════════════════ -->
 <div class="slide" style="justify-content: center; align-items: center; text-align: center;">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
   <div class="corner-tl"></div>
   <div class="corner-br"></div>
   <p style="font-size: 11pt; color: var(--gold); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 6mm;">Следующий шаг</p>
