@@ -347,6 +347,96 @@
       margin: 0;
     }
   }
+
+  /* ── Responsive: desktop browser (scale to fit viewport) ── */
+  @media screen and (max-width: 1200px) and (min-width: 769px) {
+    .slide {
+      width: 100vw;
+      height: auto;
+      min-height: auto;
+      aspect-ratio: 297 / 210;
+      padding: 4vw 5vw 4.5vw;
+      margin: 2vw auto;
+    }
+  }
+
+  /* ── Responsive: mobile ── */
+  @media screen and (max-width: 768px) {
+    body { background: var(--bg); }
+
+    .slide {
+      width: 100%;
+      height: auto;
+      min-height: auto;
+      padding: 6vw 5vw 14vw;
+      margin: 0;
+      border-radius: 0;
+      box-shadow: none;
+      border-bottom: 1px solid var(--border-light);
+      page-break-after: auto;
+    }
+    .slide::before { height: 2.5px; }
+    .slide::after { display: none; }
+    .corner-tl, .corner-br { display: none; }
+    .slide .glow { display: none; }
+
+    .slide-footer {
+      position: relative;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      margin-top: 6vw;
+      padding-top: 3vw;
+      border-top: 1px solid var(--border-light);
+    }
+
+    h1 { font-size: 22pt; }
+    h2 { font-size: 16pt; margin-bottom: 3vw; }
+    h3 { font-size: 11pt; }
+    p, li, td, th { font-size: 9.5pt; }
+
+    .title-slide .company-name {
+      font-size: 9pt;
+      letter-spacing: 4px;
+    }
+    .title-slide h1 { font-size: 22pt; }
+    .title-slide .subtitle { font-size: 11pt; }
+    .title-slide .divider { width: 50vw; }
+    .title-slide .meta { margin-top: 6vw; }
+
+    .cols {
+      flex-direction: column;
+      gap: 4vw;
+    }
+
+    .score-badge .num { font-size: 22pt; }
+    .score-badge .label { font-size: 8.5pt; }
+
+    table { font-size: 9pt; }
+    th { font-size: 7.5pt; padding: 2mm 2mm; }
+    td { padding: 2mm 2mm; }
+
+    .card {
+      padding: 3vw 4vw;
+      margin-bottom: 2.5vw;
+    }
+    .card h3 { font-size: 10pt; }
+    .card p { font-size: 8.5pt; }
+
+    .pkg {
+      padding: 4vw;
+      border-radius: 6px;
+    }
+    .pkg .price { font-size: 16pt; }
+    .pkg .badge { font-size: 6.5pt; top: -2.5vw; }
+    .pkg ul li { font-size: 8.5pt; }
+
+    /* Info blocks on slide 4 */
+    div[style*="display: flex; gap: 5mm"] {
+      flex-direction: column !important;
+      gap: 2.5vw !important;
+    }
+  }
 </style>
 </head>
 <body>
@@ -443,16 +533,16 @@
         <p>Полноценный магазин, который заменяет Nethouse и сразу продаёт: каталог с фильтрами, корзина, оплата, личный кабинет, SEO, адаптивный дизайн.</p>
       </div>
       <div class="card">
+        <h3>Полная мобильная адаптация</h3>
+        <p>Сайт одинаково удобно работает на телефоне, планшете и компьютере. Не просто «сжатая версия» — продуманный интерфейс для каждого устройства: навигация, каталог, корзина, оплата.</p>
+      </div>
+      <div class="card">
         <h3>Модули — подключаются позже</h3>
         <p>Каждый модуль самостоятельный. Порядок подключения — любой. Архитектура базового сайта уже готова к расширению.</p>
       </div>
       <div class="card">
         <h3>Профессиональный контент</h3>
         <p>Переработка всех текстов: структурированные описания товаров, информационные страницы, юридические документы. Контент, который помогает покупателю принять решение.</p>
-      </div>
-      <div class="card">
-        <h3>Поддержка после запуска</h3>
-        <p>Консультации по работе с админ-панелью, помощь с наполнением каталога, техническая поддержка в первый месяц после запуска.</p>
       </div>
     </div>
     <div class="col">
@@ -464,7 +554,7 @@
         <li>Онлайн-оплата через ЮKassa (карта, СБП)</li>
         <li>Личный кабинет: заказы, профиль, история</li>
         <li>SEO: мета-теги, sitemap, Schema.org</li>
-        <li>Адаптивный премиум-дизайн</li>
+        <li>Премиум-дизайн + полная мобильная версия</li>
         <li>Админ-панель: товары, заказы, статусы</li>
         <li>Информационные страницы и юр. документы</li>
         <li>Профессиональная переработка всех текстов</li>
@@ -600,7 +690,8 @@
       <ul>
         <li>Базовый сайт &mdash; полноценный магазин</li>
         <li>Каталог с фильтрами, корзина, оплата</li>
-        <li>SEO, адаптив, админка</li>
+        <li>SEO, админка, юр. документы</li>
+        <li>Полная мобильная версия</li>
         <li>Модули подключаются позже</li>
       </ul>
       <p class="small dim" style="margin-top:3mm; font-style:italic;">Идеально, если основные продажи пока через Instagram и оффлайн</p>
