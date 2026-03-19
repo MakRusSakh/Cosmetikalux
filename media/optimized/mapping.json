@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "path": "/home/user/Cosmetikalux/media/optimized/hero.jpg",
+    "size_kb": 22.9,
+    "dims": "600x745"
+  },
+  "concern-moisturize": {
+    "path": "/home/user/Cosmetikalux/media/optimized/concern-moisturize.jpg",
+    "size_kb": 14.3,
+    "dims": "360x447"
+  },
+  "concern-acne": {
+    "path": "/home/user/Cosmetikalux/media/optimized/concern-acne.jpg",
+    "size_kb": 16.4,
+    "dims": "360x447"
+  },
+  "concern-antiage": {
+    "path": "/home/user/Cosmetikalux/media/optimized/concern-antiage.jpg",
+    "size_kb": 14.5,
+    "dims": "360x447"
+  },
+  "concern-pores": {
+    "path": "/home/user/Cosmetikalux/media/optimized/concern-pores.jpg",
+    "size_kb": 10.6,
+    "dims": "360x447"
+  },
+  "concern-spf": {
+    "path": "/home/user/Cosmetikalux/media/optimized/concern-spf.jpg",
+    "size_kb": 13.5,
+    "dims": "360x447"
+  },
+  "prod-jmsolution": {
+    "path": "/home/user/Cosmetikalux/media/optimized/prod-jmsolution.jpg",
+    "size_kb": 9.4,
+    "dims": "400x322"
+  },
+  "prod-sum37": {
+    "path": "/home/user/Cosmetikalux/media/optimized/prod-sum37.jpg",
+    "size_kb": 6.7,
+    "dims": "400x322"
+  },
+  "prod-wellderma": {
+    "path": "/home/user/Cosmetikalux/media/optimized/prod-wellderma.jpg",
+    "size_kb": 12.9,
+    "dims": "400x322"
+  },
+  "prod-retinol": {
+    "path": "/home/user/Cosmetikalux/media/optimized/prod-retinol.jpg",
+    "size_kb": 9.7,
+    "dims": "400x322"
+  },
+  "prod-liposome": {
+    "path": "/home/user/Cosmetikalux/media/optimized/prod-liposome.jpg",
+    "size_kb": 5.1,
+    "dims": "400x322"
+  },
+  "prod-brightening": {
+    "path": "/home/user/Cosmetikalux/media/optimized/prod-brightening.jpg",
+    "size_kb": 8.3,
+    "dims": "400x322"
+  },
+  "prod-tenzero": {
+    "path": "/home/user/Cosmetikalux/media/optimized/prod-tenzero.jpg",
+    "size_kb": 7.4,
+    "dims": "400x322"
+  },
+  "promo-spring": {
+    "path": "/home/user/Cosmetikalux/media/optimized/promo-spring.jpg",
+    "size_kb": 23.8,
+    "dims": "500x621"
+  },
+  "ingr-niacinamide": {
+    "path": "/home/user/Cosmetikalux/media/optimized/ingr-niacinamide.jpg",
+    "size_kb": 3.0,
+    "dims": "200x200"
+  },
+  "ingr-snail": {
+    "path": "/home/user/Cosmetikalux/media/optimized/ingr-snail.jpg",
+    "size_kb": 1.5,
+    "dims": "160x68"
+  },
+  "ingr-centella": {
+    "path": "/home/user/Cosmetikalux/media/optimized/ingr-centella.jpg",
+    "size_kb": 2.2,
+    "dims": "160x68"
+  },
+  "ingr-hyaluronic": {
+    "path": "/home/user/Cosmetikalux/media/optimized/ingr-hyaluronic.jpg",
+    "size_kb": 1.4,
+    "dims": "160x68"
+  }
+}
