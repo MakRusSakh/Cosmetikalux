@@ -597,7 +597,7 @@ ul{list-style:none}
           <div class="countdown-box"><span class="countdown-num" id="cd-mins">00</span><span class="countdown-label">минут</span></div>
           <div class="countdown-box"><span class="countdown-num" id="cd-secs">00</span><span class="countdown-label">секунд</span></div>
         </div>
-        <a href="#" class="btn-primary btn-text">Смотреть акции</a>
+        <a href="#" class="btn-primary btn-text" style="background:#800080;color:#fff">Смотреть акции</a>
         <div class="promo-code">Промокод: <strong>ВЕСНА30</strong></div>
       </div>
       <div class="promo-image">&#127800;</div>
