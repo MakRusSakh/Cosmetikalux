@@ -229,7 +229,7 @@
   }
 
   /* ── Columns ── */
-  .cols { display: flex; gap: 6mm; flex: 1; }
+  .cols { display: flex; gap: 6mm; flex: 1; align-items: stretch; }
   .col { flex: 1; }
 
   /* ── Card style blocks ── */
@@ -270,6 +270,13 @@
     padding: 4mm 5mm;
     flex: 1;
     position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .pkg .pkg-bottom {
+    margin-top: auto;
+    border-top: 1px solid rgba(201,162,78,.15);
+    padding-top: 2.5mm;
   }
   .pkg.recommended {
     border-color: var(--gold-light);
@@ -544,7 +551,7 @@
     </div>
     <div style="flex:1; background: rgba(201,162,78,.06); border: 1px solid rgba(201,162,78,.12); border-radius: 5px; padding: 3mm 4mm;">
       <p style="font-size: 9.5pt; color: var(--gold-light); font-weight: 600; margin-bottom: 1mm;">Оплата поэтапно</p>
-      <p style="font-size: 9pt; opacity:.75;">Предоплата 50% — начало работы. Остаток — при сдаче. Каждый модуль оплачивается отдельно.</p>
+      <p style="font-size: 9pt; opacity:.75;">Предоплата 20% — начало работы. Далее — оплата по мере выполнения этапов. Каждый модуль оплачивается отдельно.</p>
     </div>
   </div>
   <div class="slide-footer">
@@ -575,7 +582,7 @@
         <li>Модули подключаются позже</li>
       </ul>
       <p class="small dim" style="margin-top:3mm; font-style:italic;">Идеально, если основные продажи пока через Instagram и оффлайн</p>
-      <div style="margin-top:3mm; border-top: 1px solid rgba(201,162,78,.15); padding-top:2.5mm;">
+      <div class="pkg-bottom" style="margin-top:auto;">
         <p style="font-size:8.5pt; color: var(--gold-light); opacity:.8;">Что получаете:</p>
         <p style="font-size:8.5pt; opacity:.6;">Профессиональный сайт, который работает на вас круглосуточно. Клиенты находят вас в Google, выбирают товары и оплачивают онлайн.</p>
       </div>
@@ -596,7 +603,7 @@
         <li>Расширенный личный кабинет</li>
       </ul>
       <p class="small dim" style="margin-top:3mm; font-style:italic;">Полная автоматизация магазина</p>
-      <div style="margin-top:3mm; border-top: 1px solid rgba(201,162,78,.15); padding-top:2.5mm;">
+      <div class="pkg-bottom">
         <p style="font-size:8.5pt; color: var(--gold-light); opacity:.8;">Что получаете:</p>
         <p style="font-size:8.5pt; opacity:.6;">Магазин, который работает без ручного труда: синхронизация остатков, автоматическая доставка, лояльные клиенты возвращаются сами.</p>
       </div>
@@ -613,7 +620,7 @@
         <li>Максимальное преимущество</li>
       </ul>
       <p class="small dim" style="margin-top:3mm; font-style:italic;">Ни у одного конкурента в Южно-Сахалинске нет ИИ-консультанта</p>
-      <div style="margin-top:3mm; border-top: 1px solid rgba(201,162,78,.15); padding-top:2.5mm;">
+      <div class="pkg-bottom">
         <p style="font-size:8.5pt; color: var(--gold-light); opacity:.8;">Что получаете:</p>
         <p style="font-size:8.5pt; opacity:.6;">Технологическое превосходство над конкурентами. ИИ-консультант увеличивает средний чек и конверсию, блог приводит органический трафик.</p>
       </div>
