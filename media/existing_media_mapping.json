@@ -1,0 +1,128 @@
+{
+  "hero_001_foto_1.png": {
+    "id": "hero_001",
+    "category": "root",
+    "original_name": "Фото 1.png",
+    "display_name": "Фото 1",
+    "slug": "foto_1"
+  },
+  "hero_002_anti_age.png": {
+    "id": "hero_002",
+    "category": "root",
+    "original_name": "Anti-age .png",
+    "display_name": "Anti-age",
+    "slug": "anti_age"
+  },
+  "hero_003_uvlazhnenie.png": {
+    "id": "hero_003",
+    "category": "root",
+    "original_name": "Увлажнение.png",
+    "display_name": "Увлажнение",
+    "slug": "uvlazhnenie"
+  },
+  "hero_004_protiv_akne.png": {
+    "id": "hero_004",
+    "category": "root",
+    "original_name": "Против акне.png",
+    "display_name": "Против акне",
+    "slug": "protiv_akne"
+  },
+  "hero_005_chistota_por.png": {
+    "id": "hero_005",
+    "category": "root",
+    "original_name": "Чистота пор .png",
+    "display_name": "Чистота пор",
+    "slug": "chistota_por"
+  },
+  "hero_006_spf_zashchita.png": {
+    "id": "hero_006",
+    "category": "root",
+    "original_name": "SPF-защита.png",
+    "display_name": "SPF-защита",
+    "slug": "spf_zashchita"
+  },
+  "ingr_001_gialuronovaya_kislota.png": {
+    "id": "ingr_001",
+    "category": "root",
+    "original_name": "Гиалуроновая кислота.png",
+    "display_name": "Гиалуроновая кислота",
+    "slug": "gialuronovaya_kislota"
+  },
+  "ingr_002_mutsin_ulitki.png": {
+    "id": "ingr_002",
+    "category": "root",
+    "original_name": "Муцин улитки.png",
+    "display_name": "Муцин улитки",
+    "slug": "mutsin_ulitki"
+  },
+  "ingr_003_niatsinamid_vitamin_b3.png": {
+    "id": "ingr_003",
+    "category": "root",
+    "original_name": "Ниацинамид (Vitamin B3).png",
+    "display_name": "Ниацинамид Vitamin B3",
+    "slug": "niatsinamid_vitamin_b3"
+  },
+  "ingr_004_tsentella_aziatika.png": {
+    "id": "ingr_004",
+    "category": "root",
+    "original_name": "Центелла азиатика.png",
+    "display_name": "Центелла азиатика",
+    "slug": "tsentella_aziatika"
+  },
+  "prod_001_jmsolution_gidrogelevye_patchi.png": {
+    "id": "prod_001",
+    "category": "root",
+    "original_name": "JMsolution Гидрогелевые патчи с протеинами шёлка 60 шт.png",
+    "display_name": "JMsolution Гидрогелевые патчи",
+    "slug": "jmsolution_gidrogelevye_patchi"
+  },
+  "prod_002_sum37_secret_eye.png": {
+    "id": "prod_002",
+    "category": "root",
+    "original_name": "Sum37 Secret Eye Cream.png",
+    "display_name": "Sum37 Secret Eye",
+    "slug": "sum37_secret_eye"
+  },
+  "prod_003_wellderma_eye_mask.png": {
+    "id": "prod_003",
+    "category": "root",
+    "original_name": "WellDerma Eye Mask Warming — Согревающая и расслабляющая маска для глаз 1 шт.png",
+    "display_name": "WellDerma Eye Mask",
+    "slug": "wellderma_eye_mask"
+  },
+  "prod_004_krem_dlya_vek.png": {
+    "id": "prod_004",
+    "category": "root",
+    "original_name": "Крем для век с ретинолом.png",
+    "display_name": "Крем для век",
+    "slug": "krem_dlya_vek"
+  },
+  "prod_005_liposomnaya_omolazhivayushchaya_syvorotka.png": {
+    "id": "prod_005",
+    "category": "root",
+    "original_name": "Липосомная омолаживающая сыворотка для век Beauty (30мл).png",
+    "display_name": "Липосомная омолаживающая сыворотка",
+    "slug": "liposomnaya_omolazhivayushchaya_syvorotka"
+  },
+  "prod_006_osvetlyayushchiy_krem_dlya.png": {
+    "id": "prod_006",
+    "category": "root",
+    "original_name": "Осветляющий крем для век с транексамовой кислотой и глутатионом (30мл).png",
+    "display_name": "Осветляющий крем для",
+    "slug": "osvetlyayushchiy_krem_dlya"
+  },
+  "prod_007_razglazhivayushchiy_krem_dlya.png": {
+    "id": "prod_007",
+    "category": "root",
+    "original_name": "Разглаживающий крем для кожи вокруг глаз с коллагеном TENZERO Moisture Collagen Eye Cream 40 мл.png",
+    "display_name": "Разглаживающий крем для",
+    "slug": "razglazhivayushchiy_krem_dlya"
+  },
+  "banner_001_vesennyaya_zabota_o.png": {
+    "id": "banner_001",
+    "category": "root",
+    "original_name": "Весенняя забота о коже.png",
+    "display_name": "Весенняя забота о",
+    "slug": "vesennyaya_zabota_o"
+  }
+}
