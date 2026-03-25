@@ -53,12 +53,14 @@ export default function ProductQuickView({
           </h2>
 
           {/* Rating */}
-          <StarRating
-            score={product.rating.score}
-            count={product.rating.count}
-            size="md"
-            className="mt-2"
-          />
+          {product.rating && (
+            <StarRating
+              score={product.rating.score}
+              count={product.rating.count}
+              size="md"
+              className="mt-2"
+            />
+          )}
 
           {/* Price */}
           <PriceDisplay
@@ -70,7 +72,7 @@ export default function ProductQuickView({
           />
 
           {/* Skin Types */}
-          {product.skinTypes.length > 0 && (
+          {product.skinTypes && product.skinTypes.length > 0 && (
             <div className="flex flex-wrap gap-1.5 mt-3">
               {product.skinTypes.map((type) => (
                 <Badge key={type} variant="outline">
@@ -105,7 +107,7 @@ export default function ProductQuickView({
 
           {/* Details Link */}
           <Link
-            href={`/product/${product.slug}`}
+            href={`/catalog/${product.categorySlug}/${product.slug}`}
             className="text-sm text-accent-primary hover:text-accent-hover mt-2 text-center"
             onClick={onClose}
           >
