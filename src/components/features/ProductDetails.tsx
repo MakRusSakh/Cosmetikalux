@@ -13,7 +13,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
   const hasIngredients =
     product.ingredients || product.keyIngredients?.length || product.inciList;
   const hasUsage = !!product.usage;
-  const hasRoutine = product.routineStep !== null;
+  const hasRoutine = typeof product.routineStep === 'number';
 
   return (
     <div>
@@ -23,7 +23,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
         <p className="text-text-secondary leading-relaxed">
           {product.description}
         </p>
-        {product.skinTypes.length > 0 && (
+        {product.skinTypes?.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-4">
             {product.skinTypes.map((type) => (
               <span
@@ -60,7 +60,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
           Как применять
         </h2>
         {hasRoutine && (
-          <RoutineStep step={product.routineStep} mode="full" />
+          <RoutineStep step={typeof product.routineStep === 'number' ? product.routineStep : null} mode="full" />
         )}
         {hasUsage && (
           <p className="text-text-secondary leading-relaxed mt-4">
