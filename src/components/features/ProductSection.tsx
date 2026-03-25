@@ -110,7 +110,7 @@ export default function ProductSection({
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
             {products.slice(0, 8).map((product) => (
               <div key={product.id} onClick={handleCardClick(product)}>
-                <ProductCard product={product} />
+                <ProductCard product={product} disableLink={!!onProductClick} />
               </div>
             ))}
           </div>
@@ -129,7 +129,7 @@ export default function ProductSection({
                 className="w-[200px] md:w-[260px] snap-start flex-shrink-0"
                 onClick={handleCardClick(product)}
               >
-                <ProductCard product={product} />
+                <ProductCard product={product} disableLink={!!onProductClick} />
               </div>
             ))}
           </div>

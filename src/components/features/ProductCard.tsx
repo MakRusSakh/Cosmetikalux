@@ -11,6 +11,7 @@ import Badge from '@/components/ui/Badge';
 interface ProductCardProps {
   product: Product;
   className?: string;
+  disableLink?: boolean;
 }
 
 function HeartIcon({ filled }: { filled: boolean }) {
@@ -31,7 +32,7 @@ function HeartIcon({ filled }: { filled: boolean }) {
   );
 }
 
-export default function ProductCard({ product, className = '' }: ProductCardProps) {
+export default function ProductCard({ product, className = '', disableLink = false }: ProductCardProps) {
   const [isFavorite, setIsFavorite] = useState(false);
 
   const discount = product.oldPrice
@@ -48,12 +49,8 @@ export default function ProductCard({ product, className = '' }: ProductCardProp
     setIsFavorite((prev) => !prev);
   };
 
-  return (
-    <Link
-      href={`/catalog/${product.categorySlug}/${product.slug}`}
-      className={`group block ${className}`}
-    >
-      {/* Фото-блок */}
+  const content = (
+    <>
       <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-md)] bg-bg-secondary mb-3">
         <Image
           src={mainImage}
@@ -62,8 +59,6 @@ export default function ProductCard({ product, className = '' }: ProductCardProp
           sizes="(max-width:768px) 50vw, 25vw"
           className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
         />
-
-        {/* Бейджи */}
         {(hasHitTag || hasNewTag || discount) && (
           <div className="absolute top-2 left-2 flex flex-col gap-1">
             {hasHitTag && <Badge variant="hit">Хит</Badge>}
@@ -71,8 +66,6 @@ export default function ProductCard({ product, className = '' }: ProductCardProp
             {discount && <Badge variant="sale">-{discount}%</Badge>}
           </div>
         )}
-
-        {/* Кнопка избранное */}
         <button
           type="button"
           onClick={handleFavoriteClick}
@@ -88,33 +81,26 @@ export default function ProductCard({ product, className = '' }: ProductCardProp
           <HeartIcon filled={isFavorite} />
         </button>
       </div>
-
-      {/* Бренд */}
       <p className="text-xs uppercase tracking-wider text-text-tertiary mb-1 truncate">
         {product.brand}
       </p>
-
-      {/* Название */}
       <h3 className="text-sm font-medium text-text-primary line-clamp-2 mb-2 min-h-[2.5rem] group-hover:text-accent-primary transition-colors">
         {product.name}
       </h3>
-
-      {/* Рейтинг */}
-      {product.rating.count > 0 && (
-        <StarRating
-          score={product.rating.score}
-          count={product.rating.count}
-          size="sm"
-          className="mb-2"
-        />
+      {product.rating?.count > 0 && (
+        <StarRating score={product.rating.score} count={product.rating.count} size="sm" className="mb-2" />
       )}
+      <PriceDisplay price={product.price} oldPrice={product.oldPrice} size="sm" />
+    </>
+  );
 
-      {/* Цена */}
-      <PriceDisplay
-        price={product.price}
-        oldPrice={product.oldPrice}
-        size="sm"
-      />
+  if (disableLink) {
+    return <div className={`group block cursor-pointer ${className}`}>{content}</div>;
+  }
+
+  return (
+    <Link href={`/catalog/${product.categorySlug}/${product.slug}`} className={`group block ${className}`}>
+      {content}
     </Link>
   );
 }
