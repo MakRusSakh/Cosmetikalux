@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Backgrounds */
+  --color-bg-primary: #FDFBF9;
+  --color-bg-secondary: #F7F3EF;
+  --color-bg-tertiary: #FFF8F5;
+  --color-bg-surface: #FFFFFF;
+
+  /* Text */
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A4A4A;
+  --color-text-tertiary: #8A8A8A;
+  --color-text-inverse: #FFFFFF;
+
+  /* Accents */
+  --color-accent-primary: #C8A2C8;
+  --color-accent-hover: #B88DB8;
+  --color-accent-light: #F0E4F0;
+  --color-accent-rose: #E8C4C4;
+  --color-accent-rose-hover: #D4AAAA;
+  --color-accent-rose-light: #FDF2F2;
+  --color-accent-gold: #C9A96E;
+  --color-accent-gold-hover: #B8944F;
+  --color-accent-gold-light: #FAF5EB;
+
+  /* Semantic */
+  --color-success: #7BAE7F;
+  --color-warning: #E4C76B;
+  --color-error: #D4737D;
+  --color-info: #7BA5C9;
+
+  /* Borders */
+  --color-border-light: #F0EBE6;
+  --color-border-medium: #E0D8D0;
+  --color-border-accent: #C8A2C8;
+
+  /* Fonts */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-secondary);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), Georgia, serif;
+  color: var(--color-text-primary);
+}
