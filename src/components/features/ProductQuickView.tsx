@@ -30,7 +30,7 @@ export default function ProductQuickView({
       <div className="flex flex-col md:flex-row gap-6 max-h-[80vh] overflow-y-auto">
         {/* Фото */}
         <div className="md:w-[45%] shrink-0">
-          <div className="aspect-[4/5] relative rounded-[var(--radius-md)] overflow-hidden bg-bg-secondary">
+          <div className="aspect-square relative rounded-[var(--radius-md)] overflow-hidden bg-bg-secondary">
             <Image
               src={product.images?.[0] ?? product.ogImage ?? ''}
               alt={product.name}

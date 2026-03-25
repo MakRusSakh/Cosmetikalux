@@ -51,7 +51,7 @@ export default function ProductCard({ product, className = '', disableLink = fal
 
   const content = (
     <>
-      <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-md)] bg-bg-secondary mb-3">
+      <div className="relative aspect-square overflow-hidden rounded-[var(--radius-md)] bg-bg-secondary mb-3">
         <Image
           src={mainImage}
           alt={product.name}
