@@ -573,14 +573,44 @@ export default async function MensPage() {
 | Фон карточек | `#FFFFFF` | `#F0EDEA` warm grey |
 | CTA-кнопка | Gradient lavender→rose | Solid teal `#0D9488` |
 | Акцент | Lavender `#C8A2C8` | Sage `#9CAF88` |
+| Шрифт | Playfair (заголовки) + Inter (body) | **Playfair Display везде** (единственный шрифт) |
 | Заголовки | Playfair 600 | Playfair 700, чуть крупнее |
 | Карточки | Стандартные | Те же + бейдж + grey surface |
 | Сетка | 4 колонки с фильтрами | Группы + горизонтальный скролл |
+
+#### Типографика: Playfair Display — единственный шрифт
+
+> **ПРАВИЛО:** В мужской секции используется ТОЛЬКО Playfair Display.
+> В отличие от основного каталога (Playfair для заголовков + Inter для body),
+> мужская секция — полностью на Playfair Display: заголовки, body-текст,
+> кнопки, цены, бейджи, подсказки, формы — всё.
+
+| Элемент | Шрифт | Вес | Размер |
+|---------|-------|-----|--------|
+| Hero h1 | Playfair Display | 700 | 48px/56px |
+| Hero subtitle | Playfair Display | 400 | 18px/28px |
+| Заголовки секций h2 | Playfair Display | 700 | 32px/40px |
+| Подзаголовки h3 | Playfair Display | 600 | 24px/32px |
+| Body текст | Playfair Display | 400 | 16px/26px |
+| Описания, подсказки | Playfair Display | 400 | 14px/22px |
+| Цена | Playfair Display | 700 | 28px/36px |
+| Цена за день | Playfair Display | 400 | 13px/20px |
+| Кнопка CTA | Playfair Display | 600 | 15px/20px, tracking 0.04em |
+| Бейджи | Playfair Display | 600 | 11px/16px, tracking 0.08em |
+| Рейтинг/отзывы | Playfair Display | 400 | 14px/20px |
+| Навигация (внутри секции) | Playfair Display | 500 | 15px/20px |
+| Формы/инпуты | Playfair Display | 400 | 16px/24px |
+
+Это создаёт монолитную, премиальную типографику — единый голос секции.
 
 #### CSS-переменные (scope: `.men-section`)
 
 ```css
 .men-section {
+  /* Типографика: единый шрифт */
+  --men-font: 'Playfair Display', Georgia, 'Times New Roman', serif;
+
+  /* Цвета */
   --men-primary: #34435E;
   --men-secondary: #6D8196;
   --men-accent: #9CAF88;
@@ -591,6 +621,12 @@ export default async function MensPage() {
   --men-cta: #0D9488;
   --men-cta-hover: #0F766E;
   --men-sale: #C53030;
+}
+
+/* Все элементы внутри мужской секции — Playfair Display */
+.men-section,
+.men-section * {
+  font-family: var(--men-font);
 }
 ```
 

@@ -166,11 +166,34 @@
 | `--hero-bg` | gradient pastel | `#34435E` navy | Авторитет без агрессии |
 | `--heading` | 600 weight | 700 weight | Чуть увереннее |
 
+### Типографика: Playfair Display — единственный шрифт
+
+> **ПРАВИЛО:** В мужской секции используется ТОЛЬКО Playfair Display.
+> В основном каталоге: Playfair (заголовки) + Inter (body).
+> В мужской секции: Playfair Display ВЕЗДЕ — заголовки, body, кнопки, цены, бейджи, формы.
+
+Это создаёт монолитную премиальную типографику — единый голос секции.
+Playfair Display хорошо читается и в body-размерах (16px+), особенно weight 400.
+
+| Элемент | Вес | Размер |
+|---------|-----|--------|
+| Hero h1 | 700 | 48px/56px |
+| Hero subtitle | 400 | 18px/28px |
+| Заголовки секций h2 | 700 | 32px/40px |
+| Подзаголовки h3 | 600 | 24px/32px |
+| Body текст | 400 | 16px/26px |
+| Описания, подсказки | 400 | 14px/22px |
+| Цена | 700 | 28px/36px |
+| Цена за день | 400 | 13px/20px |
+| Кнопка CTA | 600 | 15px/20px, tracking 0.04em |
+| Бейджи | 600 | 11px/16px, tracking 0.08em |
+| Рейтинг/отзывы | 400 | 14px/20px |
+
 ### Гармония палитр
 
 Мужская палитра гармонирует с основной через:
 - **Тёплый белый** — общая база (`#FAF9F6` ≈ `#FDFBF9`)
-- **Playfair Display** — тот же шрифт, без смены
+- **Playfair Display** — тот же шрифт, но единственный (без Inter)
 - **Структура** — те же компоненты (ProductCard, Badge, PriceDisplay)
 - **Переход** — при переходе из каталога в мужскую секцию нет «ломки»
 
@@ -178,6 +201,10 @@
 
 ```css
 .men-section {
+  /* Типографика: единый шрифт */
+  --men-font: 'Playfair Display', Georgia, 'Times New Roman', serif;
+
+  /* Цвета */
   --men-primary: #34435E;
   --men-secondary: #6D8196;
   --men-accent: #9CAF88;
@@ -191,6 +218,12 @@
 
   /* Hero gradient */
   --men-hero-gradient: linear-gradient(135deg, #34435E 0%, #2D3436 60%, #1A2332 100%);
+}
+
+/* Все элементы внутри мужской секции — только Playfair Display */
+.men-section,
+.men-section * {
+  font-family: var(--men-font);
 }
 ```
 
