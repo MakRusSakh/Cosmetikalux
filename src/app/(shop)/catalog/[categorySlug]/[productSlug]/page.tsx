@@ -1,7 +1,10 @@
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { getProduct } from '@/lib/products'
+import { getProduct, getRelatedProducts } from '@/lib/products'
 import ProductGallery from '@/components/features/ProductGallery'
+import ProductDetails from '@/components/features/ProductDetails'
+import ProductSpecs from '@/components/features/ProductSpecs'
+import RelatedProducts from '@/components/features/RelatedProducts'
 import PriceDisplay from '@/components/ui/PriceDisplay'
 import StarRating from '@/components/ui/StarRating'
 import CountryFlag from '@/components/ui/CountryFlag'
@@ -28,6 +31,8 @@ export default async function ProductPage({ params }: PageProps) {
   const { categorySlug, productSlug } = await params
   const product = getProduct(productSlug)
   if (!product) notFound()
+
+  const related = getRelatedProducts(product, 8)
 
   return (
     <main className="max-w-7xl mx-auto px-4 py-8">
@@ -67,7 +72,7 @@ export default async function ProductPage({ params }: PageProps) {
             className="mb-6"
           />
 
-          {product.skinTypes.length > 0 && (
+          {product.skinTypes?.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-4">
               {product.skinTypes.map((type) => (
                 <Badge key={type} variant="outline">{type}</Badge>
@@ -91,6 +96,23 @@ export default async function ProductPage({ params }: PageProps) {
           </div>
         </div>
       </div>
+
+      {/* Описание, состав, применение */}
+      <div className="mt-12 border-t border-border-light pt-8">
+        <ProductDetails product={product} />
+      </div>
+
+      {/* Характеристики */}
+      <div className="mt-8">
+        <ProductSpecs product={product} />
+      </div>
+
+      {/* Похожие товары */}
+      {related.length > 0 && (
+        <div className="mt-12 border-t border-border-light pt-8">
+          <RelatedProducts products={related} />
+        </div>
+      )}
     </main>
   )
 }
