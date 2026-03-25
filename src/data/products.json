@@ -4479,7 +4479,7 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "MP Volume Tox Cream Peptide 9 — это премиальный антивозрастной крем с девятью пептидами, разработанный для интенсивного восстановления и укрепления кожи. Благодаря технологии Volume Tox, средство работает в глубоких слоях эпидермиса, способствуя разглаживанию морщин и увеличению плотности кожи. Комплекс пептидов стимулирует синтез коллагена и эластина, улучшает микроциркуляцию и усиливает естественные процессы регенерации. Крем оказывает выраженный лифтинг-эффект, делает кожу более упругой, эластичной и придаёт ей здоровое сияние. Подходит для всех типов кожи, включая чувствительную, и особенно рекомендован для возрастного ухода.",
-    "ingredients": [],
+    "ingredients": "Water, Methylpropanediol, Glycerin, Dimethicone, Cyclopentasiloxane, 1,2-Hexanediol, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Cetearyl Olivate, Cyclohexasiloxane, Sorbitan Olivate, Glyceryl Stearate, Pentaerythrityl Tetraisostearate, PEG-100 Stearate, Cetearyl Glucoside, Carbomer, Arginine, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Trehalose, Helianthus Annuus (Sunflower) Seed Oil, Xanthan Gum, Adenosine, Polysorbate 80, Sodium Hyaluronate, Phenoxyethanol, Disodium EDTA, Butylene Glycol, Sorbitan Oleate, Glycine Soja (Soybean) Oil, Hydrolyzed Collagen, Magnolia Officinalis Bark Extract, Fragrance, Alcohol, Hydrogenated Polyisobutene, Ethylhexylglycerin, Bixa Orellana Seed Oil, Propanediol, Juniperus Communis Fruit Extract, Eucalyptus Globulus Leaf Extract, Glyceryl Polymethacrylate, Sodium Hyaluronate Crosspolymer, Sorbitan Laurate, Desamido Collagen, Fructan, Propylene Glycol, Hydrolyzed Glycosaminoglycans, Acetyl Hexapeptide-8, Acetyl Octapeptide-3, Hexapeptide-9, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-1, Tripeptide-1, Palmitoyl Pentapeptide-4",
     "usage": "После этапов очищения, тонера и сыворотки нанесите небольшое количество крема на кожу лица и шеи. Мягкими движениями распределите по массажным линиям до полного впитывания. Используйте ежедневно утром и вечером как завершающий этап ухода.",
     "skinTypes": [
       "sensitive",
@@ -4498,7 +4498,15 @@
       "source": "generated"
     },
     "purchaseCount": 483,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MEDI-PEEL Peptide 9 Volume Tox Cream",
+    "keyIngredients": [
+      "9 Peptides (Acetyl Hexapeptide-8, Palmitoyl Pentapeptide-4 etc.)",
+      "Hydrolyzed Collagen",
+      "Sodium Hyaluronate",
+      "Adenosine",
+      "Niacinamide"
+    ]
   },
   {
     "id": "prod_59355444",
@@ -4517,8 +4525,8 @@
     "country": "",
     "countryCode": "",
     "description": "Японский назальный спрей Sato NAZAL с ароматом лаванды &mdash; эффективное средство для быстрого облегчения заложенности носа, насморка и симптомов ал",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Active: Naphazoline Hydrochloride 50mg/100mL, Chlorpheniramine Maleate 500mg/100mL, Benzalkonium Chloride 10mg/100mL. Inactive: Citric Acid, Dibasic Potassium Phosphate, Fragrance (Lavender), Monobasic Potassium Phosphate, Simethicone, Sodium Chloride, Water",
+    "usage": "Spray 1-2 times into each nostril, 1-3 times daily. Do not use more than 6 times per day. Steroid-free formula.",
     "skinTypes": [
       "normal"
     ],
@@ -4534,7 +4542,13 @@
       "source": "generated"
     },
     "purchaseCount": 296,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "Sato NAZAL Spray Pump Lavender",
+    "keyIngredients": [
+      "Naphazoline Hydrochloride (vasoconstrictor)",
+      "Chlorpheniramine Maleate (antihistamine)",
+      "Benzalkonium Chloride (antibacterial)"
+    ]
   },
   {
     "id": "prod_59360824",
@@ -4553,7 +4567,7 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "MP Hyal Kombucha Tea-Tox Cream — это интенсивно увлажняющий и детокс-крем на основе экстракта комбучи и гиалуроновой кислоты, разработанный для глубокого восстановления и поддержания баланса кожи. Формула обогащена ферментированным чаем, который усиливает антиоксидантную защиту, улучшает тон кожи и способствует выведению токсинов. Комбуча помогает мягко обновлять эпидермис, повышая его упругость и уменьшая проявление тусклости. Комплекс из 5 видов гиалуроновой кислоты насыщает влагой все слои кожи, удерживает её внутри и создаёт ощущение свежести и гладкости. Крем обладает легкой гелевой текстурой, моментально впитывается и идеально подходит для комбинированной и жирной кожи, склонной к обезвоженности.",
-    "ingredients": [],
+    "ingredients": "Yeast/Xylinum/Black Tea Fermentation, Water, Glycerin, Ethylhexyl Palmitate, Cetyl Ethylhexanoate, Glycereth-26, Dipropylene Glycol, Niacinamide, Butylene Glycol, 1,2-Hexanediol, C14-22 Alcohols, Polysorbate 60, C12-20 Alkyl Glucoside, Hydrogenated Polydecene, Panthenol, Damask Rose Flower Water, Pear Extract, Peach Extract, Common Jasmine Flower Water, Western Pine Leaf/Stem Extract, Melon Extract, Yeast/Rice Bran Fermented Product, Allantoin, Methylgluceth-20, Baobab Seed Oil, Camellia Flower Extract, Tangerine Peel Extract, Madecassoside, Ceramide NP, Ceramide NS, Ceramide AS, Ceramide OP, Ceramide AP, Hydrolyzed Glycosaminoglycan, Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Hydrolyzed Hyaluronic Acid, Hydroxypropyltrimonium Hyaluronate, Hyaluronic Acid, Sodium Acetylated Hyaluronate, Tetradecylaminobutyroylvalylaminobutyric Ureatrifluoroacetate, Adenosine, Cyanocobalamin, Dipotassium Glycyrrhizate",
     "usage": "После этапов очищения и тонизирования нанесите небольшое количество крема на кожу лица. Равномерно распределите по поверхности кожи, мягко вбивая кончиками пальцев до полного впитывания. Используйте утром и вечером как завершающий этап ухода.",
     "skinTypes": [
       "dry",
@@ -4572,7 +4586,15 @@
       "source": "generated"
     },
     "purchaseCount": 339,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MEDI-PEEL Hyal Kombucha Tea-Tox Cream",
+    "keyIngredients": [
+      "Yeast/Xylinum/Black Tea Fermentation (Kombucha, 50%)",
+      "8 types of Hyaluronic Acid",
+      "5 Ceramides (NP, NS, AS, OP, AP)",
+      "Niacinamide",
+      "Panthenol"
+    ]
   },
   {
     "id": "prod_59360848",
@@ -4806,8 +4828,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Полноценное дыхание &ndash; залог снабжения всех органов кислородом. Его недостаток приводит к сбоям в работе организма и может иметь критические посл",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Seihaito extract 3.2g (per daily dose of 10 tablets), containing: Scutellaria Root 1.0g, Bellflower 1.0g, Mulberry Bark (Souhakuhi) 1.0g, Apricot Kernel (Kyonin) 1.0g, Gardenia Fruit (Sanshishi) 1.0g, Tenmondou 1.0g, Vimo 1.0g, Chimp 1.0g, Jujube (Taisou) 1.0g, Chikujo 1.0g, Poria (Bukuryo) 1.5g, Angelica 1.5g, Bakumondou 1.5g, Ginger 0.25g, Licorice (Glycyrrhiza) 0.5g. Additives: Silicon Dioxide, Cross CMC-Na, Silicic Anhydride, L-Menthol, Propylene Glycol, Magnesium Stearate, Fragrance",
+    "usage": "Take 4 tablets 3 times daily with water, after meals. For adults and children over 15 years.",
     "skinTypes": [
       "normal"
     ],
@@ -4823,7 +4845,15 @@
       "source": "generated"
     },
     "purchaseCount": 95,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "Kobayashi Dasmoke Bronchial Cleanser",
+    "keyIngredients": [
+      "Seihaito herbal extract (16 herbs)",
+      "Scutellaria Root",
+      "Poria (Bukuryo)",
+      "Angelica",
+      "Licorice (Glycyrrhiza)"
+    ]
   },
   {
     "id": "prod_59362154",
@@ -4842,8 +4872,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Питательный крем для век с коллагеном на основе розы AHC Premier Ampoule In Eye Cream 6 Collagen\n\nПитательный крем для век AHC Premier Ampoule In Eye",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Rosa Damascena Flower Water, Butylene Glycol, Hydrogenated Polydecene, Propanediol, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Betaine, Myristyl Myristate, Niacinamide, Phenyl Trimethicone, Water, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Panthenol, Dipentaerythrityl Pentaisononanoate, Polyglyceryl-2 Stearate, 1,2-Hexanediol, PCA Dimethicone, Glyceryl Stearate, Stearyl Alcohol, Cetearyl Olivate, Sorbitan Olivate, Polyacrylate-13, Jojoba Esters, Hydroxyacetophenone, Sodium Stearoyl Glutamate, Helianthus Annuus (Sunflower) Seed Wax, Hydrogenated Polyisobutene, Fragrance, Elaeis Guineensis (Palm) Oil, Ethylhexylglycerin, Glycerin, Dipropylene Glycol, Murraya Koenigii Stem Extract, Laminaria Japonica Extract, Eclipta Prostrata Leaf Extract, Adenosine, Polyglyceryl-10 Laurate, Disodium EDTA, Ethylhexyl Palmitate, Sorbitan Isostearate, Polyglycerin-3, Fructooligosaccharides, Collagen, Beta-Glucan, Hydrogenated Lecithin, Cyanocobalamin, Hydrolyzed Hyaluronic Acid",
+    "usage": "Apply a small amount around the eye area after toner and serum. Gently pat with ring finger until absorbed. Use morning and evening.",
     "skinTypes": [
       "dry",
       "aging"
@@ -4863,7 +4893,15 @@
       "source": "generated"
     },
     "purchaseCount": 293,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "AHC Premier Ampoule In Eye Cream 6 Collagen",
+    "keyIngredients": [
+      "6 types of Collagen (Human Identical Collagen6)",
+      "Elevastin (patented ingredient)",
+      "Niacinamide",
+      "Hyaluronic Acid",
+      "Panthenol"
+    ]
   },
   {
     "id": "prod_59362170",
@@ -4882,8 +4920,8 @@
     "country": "",
     "countryCode": "",
     "description": "Питательный крем для век с коллагеном на основе розы AHC Premier Ampoule In Eye Cream 6 Collagen\n\nПитательный крем для век AHC Premier Ampoule In Eye",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Rosa Damascena Flower Water, Butylene Glycol, Hydrogenated Polydecene, Propanediol, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Betaine, Myristyl Myristate, Niacinamide, Phenyl Trimethicone, Water, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Panthenol, Dipentaerythrityl Pentaisononanoate, Polyglyceryl-2 Stearate, 1,2-Hexanediol, PCA Dimethicone, Glyceryl Stearate, Stearyl Alcohol, Cetearyl Olivate, Sorbitan Olivate, Polyacrylate-13, Jojoba Esters, Hydroxyacetophenone, Sodium Stearoyl Glutamate, Helianthus Annuus (Sunflower) Seed Wax, Hydrogenated Polyisobutene, Fragrance, Elaeis Guineensis (Palm) Oil, Ethylhexylglycerin, Glycerin, Dipropylene Glycol, Murraya Koenigii Stem Extract, Laminaria Japonica Extract, Eclipta Prostrata Leaf Extract, Adenosine, Polyglyceryl-10 Laurate, Disodium EDTA, Ethylhexyl Palmitate, Sorbitan Isostearate, Polyglycerin-3, Fructooligosaccharides, Collagen, Beta-Glucan, Hydrogenated Lecithin, Cyanocobalamin, Hydrolyzed Hyaluronic Acid",
+    "usage": "Apply a small amount around the eye area after toner and serum. Gently pat with ring finger until absorbed. Use morning and evening.",
     "skinTypes": [
       "dry",
       "aging"
@@ -4903,7 +4941,15 @@
       "source": "generated"
     },
     "purchaseCount": 326,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "AHC Premier Ampoule In Eye Cream 6 Collagen",
+    "keyIngredients": [
+      "6 types of Collagen (Human Identical Collagen6)",
+      "Elevastin (patented ingredient)",
+      "Niacinamide",
+      "Hyaluronic Acid",
+      "Panthenol"
+    ]
   },
   {
     "id": "prod_59362411",
@@ -5252,8 +5298,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Укрепляющий крем для век со стволовыми клетками Medi-Peel 30мл\n\nУкрепляющий крем для век со стволовыми клетками стимулирует процесс синтеза новых колл",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Butylene Glycol, Methylpropanediol, Glycerin, Olea Europaea (Olive) Fruit Oil, Triethylhexanoin, Cetearyl Olivate, 1,2-Hexanediol, Niacinamide, Butylene Glycol Dicaprylate/Dicaprate, Sorbitan Olivate, Cetyl Alcohol, Helianthus Annuus (Sunflower) Seed Oil, Stearic Acid, Palmitic Acid, Orbignya Oleifera Seed Oil, Simethicone, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Arginine, Carbomer, Sodium Polyacrylate, Trehalose, Glyceryl Glucoside, Ethylhexylglycerin, Adenosine, Sorbitan Isostearate, Disodium EDTA, Malt Extract, Panthenol, Propylene Glycol, Leontopodium Alpinum Callus Culture Extract, Glutathione, Ficus Carica (Fig) Fruit Extract, Morus Alba Fruit Extract, Punica Granatum Fruit Extract, Ginkgo Biloba Nut Extract, Dipeptide Diaminobutyroyl Benzylamide Diacetate, Triticum Vulgare (Wheat) Sprout Extract, Brassica Oleracea Italica (Broccoli) Extract, Brassica Oleracea Capitata (Cabbage) Leaf Extract, Medicago Sativa (Alfalfa) Extract, Caviar Extract, Raphanus Sativus (Radish) Seed Extract",
+    "usage": "Apply a small amount around the eye area after toner/serum. Gently pat until absorbed. Use morning and evening.",
     "skinTypes": [
       "normal"
     ],
@@ -5269,7 +5315,15 @@
       "source": "generated"
     },
     "purchaseCount": 431,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MEDI-PEEL Cell Toxing Dermajours Repair Eye Cream",
+    "keyIngredients": [
+      "Leontopodium Alpinum Callus Culture Extract (Edelweiss stem cells)",
+      "Dipeptide Diaminobutyroyl Benzylamide Diacetate (Syn-Ake peptide)",
+      "Niacinamide",
+      "Glutathione",
+      "Caviar Extract"
+    ]
   },
   {
     "id": "prod_59365431",
@@ -5288,8 +5342,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Лифтинг-крем для век с пептидным комплексом Medi Peel\n\nЛифтинг-крем для век с пептидным эффективно разглаживает гусиные лапки и мимические морщины в о",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Methylpropanediol, Caprylic/Capric Triglyceride, Glycerin, Dimethicone, Pentaerythrityl Tetraisostearate, Cyclopentasiloxane, Cetearyl Alcohol, 1,2-Hexanediol, Niacinamide, Cetearyl Olivate, Cyclohexasiloxane, Sorbitan Olivate, Glyceryl Stearate, Butyrospermum Parkii (Shea) Butter, Hydroxypropyl Methylcellulose, PEG-100 Stearate, Pullulan, Helianthus Annuus (Sunflower) Seed Oil, Sodium Polyacrylate, Arginine, Carbomer, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Glucoside, Isohexadecane, Juniperus Communis Fruit Extract, Eucalyptus Globulus Leaf Extract, Trehalose, Ethylhexylglycerin, Xanthan Gum, Polysorbate 80, Porphyridium Cruentum Extract, Fragrance, Glycine Soja (Soybean) Oil, Adenosine, Malt Extract, Sodium Hyaluronate, Disodium EDTA, Sorbitan Oleate, Propanediol, Sodium Hyaluronate Crosspolymer, Bixa Orellana Seed Oil, Hydrolyzed Glycosaminoglycans",
+    "usage": "Apply a small amount around the eye area after toner and serum. Gently pat with ring finger from inner to outer corner. Use morning and evening.",
     "skinTypes": [
       "aging"
     ],
@@ -5307,7 +5361,15 @@
       "source": "generated"
     },
     "purchaseCount": 112,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MEDI-PEEL Peptide 9 Hyaluronic Volumy Eye Cream",
+    "keyIngredients": [
+      "9 types of Peptides (Acetyl Hexapeptide-8, Copper Tripeptide-1, Palmitoyl Pentapeptide-4)",
+      "Sodium Hyaluronate (multiple types)",
+      "Hydrolyzed Collagen",
+      "Niacinamide",
+      "Shea Butter"
+    ]
   },
   {
     "id": "prod_59365438",
@@ -5326,8 +5388,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Крем для глаз с лифтинг эффектом MEDI-PEEL\n\n✔Это роскошный и современный крем для век, который разработан для омоложения и питания нежной кожи вокруг",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Cetyl Ethylhexanoate, Glycerin, Dipropylene Glycol, Polyglyceryl-3 Methylglucose Distearate, Niacinamide, Cyclohexasiloxane, Cetearyl Alcohol, Stearic Acid, 1,2-Hexanediol, Olea Europaea (Olive) Fruit Oil, Butyrospermum Parkii (Shea) Butter, Snail Secretion Filtrate, Dioscorea Japonica Root Extract, Nelumbo Nucifera Root Extract, Hibiscus Esculentus Fruit Extract, Palmitoyl Tripeptide-5, Dipeptide Diaminobutyroyl Benzylamide Diacetate, Hydrolyzed Collagen, Hydrolyzed Elastin, Sodium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Sodium Acetylated Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, Hydrolyzed Sodium Hyaluronate, Potassium Hyaluronate, Argania Spinosa Kernel Oil, Ceramide NP, Panthenol, Betaine, Disodium EDTA, Adenosine, Ethylhexylglycerin, Glyceryl Stearate, Tromethamine, Sodium Polyacrylate, Ethylhexyl Stearate, Trideceth-6, Carbomer, Gold, Hydroxyacetophenone, Caprylyl Glycol, Dipotassium Glycyrrhizate",
+    "usage": "Apply a small amount around the eye area. Gently pat with ring finger until absorbed. Use morning and evening after toner and serum.",
     "skinTypes": [
       "aging"
     ],
@@ -5343,7 +5405,15 @@
       "source": "generated"
     },
     "purchaseCount": 455,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MEDI-PEEL 24K Gold Snail Repair Eye Cream",
+    "keyIngredients": [
+      "24K Gold (20 ppm)",
+      "Snail Secretion Filtrate (3,000 ppm)",
+      "Palmitoyl Tripeptide-5 (Syn-Coll)",
+      "Dipeptide Diaminobutyroyl Benzylamide Diacetate (Syn-Ake)",
+      "7 types of Hyaluronic Acid"
+    ]
   },
   {
     "id": "prod_59365444",
@@ -5503,8 +5573,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Крем Для Рук \"Первая Любовь\", 30мл. MISSHA\n\nКрем для рук MISSHA Dare Body Hand Cream Love Begins. Роскошная бархатная текстура крема, содержащая масло",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Butyrospermum Parkii (Shea Butter), Glycerin, Cetearyl Alcohol, Glycereth-26, Caprylic/Capric Triglyceride, Glyceryl Stearate SE, Polysorbate 60, Glyceryl Stearate, PEG-100 Stearate, Sorbitan Stearate, Fragrance, Cetyl Ethylhexanoate, Dimethicone, Dipropylene Glycol, Palmitic Acid, Stearic Acid, Hydroxyacetophenone, 1,2-Hexanediol, Carbomer, Sodium Hydroxide, Xanthan Gum, Sucrose Cocoate, Disodium EDTA, Cyclomethicone, Tocopheryl Acetate, Butylene Glycol, Centella Asiatica Extract",
+    "usage": "Apply to clean, dry hands as needed. Massage gently until absorbed.",
     "skinTypes": [
       "normal"
     ],
@@ -5520,7 +5590,14 @@
       "source": "generated"
     },
     "purchaseCount": 122,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MISSHA Dare Body Hand Cream Love Begins",
+    "keyIngredients": [
+      "Shea Butter (Butyrospermum Parkii)",
+      "Centella Asiatica Extract",
+      "Glycerin",
+      "Tocopheryl Acetate (Vitamin E)"
+    ]
   },
   {
     "id": "prod_59367634",
@@ -5716,8 +5793,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Успокаивающий крем с экстрактом центеллы для чувствительной кожи Medi-Peel\n\n✔️Успокаивающий крем с экстрактом центеллы для чувствительной кожи &nbsp;м",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Aloe Barbadensis Leaf Extract, Glycerin, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Dipropylene Glycol, Water, Niacinamide, Glyceryl Stearate, PEG-100 Stearate, Sorbitan Stearate, Hydrogenated Polydecene, Betaine, Dimethicone, Macadamia Ternifolia Seed Oil, Vitis Vinifera (Grape) Seed Oil, 1,2-Hexanediol, Carbomer, Arginine, Butylene Glycol, Caprylyl Glycol, Fragrance, Illicium Verum (Anise) Fruit Extract, Allantoin, Panthenol, Tocopheryl Acetate, Glyceryl Acrylate/Acrylic Acid Copolymer, Zanthoxylum Piperitum Fruit Extract, Pulsatilla Koreana Extract, Usnea Barbata (Lichen) Extract, Disodium EDTA, Adenosine, Asiaticoside, Madecassic Acid, Leontopodium Alpinum Callus Culture Extract, Asiatic Acid, Propylene Glycol, Sodium Hyaluronate, Solanum Melongena (Eggplant) Fruit Extract, Punica Granatum Fruit Extract, Ficus Carica (Fig) Fruit Extract, Morus Alba Fruit Extract, Ginkgo Biloba Nut Extract, Centella Asiatica Extract, Ethylhexylglycerin, Acetyl Hexapeptide-8",
+    "usage": "Apply to cleansed face after toner and serum. Gently massage until absorbed. Use morning and evening. Especially suitable for sensitive and irritated skin.",
     "skinTypes": [
       "sensitive"
     ],
@@ -5733,7 +5810,15 @@
       "source": "generated"
     },
     "purchaseCount": 254,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MEDI-PEEL Centella Mezzo Cream",
+    "keyIngredients": [
+      "Centella Asiatica Extract (Asiaticoside, Madecassic Acid, Asiatic Acid)",
+      "Leontopodium Alpinum Callus Culture Extract (Edelweiss stem cells)",
+      "Niacinamide",
+      "Sodium Hyaluronate",
+      "Acetyl Hexapeptide-8"
+    ]
   },
   {
     "id": "prod_59397331",
@@ -5798,8 +5883,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Омега 3 Nutri D-Day Premium Omega 3-Gold таблетки 90 шт\n\n&bull; Назначение: для сердечно-сосудистой системы\n&bull; Для кого: универсальные\n&bull; Реги",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "EPA 735mg, DHA 365mg, Vitamin D 25mcg per capsule. Capsule shell: Gelatin, Glycerin, Purified Water. Enteric coating.",
+    "usage": "Take 1 capsule daily with water.",
     "skinTypes": [
       "normal"
     ],
@@ -5815,7 +5900,13 @@
       "source": "generated"
     },
     "purchaseCount": 315,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "Nutri D-Day Premium Omega 3 Gold 1100",
+    "keyIngredients": [
+      "EPA (735mg)",
+      "DHA (365mg)",
+      "Vitamin D (25mcg)"
+    ]
   },
   {
     "id": "prod_59397647",
@@ -5834,7 +5925,7 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Nutri D-Day Premium Omega-3 Gold 1100 — это премиальный канадский комплекс омега-3 жирных кислот с добавлением витамина D. В каждой капсуле содержится 1100 мг очищенных жирных кислот, включая EPA и DHA, которые способствуют поддержанию здоровья сердца, сосудов, мозга и зрения. Витамин D укрепляет иммунитет и поддерживает здоровье костной системы. Благодаря специальной энтеросолюбильной оболочке, капсулы легко усваиваются и не вызывают дискомфорта в желудке. Продукт подходит для ежедневного приёма и рекомендован при повышенных умственных нагрузках, стрессах, а также для профилактики воспалений и возрастных изменений.",
-    "ingredients": [],
+    "ingredients": "EPA 735mg, DHA 365mg, Vitamin D 25mcg per capsule. Capsule shell: Gelatin, Glycerin, Purified Water. Enteric coating.",
     "usage": "Принимайте по 1 капсуле в день во время еды, запивая водой. Рекомендуется курсом не менее 3 месяцев для стойкого результата. Храните в сухом, прохладном месте вдали от солнечных лучей.",
     "skinTypes": [
       "oily"
@@ -5851,7 +5942,13 @@
       "source": "generated"
     },
     "purchaseCount": 465,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "Nutri D-Day Premium Omega-3 Gold 1100",
+    "keyIngredients": [
+      "EPA (735mg)",
+      "DHA (365mg)",
+      "Vitamin D (25mcg)"
+    ]
   },
   {
     "id": "prod_59397733",
@@ -5870,8 +5967,8 @@
     "country": "",
     "countryCode": "",
     "description": "Увлажняющие гидрогелевые патчи с пептидами MEDI-PEEL ( 60шт)",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Glycerin, Carrageenan, Butylene Glycol, Hydrolyzed Collagen, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Sodium Acetylated Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Potassium Hyaluronate, Sodium Hyaluronate Crosspolymer, Hyaluronic Acid, Pearl Extract, Polysorbate 80, Tocopheryl Acetate, Ubiquinone, Acetyl Hexapeptide-8, Copper Tripeptide-1, Oligopeptide-29, Oligopeptide-32, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Glyceryl Polymethacrylate, Propylene Glycol, Palmitoyl Oligopeptide, Palmitoyl Tripeptide-5, Propanediol, Pentylene Glycol, Cocos Nucifera (Coconut) Fruit Extract, Pinus Sylvestris Leaf Extract, Ricinus Communis (Castor) Seed Oil, Butyrospermum Parkii (Shea) Butter, Betaine, Allantoin, Dipotassium Glycyrrhizate",
+    "usage": "Apply patches under the eyes on clean skin. Leave for 20-30 minutes. Remove and gently pat remaining essence into the skin.",
     "skinTypes": [
       "dry"
     ],
@@ -5890,7 +5987,15 @@
       "source": "generated"
     },
     "purchaseCount": 311,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MEDI-PEEL Hyaluron Dark Benone Peptide 9 Ampoule Eye Patch",
+    "keyIngredients": [
+      "9 Peptides (Acetyl Hexapeptide-8, Copper Tripeptide-1, Palmitoyl Pentapeptide-4 etc.)",
+      "7 types of Hyaluronic Acid",
+      "Hydrolyzed Collagen",
+      "Pearl Extract",
+      "Ubiquinone (Coenzyme Q10)"
+    ]
   },
   {
     "id": "prod_59397740",
@@ -5958,8 +6063,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Коллагеновые патчи для век с лактобактериями MEDI-PEEL (60шт)\n\nПатчи разглаживают, уплотняют и подтягивают кожу вокруг глаз, замедляя первые возрастны",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Glycerin, Collagen Extract, Niacinamide, Carrageenan, Butylene Glycol, Ethyl Hexanediol, Ceratonia Siliqua (Carob) Gum, Cyamopsis Tetragonoloba (Guar) Gum, Pentylene Glycol, Pinus Sylvestris Leaf Extract, Calcium Chloride, Allantoin, Sucrose, Cellulose Gum, 1,2-Hexanediol, Potassium Chloride, Propanediol, Polyglyceryl-10 Laurate, Ricinus Communis (Castor) Seed Oil, Lactobacillus Ferment, Illicium Verum (Anise) Fruit Extract, Titanium Dioxide, Calcium Lactate, Adenosine, Hexylene Glycol, Arginine, Ethylhexylglycerin, Synthetic Fluorphlogopite, Disodium EDTA, Hydroxyacetophenone, Polymethylsilsesquioxane, Pyrus Communis (Pear) Fruit Extract, Hedera Helix (Ivy) Leaf/Stem Extract, Silica, Polyglyceryl-10 Oleate, Pyrus Malus (Apple) Fruit Extract, Fragaria Chiloensis (Strawberry) Fruit Extract, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Sodium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Collagen, Fucus Vesiculosus Extract",
+    "usage": "Apply patches under the eyes on clean skin. Leave for 20-30 minutes. Remove and gently pat remaining essence into the skin.",
     "skinTypes": [
       "normal"
     ],
@@ -5978,7 +6083,15 @@
       "source": "generated"
     },
     "purchaseCount": 237,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "MEDI-PEEL Red Lacto Collagen Eye Patch",
+    "keyIngredients": [
+      "Collagen Extract (93,000 ppm)",
+      "Lactobacillus Ferment (902.1 ppm)",
+      "7 types of Hyaluronic Acid",
+      "Niacinamide",
+      "Adenosine"
+    ]
   },
   {
     "id": "prod_59397757",
@@ -6186,8 +6299,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Осветляющий крем с чёрным трюфелем Bueno Brightening Moisture Cream направлен на глубокое увлажнение кожи, мягко осветляет кожу и выравнивает тон, отб",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Aureobasidium Pullulans Ferment Extract, Tuber Melanosporum Extract, Panthenol, Isopentyldiol, 1,2-Hexanediol, Caprylic/Capric Triglyceride, Glycerin, Cyclopentasiloxane, Cetearyl Alcohol, Dimethicone, C14-22 Alcohols, Cyclohexasiloxane, Beeswax, Cetyl Alcohol, Water, Arginine, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, (-)-Alpha-Bisabolol, Butyrospermum Parkii (Shea) Butter, Ceteareth-20, Glutathione, Niacinamide, Cetearyl Glucoside, C12-20 Alkyl Glucoside, Isohexadecane, Dimethicone/Vinyl Dimethicone Crosspolymer, Stearyl Alcohol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Allantoin, Polysorbate 80, Carbomer, Tocopheryl Acetate, Myristyl Alcohol, Perfume, Adenosine, Ethylhexylglycerin, Disodium EDTA, Dipotassium Glycyrrhizate, Caprylyl Glycol, Acetyl Octapeptide-3, Acetyl Hexapeptide-22, Acetyl Hexapeptide-8, Oligopeptide-28, SH-Octapeptide-4, SH-Pentapeptide-19, Caffeoyl Tripeptide-1, SH-Decapeptide-7, SH-Oligopeptide-1",
+    "usage": "Apply to cleansed face after toner and serum. Gently massage until absorbed. Use morning and evening.",
     "skinTypes": [
       "dry"
     ],
@@ -6203,7 +6316,15 @@
       "source": "generated"
     },
     "purchaseCount": 311,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "Bueno Brightening Moisture Cream",
+    "keyIngredients": [
+      "Tuber Melanosporum Extract (Black Truffle)",
+      "Glutathione (5,000 ppm)",
+      "Niacinamide",
+      "Peptide Complex (9 peptides)",
+      "Aureobasidium Pullulans Ferment Extract"
+    ]
   },
   {
     "id": "prod_59402643",
@@ -6222,8 +6343,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Увлажняющий антивозрастной крем AHC Capture Solution Prime Moist Cream уменьшает видимость морщин и кожных заломов, делает кожу более плотной и упруго",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Dicaprylyl Ether, 1,2-Hexanediol, Glycerin, Niacinamide, Laminaria Japonica Extract, Eclipta Prostrata Leaf Extract, Centella Asiatica Extract, Ficus Carica (Fig) Fruit Extract, Acmella Oleracea Extract, Lactobacillus/Eriodictyon Californicum Ferment Extract, Honey Extract, Bacillus/Soybean Ferment Extract, Lactobacillus/Soybean Ferment Extract, Lactobacillus/Punica Granatum Fruit Ferment Extract, Alpinia Galanga Extract, Panax Ginseng Root Extract, Astragalus Membranaceus Root Extract, Codonopsis Lanceolata Root Extract, Bifida Ferment Extract, Salvia Miltiorrhiza Root Extract, Sophora Flavescens Root Extract, Hydrolyzed Codonopsis Pilosula Root Extract",
+    "usage": "Apply to cleansed face after toner and serum as the final moisturizing step. Gently massage until absorbed. Use morning and evening.",
     "skinTypes": [
       "dry",
       "aging"
@@ -6240,7 +6361,15 @@
       "source": "generated"
     },
     "purchaseCount": 67,
-    "isActive": true
+    "isActive": true,
+    "nameEnglish": "AHC Capture Solution Prime Moist Cream",
+    "keyIngredients": [
+      "8-Octa-Hyal Complex (Hyaluronic Acid complex)",
+      "21 Fermented Ingredients",
+      "Niacinamide",
+      "Centella Asiatica Extract",
+      "Bifida Ferment Extract"
+    ]
   },
   {
     "id": "prod_59402718",
