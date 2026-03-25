@@ -10225,7 +10225,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Крем для рук нежно ухаживает за кожей рук и ногтями, наполняя их жизненной силой.\n\nЭкстракт гибискуса включает в себя высокое содержание витамина С и",
-    "ingredients": [],
+    "ingredients": [
+      "Water (Aqua)",
+      "Mineral Oil",
+      "Niacinamide",
+      "Cetyl Alcohol",
+      "Propylene Glycol"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -10242,7 +10248,11 @@
       "source": "generated"
     },
     "purchaseCount": 151,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water (Aqua),Glycerin,Mineral Oil,Niacinamide,Cetyl Alcohol,Propylene Glycol,Cyclopentasiloxane,Polysorbate 60,Dimethicone,[more]Phenoxyethanol,Glyceryl Stearate,PEG-100 Stearate,Carbomer,Cyclohexasiloxane,Stearyl Alcohol,Triethanolamine,Melaleuca Alternifolia (Tea Tree) Extract (2,000Ppm),Centella Asiatica Extract (2,000Ppm),Sorbitan Sesquioleate,Butylene Glycol,Fragrance (Parfum),1,2-Hexanediol,Myristyl Alcohol,Adenosine,Disodium EDTA,Lauryl Alcohol,Sodium Hyaluronate,Dipropylene Glycol,Borago Officinalis Extract,Centaurea Cyanus Flower Extract,Chamomilla Recutita (Matricaria) Flower Extract,Hyacinthus Orientalis (Hyacinth) Extract,Lavandula Angustifolia (Lavender) Flower Extract,Salvia Sclarea (Clary) Extract,Ethylhexylglycerin[less]",
+    "nameEnglish": "JIGOTTCicateatree",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/jigott-cicateatree"
   },
   {
     "id": "prod_59676920",
@@ -10441,7 +10451,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Комплекс содержит натуральные компоненты и прошел строгий контроль качества и сертификацию на внутреннем японском рынке.\n\nВ составе:\n&bull; Витамин D",
-    "ingredients": [],
+    "ingredients": [
+      "Myristic Acid",
+      "Stearic Acid",
+      "Potassium Hydroxide",
+      "Hydrogenated Starch Hydrolysate",
+      "Palmitic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -10458,7 +10474,11 @@
       "source": "generated"
     },
     "purchaseCount": 174,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
+    "nameEnglish": "FanclAcne Care Washing Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
   },
   {
     "id": "prod_59679772",
@@ -10477,7 +10497,13 @@
     "country": "Таиланд",
     "countryCode": "TH",
     "description": "FANCL Комплекс всех необходимых для мужского здоровья витаминов, минералов и микроэлементов в возрасте от 30 до 39 лет (30 пакетиков).Комплекс содержи",
-    "ingredients": [],
+    "ingredients": [
+      "Myristic Acid",
+      "Stearic Acid",
+      "Potassium Hydroxide",
+      "Hydrogenated Starch Hydrolysate",
+      "Palmitic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -10494,7 +10520,11 @@
       "source": "generated"
     },
     "purchaseCount": 443,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
+    "nameEnglish": "FanclAcne Care Washing Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
   },
   {
     "id": "prod_59679774",
@@ -10513,7 +10543,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Комплекс содержит натуральные компоненты и прошел строгий контроль качества и сертификацию на внутреннем японском рынке.\n\nВ составе:\n&bull; Витамин А",
-    "ingredients": [],
+    "ingredients": [
+      "Myristic Acid",
+      "Stearic Acid",
+      "Potassium Hydroxide",
+      "Hydrogenated Starch Hydrolysate",
+      "Palmitic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -10530,7 +10566,11 @@
       "source": "generated"
     },
     "purchaseCount": 398,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
+    "nameEnglish": "FanclAcne Care Washing Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
   },
   {
     "id": "prod_59679776",
@@ -10549,7 +10589,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Комплекс содержит натуральные компоненты и прошел строгий контроль качества и сертификацию на внутреннем японском рынке.\n\nВ составе:\n&bull; Витамин D",
-    "ingredients": [],
+    "ingredients": [
+      "Myristic Acid",
+      "Stearic Acid",
+      "Potassium Hydroxide",
+      "Hydrogenated Starch Hydrolysate",
+      "Palmitic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -10566,7 +10612,11 @@
       "source": "generated"
     },
     "purchaseCount": 146,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
+    "nameEnglish": "FanclAcne Care Washing Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
   },
   {
     "id": "prod_59679863",
@@ -10585,7 +10635,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Комплекс содержит натуральные компоненты и прошел строгий контроль качества и сертификацию на внутреннем японском рынке.\n\nВ составе:\n&bull; Витамин D",
-    "ingredients": [],
+    "ingredients": [
+      "Myristic Acid",
+      "Stearic Acid",
+      "Potassium Hydroxide",
+      "Hydrogenated Starch Hydrolysate",
+      "Palmitic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -10602,7 +10658,11 @@
       "source": "generated"
     },
     "purchaseCount": 161,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
+    "nameEnglish": "FanclAcne Care Washing Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
   },
   {
     "id": "prod_59699886",
@@ -10768,7 +10828,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Увлажняющая эмульсия с морингой и коллагеном Heimish Moringa Ceramide Collagen Enriched Moisturizer 120 мл\n\n-смягчает и разглаживает кожу, устраняет ш",
-    "ingredients": [],
+    "ingredients": [
+      "Mineral Oil",
+      "Triethanolamine",
+      "Cetearyl Alcohol",
+      "2-Hexanediol",
+      "Stearic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "dry",
@@ -10789,7 +10855,11 @@
       "source": "generated"
     },
     "purchaseCount": 318,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water,Mineral Oil,Butylene Glycol,Triethanolamine,Cetearyl Alcohol,1,2-Hexanediol,Stearic Acid,Palmitic Acid,Moringa Oleifera Seed Oil(3,920Ppm),[more]Carbomer,Glyceryl Stearate,PEG-100 Stearate,Illicium Verum (Anise) Fruit Extract,Glycerin,Octyldodecanol,Oleyl Alcohol,Scutellaria Baicalensis Root Extract,Butyrospermum Parkii (Shea) Butter,Hydrolyzed Soy Flour,Collagen Extract(980Ppm),Ceramide NP(40Ppm),Phytosphingosine,Hydrogenated Lecithin,Glycine Soja (Soybean) Sterols,Candida Bombicola?Glucose/​Methyl Rapeseedate Ferment,Tocopherol,Beta-Glucan,Centella Asiatica Extract,Fragrance[less]",
+    "nameEnglish": "HeimishMoringa Ceramide Collagen Enriched Moisturizer",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/heimish-moringa-ceramide-collagen-enriched-moisturizer"
   },
   {
     "id": "prod_59729959",
@@ -10867,7 +10937,11 @@
       "source": "generated"
     },
     "purchaseCount": 198,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Cetearyl Alcohol,Beeswax,Butyrospermum Parkii Butter,1,2-Hexanediol,Caprylic/​Capric Triglyceride,Cetyl Ethylhexanoate,Niacinamide,[more]Phenyl Trimethicone,Glyceryl Stearate SE,Cetearyl Glucoside,Sodium Polyacryloyldimethyl Taurate,Sorbitan Sesquioleate,Macadamia Ternifolia Seed Oil,Hydrogenated Polydecene,Xanthan Gum,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Trideceth-10,Adenosine,Disodium EDTA,Vegetable Oil,Glucose,Butylene Glycol,Simmondsia Chinensis Seed Oil,Argania Spinosa Kernel Oil,Aloe Barbadensis Leaf Extract,Prunus Amygdalus Dulcis Oil,Portulaca Oleracea Extract,Glycyrrhiza Glabra Root Extract,Camellia Sinensis Leaf Extract,Houttuynia Cordata Extract,Arnica Montana Flower Extract,Tocopherol,Pentylene Glycol,Caprylyl Glycol,Ethylhexylglycerin,Spirulina Maxima Extract,Fragrance,Benzyl Benzoate,Citral,Citronellol,Limonene,Geraniol,Hexyl Cinnamal,Linalool[less]",
+    "nameEnglish": "KundalShea Butter & Macadamia Pure Hand Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/kundal-shea-butter-macadamia-pure-hand-cream"
   },
   {
     "id": "prod_59751489",
@@ -10958,7 +11032,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Применяется для:\n1. Повышения иммунитета\n2. Профилактики онкологии\n3. При реабилитации после операций\n4. Профилактики простуды и широкого спектра забо",
-    "ingredients": [],
+    "ingredients": [
+      "Aqua (Water)",
+      "Synthetic Wax",
+      "Cocamidopropyl Betaine",
+      "Polyglyceryl-4 Caprate",
+      "Coco-Glucoside"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -10975,7 +11055,11 @@
       "source": "generated"
     },
     "purchaseCount": 57,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua (Water),Synthetic Wax,Cocamidopropyl Betaine,Glycerin,Polyglyceryl-4 Caprate,Coco-Glucoside,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Methyl Gluceth-20,Sodium Hyaluronate,[more]Citrus Junos Fruit Extract,Helianthus Annuus (Sunflower) Seed Oil,Hydroxyacetophenone,Sodium Hydroxide,Litchi Chinensis Seed Powder,Butylene Glycol,Ascorbyl Palmitate,Tocopherol,Sodium Benzoate,Potassium Sorbate,Parfum (Fragrance),Capsanthin/​Capsorubin[less]",
+    "nameEnglish": "LireneVitamin Shot Vitamin Face Peeling",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/lirene-vitamin-shot-vitamin-face-peeling"
   },
   {
     "id": "prod_59752019",
@@ -10994,7 +11078,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Витамин A, также известный как ретинол, является жирорастворимым витамином, который играет важную роль в поддержании здоровья организма. Данная биодоб",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -11011,7 +11101,11 @@
       "source": "generated"
     },
     "purchaseCount": 333,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_59753605",
@@ -11066,7 +11160,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Экстракт эхинацеи &ndash; натуральный японский БАД от компании японской DHC, которая была основана более 30 лет назад. Сочетание традиций и инновацион",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -11083,7 +11183,11 @@
       "source": "generated"
     },
     "purchaseCount": 67,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_59770177",
@@ -11138,7 +11242,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Пищевая добавка от известной японской компании DHC для поддержания здоровья желудочно-кишечного тракта. В основе данного продукта используется Bifidob",
-    "ingredients": [],
+    "ingredients": [
+      "Ethylhexyl Methoxycinnamate",
+      "Alcohol",
+      "Isononyl Isononanoate",
+      "Polymethyl Methacrylate",
+      "Pentylene Glycol"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -11155,7 +11265,11 @@
       "source": "generated"
     },
     "purchaseCount": 314,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water,Ethylhexyl Methoxycinnamate,Alcohol,Isononyl Isononanoate,Polymethyl Methacrylate,Pentylene Glycol,Zinc Oxide,Cyclopentasiloxane,Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine,[more]Diethylamino Hydroxybenzoyl Hexyl Benzoate,Vp/​Eicosene Copolymer,Methyl Methacrylate Crosspolymer,Ethylhexyl Triazone,Titanium Dioxide,Ammonium Acryloyldimethyltaurate/​Beheneth-25 Methacrylate Crosspolymer,Phenoxyethanol,Acrylates/​Dimethicone Copolymer,Isohexadecane,Sodium Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Triethylhexanoin,Ethylhexylglycerin,Polyhydroxystearic Acid,Isostearic Acid,Aluminum Stearate,Olea Europaea (Olive) Fruit Oil,Tetrasodium EDTA,Caprylic/​Capric Triglyceride,Alumina,Silica,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Sodium Hydroxide,T-Butyl Alcohol,Laminaria Ochroleuca Extract,Ubiquinone,Sodium Hyaluronate[less]",
+    "nameEnglish": "DHCPeanuts Suncut Q10 Ex Gel SPF 50+ Pa++++",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-peanuts-suncut-q10-ex-gel-spf-50-pa"
   },
   {
     "id": "prod_59794161",
@@ -11174,7 +11288,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Фолиевая кислота &mdash; водорастворимый витамин группы B (B9), необходимый для синтеза ДНК и РНК, образования эритроцитов и нормального клеточного де",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -11191,7 +11311,11 @@
       "source": "generated"
     },
     "purchaseCount": 347,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_59794179",
@@ -11498,7 +11622,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Комплекс витаминов и минералов Multivitamin, представленных японской компанией DHC, содержит в себе 13 видов полезных нашему организму веществ. Приним",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -11515,7 +11645,11 @@
       "source": "generated"
     },
     "purchaseCount": 468,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_59887319",
@@ -12012,7 +12146,13 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Эмульсия с легкой текстурой обеспечивает интенсивный уход за кожей: смягчает, питает и интенсивно увлажняет. Замедляет процессы увядания и корректируе",
-    "ingredients": [],
+    "ingredients": [
+      "Methylpropanediol",
+      "Cyclopentasiloxane",
+      "Cetearyl Olivate",
+      "Cyclohexasiloxane",
+      "Betaine"
+    ],
     "usage": "",
     "skinTypes": [
       "dry"
@@ -12032,7 +12172,11 @@
       "source": "generated"
     },
     "purchaseCount": 258,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water,Methylpropanediol,Glycerin,Cyclopentasiloxane,Cetearyl Olivate,Cyclohexasiloxane,Betaine,Cetyl Ethylhexanoate,Sorbitan Olivate,[more]Canola Oil,Caprylic/​Capric Triglyceride,Glyceryl Stearate,PEG-100 Stearate,Vitis Vinifera (Grape) Seed Oil,Prunus Armeniaca (Apricot) Kernel Oil,Hydroxyacetophenone,Trehalose,Macadamia Integrifolia Seed Oil,Arginine,Carbomer,Fragrance,Hydroxyethylcellulose,Ethylhexylglycerin,Adenosine,Disodium EDTA,Allantoin,Desamido Collagen,Juniperus Communis Fruit Extract,Magnolia Officinalis Bark Extract,Eucalyptus Globulus Leaf Extract,Fructan,Hydrolyzed Collagen,Butylene Glycol,Hydrogenated Polyisobutene,Argania Spinosa Kernel Oil,Propanediol,Glyceryl Polymethacrylate,Sodium Hyaluronate Crosspolymer,Sorbitan Laurate,Propylene Glycol,Hydrolyzed Glycosaminoglycans,1,2-Hexanediol,Nonoxynol-12,Sodium Hyaluronate,Phenoxyethanol,Chondrus Crispus Extract,Benzyl Glycol,Acetyl Dipeptide-1 Cetyl Ester(0.8Ppm),Astaxanthin,Ethyl Hexanediol,Hydrolyzed Elastin,Hydrolyzed Hyaluronic Acid,Palmitoyl Tripeptide-5(0.1Ppm),Caprylyl Glycol,Anemarrhena Asphodeloides Root Extract,Acetyl Hexapeptide-8(0.01Ppm),Copper Tripeptide-1(0.01Ppm),Hyaluronic Acid,Acetyl Octapeptide-3(0.005Ppm),Palmitoyl Tetrapeptide-7(0.005Ppm),Hexapeptide-9(0.005Ppm),Raspberry Ketone,Palmitoyl Oligopeptide(0.001Ppm),Palmitoyl Tripeptide-1(0.001Ppm),Palmitoyl Pentapeptide-4(0.001Ppm)[less]",
+    "nameEnglish": "MEDI-PEELPeptide 9 Aqua Essence Emulsion",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-peptide-9-aqua-essence-emulsion"
   },
   {
     "id": "prod_59954727",
@@ -12489,7 +12633,13 @@
     "country": "",
     "countryCode": "",
     "description": "Коэнзим Q10 от японского бренда DHC — это мощный антиоксидант, необходимый для поддержания энергии, защиты клеток от старения и укрепления сердечно-сосудистой системы. Препарат содержит 90 мг коэнзима Q10 в легкоусвояемой форме, способствуя выработке клеточной энергии, снижению утомляемости и улучшению общего тонуса организма. Особенно полезен при повышенных нагрузках, стрессах, а также в программах anti-age ухода. Поддерживает здоровье кожи, способствует её упругости и улучшает цвет лица. Обладает укрепляющим действием для сердца, сосудов и мозга.",
-    "ingredients": [],
+    "ingredients": [
+      "Water/​Aqua/​Eau",
+      "Caprylic/​Capric Triglyceride",
+      "Butyrospermum Parkii (Shea Butter)",
+      "Squalane",
+      "Lanolin"
+    ],
     "usage": "Принимайте по 2 капсулы в день, запивая водой. Рекомендуется использовать курсом не менее 1 месяца для достижения стойкого результата. Не превышайте рекомендуемую дозировку.",
     "skinTypes": [
       "aging"
@@ -12506,7 +12656,11 @@
       "source": "generated"
     },
     "purchaseCount": 450,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water/​Aqua/​Eau,Caprylic/​Capric Triglyceride,Butylene Glycol,Butyrospermum Parkii (Shea Butter),Squalane,Lanolin,Sorbitol,Stearic Acid,Olea Europaea (Olive) Fruit Oil,[more]Pentylene Glycol,Glyceryl Stearate SE,Batyl Alcohol,Glyceryl Stearate,Behenyl Alcohol,Phenoxyethanol,Cetearyl Alcohol,Carbomer,Ubiquinone,Potassium Hydroxide,Tocopherol,Ascorbyl Tetraisopalmitate,Cetearyl Glucoside,Serine,Allantoin,Sodium Hyaluronate,Carboxymethyl Chitosan Succinamide,Retinyl Palmitate,Pyridoxine Hcl,Arachis Hypogaea (Peanut) Oil,Soluble Collagen,Placental Protein[less]",
+    "nameEnglish": "DHCCoq10 Eye Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-coq10-eye-cream-coenzyme-q10"
   },
   {
     "id": "prod_59984017",
@@ -12525,7 +12679,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "&nbsp;Биодобавка DHC Vitamin C Powder восполнит недостаток в организме витамина C, укрепит тем самым иммунитет, придаст сил и бодрости. Поскольку вита",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -12542,7 +12702,11 @@
       "source": "generated"
     },
     "purchaseCount": 199,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_59984018",
@@ -12561,7 +12725,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "Витамин К - защищает организм от развития остеопороза. Также помогает усваиваться кальцию. Если его недостаточно, то кальций не задерживается, и есте",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -12578,7 +12748,11 @@
       "source": "generated"
     },
     "purchaseCount": 290,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_59984036",
@@ -12891,7 +13065,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "- Крем для рук нежно ухаживает за кожей рук и ногтями, наполняя их жизненной силой.\n\n- Экстракт эдельвейса принимает активное участие в восстановитель",
-    "ingredients": [],
+    "ingredients": [
+      "Water (Aqua)",
+      "Mineral Oil",
+      "Niacinamide",
+      "Cetyl Alcohol",
+      "Propylene Glycol"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -12908,7 +13088,11 @@
       "source": "generated"
     },
     "purchaseCount": 186,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water (Aqua),Glycerin,Mineral Oil,Niacinamide,Cetyl Alcohol,Propylene Glycol,Cyclopentasiloxane,Polysorbate 60,Dimethicone,[more]Phenoxyethanol,Glyceryl Stearate,PEG-100 Stearate,Carbomer,Cyclohexasiloxane,Stearyl Alcohol,Triethanolamine,Melaleuca Alternifolia (Tea Tree) Extract (2,000Ppm),Centella Asiatica Extract (2,000Ppm),Sorbitan Sesquioleate,Butylene Glycol,Fragrance (Parfum),1,2-Hexanediol,Myristyl Alcohol,Adenosine,Disodium EDTA,Lauryl Alcohol,Sodium Hyaluronate,Dipropylene Glycol,Borago Officinalis Extract,Centaurea Cyanus Flower Extract,Chamomilla Recutita (Matricaria) Flower Extract,Hyacinthus Orientalis (Hyacinth) Extract,Lavandula Angustifolia (Lavender) Flower Extract,Salvia Sclarea (Clary) Extract,Ethylhexylglycerin[less]",
+    "nameEnglish": "JIGOTTCicateatree",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/jigott-cicateatree"
   },
   {
     "id": "prod_60305868",
@@ -13143,7 +13327,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "Объем: 2 мл\n\n\nЧерный ароматизированный ингалятор-карандаш Peppermint Field Black 2 в 1 от тайского производителя Bertram содержит двойное масло эвкали",
-    "ingredients": [],
+    "ingredients": [
+      "Ricinus Communis (Castor Seed Oil)",
+      "Glycine Soja (Soybean) Oil",
+      "Caprylic/​Capric Glycerides",
+      "Mentha Piperita",
+      "Seed Oil (Carrot)"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -13160,7 +13350,11 @@
       "source": "generated"
     },
     "purchaseCount": 69,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Ricinus Communis (Castor Seed Oil),Glycine Soja (Soybean) Oil,Caprylic/​Capric Glycerides,Mentha Piperita,Seed Oil (Carrot),Helianthus Annuus (Sunflower) Seed Oil,Rosmarinus Officinalis (Rosemary) Leaf Extract,Geraniol,Limonene,[more]Linalool[less]",
+    "nameEnglish": "Jamaican Mango & LimeBlack Castor Oil + Peppermint Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/jamaican-mango-lime-black-castor-oil-peppermint-oil"
   },
   {
     "id": "prod_60317834",
@@ -13179,7 +13373,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "Объем: 1 шт.\n\n\nGuanbo Premium &ndash; это инновационная зубная щетка с двойной тонкой щетиной, разработанная для тщательной и бережной чистки полости",
-    "ingredients": [],
+    "ingredients": [
+      "Purified (Deionized) Water",
+      "Aloe Barbadensis (Aloe Vera) Leaf Gel",
+      "Vegetable Glycerin",
+      "Pseudoalteromonas Ferment Extract",
+      "Salicylic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -13196,7 +13396,11 @@
       "source": "generated"
     },
     "purchaseCount": 121,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Purified (Deionized) Water,Aloe Barbadensis (Aloe Vera) Leaf Gel,Vegetable Glycerin,Water,Pseudoalteromonas Ferment Extract,Salicylic Acid,Sodium Hydroxide,Coenochloris Signiensis (Snow Algae) Extract,Maltodextrin,[more]Lecithin,Water,Sodium Hyaluronate,Water,Palmitoyl Hexapeptide-52,Passiflora Incarnata (Passionflower) Extract,Camellia Sinensis (White Tea) Extract,Water,Hexapeptide-11,Phenoxyethanol,Glycerin,Water,Camellia Sinensis (Green Tea) Leaf Extract,Glycerin,Water,Camellia Sinensis (White Tea) Leaf Extract,Diazolidinyl Urea,Iodopropynyl Butylcarbamate,Phenoxyethanol,Xanthan Gum[less]",
+    "nameEnglish": "Swanson PremiumSnow Algae Serum",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/swanson-premium-snow-algae-serum"
   },
   {
     "id": "prod_60320792",
@@ -13550,7 +13754,11 @@
       "source": "generated"
     },
     "purchaseCount": 422,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_60371123",
@@ -13590,7 +13798,11 @@
       "source": "generated"
     },
     "purchaseCount": 36,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_60371145",
@@ -13709,7 +13921,11 @@
       "source": "generated"
     },
     "purchaseCount": 329,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_60371354",
@@ -13764,7 +13980,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "БиодобавкаDHC Macaсоздана на основе экстракта перуанской маки — мощного природного адаптогена, известного своими свойствами повышения энергии, выносливости и либидо. Мака содержит аминокислоты, витамины и минералы, которые поддерживают гормональный баланс, улучшают репродуктивную функцию и способствуют общему укреплению организма. Комплекс дополнен женьшенем и цинком для усиления тонизирующего эффекта. Подходит для мужчин и женщин, ведущих активный образ жизни.",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "Принимайте по 3 капсулы в день во время еды, запивая водой. Курс – 30 дней.",
     "skinTypes": [
       "combination"
@@ -13783,7 +14005,11 @@
       "source": "generated"
     },
     "purchaseCount": 458,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_60375796",
@@ -14172,7 +14398,11 @@
       "source": "generated"
     },
     "purchaseCount": 271,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Tuber Melanosporum Extract,Aureobasidium Pullulans Ferment Extract,Glycerin,Hydrogenated Polydecene,1,2-Hexanediol,Butylene Glycol,Cetearyl Alcohol,Bis-Hydroxyethoxypropyl Dimethicone,Glyceryl Stearate Acid,[more]Methicone,Caprylic/​Capric Triglyceride,Bakuchiol (1.0%),Polyglyceryl-3 Methylglucose Distearate,Butyrospermum Parkii (Shea) Butter,Glyceryl Caprylate,(-)-Alpha-Bisabolol,Sodium Polyacrylate,Water,Ethylhexyl Stearate,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Polysorbate 20,Retinol (0.10142%),Ammonium Acryloyldimethyltaurate/​VP Copolymer,3-0-Ethyl Ascorbic Acid,Hydrogenated Polyisobutene,Galactomyces Ferment Filtrate,Perfume,Carbomer,Arginine,Sodium Hyaluronate,Propanediol,Adenosine,Dipotassium Glycyrrhizate,Disodium EDTA,Trideceth-6,BHI,Saccharomyces/​Viscum Album (Mistle Toe) Ferment Extract,Centella Asiatica Extract,Carthamus Tinctorius (Saf Flower) Bud Extract,Lactobacillus/​Soybean Ferment Extract,BHA,Scutellaria Baicalensis Root Extract,Saccharomyces/​Imperata Cylindrica Root Ferment Extract,Polygonum Cuspidatum Root Extract,Bacillus/​Houttuynia Cordata Extract Ferment Filtrate,Camellia Sinensis Leaf Extract,Rosmarinus Officinalis (Rosemary) Leaf Extract,Chamomilla Recutita (Matricaria) Flower Extract,Caprylyl Glycol,Anemarrhena Asphodeloides Root Extract,Acetyl Octapeptide-3,Tocopherol,Linalool[less]",
+    "nameEnglish": "BuenoBakuchiol Retinol Eye Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/bueno-bakuchiol-retinol-eye-cream"
   },
   {
     "id": "prod_60489975",
@@ -14261,7 +14491,11 @@
       "source": "generated"
     },
     "purchaseCount": 302,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Purified Water,Glycerin,Caprylic/​Capric Triglyceride,Dicaprylyl Carbonate,Polyglyceryl-3 Distearate,Propanediol,Niacinamide,1,2-Hexanediol,Cetearyl Alcohol,[more]Pentaerythrityl Tetraethylhexanoate,Malva Sylvestris (Mallow) Flower Extract,Glyceryl Stearate,Cetyl Alcohol,Stearyl Alcohol,Sorbitan Stearate,Panthenol,Cetearyl Glucoside,Hydrogenated Lecithin,Sodium Polyacryloyldimethyl Taurate,Carbomer,Tromethamine,Ethylhexylglycerin,Xanthan Gum,Anthemis Nobilis Flower Oil,Hydrogenated Polydecene,Allantoin,Thuja Occidentalis Leaf Oil,Adenosine,Lactococcus Ferment Lysate,Ascorbic Acid,Citrus Aurantium Amara (Bitter Orange) Flower Extract,Trideceth-10,Glucose,Collagen Extract,Caprylyl Glycol,Oenothera Biennis (Evening Primrose) Oil,Ceramide NP,Linum Usitatissimum (Linseed) Seed Oil,Salvia Hispanica Seed Oil,Squalane,Cyanocobalamin,Acetyl Hexapeptide-8,Riboflavin,Thiamine Hcl,Biotin,Helianthus Annuus (Sunflower) Seed Oil,Olea Europaea (Olive) Fruit Oil,Maltodextrin,Persea Gratissima (Avocado) Fruit Extract,Xylitylglucoside,Cetyl Ethylhexanoate,Anhydroxylitol,Sodium Starch Octenylsuccinate,Calcium Pantothenate,Xylitol,Lactobacillus Ferment Lysate,Sodium Ascorbyl Phosphate,Butylene Glycol,Polyglyceryl-10 Diisostearate,Lupinus Albus Seed Extract,Tocopheryl Acetate,Pyridoxine Hcl,Hydroxydecyl Ubiquinone,Lecithin,Sodium Hyaluronate,Polysorbate 20,Menadione,Palmitoyl Tripeptide-5,Silica,Tocopherol,Pentylene Glycol,Hydroxypropyltrimonium Hyaluronate,Disodium EDTA,Copper Tripeptide-1,Hydrolyzed Hyaluronic Acid,Sodium Acetylated Hyaluronate,Sodium Hyaluronate Crosspolymer,Tripeptide-1,Palmitoyl Tripeptide-1,Tripeptide-2,Hexapeptide-11,Palmitoyl Tetrapeptide-7,Palmitoyl Pentapeptide-4,Hexapeptide-9,Nonapeptide-1[less]",
+    "nameEnglish": "NeogenDermalogy V.biome Advanced Eye Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/neogen-dermalogy-v-biome-advanced-eye-cream"
   },
   {
     "id": "prod_60523942",
@@ -14431,7 +14665,11 @@
       "source": "generated"
     },
     "purchaseCount": 292,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water(Aqua),Glycerin,Dipropylene Glycol,Chondrus Crispus Powder,Benzyl Glycol,Ceratonia Siliqua (Carob) Gum,PEG-60 Hydrogenated Castor Oil,Xanthan Gum,Allantoin,[more]Ethylhexylglycerin,Niacinamide,Sea Water,Butylene Glycol,Tocopheryl Acetate,Dipotassium Glycyrrhizate,Adenosine,Raspberry Ketone,Ultramarines(Ci 77007),Hydrogenated Polyisobutene,Disodium EDTA,Synthetic Fluorphlogopite,Calcium Lactate,Propanediol,Anemarrhena Asphodeloides Root Extract,1,2-Hexanediol,Fragrance(Parfum),Trichosanthes Kirilowii Fruit Extract,Allium Tuberosum Seed Extract,Prunus Persica (Peach) Kernel Extract,Thuja Orientalis Seed Extract,Ziziphus Jujuba Seed Extract,Castanea Sativa (Chestnut) Seed Extract,Coix Lacryma-Jobi Ma-Yuen Seed Extract,Sesamum Indicum (Sesame) Seed Extract,Kyounin Yu,Torilis Japonica Extract,Titanium Dioxide (Ci 77891),Sodium Hyaluronate,Undaria Pinnatifida Extract,Codium Tomentosum Extract,Enteromorpha Compressa Extract,Laminaria Japonica Extract,Salicornia Herbacea Extract,Phenoxyethanol,Morus Alba Bark Extract,Hydrolyzed Collagen(4.63Ppm),Hydroxypropyltrimonium Hyaluronate,Isocetyl Alcohol,Sodium Acetylated Hyaluronate,Hydrolyzed Hyaluronic Acid,Ceramide NP,Hyaluronic Acid,Sodium Hyaluronate Crosspolymer,Hydrolyzed Sodium Hyaluronate,Potassium Hyaluronate[less]",
+    "nameEnglish": "TenzeroMoisture Collagen Hydrogel Eye Patch",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/tenzero-moisture-collagen-hydrogel-eye-patch"
   },
   {
     "id": "prod_60540353",
@@ -14518,7 +14756,11 @@
       "source": "generated"
     },
     "purchaseCount": 130,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water(Aqua),Glycerin,Dipropylene Glycol,Chondrus Crispus Powder,Benzyl Glycol,Ceratonia Siliqua (Carob) Gum,PEG-60 Hydrogenated Castor Oil,Xanthan Gum,Allantoin,[more]Ethylhexylglycerin,Butylene Glycol,Niacinamide,Panthenol,Tocopheryl Acetate,Dipotassium Glycyrrhizate,Raspberry Ketone,Adenosine,Synthetic Fluorphlogopite,Disodium EDTA,Chromium Oxide Greens(Ci 77288),Calcium Lactate,1,2-Hexanediol,Titanium Dioxide (Ci 77891),Centella Asiatica Extract(42.68Ppm),Lavandula Angustifolia (Lavender) Oil,Sodium Hyaluronate,Madecassoside (11Ppm),Aloe Barbadensis Leaf Extract,Laminaria Japonica Extract,Dioscorea Japonica Root Extract,Ulmus Davidiana Root Extract,Viola Mandshurica Flower Extract,Camellia Sinensis Leaf Extract,Asiaticoside(1.8Ppm),Linalool[less]",
+    "nameEnglish": "TenzeroRelief Cica Hydrogel Eye Patch",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/tenzero-relief-cica-hydrogel-eye-patch"
   },
   {
     "id": "prod_60540514",
@@ -14558,7 +14800,11 @@
       "source": "generated"
     },
     "purchaseCount": 303,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Panax Ginseng Root Water,Glycerin,Water,Dipropylene Glycol,Panax Ginseng Root Extract,Squalane,Caprylic/​Capric Triglyceride,Caprylyl Trimethicone,Pentaerythrityl Tetraethylhexanoate,[more]Theobroma Grandiflorum Seed Butter,Butylene Glycol,1,2-Hexanediol,Sucrose Polystearate,Glyceryl Stearate SE,Cyclopentasiloxane,Ceramide NP,Panax Ginseng Root Oil,Ginsenosides,Tocopherol,Biosaccharide Gum-1,Lecithin,Olea Europaea (Olive) Fruit Oil,Hydrogenated Olive Oil,Lycium Chinense Fruit Extract,Astragalus Membranaceus Root Extract,Poncirus Trifoliata Fruit Extract,Ginkgo Biloba Leaf Extract,Leonurus Sibiricus Flower/​Leaf/​Stem Extract,Melia Azadirachta Leaf Extract,Lactobacillus/​Soybean Ferment Extract,Imperata Cylindrica Root Extract,Eclipta Prostrata Extract,Moringa Oleifera Seed Oil,Panthenol,Propanediol,Adenosine,Cetearyl Alcohol,C14-22 Alcohols,Stearyl Alcohol,Glyceryl Stearate,Laureth-4,PEG-100 Stearate,Cyclohexasiloxane,Dimethicone,Methyl Trimethicone,Dimethicone/​Vinyl Dimethicone Crosspolymer,Dipentaerythrityl Hexahydroxystearate/​Hexastearate/​Hexarosinate,Phytosteryl/​Isostearyl/​Cetyl/​Stearyl/​Behenyl Dimer Dilinoleate,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Cetearyl Olivate,Hydrogenated Polyisobutene,C12-20 Alkyl Glucoside,Sorbitan Olivate,Polymethylsilsesquioxane,Olea Europaea (Olive) Oil Unsaponifiables,Glyceryl Acrylate/​Acrylic Acid Copolymer,Glyceryl Caprylate,Disodium EDTA,Caprylyl Glycol,Dipotassium Glycyrrhizate,Ethyl Hexanediol,Ethylhexylglycerin,Tromethamine,Alcohol,Fragrance[less]",
+    "nameEnglish": "DonginbiRed Ginseng Power Repair Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/donginbi-red-ginseng-power-repair-cream"
   },
   {
     "id": "prod_60553427",
@@ -14696,7 +14942,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "&nbsp;Описание товара:\nFANCL от давления &mdash; это натуральная добавка, специально разработанная для поддержки нормального артериального давления и",
-    "ingredients": [],
+    "ingredients": [
+      "Myristic Acid",
+      "Stearic Acid",
+      "Potassium Hydroxide",
+      "Hydrogenated Starch Hydrolysate",
+      "Palmitic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -14713,7 +14965,11 @@
       "source": "generated"
     },
     "purchaseCount": 128,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
+    "nameEnglish": "FanclAcne Care Washing Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
   },
   {
     "id": "prod_60557679",
@@ -15524,7 +15780,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "FANCL Витамины и минералы\n\nОбъём: 90 таблеток (на 30 дней)\n\nFANCL Витамины и минералы &mdash; это базовый ежедневный комплекс от известного японского",
-    "ingredients": [],
+    "ingredients": [
+      "Myristic Acid",
+      "Stearic Acid",
+      "Potassium Hydroxide",
+      "Hydrogenated Starch Hydrolysate",
+      "Palmitic Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -15541,7 +15803,11 @@
       "source": "generated"
     },
     "purchaseCount": 242,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
+    "nameEnglish": "FanclAcne Care Washing Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
   },
   {
     "id": "prod_61039793",
@@ -15632,7 +15898,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "DHC Лецитин - натуральное органическое вещество, является источником фосфолипидов и имеет широкий спектр действия.\n- Оказывает благотворное влияние на",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -15649,7 +15921,11 @@
       "source": "generated"
     },
     "purchaseCount": 274,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_61083325",
@@ -15992,7 +16268,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "Патчи увлажняют, устраняют отечность и уменьшают темные круги, способствуют разглаживанию морщин.\n\nОсновные компоненты:\nЭкстракт коралла мягко отшелуш",
-    "ingredients": [],
+    "ingredients": [
+      "Water/​Aqua/​Eau",
+      "Chondrus Crispus Powder",
+      "Ceratonia Siliqua Gum",
+      "Benzyl Glycol",
+      "Butoxydiglycol"
+    ],
     "usage": "",
     "skinTypes": [
       "dry",
@@ -16013,7 +16295,11 @@
       "source": "generated"
     },
     "purchaseCount": 34,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water/​Aqua/​Eau,Glycerin,Dipropylene Glycol,Chondrus Crispus Powder,Ceratonia Siliqua Gum,Benzyl Glycol,Butoxydiglycol,Xanthan Gum,PEG-60 Hydrogenated Castor Oil,[more]Allantoin,Niacinamide,Butylene Glycol,Raspberry Ketone,Iron Oxide (Ci77499),Tocopheryl Acetate,Dipotassium Glycyrrhizate,Ricinus Communis (Castor) Seed Oil,Fragrance/​Parfum,Adenosine,Disodium EDTA,Holothurin,Calcium Lactate,Synthetic Fluorphlogopite,Titanium Dioxide (Ci77891),Iron Oxide (Ci77491),Ethyl Hexanediol,Sodium Hyaluronate,Phenoxyethanol,1,2-Hexanediol,Hydrolyzed Collagen,Tin Oxide[less]",
+    "nameEnglish": "BEAUUGREENCoral & Aqua Hydrogel Eye Patch (hydrating Solution)",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/beauugreen-coral-aqua-hydrogel-eye-patch-hydrating-solution"
   },
   {
     "id": "prod_61185453",
@@ -16110,7 +16396,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "- &nbsp;Испытайте ночное преображение с Collagen Night Wrapping Mask от Medicube &mdash; маской, созданной, чтобы поддерживать упругость и здоровье ко",
-    "ingredients": [],
+    "ingredients": [
+      "Polyvinyl Alcohol",
+      "Agave Americana Stem Extract",
+      "Niacinamide",
+      "Sodium Hyaluronate",
+      "2-Hexanediol"
+    ],
     "usage": "",
     "skinTypes": [
       "aging"
@@ -16130,7 +16422,11 @@
       "source": "generated"
     },
     "purchaseCount": 115,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Polyvinyl Alcohol,Glycerin,Agave Americana Stem Extract,Niacinamide,Sodium Hyaluronate,1,2-Hexanediol,Caprylyl Glycol,Polyglyceryl-10 Laurate,[more]Chlorella Vulgaris Extract,Glucose,Butylene Glycol,Ethylhexylglycerin,Fructose,Fructooligosaccharides,Adenosine,Xanthan Gum,Cynanchum Atratum Extract,Caprylic/​Capric Triglyceride,Hydrogenated Lecithin,Althaea Rosea Flower Extract,Ceramide NP,Tocopherol,Pancratium Maritimum Extract,Collagen Extract,Sodium Stearoyl Glutamate[less]",
+    "nameEnglish": "MedicubeCollagen Night Wrapping Mask",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/medicube-collagen-night-wrapping-mask"
   },
   {
     "id": "prod_61233932",
@@ -16493,7 +16789,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "Укрепляющий капсульный крем с ПДРН и пептидами medicube PDRN Pink Collagen Capsule Cream обеспечивает лифтинг-эффект, уплотняет ткани, поддерживает уп",
-    "ingredients": [],
+    "ingredients": [
+      "Niacinamide",
+      "Methylpropanediol",
+      "2-Hexanediol",
+      "Caprylic/​Capric Triglyceride",
+      "Glycereth-26"
+    ],
     "usage": "",
     "skinTypes": [
       "aging"
@@ -16510,7 +16812,11 @@
       "source": "generated"
     },
     "purchaseCount": 137,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water,Glycerin,Niacinamide,Methylpropanediol,Propanediol,1,2-Hexanediol,Dipropylene Glycol,Caprylic/​Capric Triglyceride,Glycereth-26,[more]Arginine,Butylene Glycol,Ethylhexyl Palmitate,Cetearyl Alcohol,Carbomer,Cetearyl Olivate,Sorbitan Olivate,Ammonium Acryloyldimethyl Taurate/​VP Copolymer,Simethicone,Eclipta Prostrata Extract,Ethylhexylglycerin,Adenosine,Polyacrylate-13,Sodium Dna,Disodium EDTA,Melia Azadirachta Leaf Extract,Polyisobutene,Hydrolyzed Sclerotium Gum,Glyceryl Stearate,Moringa Oleifera Seed Oil,Polysorbate 20,Sorbitan Isostearate,Sodium Hyaluronate,Glutathione,Octyldodecanol,Hydroxypropyltrimonium Hyaluronate,Salmon Egg Extract,Hydrogenated Lecithin,Ceramide NP,Cyanocobalamin,Thioctic Acid,Hydrolyzed Hyaluronic Acid,Hydrolyzed Collagen Extract,Sodium Acetylated Hyaluronate,Acetyl Hexapeptide-8,Copper Tripeptide-1,Hyaluronic Acid,Caprylyl Glycol,Palmitoyl Pentapeptide-4,Hydrolyzed Sodium Hyaluronate,Palmitoyl Hexapeptide-12,Sodium Hyaluronate Crosspolymer,Potassium Hyaluronate[less]",
+    "nameEnglish": "MedicubePdrn Pink Collagen Capsule Cream",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/medicube-pdrn-pink-collagen-capsule-cream"
   },
   {
     "id": "prod_61244063",
@@ -16718,7 +17024,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "Коллаген &ndash; подтягивает кожу, устраняет дряблость, повышает упругость и предупреждает раннее увядание. Антивозрастные гидрогелевые патчи обеспечи",
-    "ingredients": [],
+    "ingredients": [
+      "Niacinamide",
+      "2-Hexanediol",
+      "Punica Granatum Fruit Extract",
+      "Ficus Carica (Fig) Fruit Extract",
+      "Morus Alba Fruit Extract"
+    ],
     "usage": "",
     "skinTypes": [
       "aging"
@@ -16738,7 +17050,11 @@
       "source": "generated"
     },
     "purchaseCount": 439,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Water,Dipropylene Glycol,Glycerin,Niacinamide,1,2-Hexanediol,Punica Granatum Fruit Extract,Ficus Carica (Fig) Fruit Extract,Morus Alba Fruit Extract,Ginkgo Biloba Nut Extract,[more]Sodium Hyaluronate Crosspolymer,Hydrolyzed Glycosaminoglycans,Hydrolyzed Hyaluronic Acid,Hyaluronic Acid,Sodium Hyaluronate,Betaine,PPG-2-Deceth-12,Polyglutamic Acid,Citrus Reticulata (Tangerine) Fruit Extract,Sasa Quelpaertensis Extract,Paeonia Suffruticosa Root Extract,Portulaca Oleracea Extract,Adenosine,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Arginine,Panthenol,Ascorbic Acid (100Ppm),Allantoin,Disodium EDTA,Ethylhexylglycerin,Ci 15985,Fragrance[less]",
+    "nameEnglish": "AronyxMedi Flower Aronyx Vitamin Ampoule",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/aronyx-medi-flower-aronyx-vitamin-ampoule"
   },
   {
     "id": "prod_61263995",
@@ -16868,7 +17184,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "Чай Эрл Грей черный с персиком от AVANCE &mdash; это изысканный напиток, который дарит настоящее удовольствие при каждом глотке. Уникальное сочетание",
-    "ingredients": [],
+    "ingredients": [
+      "Xanthan Gum",
+      "Astragalus Membranaceus Root Extract",
+      "Atractylodes Macrocephala Root Extract",
+      "Bupleurum Falcatum Root Extract",
+      "Polysorbate 20"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -16885,7 +17207,11 @@
       "source": "generated"
     },
     "purchaseCount": 226,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Aqua,Glycerin,Butylene Glycol,Xanthan Gum,Astragalus Membranaceus Root Extract,Atractylodes Macrocephala Root Extract,Bupleurum Falcatum Root Extract,Polysorbate 20,Palmitoyl Tripeptide-37,[more]Pseudoalteromonas Ferment Extract,Hydrolyzed Wheat Protein,Hydroxypropyl Cyclodextrin,Palmitoyl Tripeptide-38,Sodium Lactate,Carbomer,Tripeptide-1,Caprylyl Glycol,Phenoxyethanol,EDTA,Triethanolamine[less]",
+    "nameEnglish": "EnvironYouth + Tri-Peptide Complex + Avance Elixir",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/environ-advance-elixir"
   },
   {
     "id": "prod_61353670",
@@ -16976,7 +17302,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "DHC Астаксантин &mdash; мощный антиоксидант для молодости и энергии из Японии\n\nКраткий обзор:\nDHC Астаксантин &mdash; это высокоэффективная японская",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -16993,7 +17325,11 @@
       "source": "generated"
     },
     "purchaseCount": 409,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_61353678",
@@ -17048,7 +17384,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "DHC Экстракт Кампо Шофусан &mdash; японское решение для здоровья кожи изнутри\n\nКраткий обзор:\nDHC Экстракт Кампо Шофусан &mdash; это специализирован",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -17065,7 +17407,11 @@
       "source": "generated"
     },
     "purchaseCount": 372,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_61353696",
@@ -17336,7 +17682,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "Детская зубная паста \"LION\" укрепляет зубную эмаль, предотвращает возникновение и развитие кариеса у детей, а также прекрасно освежает полость рта.\n-Ф",
-    "ingredients": [],
+    "ingredients": [
+      "Myristic Acid",
+      "Tea-Cocoyl Alaninate",
+      "Potassium Hydroxide",
+      "Palmitic Acid",
+      "Lauric Acid"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -17353,7 +17705,11 @@
       "source": "generated"
     },
     "purchaseCount": 56,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Myristic Acid,Glycerin,Water,Dipropylene Glycol,Tea-Cocoyl Alaninate,Potassium Hydroxide,Palmitic Acid,Lauric Acid,Diethanolamine,[more]Sorbitol,PEG-32,Glycol Distearate,Dipotassium Glycyrrhizinate,O-Cymen-5-Ol (Ipmp),Tocopherol,Magnesium Ascorbyl Phosphate,Soy Extract,Butylene Glycol,Fragrance,Methylparaben,Propylparaben,Disodium EDTA[less]",
+    "nameEnglish": "LIONPair Acne Creamy Foam",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/lion-pair-acne-creamy-foam"
   },
   {
     "id": "prod_61398699",
@@ -18142,7 +18498,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "- Витамин Е является одним из важнейших антиоксидантов, необходимых для поддержания здоровья всех тканей организма. Он играет ключевую роль в защите к",
-    "ingredients": [],
+    "ingredients": [
+      "Triethylhexanoin",
+      "PEG-20 Glyceryl Triisostearate",
+      "Octyldodecanol",
+      "Dicaprylyl Carbonate",
+      "PEG-7 Caprylic/​Capric Glycerides"
+    ],
     "usage": "",
     "skinTypes": [
       "normal"
@@ -18159,7 +18521,11 @@
       "source": "generated"
     },
     "purchaseCount": 35,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
+    "nameEnglish": "DHCWater-friendly Cleansing Oil",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
   },
   {
     "id": "prod_61593631",
@@ -18911,7 +19277,13 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "С помощью этого карандаша можно легко предотвратить возникновение сухости кожи всего лишь помазав им, например, под носом ребёнка; также, этот каранда",
-    "ingredients": [],
+    "ingredients": [
+      "Niacinamide",
+      "Ceramide",
+      "Panthenol",
+      "Jojoba",
+      "Chamomile Extract"
+    ],
     "usage": "",
     "skinTypes": [
       "dry"
@@ -18930,7 +19302,11 @@
       "source": "generated"
     },
     "purchaseCount": 149,
-    "isActive": true
+    "isActive": true,
+    "inciList": "Niacinamide,Ceramide,Panthenol,Jojoba,Chamomile Extract,Hydroxyacetophenone[less]",
+    "nameEnglish": "Pigeon TeensPigeon Teen Bright Herows Serum",
+    "inciSource": "incidecoder",
+    "inciSourceUrl": "https://incidecoder.com/products/pigeon-teens-pigeon-teen-bright-herows-serum"
   },
   {
     "id": "prod_61838598",
