@@ -1,5 +1,8 @@
 __pycache__/
 data/html_cache/
+data/inci_cache/
+data/general_cache/
+data/enriched/
 .env
 .env.local
 node_modules/
