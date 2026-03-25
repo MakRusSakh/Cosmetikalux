@@ -126,7 +126,7 @@ export default function ProductSection({
             {products.map((product) => (
               <div
                 key={product.id}
-                className="min-w-[160px] md:min-w-[220px] snap-start flex-shrink-0"
+                className="w-[200px] md:w-[260px] snap-start flex-shrink-0"
                 onClick={handleCardClick(product)}
               >
                 <ProductCard product={product} />
