@@ -44,7 +44,7 @@ export default function ProductGallery({ images, alt }: ProductGalleryProps) {
 
   if (!images || images.length === 0) {
     return (
-      <div className="aspect-[4/5] flex items-center justify-center rounded-[var(--radius-md)] bg-bg-secondary text-text-tertiary">
+      <div className="aspect-square flex items-center justify-center rounded-[var(--radius-md)] bg-bg-secondary text-text-tertiary">
         Нет фото
       </div>
     )
@@ -54,7 +54,7 @@ export default function ProductGallery({ images, alt }: ProductGalleryProps) {
     <div>
       {/* Main image */}
       <div
-        className="aspect-[4/5] relative overflow-hidden rounded-[var(--radius-md)] bg-bg-secondary cursor-zoom-in"
+        className="aspect-square relative overflow-hidden rounded-[var(--radius-md)] bg-bg-secondary cursor-zoom-in"
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
         onTouchStart={handleTouchStart}
