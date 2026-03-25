@@ -27,7 +27,7 @@ export default async function CategoryPage({ params }: PageProps) {
   const category = getCategories().find((c) => c.slug === categorySlug);
   if (!category) notFound();
 
-  const products = getCategoryProducts(categorySlug);
+  const { products } = getProducts({ category: categorySlug });
 
   return (
     <CategoryClient
