@@ -6,3 +6,4 @@ data/enriched/
 .env
 .env.local
 node_modules/
+tsconfig.tsbuildinfo
