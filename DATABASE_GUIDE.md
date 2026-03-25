@@ -9,9 +9,7 @@
 | Кэш          | Redis 7          | Кэш остатков 1С, сессии, rate limiting  |
 | ID           | CUID             | `@id @default(cuid())` во всех моделях  |
 
-Схема описана в `prisma/schema.prisma`. Все модели создаются в Фазе 1 ---
-включая таблицы ИИ-консультанта (ChatSession, ChatMessage, SkinProfile),
-которые наполняются данными только в Фазе 8.
+Схема: `prisma/schema.prisma`. Все модели создаются в Фазе 1, включая ИИ-таблицы (данные --- с Фазы 8).
 
 ---
 
@@ -76,16 +74,11 @@ Enums: `UserRole` (CUSTOMER, ADMIN, MANAGER), `SkinType` (DRY, OILY, COMBINATION
 | **Promotion** | Промокод (процент, фиксированная сумма или бесплатная доставка)|
 
 Enums: `OrderStatus` (PENDING -> PAID -> PROCESSING -> SHIPPED -> DELIVERED | CANCELLED | RETURNED),
-`PaymentMethod` (CARD, SBP, YOOMONEY, INSTALLMENT), `PromotionType` (PERCENTAGE, FIXED, FREE_DELIVERY).
-
-### Оплата и доставка
-
-Оплата и доставка --- поля внутри модели **Order** (не отдельные таблицы):
-- `paymentStatus` (PaymentStatus enum), `yukassaPaymentId` --- интеграция с ЮKassa
-- `deliveryMethod` (DeliveryMethod enum), `cdekUuid`, `cdekPvzCode` --- интеграция с СДЭК
-
-Enums: `PaymentStatus` (PENDING, SUCCEEDED, CANCELLED, REFUNDED),
+`PaymentMethod` (CARD, SBP, YOOMONEY, INSTALLMENT), `PromotionType` (PERCENTAGE, FIXED, FREE_DELIVERY),
+`PaymentStatus` (PENDING, SUCCEEDED, CANCELLED, REFUNDED),
 `DeliveryMethod` (CDEK_PVZ, CDEK_COURIER, POST_RUSSIA, LOCAL_COURIER, PICKUP).
+
+Оплата и доставка --- поля внутри Order (не отдельные таблицы): `paymentStatus`, `yukassaPaymentId` (ЮKassa), `deliveryMethod`, `cdekUuid`, `cdekPvzCode` (СДЭК).
 
 ### Бонусы и взаимодействие
 
@@ -123,41 +116,17 @@ Enum: `NotificationType` (ORDER_STATUS, PRICE_DROP, BACK_IN_STOCK, BONUS_EARNED,
 
 ## 4. Ключевые индексы
 
-```prisma
-// Unique-индексы
-User.phone              @unique
-User.email              @unique
-Product.slug            @unique
-Product.sku             @unique
-Product.externalId      @unique
-Category.slug           @unique
-Brand.slug              @unique
-BlogPost.slug           @unique
-Order.orderNumber       @unique
-BonusAccount.userId     @unique
-SkinProfile.userId      @unique
-ChatSession.sessionToken @unique
-Promotion.code          @unique
+**Unique:** User.phone, User.email, Product.slug, Product.sku, Product.externalId,
+Category.slug, Brand.slug, BlogPost.slug, Order.orderNumber, BonusAccount.userId,
+SkinProfile.userId, ChatSession.sessionToken, Promotion.code.
 
-// Compound unique
-CartItem     @@unique([userId, productId])
-Favorite     @@unique([userId, productId])
-Review       @@unique([userId, productId])
-ProductRelation @@unique([productId, relatedId, type])
+**Compound unique:** CartItem[userId, productId], Favorite[userId, productId],
+Review[userId, productId], ProductRelation[productId, relatedId, type].
 
-// Составной PK
-ProductCategory @@id([productId, categoryId])
+**Составной PK:** ProductCategory[productId, categoryId].
 
-// Индексы для фильтрации/сортировки
-Product  @@index([brandId])
-Product  @@index([price])
-Product  @@index([isActive, isHit])
-Product  @@index([isActive, isNew])
-Order    @@index([userId])
-Order    @@index([status])
-Order    @@index([orderNumber])
-Review   @@index([productId, isPublished])
-```
+**Индексы фильтрации:** Product[brandId], Product[price], Product[isActive, isHit],
+Product[isActive, isNew], Order[userId], Order[status], Review[productId, isPublished].
 
 ---
 
@@ -174,21 +143,7 @@ Review   @@index([productId, isPublished])
 | Товары     | 10     | По 3-4 товара на бренд с заполненными skinTypes/concerns |
 | Admin user | 1      | admin@cosmetikalux.ru / role: ADMIN                    |
 
-Формат seed.ts:
-
-```typescript
-import { PrismaClient } from '@prisma/client';
-const prisma = new PrismaClient();
-
-async function main() {
-  // 1. Категории  — prisma.category.upsert(...)
-  // 2. Бренды     — prisma.brand.upsert(...)
-  // 3. Товары     — prisma.product.create(...) + images + categories
-  // 4. Admin      — prisma.user.upsert(...) с bcrypt-хешем пароля
-}
-
-main().finally(() => prisma.$disconnect());
-```
+Порядок в seed.ts: категории (`upsert`) -> бренды (`upsert`) -> товары (`create` + images + categories) -> admin user (`upsert` с bcrypt-хешем).
 
 ---
 
