@@ -38,9 +38,9 @@ export default function ProductCard({ product, className = '' }: ProductCardProp
     ? Math.round((1 - product.price / product.oldPrice) * 100)
     : null;
 
-  const mainImage = product.images[0] ?? product.ogImage;
-  const hasHitTag = product.tags.some((t) => t.toLowerCase() === 'хит');
-  const hasNewTag = product.tags.some((t) => t.toLowerCase() === 'новинка');
+  const mainImage = product.images?.[0] ?? product.ogImage ?? '';
+  const hasHitTag = product.tags?.some((t) => t.toLowerCase() === 'хит') ?? false;
+  const hasNewTag = product.tags?.some((t) => t.toLowerCase() === 'новинка') ?? false;
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation();
