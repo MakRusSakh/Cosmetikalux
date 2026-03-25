@@ -1,7 +1,7 @@
 interface PriceDisplayProps {
   price: number;
   oldPrice?: number | null;
-  pricePerUnit?: string | null;
+  pricePerUnit?: string | number | null;
   size?: 'sm' | 'md' | 'lg';
   className?: string;
 }

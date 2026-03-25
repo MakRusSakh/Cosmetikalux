@@ -6,7 +6,7 @@ import brandsData from "@/data/brands.json";
 const PAGE_SIZE = 20;
 
 export function getProducts(filters: CatalogFilters = {}) {
-  let items = (productsData as Product[]).filter((p) => p.isActive);
+  let items = (productsData as unknown as Product[]).filter((p) => p.isActive);
 
   if (filters.category) {
     items = items.filter((p) => p.categorySlug === filters.category);
@@ -67,11 +67,11 @@ export function getProducts(filters: CatalogFilters = {}) {
 }
 
 export function getProduct(slug: string): Product | undefined {
-  return (productsData as Product[]).find((p) => p.slug === slug);
+  return (productsData as unknown as Product[]).find((p) => p.slug === slug);
 }
 
 export function getRelatedProducts(product: Product, limit = 8): Product[] {
-  return (productsData as Product[])
+  return (productsData as unknown as Product[])
     .filter(
       (p) =>
         p.id !== product.id &&

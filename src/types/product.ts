@@ -13,7 +13,7 @@ export interface Product {
   price: number;
   oldPrice: number | null;
   unit: string;
-  pricePerUnit: string | null;
+  pricePerUnit: string | number | null;
   category: string;
   categorySlug: string;
   subcategory: string;

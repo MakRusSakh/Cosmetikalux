@@ -6,8 +6,8 @@ import categoriesData from '@/data/categories.json'
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://cosmetikalux.ru'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const products = productsData as Product[]
-  const categories = categoriesData as Category[]
+  const products = productsData as unknown as Product[]
+  const categories = categoriesData as unknown as Category[]
   const now = new Date()
 
   const staticPages: MetadataRoute.Sitemap = [

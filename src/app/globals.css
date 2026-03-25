@@ -36,8 +36,8 @@
   --color-border-accent: #C8A2C8;
 
   /* Fonts */
-  --font-heading: var(--font-playfair);
-  --font-body: var(--font-inter);
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
 
   /* Border radius */
   --radius-sm: 6px;

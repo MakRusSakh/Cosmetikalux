@@ -1,19 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
-
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin", "cyrillic"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin", "cyrillic"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: {
@@ -30,7 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className={`${playfair.variable} ${inter.variable} h-full`}>
+    <html lang="ru" className="h-full">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="min-h-full flex flex-col antialiased">{children}</body>
     </html>
   );
