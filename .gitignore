@@ -7,3 +7,4 @@ data/enriched/
 .env.local
 node_modules/
 tsconfig.tsbuildinfo
+.next/
