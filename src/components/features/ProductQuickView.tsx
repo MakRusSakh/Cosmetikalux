@@ -84,7 +84,7 @@ export default function ProductQuickView({
 
           {/* Routine Step */}
           <div className="mt-3">
-            <RoutineStep step={product.routineStep} mode="compact" />
+            <RoutineStep step={typeof product.routineStep === 'number' ? product.routineStep : null} mode="compact" />
           </div>
 
           {/* Ingredients */}

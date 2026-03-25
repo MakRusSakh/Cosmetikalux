@@ -20,7 +20,7 @@ export interface Product {
   country: string;
   countryCode: string;
   description: string;
-  ingredients: string | null;
+  ingredients: string | string[] | null;
   usage: string | null;
   skinTypes: string[];
   routineStep: number | null;
