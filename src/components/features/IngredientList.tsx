@@ -1,7 +1,7 @@
 'use client';
 
 interface IngredientListProps {
-  ingredients: string | null;
+  ingredients: string | string[] | null;
   keyIngredients: string[] | undefined;
   inciList: string | null;
   mode: 'compact' | 'full';
@@ -13,9 +13,11 @@ export default function IngredientList({
   inciList,
   mode,
 }: IngredientListProps) {
-  const parsedIngredients = ingredients
-    ? ingredients.split(',').map((i) => i.trim()).filter(Boolean)
-    : [];
+  const parsedIngredients = Array.isArray(ingredients)
+    ? ingredients
+    : ingredients
+      ? ingredients.split(',').map((i) => i.trim()).filter(Boolean)
+      : [];
 
   const displayKey = keyIngredients?.length
     ? keyIngredients
