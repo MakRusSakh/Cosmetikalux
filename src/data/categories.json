@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Здоровье и БАДы",
+    "slug": "zdorovye",
+    "subcategories": [
+      {
+        "name": "Витамины и минералы",
+        "slug": "vitaminy-i-mineraly"
+      },
+      {
+        "name": "Для ЖКТ и пищеварения",
+        "slug": "dlja-zhkt-i-pischevarenija"
+      },
+      {
+        "name": "Для женского здоровья",
+        "slug": "dlja-zhenskogo-zdorovja"
+      },
+      {
+        "name": "Для зрения",
+        "slug": "dlja-zrenija"
+      },
+      {
+        "name": "Для иммунитета и при простуде",
+        "slug": "dlja-immuniteta-i-pri-prostude"
+      },
+      {
+        "name": "Для красоты и молодости",
+        "slug": "dlja-krasoty-i-molodosti"
+      },
+      {
+        "name": "Для мозга, сна и стресса",
+        "slug": "dlja-mozga-sna-i-stressa"
+      },
+      {
+        "name": "Для печени",
+        "slug": "dlja-pecheni"
+      },
+      {
+        "name": "Для сердца и сосудов",
+        "slug": "dlja-serdtsa-i-sosudov"
+      },
+      {
+        "name": "Для суставов и костей",
+        "slug": "dlja-sustavov-i-kostej"
+      },
+      {
+        "name": "Мочеполовая система",
+        "slug": "mochepolovaja-sistema"
+      }
+    ]
+  },
+  {
+    "name": "Продукты и разное",
+    "slug": "produkty-raznoe",
+    "subcategories": [
+      {
+        "name": "Аксессуары",
+        "slug": "aksessuary"
+      },
+      {
+        "name": "Бытовая химия",
+        "slug": "bytovaja-himija"
+      },
+      {
+        "name": "Чай и кофе",
+        "slug": "chaj-i-kofe"
+      }
+    ]
+  },
+  {
+    "name": "Уход за телом",
+    "slug": "",
+    "subcategories": [
+      {
+        "name": "Аксессуары для ухода",
+        "slug": "aksessuary-dlja-uhoda"
+      },
+      {
+        "name": "Кремы для рук",
+        "slug": "kremy-dlja-ruk"
+      },
+      {
+        "name": "Маски для рук",
+        "slug": "maski-dlja-ruk"
+      }
+    ]
+  },
+  {
+    "name": "Лечебные средства",
+    "slug": "lechebnye",
+    "subcategories": [
+      {
+        "name": "Лечебные мази и кремы",
+        "slug": "lechebnye-mazi-i-kremy"
+      },
+      {
+        "name": "От укачивания",
+        "slug": "ot-ukachivanija"
+      },
+      {
+        "name": "Пластыри",
+        "slug": "plastyri"
+      }
+    ]
+  },
+  {
+    "name": "Гигиена полости рта",
+    "slug": "gigiena-rta",
+    "subcategories": [
+      {
+        "name": "Зубная нить и ёршики",
+        "slug": "zubnaja-nit-i-ershiki"
+      },
+      {
+        "name": "Зубные пасты",
+        "slug": "zubnye-pasty"
+      },
+      {
+        "name": "Зубные щётки",
+        "slug": "zubnye-schetki"
+      },
+      {
+        "name": "Ополаскиватели",
+        "slug": "opolaskivateli"
+      }
+    ]
+  },
+  {
+    "name": "Уход за лицом",
+    "slug": "uhod-za-litsom",
+    "subcategories": [
+      {
+        "name": "SPF-защита",
+        "slug": "spf-zaschita"
+      },
+      {
+        "name": "Кремы для век и патчи",
+        "slug": "kremy-dlja-vek-i-patchi"
+      },
+      {
+        "name": "Кремы для шеи",
+        "slug": "kremy-dlja-shei"
+      },
+      {
+        "name": "Кремы и эмульсии",
+        "slug": "kremy-i-emulsii"
+      },
+      {
+        "name": "Сыворотки и ампулы",
+        "slug": "syvorotki-i-ampuly"
+      },
+      {
+        "name": "Тонеры и лосьоны",
+        "slug": "tonery-i-losony"
+      }
+    ]
+  }
+]

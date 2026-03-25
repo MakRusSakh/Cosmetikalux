@@ -1,1 +1,5 @@
 __pycache__/
+data/html_cache/
+.env
+.env.local
+node_modules/
