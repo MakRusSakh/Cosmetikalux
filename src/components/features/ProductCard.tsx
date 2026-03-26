@@ -57,7 +57,7 @@ export default function ProductCard({ product, className = '', disableLink = fal
   };
 
   const content = (
-    <>
+    <div className="flex flex-col h-full">
       <div className="relative aspect-square overflow-hidden rounded-[var(--radius-md)] bg-bg-secondary mb-3">
         <Image
           src={mainImage}
@@ -91,29 +91,31 @@ export default function ProductCard({ product, className = '', disableLink = fal
       <p className="font-heading text-xs uppercase tracking-wider text-text-tertiary mb-1 truncate">
         {product.brand}
       </p>
-      <h3 className="font-heading text-sm font-medium text-text-primary line-clamp-2 mb-2 min-h-[2.5rem] group-hover:text-accent-primary transition-colors">
+      <h3 className="font-heading text-sm font-medium text-text-primary line-clamp-2 mb-2 h-[2.5rem] group-hover:text-accent-primary transition-colors">
         {product.name}
       </h3>
-      {product.rating?.count > 0 && (
-        <StarRating score={product.rating.score} count={product.rating.count} size="sm" className="mb-2" />
-      )}
+      <div className="h-5 mb-2">
+        {product.rating?.count > 0 && (
+          <StarRating score={product.rating.score} count={product.rating.count} size="sm" />
+        )}
+      </div>
       <PriceDisplay price={product.price} oldPrice={product.oldPrice} size="sm" />
       <button
         type="button"
         onClick={handleAddToCart}
-        className="w-full py-2.5 bg-gradient-to-r from-accent-primary to-accent-rose text-text-inverse font-heading text-xs uppercase tracking-widest rounded-[var(--radius-md)] hover:opacity-90 transition mt-3"
+        className="w-full py-2.5 bg-gradient-to-r from-accent-primary to-accent-rose text-text-inverse font-heading text-xs uppercase tracking-widest rounded-[var(--radius-md)] hover:opacity-90 transition mt-auto pt-3"
       >
         В корзину
       </button>
-    </>
+    </div>
   );
 
   if (disableLink) {
-    return <div className={`group block cursor-pointer ${className}`}>{content}</div>;
+    return <div className={`group block cursor-pointer h-full ${className}`}>{content}</div>;
   }
 
   return (
-    <Link href={`/catalog/${product.categorySlug}/${product.slug}`} className={`group block ${className}`}>
+    <Link href={`/catalog/${product.categorySlug}/${product.slug}`} className={`group block h-full ${className}`}>
       {content}
     </Link>
   );
