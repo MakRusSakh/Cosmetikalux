@@ -415,7 +415,7 @@
     "countryCode": "KR",
     "description": "Барьер кожи как новый — ламеллярный крем для глубокого восстановления и увлажнения\n\n◈ Технология MLE — мульти-ламеллярная эмульсия повторяет структуру липидов кожи и мгновенно встраивается в эпидермис\n◈ Увлажнение мощнее гиалуроновой кислоты — бета-глюкан доставляет влагу в глубокие слои и запускает синтез собственной гиалуронки\n◈ Успокаивающее действие — экстракт полыни снимает красноту, раздражение и нормализует работу сальных желёз\n\nСтянутость, шелушения, покраснения — всё это сигналы повреждённого кожного барьера. Когда защитный слой нарушен, никакие сыворотки и маски не задерживаются в коже — влага просто испаряется. Нужно сначала восстановить барьер, а потом увлажнять.\n\nЛамеллярный крем работает именно по этому принципу. Мульти-ламеллярная эмульсия MLE по структуре идентична природным липидам кожи, поэтому она не ложится плёнкой сверху, а встраивается в эпидермис и восстанавливает его. Масло сафлора питает и смягчает, полностью усваиваясь кожей, а бета-глюкан обеспечивает пролонгированное увлажнение.\n\nКожа перестаёт шелушиться, уходят стянутость и дискомфорт. Барьер укрепляется, рельеф выравнивается, а тон становится ровным и свежим.",
     "ingredients": [],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица после тонера и сыворотки. Равномерно распределите мягкими движениями по массажным линиям до полного впитывания. Используйте утром и вечером для глубокого восстановления и увлажнения кожного барьера.",
     "skinTypes": [
       "dry"
     ],
@@ -431,7 +431,12 @@
       "source": "generated"
     },
     "purchaseCount": 231,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Бета-глюкан",
+      "Мульти-ламеллярная эмульсия (MLE)",
+      "Церамиды"
+    ]
   },
   {
     "id": "prod_55638953",
@@ -457,7 +462,7 @@
       "Propylheptyl Caprylate",
       "Isododecane"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица на завершающем этапе ухода, после тонера и сыворотки. Мягко распределите по лицу и шее, избегая области вокруг глаз. Подходит для ежедневного утреннего и вечернего применения. Рекомендуется для чувствительной и проблемной кожи, склонной к воспалениям и покраснениям.",
     "skinTypes": [
       "dry",
       "sensitive",
@@ -479,7 +484,14 @@
     "inciList": "Water,Zinc Oxide,Cyclohexasiloxane,Butyloctyl Salicylate,Propanediol,Propylheptyl Caprylate,Isododecane,Caprylyl Methicone,Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone,[more]Methyl Methacrylate Crosspolymer,Methyl Trimethicone,Betula Platyphylla Japonica Juice,Cryptomeria Japonica Leaf Extract,Nelumbo Nucifera Leaf Extract,Saccharomyces Ferment Filtrate,Glyceryl Glucoside,Sodium Hyaluronate,Hyaluronic Acid,Glycerin,Butylene Glycol,Artemisia Annua,Triethoxycaprylylsilane,Extract,Anthemis Nobilis Flower Oil,Pinus Sylvestris Leaf Oil,Ethylhexylglycerin,Ascorbic Acid,Tocopherol,Glyceryl Caprylate,Caprylyl Glycol,Polymethylsilsesquioxane,Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone,1,2-Hexanediol,Polyglyceryl-2 Dipolyhydroxystearate,Disteardimonium Hectorite,Magnesium Sulfate[less]",
     "nameEnglish": "ROUND LABSunscreen",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/round-lab-sunscreen"
+    "inciSourceUrl": "https://incidecoder.com/products/round-lab-sunscreen",
+    "keyIngredients": [
+      "Pinus Densiflora Leaf Extract (экстракт корейской сосны)",
+      "Centella Asiatica Extract (центелла азиатская)",
+      "Niacinamide (ниацинамид)",
+      "Ceramide NP (церамид)",
+      "Glutathione (глутатион)"
+    ]
   },
   {
     "id": "prod_55638960",
@@ -505,7 +517,7 @@
       "Methyl Trimethicone",
       "2-Hexanediol"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенное лицо после тонера и сыворотки, равномерно распределяя лёгкими движениями. Используйте утром и вечером. Для усиления осветляющего эффекта рекомендуется сочетать с сывороткой из линейки Round Lab Vita Niacinamide. При утреннем применении обязательно наносите солнцезащитный крем поверх.",
     "skinTypes": [
       "normal"
     ],
@@ -527,7 +539,14 @@
     "inciList": "Hippophae Rhamnoides Water,Propanediol,Glycerin,Niacinamide,Phenyl Trimethicone,Methyl Trimethicone,1,2-Hexanediol,Betaine,Trehalose,[more]Hydrogenated Polyisobutene,Polyglyceryl-3 Methylglucose Distearate,Cetearyl Alcohol,Glyceryl Stearate,Dicaprylyl Carbonate,Hippophae Rhamnoides Fruit Extract,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Caprylyl Glycol,Panthenol,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Coptis Japonica Root Extract,Tromethamine,Ethylhexylglycerin,Butylene Glycol,Adenosine,Disodium EDTA,Sorbitan Isostearate,Tranexamic Acid,Glutathione,Bisabolol,3-0-Ethyl Ascorbic Acid,Tocopherol,Capryloyl Salicylic Acid,Gluconolactone[less]",
     "nameEnglish": "ROUND LABVita Niacinamide Dark Spot Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/round-lab-vita-niacinamide-dark-spot-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/round-lab-vita-niacinamide-dark-spot-cream",
+    "keyIngredients": [
+      "Niacinamide 5% (ниацинамид)",
+      "3-O-Ethyl Ascorbic Acid (стабильная форма витамина C)",
+      "Tranexamic Acid (транексамовая кислота)",
+      "Hippophae Rhamnoides Water (вода облепихи)",
+      "Glutathione (глутатион)"
+    ]
   },
   {
     "id": "prod_55638968",
@@ -553,7 +572,7 @@
       "2-Hexanediol",
       "Panthenol"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенное лицо и шею на завершающем этапе вечернего ухода, после тонера и сыворотки. Возьмите небольшое количество средства и распределите мягкими похлопывающими движениями до полного впитывания. Капсулы с активными компонентами раскрываются при нанесении, обеспечивая глубокое питание. Рекомендуется для антивозрастного ухода.",
     "skinTypes": [
       "dry",
       "sensitive"
@@ -576,7 +595,14 @@
     "inciList": "Water,Glycerin,Caprylic/​Capric Triglyceride,Glycereth-26,Dipropylene Glycol,Niacinamide,1,2-Hexanediol,Panthenol,Butyrospermum Parkii (Shea) Butter,[more]Squalane,Glyceryl Glucoside,Carbomer,Arginine,Polyglyceryl-2 Stearate,C13-15 Alkane,Arachidyl Alcohol,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Glyceryl Stearate,Melia Azadirachta Leaf Extract,Cetearyl Alcohol,Stearyl Alcohol,Melia Azadirachta Flower Extract,Behenyl Alcohol,C12-16 Alcohols,Arachidyl Glucoside,Tromethamine,Coccinia Indica Fruit Extract,Adenosine,Dimethicone/​Vinyl Dimethicone Crosspolymer,Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate,Palmitic Acid,Hydrogenated Lecithin,Solanum Melongena (Eggplant) Fruit Extract,Xanthan Gum,Amber Powder,Curcuma Longa (Turmeric) Root Extract,Ocimum Sanctum Leaf Extract,Aloe Barbadensis Flower Extract,Corallina Officinalis Extract,Moringa Oleifera Seed Oil,Simmondsia Chinensis (Jojoba) Seed Oil,Butylene Glycol,Glucose,Panax Ginseng Root Extract,Sodium Dna (0.5Ppm),Dimethylsilanol Hyaluronate,Hydrolyzed Hyaluronic Acid,Hydrolyzed Sodium Hyaluronate,Sodium Hyaluronate,Potassium Hyaluronate,Hyaluronic Acid,Ceramide NP,Tocopherol,Sodium Hyaluronate Crosspolymer,Hydroxypropyltrimonium Hyaluronate,Sodium Hyaluronate Dimethylsilanol,Sodium Acetylated Hyaluronate,Collagen Extract,Polyglyceryl-10 Laurate,Tripeptide-1,Acetyl Tetrapeptide-2,Acetyl Tetrapeptide-5,Copper Tripeptide-1,Palmitoyl Tripeptide-1,Palmitoyl Pentapeptide-4,Hexapeptide-11,Hexapeptide-9,Palmitoyl Tripeptide-5,Ethylhexylglycerin[less]",
     "nameEnglish": "VT CosmeticsPdrn Capsule Cream 100",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/vt-cosmetics-pdrn-capsule-cream-100"
+    "inciSourceUrl": "https://incidecoder.com/products/vt-cosmetics-pdrn-capsule-cream-100",
+    "keyIngredients": [
+      "Sodium DNA / PDRN (полидезоксирибонуклеотид из женьшеня)",
+      "9 пептидов (Tripeptide-1, Copper Tripeptide-1, Palmitoyl Pentapeptide-4 и др.)",
+      "10 видов гиалуроновой кислоты",
+      "Ceramide NP (церамид)",
+      "Panax Ginseng Root Extract (экстракт женьшеня)"
+    ]
   },
   {
     "id": "prod_55638979",
@@ -602,7 +628,7 @@
       "Octyldodecanol",
       "Niacinamide"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенное лицо в качестве завершающего этапа ухода. Лёгкими движениями распределите по коже, уделяя особое внимание Т-зоне и участкам с расширенными порами. Используйте утром как базу под макияж — крем матирует и контролирует жирный блеск до 12 часов. Подходит для ежедневного применения на жирной и комбинированной коже.",
     "skinTypes": [
       "oily",
       "acne"
@@ -623,7 +649,14 @@
     "inciList": "Water(Aqua),Panthenol,Butylene Glycol,Propanediol,Cetyl Ethylhexanoate,Octyldodecanol,Niacinamide,Isohexadecane,Isododecane,[more]Glyceryl Stearate,Polyglyceryl-3 Distearate,1,2-Hexanediol,Hydrogenated Poly(C6-14\nOlefin),Cetearyl Olivate,Sorbitan Olivate,Stearyl Alcohol,Dimethyl Sulfone,Cetyl Alcohol,Polyacrylate-13,Sodium Polyacryloyldimethyl Taurate,Sodium Stearoyl Glutamate,Fragrance,Hydrogenated Polyisobutene,Glyceryl Stearate Citrate,Salicylic Acid,Ethylhexylglycerin,Allantoin,Polyglyceryl-10 Laurate,Ethylhexyl Palmitate,Adenosine,Dextrin,Sorbitan Isostearate,Tromethamine,Beta-Glucan,Sodium Hyaluronate,Glycerin,Sodium Citrate,Gardenia Florida Fruit Extract,Myristyl Alcohol,Trisodium Phosphate,Hyaluronic Acid,Pullulan,Lauryl Alcohol,Vitis Vinifera (Grape) Fruit Extract,Ulmus Davidiana Root Extract,Pueraria Lobata Root Extract,Pinus Palustris Leaf Extract,Oenothera Biennis (Evening Prim Rose) Flower Extract,Diospyros Kaki Fruit Extract,Castanea Crenata (Chestnut) Shell Extract,Camellia Sinensis Leaf Extract,Sodium Hyaluronate Crosspolymer,Hydrolyzed Sodium Hyaluronate,Hydrolyzed Hyaluronic Acid,Palmitoyl Tripeptide-5,Sodium Acetylated Hyaluronate,Hydroxypropyltrimonium Hyaluronate,Hydroxycinnamic Acid,Rutin[less]",
     "nameEnglish": "MedicubeZero Pore One Day Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/medicube-zero-pore-one-day-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/medicube-zero-pore-one-day-cream",
+    "keyIngredients": [
+      "Panthenol 5% (пантенол)",
+      "Salicylic Acid / BHA (салициловая кислота)",
+      "Niacinamide (ниацинамид)",
+      "Beta-Glucan (бета-глюкан)",
+      "Palmitoyl Tripeptide-5 (пептид)"
+    ]
   },
   {
     "id": "prod_55638989",
@@ -1514,7 +1547,7 @@
       "Niacinamide",
       "2-Hexanediol"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на завершающем этапе ухода после тонера, сыворотки и эмульсии. Равномерно распределите по лицу и шее мягкими движениями, избегая области вокруг глаз. Используйте утром и вечером. Для усиления эффекта рекомендуется применять совместно с другими средствами линейки Bifida Biome.",
     "skinTypes": [
       "aging"
     ],
@@ -1534,7 +1567,14 @@
     "inciList": "Centella Asiatica Extract,Bifida Ferment Lysate,Butylene Glycol,Glycerin,Polyglycerin-3,Water,Niacinamide,1,2-Hexanediol,Melaleuca Alternifolia (Tea Tree) Leaf Water,[more]Solanum Melongena (Eggplant) Fruit Extract,Aspalathus Linearis Extract,Origanum Vulgare Leaf Extract,Ocimum Basilicum (Basil) Leaf Extract,Olea Europaea (Olive) Leaf Extract,Glycereth -26,Coriandrum Sativum (Coriander) Extract,Lavandula Angustifolia (Lavender) Extract,Melissa Officinalis Leaf Extract,Rosmarinus Officinalis (Rosemary) Leaf Extract,Vinyl Dimethicone,Polyglyceryl-10 Oleate,Arginine,Ethylhexylglycerin,Hydrogenated Lecithin,Pyrus Communis (Pear) Flower Extract,Coccinia Indica Fruit Extract,Eucalyptus Globulus Leaf Extract,Thymus Vulgaris (Thyme) Leaf Extract,Polyglyceryl-10 Laurate,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Caprylic/​Capric Triglyceride,Curcuma Longa (Turmeric) Root Extract,Ocimum Sanctum Leaf Extract,Corallina Officinalis Extract,Melia Azadirachta Leaf Extract,Cyamopsis Tetragonoloba (Guar) Gum,Polyglyceryl-10 Myristate,Amber Powder,Agar,Xanthan Gum,Melia Azadirachta Flower Extract,Alchemilla Vulgaris Leaf Extract,Moringa Oleifera Seed Oil,Lavandula Angustifolia (Lavender) Oil,Linalool,Limonene[less]",
     "nameEnglish": "Manyo FactoryManyo Bifida Cica Herb Serum",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/manyo-factory-manyo-bifida-cica-herb-serum"
+    "inciSourceUrl": "https://incidecoder.com/products/manyo-factory-manyo-bifida-cica-herb-serum",
+    "keyIngredients": [
+      "Лизат бифидобактерий (62%)",
+      "Ниацинамид",
+      "5 типов церамидов",
+      "10 типов гиалуроновой кислоты",
+      "5 типов пептидов"
+    ]
   },
   {
     "id": "prod_56137750",
@@ -1698,7 +1738,7 @@
       "Benzyl Glycol",
       "Butoxydiglycol"
     ],
-    "usage": "",
+    "usage": "Очистите кожу лица и нанесите тонер. Достаньте патчи специальной лопаткой и аккуратно приложите под глаза широкой стороной к внутреннему уголку. Оставьте на 20–30 минут. Снимите патчи и вбейте остатки эссенции лёгкими похлопываниями. Не смывайте. Используйте 2–3 раза в неделю.",
     "skinTypes": [
       "normal"
     ],
@@ -1721,7 +1761,14 @@
     "inciList": "Water/​Aqua/​Eau,Glycerin,Dipropylene Glycol,Chondrus Crispus Powder,Ceratonia Siliqua Gum,Benzyl Glycol,Butoxydiglycol,Xanthan Gum,PEG-60 Hydrogenated Castor Oil,[more]Allantoin,Niacinamide,Butylene Glycol,Raspberry Ketone,Iron Oxide (Ci77499),Tocopheryl Acetate,Dipotassium Glycyrrhizate,Ricinus Communis (Castor) Seed Oil,Fragrance/​Parfum,Adenosine,Disodium EDTA,Holothurin,Calcium Lactate,Synthetic Fluorphlogopite,Titanium Dioxide (Ci77891),Iron Oxide (Ci77491),Ethyl Hexanediol,Sodium Hyaluronate,Phenoxyethanol,1,2-Hexanediol,Hydrolyzed Collagen,Tin Oxide[less]",
     "nameEnglish": "BEAUUGREENCoral & Aqua Hydrogel Eye Patch (hydrating Solution)",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/beauugreen-coral-aqua-hydrogel-eye-patch-hydrating-solution"
+    "inciSourceUrl": "https://incidecoder.com/products/beauugreen-coral-aqua-hydrogel-eye-patch-hydrating-solution",
+    "keyIngredients": [
+      "Гидролизованный коллаген",
+      "Коллоидное золото",
+      "Гиалуроновая кислота",
+      "Экстракт красных водорослей",
+      "Ниацинамид"
+    ]
   },
   {
     "id": "prod_56137864",
@@ -1791,7 +1838,7 @@
       "Ethylhexyl Salicylate",
       "Titanium Dioxide"
     ],
-    "usage": "",
+    "usage": "После очищения и тонизирования кожи достаньте патчи лопаткой из упаковки. Приложите под глаза заострённым концом к внешнему уголку глаза. Оставьте на 15–20 минут для воздействия. Снимите патчи и вбейте оставшуюся эссенцию подушечками пальцев. Для дополнительного лифтинг-эффекта можно наносить на носогубные складки.",
     "skinTypes": [
       "dry",
       "combination"
@@ -1817,7 +1864,14 @@
     "inciList": "Purified Water,Cyclopentasiloxane,Homosalate,Ethylhexyl Salicylate,Titanium Dioxide,Silica,Dipropylene Glycol,C12-15 Alkylbenzoate,Lauryl PEG-10 Tris(Trimethylsiloxy)silylethyl Dimethicone,[more]Diethylamino Hydroxybenzoyl Hexyl Benzoate,Modified Alcohol,Caprylyl Methicone,Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine,Isopropyl Palmitate,Hydroxypropyltrimonium Hyaluronate,Sodium Hyaluronate,Glycerin,Hydrolyzed Hyaluronic Acid,Copper Tripeptide-1,Butylene Glycol,Palmitoyl Tripeptide-1,Palmitoyl Tetrapeptide-7,Carbomer,Sodium Lactate,Polysorbate 20,Palmitoyl Tripeptide-5,Drumstick Seed Extract,Calendula Officinalis (Pot Marigold) Flower Extract,Propylene Glycol,Prunus Serrulata Flower Extract,Lavender Flower Extract,Damask Rose Flower Water (100Ppb),Magnesium Sulfate,Dimethicone/​Vinyl Dimethicone Crosspolymer,Dimethicone,Aluminum Hydroxide,Stearic Acid,Quaternium-18 Bentonite,Silica Dimethyl Silylate,Tocopheryl Acetate,Polyhydroxystearic Acid,Ethylhexyl Palmitate,Isostearic Acid,Lecithin,Isopropyl Myristate,Polyglyceryl-3 Polyricinoleate,Disodium EDTA,Phenoxyethanol,Ethylhexyl Glycerine,1,2-Hexanediol,Red Iron Oxide,Yellow Iron Oxide,Black Iron Oxide,Fragrance,Citronellol,Geraniol,Linalol,Hexyl Cinnamal[less]",
     "nameEnglish": "JMsolutionGlow Luminous Flower Sun Milk Rose",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/jmsolution-glow-luminous-flower-sun-milk-rose"
+    "inciSourceUrl": "https://incidecoder.com/products/jmsolution-glow-luminous-flower-sun-milk-rose",
+    "keyIngredients": [
+      "Протеины золотого шелкопряда",
+      "Золото (CI 77480)",
+      "Гидролизованный коллаген",
+      "Пантенол",
+      "Масло макадамии"
+    ]
   },
   {
     "id": "prod_56137881",
@@ -1843,7 +1897,7 @@
       "Ethylhexyl Salicylate",
       "Titanium Dioxide"
     ],
-    "usage": "",
+    "usage": "На чистую тонизированную кожу приложите патчи под глаза заострённым концом к внешнему уголку. Оставьте на 15–20 минут. Снимите и вбейте остатки эссенции лёгкими похлопывающими движениями. Для детокс-эффекта используйте 3–4 раза в неделю. Также подходят для зоны носогубных складок и лба.",
     "skinTypes": [
       "normal"
     ],
@@ -1866,7 +1920,14 @@
     "inciList": "Purified Water,Cyclopentasiloxane,Homosalate,Ethylhexyl Salicylate,Titanium Dioxide,Silica,Dipropylene Glycol,C12-15 Alkylbenzoate,Lauryl PEG-10 Tris(Trimethylsiloxy)silylethyl Dimethicone,[more]Diethylamino Hydroxybenzoyl Hexyl Benzoate,Modified Alcohol,Caprylyl Methicone,Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine,Isopropyl Palmitate,Hydroxypropyltrimonium Hyaluronate,Sodium Hyaluronate,Glycerin,Hydrolyzed Hyaluronic Acid,Copper Tripeptide-1,Butylene Glycol,Palmitoyl Tripeptide-1,Palmitoyl Tetrapeptide-7,Carbomer,Sodium Lactate,Polysorbate 20,Palmitoyl Tripeptide-5,Drumstick Seed Extract,Calendula Officinalis (Pot Marigold) Flower Extract,Propylene Glycol,Prunus Serrulata Flower Extract,Lavender Flower Extract,Damask Rose Flower Water (100Ppb),Magnesium Sulfate,Dimethicone/​Vinyl Dimethicone Crosspolymer,Dimethicone,Aluminum Hydroxide,Stearic Acid,Quaternium-18 Bentonite,Silica Dimethyl Silylate,Tocopheryl Acetate,Polyhydroxystearic Acid,Ethylhexyl Palmitate,Isostearic Acid,Lecithin,Isopropyl Myristate,Polyglyceryl-3 Polyricinoleate,Disodium EDTA,Phenoxyethanol,Ethylhexyl Glycerine,1,2-Hexanediol,Red Iron Oxide,Yellow Iron Oxide,Black Iron Oxide,Fragrance,Citronellol,Geraniol,Linalol,Hexyl Cinnamal[less]",
     "nameEnglish": "JMsolutionGlow Luminous Flower Sun Milk Rose",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/jmsolution-glow-luminous-flower-sun-milk-rose"
+    "inciSourceUrl": "https://incidecoder.com/products/jmsolution-glow-luminous-flower-sun-milk-rose",
+    "keyIngredients": [
+      "Экстракт чёрного кокона шелкопряда",
+      "Древесный уголь",
+      "Протеины шёлка",
+      "Гиалуронат натрия",
+      "Ниацинамид"
+    ]
   },
   {
     "id": "prod_56137887",
