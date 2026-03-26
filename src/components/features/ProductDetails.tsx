@@ -9,20 +9,65 @@ interface ProductDetailsProps {
 const sectionCls =
   'bg-bg-surface border border-border-light rounded-[var(--radius-md)] p-6 mb-6';
 
+function parseDescription(desc: string) {
+  const lines = desc.split('\n').filter((l) => l.trim());
+  const headline = lines[0] || '';
+  const benefits: string[] = [];
+  const paragraphs: string[] = [];
+
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (line.startsWith('◈')) {
+      benefits.push(line.replace(/^◈\s*/, ''));
+    } else if (line.length > 20) {
+      paragraphs.push(line);
+    }
+  }
+
+  return { headline, benefits, paragraphs };
+}
+
 export default function ProductDetails({ product }: ProductDetailsProps) {
   const hasIngredients =
     product.ingredients || product.keyIngredients?.length || product.inciList;
   const hasUsage = !!product.usage;
   const hasRoutine = typeof product.routineStep === 'number';
+  const desc = product.description || '';
+  const hasStructured = desc.includes('◈');
+  const parsed = hasStructured ? parseDescription(desc) : null;
 
   return (
     <div>
-      {/* Секция 1: О товаре */}
       <section className={sectionCls}>
         <h2 className="font-heading text-xl font-semibold mb-4">О товаре</h2>
-        <p className="text-text-secondary leading-relaxed">
-          {product.description}
-        </p>
+
+        {parsed ? (
+          <div>
+            <p className="text-lg font-medium text-text-primary mb-4">
+              {parsed.headline}
+            </p>
+            {parsed.benefits.length > 0 && (
+              <ul className="space-y-2 mb-5">
+                {parsed.benefits.map((b, i) => (
+                  <li key={i} className="flex items-start gap-2.5 text-text-secondary">
+                    <span className="text-accent-primary mt-0.5 shrink-0">◈</span>
+                    <span>{b}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {parsed.paragraphs.map((p, i) => (
+              <p key={i} className="text-text-secondary leading-relaxed mb-3">
+                {p}
+              </p>
+            ))}
+          </div>
+        ) : (
+          <p className="text-text-secondary leading-relaxed whitespace-pre-line">
+            {desc}
+          </p>
+        )}
+
         {product.skinTypes?.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-4">
             {product.skinTypes.map((type) => (
@@ -37,7 +82,6 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
         )}
       </section>
 
-      {/* Секция 2: Состав и ингредиенты */}
       <section className={sectionCls}>
         <h2 className="font-heading text-xl font-semibold mb-4">
           Состав и ингредиенты
@@ -54,7 +98,6 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
         )}
       </section>
 
-      {/* Секция 3: Как применять */}
       <section className={sectionCls}>
         <h2 className="font-heading text-xl font-semibold mb-4">
           Как применять
