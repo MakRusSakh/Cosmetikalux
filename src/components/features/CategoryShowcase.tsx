@@ -1,14 +1,15 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const categories = [
-  { title: 'Увлажнение', slug: 'kosmetika', count: '120+ средств', gradient: 'from-blue-50 to-accent-light', emoji: '💧' },
-  { title: 'Против акне', slug: 'lechebnye', count: '45 средств', gradient: 'from-green-50 to-emerald-50', emoji: '🌿' },
-  { title: 'Anti-age', slug: 'kosmetika', count: '60 средств', gradient: 'from-accent-rose-light to-accent-gold-light', emoji: '✨' },
-  { title: 'Очищение', slug: 'kosmetika', count: '55 средств', gradient: 'from-amber-50 to-orange-50', emoji: '🫧' },
-  { title: 'SPF-защита', slug: 'kosmetika', count: '30 средств', gradient: 'from-yellow-50 to-amber-50', emoji: '☀️' },
-  { title: 'Пигментация', slug: 'kosmetika', count: '35 средств', gradient: 'from-purple-50 to-accent-light', emoji: '🌸' },
-  { title: 'Чувствительная кожа', slug: 'kosmetika', count: '40 средств', gradient: 'from-pink-50 to-rose-50', emoji: '🤍' },
-  { title: 'Уход за телом', slug: 'kosmetika', count: '70 средств', gradient: 'from-teal-50 to-cyan-50', emoji: '🧴' },
+  { title: 'Увлажнение', slug: 'kosmetika', count: '120+ средств', bg: 'bg-[#F0E4F0]', image: '/images/hero/hero_003_uvlazhnenie.png' },
+  { title: 'Против акне', slug: 'lechebnye', count: '45 средств', bg: 'bg-[#E8F5E9]', image: '/images/hero/hero_004_protiv_akne.png' },
+  { title: 'Anti-age', slug: 'kosmetika', count: '60 средств', bg: 'bg-[#FDF2F2]', image: '/images/hero/hero_002_anti_age.png' },
+  { title: 'Очищение', slug: 'kosmetika', count: '55 средств', bg: 'bg-[#F0EBE6]', image: '/images/hero/hero_005_chistota_por.png' },
+  { title: 'SPF-защита', slug: 'kosmetika', count: '30 средств', bg: 'bg-[#FAF5EB]', image: '/images/hero/hero_006_spf_zashchita.png' },
+  { title: 'Пигментация', slug: 'kosmetika', count: '35 средств', bg: 'bg-[#FDF2F2]', image: null },
+  { title: 'Чувствительная кожа', slug: 'kosmetika', count: '40 средств', bg: 'bg-[#F0E4F0]', image: null },
+  { title: 'Уход за телом', slug: 'kosmetika', count: '70 средств', bg: 'bg-[#E3F2FD]', image: null },
 ];
 
 export default function CategoryShowcase() {
@@ -25,17 +26,31 @@ export default function CategoryShowcase() {
             <Link
               key={item.title}
               href={`/catalog/${item.slug}`}
-              className={`relative overflow-hidden rounded-[var(--radius-md)] p-6 bg-gradient-to-br ${item.gradient} hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group cursor-pointer aspect-square flex flex-col justify-end`}
+              className={`group relative overflow-hidden rounded-[var(--radius-md)] ${item.bg} hover:shadow-md hover:-translate-y-0.5 transition-all duration-200`}
             >
-              <span className="text-4xl mb-3 group-hover:scale-110 transition-transform inline-block">
-                {item.emoji}
-              </span>
-              <span className="font-heading text-sm font-semibold text-text-primary">
-                {item.title}
-              </span>
-              <span className="text-xs text-text-tertiary mt-1">
-                {item.count}
-              </span>
+              <div className="aspect-[4/3] relative flex items-end justify-end p-3">
+                {item.image ? (
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width:768px) 50vw, 20vw"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-16 h-16 rounded-full bg-bg-surface/40 border border-border-light" />
+                  </div>
+                )}
+              </div>
+              <div className="px-4 pb-4">
+                <h3 className="font-heading text-sm font-semibold text-text-primary">
+                  {item.title}
+                </h3>
+                <p className="font-heading text-xs text-text-tertiary mt-0.5">
+                  {item.count}
+                </p>
+              </div>
             </Link>
           ))}
         </div>
