@@ -8,6 +8,7 @@ import TrustBar from '@/components/features/TrustBar'
 import CategoryShowcase from '@/components/features/CategoryShowcase'
 import ProductSection from '@/components/features/ProductSection'
 import BrandsStrip from '@/components/features/BrandsStrip'
+import ReviewsSection from '@/components/features/ReviewsSection'
 import NewsletterSection from '@/components/features/NewsletterSection'
 import ProductQuickView from '@/components/features/ProductQuickView'
 import Header from '@/components/layout/Header'
@@ -70,6 +71,7 @@ export default function HomeClient({
         />
 
         <BrandsStrip />
+        <ReviewsSection />
         <NewsletterSection />
       </main>
 

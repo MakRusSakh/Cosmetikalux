@@ -7,7 +7,7 @@ const navLinks = [
   { href: '/catalog', label: 'Каталог' },
   { href: '/brands', label: 'Бренды' },
   { href: '/new', label: 'Новинки' },
-  { href: '/sale', label: 'Акции' },
+  { href: '/sale', label: 'Акции', accent: true },
 ]
 
 export default function Header() {
@@ -28,7 +28,11 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-text-secondary hover:text-accent-primary transition-colors font-medium"
+              className={`text-sm transition-colors font-medium ${
+                link.accent
+                  ? 'text-accent-rose hover:text-accent-rose-hover'
+                  : 'text-text-secondary hover:text-accent-primary'
+              }`}
             >
               {link.label}
             </Link>
@@ -83,7 +87,11 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-text-secondary hover:text-accent-primary transition-colors font-medium"
+              className={`text-sm transition-colors font-medium ${
+                link.accent
+                  ? 'text-accent-rose hover:text-accent-rose-hover'
+                  : 'text-text-secondary hover:text-accent-primary'
+              }`}
               onClick={() => setIsMenuOpen(false)}
             >
               {link.label}
