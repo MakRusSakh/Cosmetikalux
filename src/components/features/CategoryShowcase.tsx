@@ -10,6 +10,9 @@ const categories = [
   { title: 'Anti-age', slug: 'kosmetika', count: '60 средств', bg: 'bg-[#F0E8E0]', image: '/images/hero/hero_002_anti_age.png' },
   { title: 'Очищение', slug: 'kosmetika', count: '55 средств', bg: 'bg-[#F0EBE6]', image: '/images/hero/hero_005_chistota_por.png' },
   { title: 'SPF-защита', slug: 'kosmetika', count: '30 средств', bg: 'bg-[#F0E4D8]', image: '/images/hero/hero_006_spf_zashchita.png' },
+  { title: 'Пигментация', slug: 'kosmetika', count: '35 средств', bg: 'bg-[#FDF2F2]', image: null },
+  { title: 'Чувствительная кожа', slug: 'kosmetika', count: '40 средств', bg: 'bg-[#F0E4F0]', image: null },
+  { title: 'Уход за телом', slug: 'kosmetika', count: '70 средств', bg: 'bg-[#E3F2FD]', image: null },
 ];
 
 // Triple the array for infinite scroll illusion
@@ -77,13 +80,19 @@ export default function CategoryShowcase() {
             className={`flex-shrink-0 w-[240px] md:w-[260px] rounded-[var(--radius-lg)] overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${cat.bg}`}
           >
             <div className="aspect-[4/3] relative">
-              <Image
-                src={cat.image}
-                alt={cat.title}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform"
-                sizes="260px"
-              />
+              {cat.image ? (
+                <Image
+                  src={cat.image}
+                  alt={cat.title}
+                  fill
+                  className="object-cover"
+                  sizes="260px"
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-full bg-bg-surface/50 border border-border-light" />
+                </div>
+              )}
             </div>
             <div className="p-4">
               <h3 className="font-heading text-sm font-semibold text-text-primary">
