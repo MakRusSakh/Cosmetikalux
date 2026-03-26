@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="absolute bottom-20 -left-20 w-48 h-48 rounded-full bg-accent-rose/10 blur-3xl" />
       <div className="absolute top-1/2 right-1/3 w-32 h-32 rounded-full bg-accent-gold/10 blur-3xl" />
 
-      <div className="relative z-10 flex flex-col md:flex-row items-center h-full min-h-[85vh] md:min-h-[80vh]">
+      <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center h-full min-h-[85vh] md:min-h-[80vh] px-4">
         {/* Mobile: image on top */}
         <div className="md:hidden w-full px-6 pt-8">
           <div className="aspect-[4/3] relative rounded-[var(--radius-lg)] overflow-hidden shadow-2xl">
