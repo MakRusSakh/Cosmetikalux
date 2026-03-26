@@ -12,6 +12,7 @@ interface ProductCardProps {
   product: Product;
   className?: string;
   disableLink?: boolean;
+  hitNumber?: number;
 }
 
 function HeartIcon({ filled }: { filled: boolean }) {
@@ -32,7 +33,7 @@ function HeartIcon({ filled }: { filled: boolean }) {
   );
 }
 
-export default function ProductCard({ product, className = '', disableLink = false }: ProductCardProps) {
+export default function ProductCard({ product, className = '', disableLink = false, hitNumber }: ProductCardProps) {
   const [isFavorite, setIsFavorite] = useState(false);
 
   const discount = product.oldPrice
@@ -40,13 +41,19 @@ export default function ProductCard({ product, className = '', disableLink = fal
     : null;
 
   const mainImage = product.images?.[0] ?? product.ogImage ?? '';
-  const hasHitTag = product.tags?.some((t) => t.toLowerCase() === 'хит') ?? false;
+  const hasHitTag = hitNumber != null || (product.tags?.some((t) => t.toLowerCase() === 'хит') ?? false);
   const hasNewTag = product.tags?.some((t) => t.toLowerCase() === 'новинка') ?? false;
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     e.preventDefault();
     setIsFavorite((prev) => !prev);
+  };
+
+  const handleAddToCart = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    e.preventDefault();
+    // TODO: интеграция с Zustand cart store
   };
 
   const content = (
@@ -61,7 +68,7 @@ export default function ProductCard({ product, className = '', disableLink = fal
         />
         {(hasHitTag || hasNewTag || discount) && (
           <div className="absolute top-2 left-2 flex flex-col gap-1">
-            {hasHitTag && <Badge variant="hit">Хит</Badge>}
+            {hasHitTag && <Badge variant="hit">{hitNumber != null ? `ХИТ #${hitNumber}` : 'Хит'}</Badge>}
             {hasNewTag && <Badge variant="new">New</Badge>}
             {discount && <Badge variant="sale">-{discount}%</Badge>}
           </div>
@@ -91,6 +98,13 @@ export default function ProductCard({ product, className = '', disableLink = fal
         <StarRating score={product.rating.score} count={product.rating.count} size="sm" className="mb-2" />
       )}
       <PriceDisplay price={product.price} oldPrice={product.oldPrice} size="sm" />
+      <button
+        type="button"
+        onClick={handleAddToCart}
+        className="w-full py-2.5 bg-gradient-to-r from-accent-primary to-accent-rose text-text-inverse font-heading text-xs uppercase tracking-widest rounded-[var(--radius-md)] hover:opacity-90 transition mt-3"
+      >
+        В корзину
+      </button>
     </>
   );
 

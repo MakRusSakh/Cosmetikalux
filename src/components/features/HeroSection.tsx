@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function HeroSection() {
@@ -11,12 +12,15 @@ export default function HeroSection() {
       <div className="relative z-10 flex flex-col md:flex-row items-center h-full min-h-[85vh] md:min-h-[80vh]">
         {/* Mobile: image on top */}
         <div className="md:hidden w-full px-6 pt-8">
-          <div className="aspect-[4/3] relative">
-            <div className="w-full h-full rounded-[var(--radius-lg)] bg-gradient-to-br from-accent-rose-light to-accent-light flex items-center justify-center">
-              <span className="font-heading text-6xl text-accent-primary/20 select-none">
-                K-beauty
-              </span>
-            </div>
+          <div className="aspect-[4/3] relative rounded-[var(--radius-lg)] overflow-hidden shadow-2xl">
+            <Image
+              src="/images/hero/hero_001_foto_1.png"
+              alt="Корейская косметика премиум-класса — секреты безупречной кожи"
+              fill
+              className="object-cover"
+              priority
+              sizes="100vw"
+            />
           </div>
         </div>
 
@@ -47,19 +51,22 @@ export default function HeroSection() {
               href="/catalog"
               className="inline-flex items-center justify-center px-8 py-3.5 border border-border-medium text-text-secondary font-heading text-sm rounded-[var(--radius-md)] hover:bg-accent-light transition"
             >
-              ✨ Подобрать уход
+              Подобрать уход
             </Link>
           </div>
         </div>
 
         {/* Desktop: image on right */}
         <div className="hidden md:flex md:w-1/2 items-center justify-center p-8">
-          <div className="aspect-square w-full max-w-lg relative">
-            <div className="w-full h-full rounded-[var(--radius-lg)] bg-gradient-to-br from-accent-rose-light to-accent-light flex items-center justify-center">
-              <span className="font-heading text-6xl text-accent-primary/20 select-none">
-                K-beauty
-              </span>
-            </div>
+          <div className="aspect-square w-full max-w-lg relative rounded-[var(--radius-lg)] overflow-hidden shadow-2xl">
+            <Image
+              src="/images/hero/hero_001_foto_1.png"
+              alt="Корейская косметика премиум-класса — секреты безупречной кожи"
+              fill
+              className="object-cover"
+              priority
+              sizes="50vw"
+            />
           </div>
         </div>
       </div>
