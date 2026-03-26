@@ -13,6 +13,10 @@ export default function TrustBar() {
   return (
     <section className="py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4">
+        <h2 className="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-2">
+          Категории товаров
+        </h2>
+        <div className="w-12 h-0.5 bg-accent-gold mb-8" />
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {categories.map((cat) => (
             <Link
