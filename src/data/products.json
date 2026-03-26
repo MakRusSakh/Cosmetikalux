@@ -9155,8 +9155,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Магний для сердца, нервов и мышц — высокая биодоступность каждый день\n\n◈ Магний в высокодоступной форме нормализует работу сердечно-сосудистой системы\n◈ Снимает нервное напряжение, улучшает качество сна и устойчивость к стрессу\n◈ Поддерживает здоровье мышц и суставов, предотвращает судороги\n\nМагний — один из важнейших минералов, в котором нуждается каждая клетка организма. Сердце, мышцы, нервная система — все они зависят от достаточного уровня этого микроэлемента. Добавка Nutri-D Day содержит магний в форме с высокой биодоступностью, что обеспечивает максимальное усвоение.\n\nПрепарат помогает нормализовать артериальное давление, улучшить оксигенацию клеток и снять мышечное напряжение. Магний играет ключевую роль в регуляции нервной системы — он помогает справляться со стрессом, улучшает сон и снижает тревожность.\n\nОдна таблетка в день — простой и эффективный способ восполнить дефицит. Курс из 90 таблеток рассчитан на 3 месяца, что позволяет ощутить полный накопительный эффект: лёгкость в теле, спокойствие и стабильная работа сердца.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Оксид магния, гидрохлорид витамина B, кристаллическая целлюлоза, мальтодекстрин, гидроксипропилметилцеллюлоза, стеариновая кислота, диоксид кремния, диоксид титана (краситель), кальций карбоксиметилцеллюлоза, сложный эфир глицерина жирной кислоты, кальций из морских водорослей, порошок акульего хряща, порошок смеси фруктов и овощей, сухие дрожжи",
+    "usage": "Принимать по 1 таблетке в день, запивая достаточным количеством воды.",
     "skinTypes": [
       "normal"
     ],
@@ -9172,7 +9172,13 @@
       "source": "generated"
     },
     "purchaseCount": 379,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Оксид магния (400 мг — 127% суточной нормы)",
+      "Витамин B6 (гидрохлорид)",
+      "Кальций из морских водорослей",
+      "Порошок акульего хряща"
+    ]
   },
   {
     "id": "prod_59507940",
@@ -9198,7 +9204,7 @@
       "Dicaprylyl Carbonate",
       "PEG-7 Caprylic/​Capric Glycerides"
     ],
-    "usage": "",
+    "usage": "Принимать по 2 капсулы в день (утром и вечером), после еды, запивая водой. Не разжёвывать.",
     "skinTypes": [
       "normal"
     ],
@@ -9218,7 +9224,12 @@
     "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
     "nameEnglish": "DHCWater-friendly Cleansing Oil",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil",
+    "keyIngredients": [
+      "Витамин С — 1000 мг (эквивалент 33 лимонов)",
+      "Витамин B2 — 2 мг",
+      "Желатиновая капсула"
+    ]
   },
   {
     "id": "prod_59508171",
@@ -9244,7 +9255,7 @@
       "Potassium Hydroxide",
       "Palmitic Acid"
     ],
-    "usage": "",
+    "usage": "Принимать по 15 таблеток в день, разделив на 3 приёма (по 5 таблеток) во время еды. Рекомендуемый курс — 3 месяца.",
     "skinTypes": [
       "normal"
     ],
@@ -9264,7 +9275,14 @@
     "inciList": "Water,Glycerin,Myristic Acid,Lauric Acid,Sodium Laureth Sulfate,Potassium Hydroxide,Palmitic Acid,Glycol Distearate,Lanolin Alcohol,[more]Diglycerin,Shea Butter,Polyquaternium-7,Cocamide MEA,Guar Hydroxypropyltrimonium Chloride,Etidronic Acid,Laureth-4,Disodium EDTA,Hydroxypropyl Methylcellulose,Trisodium EDTA,Sodium Hydroxide,Sodium Benzoate,Fragrance[less]",
     "nameEnglish": "Nivea JapanNivea Cream Care Body Wash Paris Rich Soap Scent Pump",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/nivea-japan-nivea-cream-care-body-wash-paris-rich-soap-scent-pump"
+    "inciSourceUrl": "https://incidecoder.com/products/nivea-japan-nivea-cream-care-body-wash-paris-rich-soap-scent-pump",
+    "keyIngredients": [
+      "Хондроитин из хряща акулы — 1100 мг",
+      "Глюкозамин — 1000 мг",
+      "Коллаген II типа — 540 мкг",
+      "Соевый изофлавон (кверцетин — 10 мг)",
+      "Витамины В1, В2, В6, С"
+    ]
   },
   {
     "id": "prod_59508184",
@@ -9337,7 +9355,7 @@
       "Ethylhexyl Palmitate",
       "2-Hexanediol"
     ],
-    "usage": "",
+    "usage": "После очищения и тонизирования нанесите умеренное количество крема на лицо ровным слоем. Мягко похлопайте подушечками пальцев для лучшего впитывания. Подходит для ежедневного применения утром и вечером.",
     "skinTypes": [
       "normal"
     ],
@@ -9357,7 +9375,14 @@
     "inciList": "Water,Glycerin,Simmondsia Chinensis (Jojoba) Seed Oil,Caprylic/​Capric Triglyceride,Butylene Glycol,Dipropylene Glycol,Cetearyl Alcohol,Ethylhexyl Palmitate,1,2-Hexanediol,[more]Glyceryl Stearate,Hydrogenated Poly (C6-14 Olefin),Hydrolyzed Hyaluronic Acid,Sodium Hyaluronate,Trehalose,Allantoin,Panthenol,Betaine,Adansonia Digitata Seed Oil,Hydrogenated Rice Bran Oil,Ceramide NP (486Ppm),Ceramide NS (18Ppm),Ceramide AS (18Ppm),Ceramide EOP (9Ppm),Ceramide AP (9Ppm),Phytosphingosine,Stearic Acid,Cholesterol,Soluble Collagen,Thymus Vulgaris (Thyme) Extract,Camellia Sinensis Leaf Extract,Mentha Suaveolens Leaf Extract,Citrus Unshiu Peel Extract,Propanediol,2,3-Butanediol,Vinyl Dimethicone,Hydrogenated Lecithin,Cetearyl Olivate,Sucrose,Carbomer,Tromethamine,Xanthan Gum,Disodium EDTA,Carthamus Tinctorius (Safflower) Flower Extract,Ethylhexyl Glycerine[less]",
     "nameEnglish": "TorridenSOLID IN Ceramide Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/torriden-solid-in-ceramide-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/torriden-solid-in-ceramide-cream",
+    "keyIngredients": [
+      "5 видов церамидов (AP, AS, NP, NS, EOP) — 20 000 ppm",
+      "Масло жожоба и масло баобаба",
+      "Пантенол (провитамин B5)",
+      "Фитосфингозин",
+      "Трегалоза и аллантоин"
+    ]
   },
   {
     "id": "prod_59521045",
@@ -9383,7 +9408,7 @@
       "Niacinamide",
       "2-Hexanediol"
     ],
-    "usage": "",
+    "usage": "Нанесите достаточное количество крема на лицо и шею как завершающий этап ухода утром и вечером. Для интенсивного лифтинг-эффекта вечером нанесите 1–2 дополнительных слоя, мягко вбивая подушечками пальцев до полного впитывания.",
     "skinTypes": [
       "aging"
     ],
@@ -9403,7 +9428,14 @@
     "inciList": "Water,Butylene Glycol,Glycerin,Collagen Extract(30,520Ppm),Caprylic/​Capric Triglyceride,Niacinamide,1,2-Hexanediol,Cetearyl Olivate,Cetyl Ethylhexanoate,[more]Soluble Collagen,Hydrolyzed Collagen,Collagen Amino Acids,Collagen,Hexapeptide-2,Panthenol,Allantoin,Hydrolyzed Hyaluronic Acid,Sodium Hyaluronate,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Sodium Hyaluronate Crosspolymer,Potassium Hyaluronate,Hydroxypropyltrimonium Hyaluronate,Hyaluronic Acid,Sodium Acetylated Hyaluronate,Heptyl Undecylenate,Glyceryl Stearate,C10-18 Triglycerides,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Valine,Threonine,Proline,Isoleucine,Histidine,Methionine,Cysteine,Biotin,Pentylene Glycol,Glycine,Serine,Glutamic Acid,Aspartic Acid,Leucine,Alanine,Lysine,Arginine,Tyrosine,Phenylalanine,Adenosine,Sorbitan Olivate,Sorbitan Isostearate,Cetearyl Alcohol,Vinyl Dimethicone,Tromethamine,Glyceryl Acrylate/​Acrylic Acid Copolymer,Pvm/​Ma Copolymer,Xanthan Gum,Disodium EDTA,Ethylhexylglycerin[less]",
     "nameEnglish": "TorridenCellmazing Firming Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/torriden-cellmazing-firming-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/torriden-cellmazing-firming-cream",
+    "keyIngredients": [
+      "5D коллагеновый комплекс (30 520 ppm) — 5 форм коллагена",
+      "Ниацинамид (1,8–2,2%)",
+      "Гексапептид-2",
+      "10D гиалуроновая кислота (6 видов)",
+      "Пантенол и аллантоин"
+    ]
   },
   {
     "id": "prod_59521072",
@@ -9917,7 +9949,7 @@
       "Isopropyl Palmitate",
       "Hydrolyzed Elastin"
     ],
-    "usage": "",
+    "usage": "Нанесите небольшое количество сыворотки на чистую кожу вокруг глаз. Лёгкими похлопывающими движениями безымянных пальцев распределите средство по орбитальной области от внутреннего уголка к внешнему. Используйте утром и вечером после тонера, перед нанесением крема для глаз.",
     "skinTypes": [
       "normal"
     ],
@@ -9940,7 +9972,14 @@
     "inciList": "Water,Glycerin,Petrolatum,Cetyl Alcohol,Dimethicone,Isopropyl Palmitate,Hydrolyzed Elastin,Hydrolyzed Collagen (10Ppm),Morinda Citrifolia Fruit Extract,[more]Morus Alba Stem Extract,Jasminum Officinale (Jasmine) Flower Extract,Achillea Millefolium Extract,Arnica Montana Flower Extract,Caprylic Capric Triglyceride,Glyceryl Stearate SE,Carbomer,PEG-100 Stearate,Glyceryl Stearate,Caprylyl Glycol,Hydroxyethylcellulose,Betaine,Trehalose,Butyrospermum Parkii (Shea) Butter,1.2-Hexanediol,Butylene Glycol,Sodium Hyaluronate,Sodium Hyaluronate Crosspolymer,Acetyl Glucosamine,Hydrolyzed Hyaluronic Acid,Hyaluronic Acid,Acetyl Hexapeptide-8,Phenoxyethanol,Fragrance,Potassium Hydroxide,Disodium EDTA[less]",
     "nameEnglish": "OrthiaHand Essence Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/orthia-hand-essence-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/orthia-hand-essence-cream",
+    "keyIngredients": [
+      "Золото 24K — активизирует регенерацию клеток и улучшает микроциркуляцию",
+      "Гидролизованный коллаген — разглаживает морщины и повышает упругость",
+      "Аденозин — укрепляет структуру кожи и замедляет процессы старения",
+      "Гиалуроновая кислота — глубокое увлажнение и удержание влаги",
+      "Экстракт лотоса — смягчает и выравнивает поверхность кожи"
+    ]
   },
   {
     "id": "prod_59587122",
@@ -9960,7 +9999,7 @@
     "countryCode": "JP",
     "description": "Природная поддержка иммунитета с силой бразильского агарика\n\n◈ Бета-глюкан (336 мг) активизирует иммунную систему и усиливает защитные функции организма\n◈ Концентрированный экстракт агарика (эквивалент 7 200 мг) поддерживает сердечно-сосудистое здоровье\n◈ Витамин С (100 мг) обеспечивает дополнительную антиоксидантную защиту\n\nFUJIMA Гриб Агарик — японская добавка на основе бразильского агарика (Agaricus blazei), одного из самых изученных представителей лекарственных грибов. Главный действующий компонент — бета-глюкан — уникальный полисахарид, который стимулирует иммунную систему и помогает организму противостоять неблагоприятным факторам.\n\nПрепарат содержит концентрированный экстракт агарика и полисахаридно-белковый комплекс, усиленные витамином С для комплексного воздействия. Добавка применяется для укрепления иммунитета, поддержки сердечно-сосудистой системы и нормализации уровня холестерина. Произведено в Японии с соблюдением высочайших стандартов качества. Перед применением рекомендуется консультация специалиста. БАД, не является лекарственным средством.",
     "ingredients": [],
-    "usage": "",
+    "usage": "Принимайте по 1 пакетику в день, запивая водой или тёплой водой. Рекомендуется принимать во время или после еды. Не превышайте рекомендуемую суточную дозу. Биологически активная добавка, не является лекарственным средством.",
     "skinTypes": [
       "normal"
     ],
@@ -9976,7 +10015,12 @@
       "source": "generated"
     },
     "purchaseCount": 372,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Экстракт гриба агарика (Agaricus blazei) — источник бета-глюканов, поддержка иммунитета",
+      "Бета-глюкан (336 мг) — активизирует иммунную систему и усиливает защитные функции",
+      "Витамин С (100 мг) — антиоксидантная защита и поддержка иммунитета"
+    ]
   },
   {
     "id": "prod_59587179",
@@ -10042,7 +10086,7 @@
       "Hydrogenated Starch Hydrolysate",
       "Palmitic Acid"
     ],
-    "usage": "",
+    "usage": "Принимайте содержимое одного пакетика в день, запивая водой или тёплой водой. Каждый пакетик содержит несколько капсул и таблеток — принимайте все одновременно. Рекомендуется употреблять во время или после приёма пищи для лучшего усвоения.",
     "skinTypes": [
       "dry"
     ],
@@ -10062,7 +10106,14 @@
     "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
     "nameEnglish": "FanclAcne Care Washing Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream",
+    "keyIngredients": [
+      "Омега-3 (DHA, EPA) — поддержка сердца, сосудов и когнитивных функций",
+      "Коэнзим Q10 — антиоксидантная защита и клеточный тонус",
+      "Комплекс витаминов группы B — энергетический обмен и нервная система",
+      "Кальций и магний — укрепление костной ткани",
+      "Витамин С — иммунная поддержка и антиоксидантная защита"
+    ]
   },
   {
     "id": "prod_59598286",
@@ -10134,7 +10185,7 @@
       "Sodium Citrate",
       "Hexylglycerin"
     ],
-    "usage": "",
+    "usage": "Закапывайте по 1–2 капли в каждый глаз 5–6 раз в день. Не используйте при ношении мягких контактных линз. Не предназначено для детей младше 15 лет. Избегайте контакта кончика флакона с глазами и ресницами. Храните в прохладном тёмном месте. После вскрытия используйте в течение рекомендованного срока.",
     "skinTypes": [
       "normal"
     ],
@@ -10156,7 +10207,14 @@
     "inciList": "Aqua (Water),Saccharide Isomerate,Phenoxyethanol,Sodium Citrate,Butylene Glycol,Hexylglycerin,Citric Acid,Alteromonas Ferment Extract,Tocopherol[less]",
     "nameEnglish": "RohtoDermacept Rx Face Mist",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/rohto-dermacept-rx-face-mist"
+    "inciSourceUrl": "https://incidecoder.com/products/rohto-dermacept-rx-face-mist",
+    "keyIngredients": [
+      "Неостигмина метилсульфат — восстановление фокусировки и снятие усталости глаз",
+      "Натрия хондроитин сульфат — защита поверхности роговицы",
+      "Аллантоин — противовоспалительное действие, успокаивает раздражение",
+      "Витамин E (d-альфа-токоферол) — улучшение кровообращения в тканях глаза",
+      "Таурин — стимуляция метаболизма и восстановление тканей"
+    ]
   },
   {
     "id": "prod_59598288",
@@ -10226,7 +10284,7 @@
       "Dicaprylyl Carbonate",
       "PEG-7 Caprylic/​Capric Glycerides"
     ],
-    "usage": "",
+    "usage": "Принимайте по 1 таблетке в день, запивая водой или тёплой водой. Не разжёвывайте. Рекомендуется принимать во время или после еды для лучшего усвоения. Не превышайте рекомендуемую суточную дозу. Биологически активная добавка, не является лекарственным средством.",
     "skinTypes": [
       "normal"
     ],
@@ -10248,7 +10306,12 @@
     "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
     "nameEnglish": "DHCWater-friendly Cleansing Oil",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil",
+    "keyIngredients": [
+      "Витамин D3 (холекальциферол) 1000 МЕ — регуляция усвоения кальция и фосфора",
+      "Мальтоза — вспомогательное вещество-наполнитель",
+      "Целлюлоза — формообразующий компонент"
+    ]
   },
   {
     "id": "prod_59598423",
@@ -10317,7 +10380,7 @@
       "Sodium Polyacrylate",
       "Phthalimidoperoxycaproic Acid (Pap)"
     ],
-    "usage": "",
+    "usage": "Закапывать по 1–3 капли в каждый глаз 3–6 раз в день. Перед применением вымыть руки. Не касаться кончиком флакона глаз и ресниц. Хранить при комнатной температуре, избегать прямых солнечных лучей.",
     "skinTypes": [
       "normal"
     ],
@@ -10337,7 +10400,13 @@
     "inciList": "Glycerin,Aqua/​Water,PVP,Ethylcellulose,Alcohol,Sodium Polyacrylate,Phthalimidoperoxycaproic Acid (Pap),Xylitol,Potassium Citrate,[more]Hydroxyapatite,Rebaudioside A,Menthol,Sodium Citrate,Xanthan Gum,Pvm/​Ma Copolymer,C12-15 Pareth-3[less]",
     "nameEnglish": "Hi SmilePap+ Whiting Strips",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/hi-smile-pap-whiting-strips"
+    "inciSourceUrl": "https://incidecoder.com/products/hi-smile-pap-whiting-strips",
+    "keyIngredients": [
+      "Retinol Palmitate (Vitamin A) — питает ткани глаза, улучшает обменные процессы",
+      "Pyridoxine Hydrochloride (Vitamin B6) — поддерживает клеточный метаболизм глаз",
+      "Tetrahydrozoline Hydrochloride — сужает сосуды, устраняет покраснение конъюнктивы",
+      "d-α-Tocopherol Acetate (Vitamin E) — антиоксидантная защита тканей глаза"
+    ]
   },
   {
     "id": "prod_59599071",
@@ -10363,7 +10432,7 @@
       "Dicaprylyl Carbonate",
       "PEG-7 Caprylic/​Capric Glycerides"
     ],
-    "usage": "",
+    "usage": "Принимать по 1 капсуле в день, запивая водой. Рекомендуется принимать во время или после еды. Не превышать рекомендуемую дозу — избыток цинка может препятствовать усвоению меди. Не рекомендуется детям.",
     "skinTypes": [
       "normal"
     ],
@@ -10383,7 +10452,12 @@
     "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
     "nameEnglish": "DHCWater-friendly Cleansing Oil",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil",
+    "keyIngredients": [
+      "Zinc Gluconate (цинк 15 мг) — укрепляет иммунитет, поддерживает здоровье кожи, волос и ногтей",
+      "Selenium-containing Yeast (селен 50 мкг) — мощный антиоксидант, защита клеток от окислительного стресса",
+      "Chromium-containing Yeast (хром 60 мкг) — регуляция уровня сахара в крови, метаболизм жиров и углеводов"
+    ]
   },
   {
     "id": "prod_59599101",
@@ -10453,7 +10527,7 @@
       "Dicaprylyl Carbonate",
       "PEG-7 Caprylic/​Capric Glycerides"
     ],
-    "usage": "",
+    "usage": "Принимать по 2 капсулы в день, запивая водой. Рекомендуется принимать после еды. Не применять при беременности, индивидуальной непереносимости компонентов, а также при одновременном приёме лекарственных препаратов без консультации врача.",
     "skinTypes": [
       "normal"
     ],
@@ -10473,7 +10547,13 @@
     "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
     "nameEnglish": "DHCWater-friendly Cleansing Oil",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil",
+    "keyIngredients": [
+      "Melilotus Officinalis Extract (донник 200 мг) — содержит кумарин, нормализует венозный отток, снимает отёки",
+      "Ginkgo Biloba Leaf Extract (гинкго билоба 20 мг) — улучшает кровообращение, укрепляет сосуды",
+      "Java Tea Extract (яванский чай 20 мг) — поддерживает водный баланс, мочегонное действие",
+      "Capsicum Annuum Extract (экстракт перца чили 2 мг) — стимулирует микроциркуляцию"
+    ]
   },
   {
     "id": "prod_59599107",
@@ -10499,7 +10579,7 @@
       "Dicaprylyl Carbonate",
       "PEG-7 Caprylic/​Capric Glycerides"
     ],
-    "usage": "",
+    "usage": "Принимать по 4 таблетки в день, запивая водой. Можно разделить на 2 приёма по 2 таблетки. Упаковка рассчитана на 60 дней при приёме 4 таблеток в сутки. Хранить в сухом прохладном месте.",
     "skinTypes": [
       "normal"
     ],
@@ -10519,7 +10599,13 @@
     "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
     "nameEnglish": "DHCWater-friendly Cleansing Oil",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil",
+    "keyIngredients": [
+      "Концентрат 32 видов овощей и трав (1730 мг) — восполняет дефицит витаминов и минералов",
+      "Молочнокислые бактерии 4 видов (Lactobacillus Kefiri P-IF, L. Brevis, L. Acidophilus, L. Lactis) — 1 трлн единиц, восстановление микрофлоры",
+      "Дрожжи 3 видов (Kluyveromyces marxianus, Kazachstania turicensis, K. unispora) — поддержка пищеварения",
+      "Vitamin E (5 мг) — антиоксидантная защита"
+    ]
   },
   {
     "id": "prod_59603958",
@@ -10538,8 +10624,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Секрет нестареющей кожи: ресвератрол красного вина и астаксантин морских водорослей в одной капсуле\n\n◈ Ресвератрол (100 мг) — легендарный полифенол долголетия из красного вина, замедляющий окислительное старение клеток и поддерживающий упругость кожи\n◈ Астаксантин (20 мг) из водорослей Haematococcus превосходит витамин E по антиоксидантной силе в десятки раз, защищая кожу от фотоповреждений\n◈ Катехины зелёного чая и экстракт сосновых шишек создают многоуровневую антиоксидантную защиту, укрепляя иммунитет\n\nФранцузский парадокс — так учёные назвали феномен, при котором ценители красного вина сохраняют здоровье сосудов и молодость кожи. Разгадка — в ресвератроле, который FUJIMA объединила с астаксантином, каротиноидом, дающим лососю силу преодолевать течение. Два мощнейших антиоксиданта природного происхождения теперь доступны в удобной капсуле.\n\nФормула обогащена катехином зелёного чая, экстрактом сосновых шишек и маслом виноградных косточек с незаменимыми жирными кислотами. Комплекс работает сразу в нескольких направлениях: борется с воспалением, поддерживает нервную и эндокринную системы, способствует здоровому метаболизму.\n\n90 капсул на 45 дней — по 2 штуки ежедневно, запивая водой. Произведено в Японии. БАД, не является лекарственным средством. Перед применением рекомендуется консультация специалиста.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Grape Seed Oil, Red Wine Extract Powder (contains Resveratrol), Pine Cone Extract Powder, Gelatin, Glycerin, Beeswax, Glycerides, Green Tea Extract (contains Catechin), Haematococcus Algae Phycochrome (contains Astaxanthin)",
+    "usage": "Принимать по 2 капсулы в день после еды, запивая водой или другой жидкостью. Упаковка рассчитана на 45 дней. Хранить в сухом прохладном месте, избегая прямых солнечных лучей.",
     "skinTypes": [
       "normal"
     ],
@@ -10557,7 +10643,13 @@
       "source": "generated"
     },
     "purchaseCount": 95,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Red Wine Extract / Resveratrol (100 мг) — полифенол долголетия, замедляет окислительное старение клеток, поддерживает упругость кожи",
+      "Haematococcus Algae Phycochrome / Astaxanthin (20 мг) — мощный каротиноидный антиоксидант из водорослей",
+      "Green Tea Extract / Catechin (20 мг) — дополнительная антиоксидантная защита",
+      "Pine Cone Extract (20 мг) — укрепление здоровья, противовоспалительное действие"
+    ]
   },
   {
     "id": "prod_59603959",
@@ -10576,8 +10668,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Свобода движений на 90 дней: тройная формула глюкозамин + хондроитин + MSM для полного восстановления суставов\n\n◈ Глюкозамин (1500 мг) многоступенчатой очистки запускает регенерацию хрящевой ткани и стимулирует выработку собственного коллагена\n◈ MSM (1500 мг) и хондроитин из акульего хряща (480 мг) снимают воспаление, восстанавливают эластичность связок и возвращают подвижность\n◈ Коллаген II типа, гиалуроновая кислота и витамины D, K, B1, B6 обеспечивают глубокое питание костно-суставного аппарата\n\nСкованность по утрам, хруст в коленях, боль при подъёме по лестнице — суставы не прощают невнимания. FUJIMA создала полноценный курс на 90 дней, в котором три ключевых компонента — глюкозамин, хондроитин и метилсульфонилметан — работают в синергии, восстанавливая то, что разрушило время и нагрузки.\n\nГлюкозамин проходит несколько стадий очистки, что обеспечивает максимальное усвоение. Акулий хрящ с 40% содержанием хондроитина улучшает метаболизм в соединительной ткани, а коллаген II типа и гиалуроновая кислота выполняют роль естественной смазки суставов. Витамины D и K дополнительно укрепляют кости.\n\n900 таблеток — полный курс восстановления. По 10 таблеток ежедневно, разделив на 2-3 приёма. Перед применением проконсультируйтесь с врачом, особенно при приёме антитромботических препаратов. БАД.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Мукополисахаридно-белковый комплекс, ферментированный продукт расщепления коллагена (в том числе содержит желатин), декстрин, доломит, дрожжи с цинком, экстракт куриных хрящей, экстракт соевых проростков, пищевой порошкообразный жир с витамином К, глюкозамин (получаемый из креветок и крабов), микрокристаллическая целлюлоза, эфиры глицерина и жирных кислот, кремния диоксид, витамин B6, витамин B1, гиалуроновая кислота, MSM, витамин D, лактоза, фолиевая кислота",
+    "usage": "Принимать по 10 таблеток в день во время или после еды, разделив на два приёма, запивая водой. Упаковка на 900 таблеток рассчитана на 90 дней. Не является лекарственным препаратом, перед применением проконсультируйтесь с врачом.",
     "skinTypes": [
       "normal"
     ],
@@ -10593,7 +10685,14 @@
       "source": "generated"
     },
     "purchaseCount": 75,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Глюкозамина гидрохлорид (1500 мг) — запускает регенерацию хрящевой ткани и стимулирует выработку коллагена",
+      "Метилсульфонилметан MSM (1500 мг) — источник органической серы, снижает воспаление и улучшает усвоение глюкозамина",
+      "Хондроитинсульфат из акульего хряща (480 мг) — поддерживает эластичность хрящевой ткани и удерживает влагу в суставах",
+      "Коллаген II типа из куриного хряща (100 мг) — структурный белок для восстановления соединительной ткани",
+      "Гиалуроновая кислота — обеспечивает смазку суставов и амортизацию"
+    ]
   },
   {
     "id": "prod_59603960",
@@ -10612,8 +10711,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Попробуйте силу японской формулы: глюкозамин, хондроитин и MSM для суставов — компактный курс на 36 дней\n\n◈ Глюкозамин (1500 мг) высочайшей очистки ускоряет восстановление хрящей и стимулирует синтез коллагена в суставных тканях\n◈ MSM (1500 мг) и хондроитин из акульего хряща снижают воспаление, уменьшая дискомфорт и скованность при движении\n◈ Гиалуроновая кислота, коллаген II типа и витамины D, K, B1, B6 питают суставы и укрепляют костную структуру\n\nТа же мощная формула FUJIMA, что и в полном курсе на 90 дней, — но в компактной упаковке. Это идеальный вариант, если вы хотите оценить эффект комплекса на себе или поддержать суставы между основными курсами. Глюкозамин, хондроитин и MSM в терапевтических дозировках запускают процесс восстановления хрящевой ткани и снимают воспаление.\n\nСостав дополнен коллагеном II типа из куриного хряща, гиалуроновой кислотой, соевыми изофлавонами и фолиевой кислотой. Витамины D и K укрепляют кости, а B1 и B6 поддерживают нервную систему и мышечный тонус. Каждый компонент подобран для комплексного воздействия на опорно-двигательный аппарат.\n\n360 таблеток на 36 дней — по 10 штук ежедневно, разделив на 2-3 приёма, запивая водой. Перед началом приёма проконсультируйтесь с врачом. БАД, не является лекарственным средством.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Мукополисахаридно-белковый комплекс, ферментированный продукт расщепления коллагена (в том числе содержит желатин), декстрин, доломит, дрожжи с цинком, экстракт куриных хрящей, экстракт соевых проростков, пищевой порошкообразный жир с витамином К, глюкозамин (получаемый из креветок и крабов), микрокристаллическая целлюлоза, эфиры глицерина и жирных кислот, кремния диоксид, витамин B6, витамин B1, гиалуроновая кислота, MSM, витамин D, лактоза, фолиевая кислота",
+    "usage": "Принимать по 10 таблеток в день во время или после еды, разделив на два приёма, запивая водой. Упаковка на 360 таблеток рассчитана на 36 дней. Не является лекарственным препаратом, перед применением проконсультируйтесь с врачом.",
     "skinTypes": [
       "normal"
     ],
@@ -10629,7 +10728,14 @@
       "source": "generated"
     },
     "purchaseCount": 165,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Глюкозамина гидрохлорид (1500 мг) — ускоряет восстановление хрящей и стимулирует синтез коллагена",
+      "Метилсульфонилметан MSM (1500 мг) — снижает воспаление, обеспечивает гибкость соединительной ткани",
+      "Хондроитинсульфат из акульего хряща (480 мг) — поддерживает эластичность и влагоудержание хрящевой ткани",
+      "Коллаген II типа из куриного хряща (100 мг) — восстанавливает структуру суставного хряща",
+      "Гиалуроновая кислота — смазка суставов, улучшает амортизацию"
+    ]
   },
   {
     "id": "prod_59603962",
@@ -10953,7 +11059,7 @@
       "Sodium Citrate",
       "Hexylglycerin"
     ],
-    "usage": "",
+    "usage": "Закапывать по 2–3 капли в каждый глаз 5–6 раз в день. Не использовать при ношении мягких контактных линз. Совместимы с жёсткими контактными линзами. Не допускайте контакта кончика флакона с веками или ресницами. При использовании детьми — применять под наблюдением родителей.",
     "skinTypes": [
       "normal"
     ],
@@ -10973,7 +11079,14 @@
     "inciList": "Aqua (Water),Saccharide Isomerate,Phenoxyethanol,Sodium Citrate,Butylene Glycol,Hexylglycerin,Citric Acid,Alteromonas Ferment Extract,Tocopherol[less]",
     "nameEnglish": "RohtoDermacept Rx Face Mist",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/rohto-dermacept-rx-face-mist"
+    "inciSourceUrl": "https://incidecoder.com/products/rohto-dermacept-rx-face-mist",
+    "keyIngredients": [
+      "Витамин B6 (пиридоксин) — улучшает обмен веществ в тканях глаза",
+      "Тетрагидрозолина гидрохлорид — снимает воспаление и покраснение конъюнктивы",
+      "Неостигмина метилсульфат — улучшает фокусировку глаз, снимает спазм аккомодации",
+      "Калия L-аспартат — улучшает тканевое дыхание и питание клеток глаза",
+      "L-ментол — обеспечивает мгновенный охлаждающий и тонизирующий эффект (индекс свежести 8)"
+    ]
   },
   {
     "id": "prod_59637876",
@@ -10999,7 +11112,7 @@
       "Benzyl Glycol",
       "Butoxydiglycol"
     ],
-    "usage": "",
+    "usage": "Наложить патчи на чистую сухую кожу вокруг глаз узким концом к внутреннему уголку глаза. Широкая часть должна закрывать область «гусиных лапок» у внешнего уголка. Оставить на 20–30 минут, затем аккуратно снять. Оставшуюся эссенцию распределить по коже лёгкими похлопывающими движениями, не смывать.",
     "skinTypes": [
       "aging"
     ],
@@ -11022,7 +11135,14 @@
     "inciList": "Water/​Aqua/​Eau,Glycerin,Dipropylene Glycol,Chondrus Crispus Powder,Ceratonia Siliqua Gum,Benzyl Glycol,Butoxydiglycol,Xanthan Gum,PEG-60 Hydrogenated Castor Oil,[more]Allantoin,Niacinamide,Butylene Glycol,Raspberry Ketone,Iron Oxide (Ci77499),Tocopheryl Acetate,Dipotassium Glycyrrhizate,Ricinus Communis (Castor) Seed Oil,Fragrance/​Parfum,Adenosine,Disodium EDTA,Holothurin,Calcium Lactate,Synthetic Fluorphlogopite,Titanium Dioxide (Ci77891),Iron Oxide (Ci77491),Ethyl Hexanediol,Sodium Hyaluronate,Phenoxyethanol,1,2-Hexanediol,Hydrolyzed Collagen,Tin Oxide[less]",
     "nameEnglish": "BEAUUGREENCoral & Aqua Hydrogel Eye Patch (hydrating Solution)",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/beauugreen-coral-aqua-hydrogel-eye-patch-hydrating-solution"
+    "inciSourceUrl": "https://incidecoder.com/products/beauugreen-coral-aqua-hydrogel-eye-patch-hydrating-solution",
+    "keyIngredients": [
+      "Экстракт морского огурца — природный источник коллагена и минералов, антиоксидант, тонизирует и восстанавливает кожу",
+      "Гидролизованный коллаген — заполняет неровности, разглаживает морщины, поддерживает увлажнённость",
+      "Гиалуронат натрия — глубокое увлажнение и удержание влаги в коже",
+      "Аденозин — стимулирует выработку коллагена и эластина, уменьшает морщины",
+      "Ниацинамид — выравнивает тон кожи, укрепляет защитный барьер"
+    ]
   },
   {
     "id": "prod_59637880",
@@ -11048,7 +11168,7 @@
       "Benzyl Glycol",
       "Butoxydiglycol"
     ],
-    "usage": "",
+    "usage": "Нанести патчи на очищенную кожу вокруг глаз, избегая контакта со слизистой оболочкой. Оставить на 20 минут, затем снять. Остатки сыворотки вмассировать в кожу лёгкими движениями кончиков пальцев, не смывать.",
     "skinTypes": [
       "dry"
     ],
@@ -11071,7 +11191,14 @@
     "inciList": "Water/​Aqua/​Eau,Glycerin,Dipropylene Glycol,Chondrus Crispus Powder,Ceratonia Siliqua Gum,Benzyl Glycol,Butoxydiglycol,Xanthan Gum,PEG-60 Hydrogenated Castor Oil,[more]Allantoin,Niacinamide,Butylene Glycol,Raspberry Ketone,Iron Oxide (Ci77499),Tocopheryl Acetate,Dipotassium Glycyrrhizate,Ricinus Communis (Castor) Seed Oil,Fragrance/​Parfum,Adenosine,Disodium EDTA,Holothurin,Calcium Lactate,Synthetic Fluorphlogopite,Titanium Dioxide (Ci77891),Iron Oxide (Ci77491),Ethyl Hexanediol,Sodium Hyaluronate,Phenoxyethanol,1,2-Hexanediol,Hydrolyzed Collagen,Tin Oxide[less]",
     "nameEnglish": "BEAUUGREENCoral & Aqua Hydrogel Eye Patch (hydrating Solution)",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/beauugreen-coral-aqua-hydrogel-eye-patch-hydrating-solution"
+    "inciSourceUrl": "https://incidecoder.com/products/beauugreen-coral-aqua-hydrogel-eye-patch-hydrating-solution",
+    "keyIngredients": [
+      "Экстракт граната — замедляет разрушение коллагена и стимулирует синтез проколлагена, осветляет пигментацию",
+      "Рубиновая пудра — стимулирует микроциркуляцию, обновляет кожу и насыщает эпидермис энергией",
+      "Гидролизованный коллаген — разглаживает морщины, поддерживает упругость и увлажнённость кожи",
+      "Аденозин — мощный антивозрастной компонент, стимулирует выработку коллагена и эластина",
+      "Гиалуронат натрия — интенсивное увлажнение и удержание влаги"
+    ]
   },
   {
     "id": "prod_59637881",
