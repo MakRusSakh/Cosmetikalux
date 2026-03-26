@@ -4909,7 +4909,7 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Сияющий ровный тон и осветление пигментации с силой глутатиона\n\n◈ Глутатион в высокой концентрации — мощный антиоксидант, выравнивающий тон и осветляющий пигментные пятна\n◈ 5 пептидов — омолаживают кожу, повышают упругость и улучшают текстуру\n◈ Ниацинамид и экстракт центеллы — укрепляют защитный барьер и предотвращают появление новой пигментации\n\nТусклый неровный тон, следы постакне, возрастные пятна — всё это лишает кожу свежести и молодого вида. Glutathione Bio-Intense White Cream целенаправленно работает с каждой из этих проблем, возвращая лицу чистое здоровое сияние.\n\nГлутатион — один из сильнейших природных антиоксидантов — подавляет избыточную выработку меланина и осветляет уже имеющуюся пигментацию. Комплекс из пяти пептидов стимулирует обновление клеток и повышает плотность кожи. Ниацинамид выравнивает тон и сужает поры, аденозин разглаживает морщины, а экстракт центеллы снимает воспаления и ускоряет заживление. Лёгкая текстура быстро впитывается без жирной плёнки и подходит для ежедневного применения.\n\nРезультат — ровный светящийся тон, заметное осветление пигментных пятен и следов постакне, а кожа выглядит моложе и свежее с каждым днём.",
-    "ingredients": [],
+    "ingredients": "Purified Water, Butylene Glycol, Caprylic/Capric Triglyceride, Beeswax, Niacinamide, Cetearyl Alcohol, Isononyl Isononanoate, Arachidyl Alcohol, 1,2-Hexanediol, Polyglyceryl-3 Methylglucose Distearate, Behenyl Alcohol, Glyceryl Stearate, Betaine, Simethicone, Arachidyl Glucoside, Cetearyl Olivate, Arginine, Carbomer, Sorbitan Olivate, Allantoin, Glycerin, Panthenol, Tocopherol, Xanthan Gum, Glutathione, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Disodium EDTA, Sodium Hyaluronate, Glucose, Alcohol, Malva Sylvestris (Mallow) Extract, Melissa Officinalis Leaf Extract, Alchemilla Vulgaris Extract, Achillea Millefolium Extract, Veronica Officinalis Extract, Mentha Piperita (Peppermint) Leaf Extract, Primula Veris Extract, Lycopodium Clavatum Extract, Equisetum Arvense Extract, Ceramide NP, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Sodium Hydroxide, Sodium Ascorbyl Phosphate, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Thiamine HCl, Acetyl Hexapeptide-8, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-1",
     "usage": "После очищения и тонизирования нанесите небольшое количество крема на лицо. Распределите легкими массажными движениями до полного впитывания. Используйте утром и вечером для достижения яркого, ровного тона кожи и профилактики возрастных изменений.",
     "skinTypes": [
       "oily",
@@ -4927,7 +4927,14 @@
       "source": "generated"
     },
     "purchaseCount": 236,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Glutathione (600 ppm) — мощный антиоксидант, осветляет пигментные пятна и выравнивает тон кожи",
+      "Niacinamide — укрепляет защитный барьер кожи, осветляет и увлажняет",
+      "Ceramide NP — восстанавливает и поддерживает липидный барьер кожи",
+      "Sodium Ascorbyl Phosphate — стабильная форма витамина C, антиоксидантная защита",
+      "Acetyl Hexapeptide-8 — пептид, разглаживающий мимические морщины"
+    ]
   },
   {
     "id": "prod_59354428",
@@ -5087,7 +5094,7 @@
       "Niacinamide",
       "Cetearyl Alcohol"
     ],
-    "usage": "",
+    "usage": "На завершающем этапе ухода за кожей возьмите небольшое количество крема и равномерно распределите по всему лицу. Слегка вбейте подушечками пальцев до полного впитывания. Используйте утром и вечером.",
     "skinTypes": [
       "normal"
     ],
@@ -5107,7 +5114,14 @@
     "inciList": "Centella Asiatica Extract,Glycerin,Dipropylene Glycol,Caprylic/​Capric Triglyceride,Hydrogenated Polydecene,Niacinamide,Cetearyl Alcohol,Coco-Caprylate/​Caprate,Beeswax,[more]Cetearyl Olivate,Glyceryl Stearate,Euphorbia Cerifera (Candelilla) Wax,Sorbitan Olivate,1,2-Hexanediol,Butylene Glycol,Methionyl R-Clostridium Botulinum Polypeptide-1 Hexapeptide-40,SH-Polypeptide-1,Sh-Polypeptide-2,rh-Oligopeptide-2,Asiaticoside,Ethyl Ascorbyl Ether,Acetyl Hexapeptide-8,Myrothamnus Flabellifolia Leaf Extract,Madecassoside,Centella Asiatica Leaf Water,Sodium Acetylated Hyaluronate,Hydrolyzed Hyaluronic Acid,Fucus Vesiculosus Extract,Prunella Vulgaris Extract,Illicium Verum (Anise) Fruit Extract,Scutellaria Baicalensis Root Extract,Sodium Hyaluronate,Beta-Glucan,Panthenol,Propanediol,Betaine,Allantoin,Squalane,Macadamia Ternifolia Seed Oil,Olea Europaea (Olive) Fruit Oil,Simmondsia Chinensis (Jojoba) Seed Oil,Argania Spinosa Kernel Oil,Limnanthes Alba (Meadowfoam) Seed Oil,Zanthoxylum Piperitum Fruit Extract,Pulsatilla Koreana Extract,Usnea Barbata (Lichen) Extract,Polygonum Cuspidatum Extract,Camellia Sinensis Leaf Extract,Glycyrrhiza Glabra (Licorice) Root Extract,Anthemis Nobilis Flower Extract,Rosmarinus Officinalis (Rosemary) Leaf Extract,Xylitylglucoside,Anhydroxylitol,Xylitol,Spilanthes Acmella Extract,Hydrogenated Polyisobutene,Anemarrhena Asphodeloides Root Extract,Hydrolyzed Collagen,Hydrogenated Lecithin,C12-16 Alcohols,Palmitic Acid,Cetearyl Glucoside,Phytosteryl/​Isostearyl/​Cetyl/​Stearyl/​Behenyl Dimer Dilinoleate,Tocopherol,Adenosine,Microcrystalline Cellulose,Cellulose Gum,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Xanthan Gum,Jasminum Officinale Flower Oil[less]",
     "nameEnglish": "MeditimeBotalinum Concentrate Care Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/meditime-botalinum-concentrate-care-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/meditime-botalinum-concentrate-care-cream",
+    "keyIngredients": [
+      "Methionyl R-Clostridium Botulinum Polypeptide-1 Hexapeptide-40 — ботулинический полипептид, расслабляет мимические мышцы и разглаживает морщины",
+      "Centella Asiatica Extract (Madecassoside, Asiaticoside) — успокаивает кожу, укрепляет барьер, стимулирует синтез коллагена",
+      "Niacinamide — выравнивает тон, сокращает поры, укрепляет защитный барьер",
+      "Acetyl Hexapeptide-8 — пептид-миорелаксант, сокращает глубину мимических морщин",
+      "Sodium Hyaluronate + Hydrolyzed Hyaluronic Acid — многоуровневое увлажнение кожи"
+    ]
   },
   {
     "id": "prod_59360870",
@@ -5133,7 +5147,7 @@
       "Boron Nitride",
       "Tranexamic Acid"
     ],
-    "usage": "",
+    "usage": "Нанесите небольшое количество крема на лицо в качестве завершающего этапа ухода, утром и вечером. На проблемные зоны с выраженной пигментацией можно нанести дополнительный слой для более интенсивного осветляющего эффекта. Днём обязательно используйте солнцезащитное средство.",
     "skinTypes": [
       "normal"
     ],
@@ -5153,7 +5167,14 @@
     "inciList": "Water,Dipropylene Glycol,Caprylic/​Capric Triglyceride,Glycerin,Niacinamide,1,2-Hexanediol,Boron Nitride,Tranexamic Acid,Pentaerythrityl Tetraethylhexanoate,[more]Hydrogenated Polydecene,Cetearyl Alcohol,Cetearyl Olivate,Butyrospermum Parkii (Shea) Butter,Coco-Caprylate/​Caprate,Betaine,Sorbitan Olivate,Polyglyceryl-3 Methylglucose Distearate,Propanediol,Xylitylglucoside,Glyceryl Stearate,Panthenol,Anhydroxylitol,Bisabolol,Beeswax,Ammonium Acryloyldimethyltaurate/​VP Copolymer,C12-16 Alcohols,Xylitol,Hydrogenated Lecithin,Allantoin,Palmitic Acid,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Glucose,Ethylhexylglycerin,Caprylyl Glycol,Adenosine,Disodium EDTA,3-O-Ethyl Ascorbic Acid,Glutathione,Asiaticoside,Sorbitan Isostearate,Polysorbate 60,Pentylene Glycol,Dextrin,Madecassoside[less]",
     "nameEnglish": "MeditimeMelaban Brightening Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/meditime-melaban-brightening-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/meditime-melaban-brightening-cream",
+    "keyIngredients": [
+      "Tranexamic Acid (74 000 ppm) — подавляет избыточный синтез меланина, предотвращает появление новой пигментации",
+      "Niacinamide (5%) — осветляет пигментные пятна, укрепляет барьер кожи",
+      "Glutathione — мощный антиоксидант, выравнивает тон и осветляет кожу",
+      "3-O-Ethyl Ascorbic Acid (COS-VCE) — стабильное производное витамина C для глубокого осветления",
+      "Madecassoside (MadeWhite) — компонент центеллы азиатской, восстанавливает барьер и снимает воспаление"
+    ]
   },
   {
     "id": "prod_59362013",
@@ -5213,8 +5234,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "АКУЛИЙ СКВАЛЕН + ОМЕГА-3 — ГЛУБИННАЯ СИЛА ОКЕАНА ДЛЯ ВАШЕГО ЗДОРОВЬЯ\n\n◈ Очищенный сквален (чистота не менее 99,6%) из печени глубоководной акулы укрепляет сердце и сосуды\n◈ Жирные кислоты EPA и DHA из рыбьего жира насыщают организм незаменимыми полезными жирами\n◈ Витамин E в составе обеспечивает антиоксидантную защиту и сохранность активных компонентов\n\nГлубоководные акулы обитают на глубинах от 300 до 1000 метров, где давление и условия среды экстремальны. Секрет их выносливости — в уникальной печени, составляющей до 25% массы тела и богатой скваленом. Именно этот редкий компонент стал основой японского комплекса Fujima.\n\nСквален — природный углеводород, который укрепляет сердечную мышцу, способствует очищению сосудов и нормализации артериального давления. Он поддерживает иммунную активность, помогает восстанавливать клетки печени и благотворно влияет на состояние кожи, волос и ногтей. Омега-3 жирные кислоты в составе дополняют действие сквалена, обеспечивая комплексную поддержку сердечно-сосудистой системы.\n\n180 таблеток на 30-дневный курс — это натуральные компоненты природного происхождения в удобной форме для ежедневного приёма. Японское качество производства гарантирует высокую степень очистки и эффективность каждой капсулы.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Очищенный жир глубоководной акулы (содержит не менее 99,6% сквалена), очищенный рыбий жир (содержит EPA и DHA), витамин E, желатин (оболочка капсулы), глицерин",
+    "usage": "Принимайте по 6 капсул в день, запивая водой. Можно разделить на несколько приёмов (например, по 2 капсулы 3 раза в день во время еды). Не является лекарственным средством. Перед применением проконсультируйтесь с врачом.",
     "skinTypes": [
       "normal"
     ],
@@ -5230,7 +5251,13 @@
       "source": "generated"
     },
     "purchaseCount": 66,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Сквален (99,6%) — природный антиоксидант из печени глубоководной акулы, замедляет старение, укрепляет иммунитет",
+      "EPA (эйкозапентаеновая кислота) — незаменимая омега-3 жирная кислота, поддерживает здоровье сердца и сосудов",
+      "DHA (докозагексаеновая кислота) — омега-3 жирная кислота, необходимая для работы мозга и нервной системы",
+      "Витамин E — антиоксидант, защищает клетки от окислительного стресса"
+    ]
   },
   {
     "id": "prod_59362090",
@@ -5256,7 +5283,7 @@
       "2-Hexanediol",
       "Phenyl Trimethicone"
     ],
-    "usage": "",
+    "usage": "Возьмите достаточное количество крема и равномерно нанесите на кожу лица по массажным линиям. Слегка вбейте подушечками пальцев до полного впитывания. Используйте на завершающем этапе ухода. Подходит для ежедневного применения.",
     "skinTypes": [
       "oily"
     ],
@@ -5276,7 +5303,14 @@
     "inciList": "Water,Hamamelis Virginiana (Witch Hazel) Water,Propanediol,Glycerin,Methyl Methacrylate Crosspolymer,Caprylic/​Capric Triglyceride,1,2-Hexanediol,Phenyl Trimethicone,Behenyl Alcohol,[more]Cetyl Ethylhexanoate,Polyglyceryl-3 Distearate,Dimethicone,C14-22 Alcohols,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Dimethicone/​Vinyl Dimethicone Crosspolymer,Butylene Glycol,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Polyglyceryl-6 Caprylate,Polyglyceryl-4 Caprate,Ethylhexylglycerin,Arginine,C12-20 Alkyl Glucoside,Glyceryl Stearate Citrate,Vitis Vinifera (Grape) Fruit Extract,Diospyros Kaki Leaf Extract,Polygonum Cuspidatum Root Extract,Coffea Arabica (Coffee) Seed Extract,Carthamus Tinctorius (Safflower) Flower Extract,Camellia Sinensis Leaf Extract,Castanea Crenata (Chestnut) Shell Extract,Disodium EDTA,Zanthoxylum Piperitum Fruit Extract,Sorbitan Isostearate,Ulmus Davidiana Root Extract,Pueraria Lobata Root Extract,Oenothera Biennis (Evening Primrose) Flower Extract,Pinus Palustris Leaf Extract,Capryloyl Salicylic Acid,Glucose,Gluconolactone,Citric Acid,Salicylic Acid,Anthemis Nobilis Flower Extract,Melaleuca Alternifolia (Tea Tree) Leaf Extract,Calendula Officinalis Extract[less]",
     "nameEnglish": "ma:nyoBlackhead & Pore Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/ma-nyo-blackhead-pore-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/ma-nyo-blackhead-pore-cream",
+    "keyIngredients": [
+      "Capryloyl Salicylic Acid (LHA) — липогидроксикислота, глубоко очищает поры и растворяет сальные пробки",
+      "Salicylic Acid (BHA) — противовоспалительное и антибактериальное действие, предотвращает образование комедонов",
+      "Hamamelis Virginiana (Witch Hazel) Water — экстракт гамамелиса, сужает поры и успокаивает кожу",
+      "Camellia Sinensis Leaf Extract — мощный антиоксидант, защищает кожу от свободных радикалов",
+      "PHA (полигидроксикислота) — мягко отшелушивает ороговевшие клетки, выравнивает текстуру кожи"
+    ]
   },
   {
     "id": "prod_59362106",
@@ -5442,7 +5476,7 @@
       "2-Hexanediol",
       "Diisostearyl Malate"
     ],
-    "usage": "",
+    "usage": "Нанесите небольшое количество крема на очищенную кожу вокруг глаз после использования тонера и сыворотки. Мягко распределите безымянными пальцами по орбитальной кости лёгкими похлопывающими движениями от внутреннего уголка глаза к внешнему. Используйте утром и вечером.",
     "skinTypes": [
       "normal"
     ],
@@ -5462,7 +5496,14 @@
     "inciList": "Bifida Ferment Lysate (43%),Lactobacillus/​Pumpkin Fruit Ferment Filtrate (20%),Propanediol,Glycerin,Dipropylene Glycol,Caprylyl Methicone,1,2-Hexanediol,Diisostearyl Malate,Niacinamide,[more]Cutibacterium Granulosum Ferment Extract Filtrate (10,000Ppm),Centella Asiatica Leaf Water,Squalane,Lupinus Albus Seed Extract,Persea Gratissima (Avocado) Fruit Extract,Fucus Vesiculosus Extract,Prunella Vulgaris Extract,Cetearyl Alcohol,Helianthus Annuus (Sunflower) Seed Oil,Glucose,Sodium Hyaluronate,Hydroxypropyltrimonium Hyaluronate,Hydrolyzed Hyaluronic Acid,Sodium Acetylated Hyaluronate,Hydrolyzed Sodium Hyaluronate,Potassium Hyaluronate,Hyaluronic Acid,Sodium Hyaluronate Crosspolymer,Ethylhexylglycerin,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Cetearyl Glucoside,Water,Butylene Glycol,Acetyl Hexapeptide-8,Copper Tripeptide-1,Tripeptide-1,Palmitoyl Tripeptide-1,Palmitoyl Pentapeptide-4,Hexapeptide-11,Hexapeptide-9,Nonapeptide-1,Palmitic Acid,Polyglyceryl-10 Laurate,Dipentaerythrityl Hexa C5-9 Acid Esters,Caprylic/​Capric Triglyceride,Sorbitan Isostearate,Caprylyl Glycol,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,C12-16 Alcohols,Tromethamine,Hydrogenated Lecithin,Maltodextrin,Alanine/​Histidine/​Lysine Polypeptide Copper HCL,Adenosine,Tocopherol[less]",
     "nameEnglish": "Manyo FactoryBifida Biome Concentrate Eye Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/manyo-factory-bifida-biome-concentrate-eye-cream-2"
+    "inciSourceUrl": "https://incidecoder.com/products/manyo-factory-bifida-biome-concentrate-eye-cream-2",
+    "keyIngredients": [
+      "Bifida Ferment Lysate (43%) — лизат бифидобактерий для регенерации и укрепления барьера",
+      "Комплекс из 8 пептидов — разглаживание морщин и повышение упругости",
+      "8 видов гиалуроновой кислоты — многоуровневое увлажнение",
+      "Niacinamide — выравнивание тона и укрепление кожного барьера",
+      "Squalane — смягчение и защита от потери влаги"
+    ]
   },
   {
     "id": "prod_59365358",
@@ -5488,7 +5529,7 @@
       "Caprylic/​Capric Triglyceride",
       "Houttuynia Cordata Extract"
     ],
-    "usage": "",
+    "usage": "На завершающем этапе ухода нанесите гель-крем на очищенную и увлажнённую тонером кожу лица. Равномерно распределите мягкими движениями по всему лицу, избегая области вокруг глаз. Подходит для утреннего и вечернего применения. Рекомендуется для чувствительной, раздражённой и склонной к покраснениям кожи.",
     "skinTypes": [
       "sensitive"
     ],
@@ -5510,7 +5551,14 @@
     "inciList": "Water,Propanediol,Glycerin,Sodium Hyaluronate,Butylene Glycol,Sorbitol,Isohexadecane,Caprylic/​Capric Triglyceride,Houttuynia Cordata Extract,[more]Betaine,Centella Asiatica Extract,Glyceryl Stearate,Salvia Officinalis (Sage) Extract,Glycyrrhiza Glabra (Licorice) Root Extract,Sorghum Bicolor Leaf/​Stem Extract,Aspergillus Ferment,Chlorphenesin,Arginine,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Allantoin,Sorbitan Sesquioleate,Ethylhexylglycerin,Xanthan Gum,Guaiazulene[less]",
     "nameEnglish": "Axis-YHeartleaf My Type Calming Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/axis-y-heartleaf-my-type-calming-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/axis-y-heartleaf-my-type-calming-cream",
+    "keyIngredients": [
+      "Houttuynia Cordata Extract (хауттюйния) — снятие воспалений и успокаивание раздражённой кожи",
+      "Centella Asiatica Extract — восстановление барьера и стимуляция регенерации",
+      "Glycyrrhiza Glabra Root Extract (солодка) — осветление и уменьшение покраснений",
+      "Allantoin — заживление и смягчение кожи",
+      "Guaiazulene — антиоксидантная защита, натуральный противовоспалительный компонент"
+    ]
   },
   {
     "id": "prod_59365361",
@@ -5536,7 +5584,7 @@
       "Phenyl Trimethicone",
       "Cetyl Ethylhexanoate"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица на завершающем этапе ухода после тонера и сыворотки. Равномерно распределите по лицу мягкими движениями, уделяя внимание зонам с расширенными порами (Т-зона). Используйте утром и вечером. pH 5.5 обеспечивает бережное действие без повреждения барьера. Веганская формула без парабенов и минеральных масел.",
     "skinTypes": [
       "oily"
     ],
@@ -5556,7 +5604,14 @@
     "inciList": "Water,Propanediol,Glycerin,Caprylic/​Capric Triglyceride,Methyl Methacrylate Crosspolymer,1,2-Hexanediol,Phenyl Trimethicone,Cetyl Ethylhexanoate,Behenyl Alcohol,[more]Capryloyl Salicylic Acid,Anastatica Hierochuntica Extract,Opuntia Ficus-Indica Stem Extract,Adansonia Digitata Fruit Extract,Salix Alba (Willow) Bark Extract,Camellia Sinensis Leaf Extract,Centella Asiatica Leaf Extract,Cladosiphon Okamuranus Extract,Coffea Arabica (Coffee) Seed Extract,Citrus Aurantium Bergamia (Bergamot) Leaf Extract,Pinus Densiflora Leaf Extract,Decyl Glucoside,Bambusa Vulgaris Extract,Panthenol,Glucose,Disodium EDTA,Silica,Sodium Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Polyisobutene,Carbomer,Polyglyceryl-3 Distearate,Polyglyceryl-6 Caprylate,Polyglyceryl-4 Caprate,Glyceryl Stearate Citrate,Sorbitan Oleate,Caprylyl/​Capryl Glucoside,C12-20 Alkyl Glucoside,Ethylhexylglycerin,Tocopherol,Tromethamine,C14-22 Alcohols,Dimethicone/​Vinyl Dimethicone Crosspolymer,Dimethicone[less]",
     "nameEnglish": "Axis-YLHA Peel & Fill Pore Balancing Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/axis-y-lha-peel-fill-pore-balancing-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/axis-y-lha-peel-fill-pore-balancing-cream",
+    "keyIngredients": [
+      "LHA (Capryloyl Salicylic Acid) — мягкое отшелушивание и очищение пор без раздражения",
+      "Anastatica Hierochuntica (роза Иерихона) — интенсивное увлажнение и восстановление",
+      "Centella Asiatica Leaf Extract — противовоспалительное действие и укрепление барьера",
+      "Panthenol — глубокое увлажнение и успокаивание кожи",
+      "Salix Alba Bark Extract (кора ивы) — контроль себума и предотвращение закупорки пор"
+    ]
   },
   {
     "id": "prod_59365373",
@@ -5582,7 +5637,7 @@
       "Octyldodecanol",
       "Pentylene Glycol"
     ],
-    "usage": "",
+    "usage": "Нанесите небольшое количество крема на чистую кожу вокруг глаз после тонера и сыворотки. Распределите безымянными пальцами лёгкими похлопывающими движениями по орбитальной кости. Подходит для утреннего и вечернего ухода. Лёгкая текстура быстро впитывается, не оставляя жирной плёнки. Подходит для всех типов кожи, включая чувствительную.",
     "skinTypes": [
       "dry"
     ],
@@ -5602,7 +5657,14 @@
     "inciList": "Water (Aqua),Glycerin,Butylene Glycol,Decyl Cocoate,Niacinamide,Octyldodecanol,Pentylene Glycol,Dicaprylyl Carbonate,C12-16 Alcohols,[more]1,2-Hexanediol,Sea Water (Maris Aqua),Panthenol,Bacillus Ferment,Micrococcus Lysate,Dipotassium Glycyrrhizate,Sodium Hyaluronate,Hydrolyzed Hyaluronic Acid,Hyaluronic Acid,Hydroxypropyltrimonium Hyaluronate,Palmitoyl Tripeptide-5,Sodium Acetylated Hyaluronate,Hydrolyzed Sodium Hyaluronate,Sodium Hyaluronate Crosspolymer,Potassium Hyaluronate,Lupinus Albus Seed Extract,Moringa Oleifera Seed Extract (Moringa Pterygosperma Seed Extract),Xylitol,Polymethylsilsesquioxane,Hydrogenated Lecithin,Hydrolyzed Hibiscus Esculentus Extract,Tromethamine,PVP,Allantoin,Hydroxyacetophenone,Ethylhexylglycerin,Adenosine,Sodium Phytate,Bisabolol,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Bis-Diglyceryl Polyacyladipate-2,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Palmitic Acid,Tocopherol[less]",
     "nameEnglish": "ROUND LABDokdo 1025 Eye Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/round-lab-dokdo-1025-eye-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/round-lab-dokdo-1025-eye-cream",
+    "keyIngredients": [
+      "Sea Water (глубоководная морская вода) — насыщение минералами и усиление микроциркуляции",
+      "8 видов гиалуроновой кислоты — многоуровневое увлажнение на всех слоях эпидермиса",
+      "Niacinamide — осветление тёмных кругов и укрепление барьера",
+      "Palmitoyl Tripeptide-5 — антивозрастной пептид для повышения упругости",
+      "Dokdo Biome Complex (Bacillus Ferment, Micrococcus Lysate) — пробиотики для восстановления микробиома кожи"
+    ]
   },
   {
     "id": "prod_59365385",
@@ -5628,7 +5690,7 @@
       "Undaria Pinnatifida Extract",
       "Niacinamide"
     ],
-    "usage": "",
+    "usage": "Нанесите небольшое количество сыворотки на чистую кожу вокруг глаз в вечернем уходе после тонера. Мягко распределите безымянными пальцами похлопывающими движениями по орбитальной кости, избегая попадания на слизистую. Рекомендуется начинать использование через день для адаптации кожи к ретинолу. Утром обязательно наносите солнцезащитное средство. Не смешивайте с кислотами (AHA/BHA) в одном уходе.",
     "skinTypes": [
       "aging"
     ],
@@ -5651,7 +5713,14 @@
     "inciList": "Water,Glycerin,Propanediol,Laminaria Japonica Extract,Hizikia Fusiforme Extract,Ecklonia Cava Extract,Undaria Pinnatifida Extract,Niacinamide,Hydrogenated Polydecene,[more]1,2-Hexanediol,Cetearyl Alcohol,Butylene Glycol,Butyrospermum Parkii (Shea) Butter,Retinol(1,020Ppm),Panthenol,Biosaccharide Gum-1,Chitosan,Adenosine,Sodium Hyaluronate,Gelidium Cartilagineum Extract,Sargassum Fulvellum Extract,Spirulina Platensis Extract,Chlorella Minutissima Extract,Plankton Extract,Hydrolyzed Sponge,Caprylic/​Capric Triglyceride,Polyglyceryl-3 Distearate,Phenyl Trimethicone,Sorbitan Stearate,Hydrogenated Polyisobutene,Glycol Stearate Se,Stearic Acid,Carbomer,Macadamia Ternifolia Seed Oil,Glyceryl Stearate Citrate,Coptis Japonica Extract,Brassica Campestris (Rapeseed) Sterols,Cholesterol,Polyglyceryl-10 Laurate,Sorbitan Isostearate,Polysorbate 60,Phytosteryl/​Behenyl/​Octyldodecyl Lauroyl Glutamate,Aluminum/​Magnesium Hydroxide Stearate,Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate,Potassium Cetyl Phosphate,Ethylhexylglycerin,Tris(Tetramethylhydroxypiperidinol) Citrate,Simethicone,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Hydrogenated Lecithin,Tromethamine,Hydroxyacetophenone,Theobroma Cacao (Cocoa) Seed Extract,Dextrin,Disodium EDTA,Fragrance[less]",
     "nameEnglish": "HeimishMarine Care Retinol Eye Serum",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/heimish-marine-care-retinol-eye-serum"
+    "inciSourceUrl": "https://incidecoder.com/products/heimish-marine-care-retinol-eye-serum",
+    "keyIngredients": [
+      "Retinol 0,1% (липосомальный) — стимуляция синтеза коллагена и разглаживание морщин",
+      "Niacinamide 5% — осветление тёмных кругов и выравнивание тона",
+      "Marine Water (комплекс морских водорослей) — глубокое увлажнение и минерализация",
+      "Adenosine — уменьшение видимости морщин и повышение эластичности",
+      "Panthenol — восстановление и успокаивание деликатной кожи век"
+    ]
   },
   {
     "id": "prod_59365391",
@@ -5677,7 +5746,7 @@
       "Stearic Acid",
       "Polyglyceryl-3 Methylglucose Distearate"
     ],
-    "usage": "",
+    "usage": "Нанесите небольшое количество крема на очищенную кожу вокруг глаз. Распределите лёгкими похлопывающими движениями от внешнего уголка глаза к внутреннему. Используйте утром и вечером после сыворотки или эмульсии. Избегайте попадания в глаза.",
     "skinTypes": [
       "normal"
     ],
@@ -5697,7 +5766,14 @@
     "inciList": "Water,Butylene Glycol,Caprylic/​Capric Triglyceride,Cetearyl Alcohol,Ethanol,Glycerin,Stearic Acid,Polyglyceryl-3 Methylglucose Distearate,Cyclopentasiloxane,[more]Urea,Glyceryl Stearate,C12-15 Alkyl Benzoate,Hydroxyacetophenone,Carbomer,Triethanolamine,Dimethicone,Betaine,Propanediol,Macadamia Oil,Meadowsweet Oil,Ethylhexylglycerin,Panthenol-D,Adenosine,Disodium EDTA,Green Tea Extract,Lavender Extract,Rosemary Leaf Extract,Sodium Hyaluronate,Acetyl Hexapeptide-8 (100Ppm),Aloe Vera Leaf Juice,Palmitoyl Tetrapeptide-7,Palmitoyl Tripeptide-1,Hydrolyzed Collagen,Skullcap Extract,1,2-Hexanediol,Aloe Vera Leaf Extract,Bioflavonoids,Broccoli Extract,Human Oligopeptide-1 (0.0001 Ppm),Human Oligopeptide-2 (0.0001 Ppm),Human Polypeptide-1 (0.0001 Ppm),Human Polypeptide-16 (0.0001 Ppm),Human Polypeptide-3 (0.0001 Ppm)[less]",
     "nameEnglish": "MEDI-PEEL5 Growth Factors Eye Tox Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-5-growth-factors-eye-tox-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-5-growth-factors-eye-tox-cream",
+    "keyIngredients": [
+      "5 факторов роста (EGF, IGF, bFGF, VEGF, SCF) — запускают глубинное обновление и восстановление кожи",
+      "Acetyl Hexapeptide-8 (аргирелин) — расслабляет мимические мышцы, разглаживая морщины",
+      "Palmitoyl Tripeptide-1 и Palmitoyl Tetrapeptide-7 — стимулируют синтез коллагена и снижают воспаление",
+      "Sodium Hyaluronate — глубокое увлажнение и поддержание тургора кожи",
+      "Hydrolyzed Collagen — повышает плотность и эластичность кожи вокруг глаз"
+    ]
   },
   {
     "id": "prod_59365399",
@@ -5723,7 +5799,7 @@
       "Hydroxypropyl Methylcellulose",
       "Pullulan"
     ],
-    "usage": "",
+    "usage": "На очищенную кожу вокруг глаз нанесите 1-2 капли сыворотки. Распределите лёгкими похлопывающими движениями безымянным пальцем от внешнего уголка к внутреннему. Применяйте утром и вечером перед кремом для век. Подходит для всех типов кожи.",
     "skinTypes": [
       "normal"
     ],
@@ -5746,7 +5822,14 @@
     "inciList": "Water,Glycerin,Butylene Glycol,Ethanol,Niacinamide,Dimethicone/​Vinyl Dimethicone Crosspolymer,Hydroxypropyl Methylcellulose,Pullulan,Glycosyl Trehalose,[more]Hydrogenated Starch Hydrolysate,1,2-Hexanediol,Glyceryl Acrylate/​Acrylic Acid Copolymer,Sodium Hyaluronate,Propylene Glycol,Gellan Gum,Scutellaria Baicalensis Root Extract,Hydrogenated Polyisobutene,Anemarrhena Asphodeloides Root Extract,Himanthalia Elongata (Brown Algae) Extract,Myrothamnus Flabellifolia Callus Culture Extract,Oenothera Biennis (Evening Primrose) Flower Extract,Sophora Flavescens Root Extract,Thuja Orientalis Extract,Scutellaria Baicalensis Extract,Taraxacum Officinale (Dandelion) Extract,Allantoin,Panthenol,Adenosine,Palmitoyl Tripeptide-1,Palmitoyl Tetrapeptide-7,SH-Oligopeptide-1,SH-Oligopeptide-2,SH-Polypeptide-1,SH-Polypeptide-3,Sh-Polypeptide-16,Polylactic Acid,C12-14 Sec-Pareth-7,Origanum Vulgare Flower/​Leaf/​Stem Extract,Lavender Angustifolia Extract,Rosmarinus Officinalis (Rosemary) Leaf Extract,Thymus Vulgaris (Thyme) Extract,Porphyridium Cruentum Extract,Tromethamine,Ethylhexylglycerin,Glyceryl Caprylate,Carbomer,Cyclopentasiloxane,Dimethiconol,Chondrus Crispus Powder,Synthetic Fluorphlogopite,Agar,Titanium Dioxide,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Mica,Ferric Oxide,Tin Oxide,Coceth-7,PPG-1-PEG-9 Lauryl Glycol Ether,PEG-40 Hydrogenated Castor Oil,Polyglyceryl-10 Laurate,Phenoxyethanol,Dipotassium Glycyrrhizate,Disodium EDTA,Fragrance[less]",
     "nameEnglish": "MEDI-PEELMezzo Filla Eye Serum",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-mezzo-filla-eye-serum-2"
+    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-mezzo-filla-eye-serum-2",
+    "keyIngredients": [
+      "7 пептидов (Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, SH-Oligopeptide-1/2, SH-Polypeptide-1/3/16) — комплексное омоложение и подтяжка кожи",
+      "Niacinamide (ниацинамид) — выравнивает тон, осветляет тёмные круги под глазами",
+      "Sodium Hyaluronate (гиалуроновая кислота) — интенсивное увлажнение и заполнение мелких морщин",
+      "Adenosine (аденозин) — стимулирует синтез коллагена, оказывает антивозрастное действие",
+      "Allantoin (аллантоин) — успокаивает и смягчает нежную кожу вокруг глаз"
+    ]
   },
   {
     "id": "prod_59365407",
@@ -5999,7 +6082,7 @@
       "Cetearyl Alcohol",
       "Chamomilla Recutita Flower Extract"
     ],
-    "usage": "",
+    "usage": "Нанесите небольшое количество крема на чистую сухую кожу рук и ногтей. Равномерно распределите массирующими движениями до полного впитывания. Используйте по мере необходимости в течение дня, особенно после мытья рук или контакта с водой. Подходит для ежедневного ухода за нормальной и сухой кожей.",
     "skinTypes": [
       "normal"
     ],
@@ -6019,7 +6102,13 @@
     "inciList": "Aqua,Ethylhexyl Stearate,Glyceryl Stearate SE,Glycerin,Hydrogenated Coco-Glycerides,Cetearyl Alcohol,Chamomilla Recutita Flower Extract,Bisabolol,Glucose,[more]Myristyl Alcohol,Stearic Acid,Palmitic Acid,Lactic Acid,Xanthan Gum,Propylene Glycol,Butylene Glycol,Parfum,Phenoxyethanol,Caprylyl Glycol,Decylene Glycol,Sodium Benzoate,Potassium Sorbate,Benzyl Alcohol,Hexyl Cinnamal,Linalool,Limonene,Citronellol,Alpha-Isomethyl Ionone,Citral,Coumarin,Geraniol[less]",
     "nameEnglish": "KamillHand & Nagelcreme Classic",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/kamill-hand-nagelcreme-classic"
+    "inciSourceUrl": "https://incidecoder.com/products/kamill-hand-nagelcreme-classic",
+    "keyIngredients": [
+      "Chamomilla Recutita Flower Extract (экстракт ромашки) — успокаивает, снимает раздражения и воспаления",
+      "Bisabolol (бисаболол) — активный компонент ромашки, усиливает противовоспалительное действие",
+      "Glycerin (глицерин) — глубоко увлажняет и смягчает кожу рук",
+      "Lactic Acid (молочная кислота) — мягко обновляет кожу, выравнивает текстуру"
+    ]
   },
   {
     "id": "prod_59367631",
@@ -6081,8 +6170,8 @@
     "country": "Корея",
     "countryCode": "KR",
     "description": "SPA-уход для рук дома: маска-перчатки для глубокого питания и восстановления\n\n◈ Формат перчаток обеспечивает максимальный контакт активных компонентов с кожей на протяжении всей процедуры\n◈ Экстракт ромашки мгновенно успокаивает раздражённую кожу и создаёт защитную плёнку от потери влаги\n◈ Интенсивное увлажнение возвращает рукам гладкость, нежность и упругость за одно применение\n\nДаже самые ухоженные руки порой нуждаются в экстренном восстановлении — после перелёта, уборки или просто холодного дня. Маска-перчатки PrettySkin Rich Moisture превращает домашний уход в полноценную SPA-процедуру: достаточно надеть перчатки и позволить коже впитать концентрированную порцию питательных веществ.\n\nЭкстракт ромашки — ключевой актив формулы — снимает покраснения и раздражения, защищает от агрессивного воздействия окружающей среды. Тончайшая плёнка на поверхности кожи препятствует испарению влаги, запечатывая увлажняющие компоненты внутри.\n\nВсего 15-20 минут — и руки преображаются. Кожа становится бархатистой, гладкой и напитанной, а лёгкий массаж после снятия перчаток усиливает эффект и дарит ощущение полного обновления.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Glycerin, PEG-40 Hydrogenated Castor Oil, Butylene Glycol, Phenoxyethanol, Anthemis Nobilis Flower Extract, Cetearyl Alcohol, Betaine, Rosa Canina Fruit Extract, Tocopheryl Acetate, Portulaca Oleracea Extract, Urea, Carbomer, Aesculus Hippocastanum Bark Extract, Eucalyptus Globulus Leaf Extract, Thymus Vulgaris Leaf Extract",
+    "usage": "Тщательно вымойте и высушите руки. Откройте упаковку и наденьте маски-перчатки на руки. Оставьте на 15-20 минут для глубокого воздействия активных компонентов. Снимите перчатки и помассируйте руки для лучшего впитывания оставшейся эссенции. Не смывайте. Рекомендуется использовать 1-2 раза в неделю.",
     "skinTypes": [
       "dry"
     ],
@@ -6101,7 +6190,14 @@
       "source": "generated"
     },
     "purchaseCount": 259,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Anthemis Nobilis Flower Extract (экстракт ромашки) — успокаивает раздражённую кожу и защищает от потери влаги",
+      "Urea (мочевина) — размягчает ороговевший слой, делая кожу гладкой и нежной",
+      "Betaine (бетаин) — устраняет шелушение, глубоко увлажняет",
+      "Tocopheryl Acetate (витамин E) — антиоксидантная защита и питание кожи",
+      "Rosa Canina Fruit Extract (экстракт шиповника) — восстанавливает и тонизирует кожу"
+    ]
   },
   {
     "id": "prod_59378343",
@@ -6127,7 +6223,7 @@
       "Isododecane",
       "Lactobacillus Ferment"
     ],
-    "usage": "",
+    "usage": "После очищения и тонизирования нанесите крем-пудинг на лицо и шею пальцами или шпателем. Используйте утром и вечером как завершающий этап ухода после сыворотки. Утром обязательно нанесите солнцезащитный крем поверх. В холодное время года можно наносить в несколько слоёв. Для интенсивного увлажнения нанесите плотным слоем на ночь в качестве ночной маски.",
     "skinTypes": [
       "normal"
     ],
@@ -6147,7 +6243,14 @@
     "inciList": "Prunus Persica (Peach) Fruit Extract (77%),Glycerin,Methylpropanediol,Niacinamide,Isododecane,Lactobacillus Ferment,1,2-Hexanediol,Propanediol,Panthenol,[more]Polyglyceryl-3 Methylglucose Distearate,Polymethylsilsesquioxane,Hydrogenated Polydecene,Jojoba Esters,Coptis Japonica Root Extract,Prunus Persica (Peach) Flower Extract,Soluble Collagen,Sodium Hyaluronate,Vinyl Dimethicone,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Water,Dimethiconol,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Tromethamine,Butylene Glycol,Adenosine,Disodium EDTA,Cyanocobalamin,Saccharomyces Ferment Filtrate,Galactomyces Ferment Filtrate,Bifida Ferment Lysate,Ceramide NP,Pectin,Maltodextrin,Hydrolyzed Vegetable Protein,Fragrance,Hydroxyacetophenone,Ethylhexylglycerin[less]",
     "nameEnglish": "AnuaPeach 77% Niacin Enriched Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/anua-peach-77-niacin-enriched-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/anua-peach-77-niacin-enriched-cream",
+    "keyIngredients": [
+      "Prunus Persica Fruit Extract 77% (ферментированный экстракт персика) — осветляет тон, насыщает кожу витаминами и полифенолами",
+      "Niacinamide (ниацинамид) — укрепляет кожный барьер, сужает поры, выравнивает тон",
+      "Ceramide NP (церамиды) — восстанавливают защитный барьер и удерживают влагу",
+      "Soluble Collagen (коллаген) — повышает плотность и упругость кожи",
+      "Тройной ферментированный комплекс (Lactobacillus, Saccharomyces, Bifida) — успокаивает и глубоко питает кожу"
+    ]
   },
   {
     "id": "prod_59378357",
@@ -6173,7 +6276,7 @@
       "2-Hexanediol",
       "Dicaprylyl Ether"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную и тонизированную кожу лица на завершающем этапе ухода. Возьмите небольшое количество средства и равномерно распределите по лицу и шее мягкими движениями, избегая области вокруг глаз. Подходит для ежедневного утреннего и вечернего применения. Рекомендуется для чувствительной, раздражённой кожи, склонной к покраснениям и куперозу.",
     "skinTypes": [
       "sensitive"
     ],
@@ -6193,7 +6296,13 @@
     "inciList": "Houttuynia Cordata Extract (70%),Cetearyl Alcohol,Glycerin,Cyclohexasiloxane,Butylene Glycol,1,2-Hexanediol,Dicaprylyl Ether,Caprylic/​Capric Triglyceride,Hydrogenated Poly(C6-14 Olefin),[more]Hydrogenated Polydecene,Glyceryl Stearate SE,Cetearyl Olivate,Sorbitan Olivate,Vegetable Oil,Panthenol,Hydrogenated Lecithin,Dipropylene Glycol,Behenyl Alcohol,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Cetearyl Glucoside,Cholesterol,Xanthan Gum,Adenosine,Ceramide NP,Glucose,Water,Ethylhexylglycerin[less]",
     "nameEnglish": "AnuaHeartleaf 70 Intense Calming Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/anua-heartleaf-70-intense-calming-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/anua-heartleaf-70-intense-calming-cream",
+    "keyIngredients": [
+      "Экстракт хауттюйнии сердцевидной (70%) — снимает воспаления, заживляет и снижает реактивность кожи",
+      "Церамид NP — укрепляет липидный барьер и восстанавливает защитные функции кожи",
+      "Пантенол (провитамин B5) — глубоко увлажняет и ускоряет регенерацию повреждённых тканей",
+      "Холестерол — поддерживает липидный барьер и предотвращает потерю влаги"
+    ]
   },
   {
     "id": "prod_59396648",
@@ -6219,7 +6328,7 @@
       "2-Hexanediol",
       "Methyl Gluceth-20"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица на завершающем этапе ухода. Небольшое количество средства равномерно распределите по лицу, уделяя особое внимание зонам с пигментацией. Используйте утром и вечером. При дневном применении рекомендуется нанести поверх солнцезащитное средство для усиления осветляющего эффекта.",
     "skinTypes": [
       "normal"
     ],
@@ -6239,7 +6348,14 @@
     "inciList": "Water,Panthenol,Butylene Glycol,Butyrospermum Parkii (Shea) Butter,Niacinamide,1,2-Hexanediol,Methyl Gluceth-20,Glycerin,Prunus Mume Fruit Extract,[more]Methyl Glucose Sesquistearate,Pyrus Malus (Apple) Fruit Extract,Carica Papaya (Papaya) Fruit Extract,Vitis Vinifera (Grape) Fruit Extract,Propanediol,Cetearyl Olivate,Sorbitan Olivate,Caprylic/​Capric Triglyceride,Carbomer,Caprylyl Glycol,Inulin Lauryl Carbamate,Tromethamine,Lavandula Angustifolia (Lavender) Flower Extract,Chamomilla Recutita (Matricaria) Flower Extract,Borago Officinalis Extract,Centaurea Cyanus Flower Extract,Alpha-Arbutin,Salvia Sclarea (Clary) Extract,Hyacinthus Orientalis (Hyacinth) Extract,Hippophae Rhamnoides Water,Hippophae Rhamnoides Fruit Extract,Adenosine,Lactobacillus Ferment,Xanthan Gum,Disodium EDTA,Elaeis Guineensis (Palm) Oil,Hydrogenated Lecithin,Calcium Pantothenate,Maltodextrin,Sodium Starch Octenylsuccinate,Garcinia Cambogia Fruit Extract,Glutathione,Camellia Japonica Flower Extract,Alteromonas Ferment Extract,Phenethyl Alcohol,Hydrolyzed Sponge,Artemisia Annua Extract,Pentylene Glycol,Citrus Unshiu Peel Extract,Sodium Ascorbyl Phosphate,Sodium Hyaluronate,Hydrolyzed Hyaluronic Acid,Hyaluronic Acid,Tocopheryl Acetate,Pyridoxine Hcl,Ethylhexylglycerin,Sucrose Palmitate,Ascorbic Acid,Tocopherol,Menadione,Polyglyceryl-4 Oleate,Linoleic Acid,Retinyl Palmitate,Arachis Hypogaea (Peanut) Oil,Sodium Phosphate,Linolenic Acid,Lecithin,Retinal,Silica,Tranexamic Acid,Rosmarinus Officinalis (Rosemary) Leaf Extract,Acetyl Hexapeptide-8,Helianthus Annuus (Sunflower) Seed Oil,SH-Oligopeptide-1,SH-Oligopeptide-2,SH-Polypeptide-1,sh-Polypeptide-10,SH-Polypeptide-60,Citrus Limon (Lemon) Peel Oil,Limonene,Citral,Hexyl Cinnamal,Linalool,Benzyl Salicylate[less]",
     "nameEnglish": "MEDI-PEELMelanon X Ampoule",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-melanon-x-ampoule"
+    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-melanon-x-ampoule",
+    "keyIngredients": [
+      "Ниацинамид — регулирует синтез меланина, осветляет пигментные пятна и выравнивает тон кожи",
+      "Транексамовая кислота (1000 ppm) — блокирует избыточную выработку меланина, предотвращает образование пигментных пятен",
+      "Альфа-арбутин — осветляет пигментацию и защищает кожу от воздействия ультрафиолета",
+      "Аскорбиновая кислота (витамин C) — стимулирует синтез коллагена, обладает выраженным осветляющим и антиоксидантным действием",
+      "Экстракт солодки — мягко осветляет тон кожи, оказывает противовоспалительное действие"
+    ]
   },
   {
     "id": "prod_59396662",
@@ -6309,7 +6425,7 @@
       "Acetyl Hexapeptide-8",
       "Hydrolyzed Rice Protein"
     ],
-    "usage": "",
+    "usage": "Возьмите необходимое количество крема с помощью металлического аппликатора. Нанесите на зону вокруг глаз и проведите аппликатором вперёд-назад вокруг глаз, выполняя лёгкий массаж. Мягко вбейте остатки средства подушечками пальцев. Охлаждающий металлический аппликатор помогает разогнать лимфу, снять припухлости и отёчность. Используйте утром и вечером после нанесения сыворотки.",
     "skinTypes": [
       "aging"
     ],
@@ -6329,7 +6445,13 @@
     "inciList": "Aqua (Water),Glycerin,Trehalose,Palmitoyl Tripeptide-5,Acetyl Hexapeptide-8,Hydrolyzed Rice Protein,Hydrolyzed Glycosaminoglycans,Hyaluronic Acid,Sodium Hyaluronate,[more]Pentylene Glycol,Caprylyl Glycol,Polyacrylate Crosspolymer-6,Polysorbate 20,Disodium EDTA,Phenoxyethanol,Ethylhexylglycerin,Parfum (Fragrance),Benzyl Salicylate[less]",
     "nameEnglish": "Bielenda ProfessionalPeptide Lift 3% Peptide Serum",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/bielenda-professional-peptide-lift-3-peptide-serum"
+    "inciSourceUrl": "https://incidecoder.com/products/bielenda-professional-peptide-lift-3-peptide-serum",
+    "keyIngredients": [
+      "Комплекс из 9 пептидов (Acetyl Hexapeptide-8, Palmitoyl Tripeptide-5 и др.) — стимулирует синтез коллагена и сокращает глубину морщин",
+      "Гидролизованный коллаген и 7 видов гиалуроновой кислоты — интенсивно увлажняют и повышают упругость кожи",
+      "Экстракт спарассиса курчавого (Sparassis Crispa) — повышает эластичность кожи в составе комплекса Lif-Tox",
+      "Пантенол — восстанавливает и успокаивает нежную кожу вокруг глаз"
+    ]
   },
   {
     "id": "prod_59397645",
@@ -6486,7 +6608,7 @@
       "Ethylhexyl Salicylate",
       "Titanium Dioxide"
     ],
-    "usage": "",
+    "usage": "Извлеките гидрогелевый патч с помощью прилагаемой лопатки. Нанесите на чистую сухую кожу под глазами широкой стороной к внутреннему уголку глаза. Оставьте на 10-20 минут, затем аккуратно снимите. Оставшуюся эссенцию вбейте в кожу лёгкими похлопывающими движениями. Также можно использовать на носогубных складках и лбу. Плотно закрывайте крышку баночки после использования.",
     "skinTypes": [
       "normal"
     ],
@@ -6509,7 +6631,14 @@
     "inciList": "Purified Water,Cyclopentasiloxane,Homosalate,Ethylhexyl Salicylate,Titanium Dioxide,Silica,Dipropylene Glycol,C12-15 Alkylbenzoate,Lauryl PEG-10 Tris(Trimethylsiloxy)silylethyl Dimethicone,[more]Diethylamino Hydroxybenzoyl Hexyl Benzoate,Modified Alcohol,Caprylyl Methicone,Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine,Isopropyl Palmitate,Hydroxypropyltrimonium Hyaluronate,Sodium Hyaluronate,Glycerin,Hydrolyzed Hyaluronic Acid,Copper Tripeptide-1,Butylene Glycol,Palmitoyl Tripeptide-1,Palmitoyl Tetrapeptide-7,Carbomer,Sodium Lactate,Polysorbate 20,Palmitoyl Tripeptide-5,Drumstick Seed Extract,Calendula Officinalis (Pot Marigold) Flower Extract,Propylene Glycol,Prunus Serrulata Flower Extract,Lavender Flower Extract,Damask Rose Flower Water (100Ppb),Magnesium Sulfate,Dimethicone/​Vinyl Dimethicone Crosspolymer,Dimethicone,Aluminum Hydroxide,Stearic Acid,Quaternium-18 Bentonite,Silica Dimethyl Silylate,Tocopheryl Acetate,Polyhydroxystearic Acid,Ethylhexyl Palmitate,Isostearic Acid,Lecithin,Isopropyl Myristate,Polyglyceryl-3 Polyricinoleate,Disodium EDTA,Phenoxyethanol,Ethylhexyl Glycerine,1,2-Hexanediol,Red Iron Oxide,Yellow Iron Oxide,Black Iron Oxide,Fragrance,Citronellol,Geraniol,Linalol,Hexyl Cinnamal[less]",
     "nameEnglish": "JMsolutionGlow Luminous Flower Sun Milk Rose",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/jmsolution-glow-luminous-flower-sun-milk-rose"
+    "inciSourceUrl": "https://incidecoder.com/products/jmsolution-glow-luminous-flower-sun-milk-rose",
+    "keyIngredients": [
+      "Экстракт прополиса (130 ppm) — ускоряет регенерацию клеток, обладает антисептическим и антиоксидантным действием",
+      "Экстракт мёда и маточного молочка — смягчают, питают и тонизируют кожу",
+      "Гиалуроновая кислота (3 вида) — обеспечивает многоуровневое глубокое увлажнение",
+      "Гидролизованный коллаген — повышает упругость и эластичность кожи",
+      "Пептиды (Copper Tripeptide-1, Palmitoyl Pentapeptide-4, Acetyl Hexapeptide-8) — разглаживают морщины и улучшают тонус кожи"
+    ]
   },
   {
     "id": "prod_59397748",
@@ -6582,7 +6711,7 @@
       "Tripropylene Glycol",
       "Betaine"
     ],
-    "usage": "",
+    "usage": "Извлеките гидрогелевый патч с помощью прилагаемой лопатки. Плотно приложите к чистой коже под глазами или на другие проблемные зоны (лоб, носогубные складки, шея). Оставьте на 10-20 минут, затем снимите. Оставшуюся эссенцию аккуратно вбейте в кожу похлопывающими движениями. Плотно закрывайте крышку после использования, чтобы эссенция не испарялась.",
     "skinTypes": [
       "dry"
     ],
@@ -6605,7 +6734,14 @@
     "inciList": "Water,Glycerin,Butylene Glycol,Niacinamide,Chondrus Crispus (Carrageenan),Potassium Chloride,Tripropylene Glycol,Dipropylene Glycol,Betaine,[more]Sodium Hyaluronate,Paeonia Lactiflora Root Extract,Glycyrrhiza Glabra (Licorice) Root Extract,Polygonum Multiflorum Root Extract,Phellinus Linteus Extract,Morus Alba Bark Extract,Sophora Angustifolia Root Extract,Cimicifuga Racemosa Root Extract,Sesamum Indicum (Sesame) Seed Extract,Scutellaria Baicalensis Root Extract,Angelica Gigas Root Extract,Pentylene Glycol,Cocos Nucifera (Coconut) Fruit Extract,Pinus Sylvestris Leaf Extract,Camellia Sinensis (Green Tea) Leaf Powder(0.2%),Saururus Chinensis Extract,Ceratonia Siliqua Gum,Sucrose,Isopropyl Alcohol,Calcium Chloride,Cyamopsis Tetragonoloba (Guar) Gum,Cellulose Gum,Chondrus Crispus Powder,Allantoin,Adenosine,Disodium Edta,Calcium Lactate,Ethyl Hexanediol,1,2-Hexanediol,Propanediol,Caprylyl Glycol,Ethylhexylglycerin,Ci 77288,Polyglyceryl-10 Laurate,Fragrance,Chlorphenesin[less]",
     "nameEnglish": "JMsolutionMarine Luminous Pearl Deep Moisture Eye Patch",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/jmsolution-marine-luminous-pearl-deep-moisture-eye-patch"
+    "inciSourceUrl": "https://incidecoder.com/products/jmsolution-marine-luminous-pearl-deep-moisture-eye-patch",
+    "keyIngredients": [
+      "Экстракт жемчуга (Pearl Extract) — осветляет тёмные круги, улучшает текстуру и питает кожу",
+      "Морская вода (Sea Water) — насыщает кожу минералами и микроэлементами, тонизирует и повышает упругость",
+      "Гиалуроновая кислота (3 вида) — обеспечивает многоуровневое увлажнение и удерживает влагу в коже",
+      "Ниацинамид — осветляет и выравнивает тон кожи",
+      "Аденозин — антивозрастной компонент, способствующий разглаживанию морщин"
+    ]
   },
   {
     "id": "prod_59397772",
@@ -6631,7 +6767,7 @@
       "Glyceryl Stearate",
       "PEG-100 Stearate"
     ],
-    "usage": "",
+    "usage": "Нанесите необходимое количество крем-геля на очищенную кожу лица после тонера и сыворотки. Равномерно распределите по лицу и шее мягкими похлопывающими движениями до полного впитывания. Используйте утром и вечером как завершающий этап ухода.",
     "skinTypes": [
       "dry",
       "aging"
@@ -6652,7 +6788,14 @@
     "inciList": "Water,Glycerin,Caprylic/​Capric Triglyceride,Cetearyl Alcohol,Dipropylene Glycol,Niacinamide,Glyceryl Stearate,PEG-100 Stearate,Betaine,[more]Sorbitan Stearate,Arginine,Carbomer,Hydroxyacetophenone,Dimethicone,Caprylyl Glycol,Melia Azadirachta Leaf Extract,Dipotassium Glycyrrhizate,Triticum Vulgare (Wheat) Sprout Extract,Centella Asiatica Extract,Melia Azadirachta Flower Extract,Coccinia Indica Fruit Extract,Ethylhexylglycerin,Curcuma Longa (Turmeric) Root Extract,Eclipta Prostrata Extract,Adenosine,Curcuma Longa (Turmeric) Root Extract,Corallina Officinalis Extract,Ocimum Sanctum Leaf Extract,Glyceryl Acrylate/​Acrylic Acid Copolymer,Solanum Melongena (Eggplant) Fruit Extract,Disodium EDTA,Allantoin,Aloe Barbadensis Flower Extract,Tocopheryl Acetate,Panthenol,Propylene Glycol,Propanediol,Beta-Glucan,Squalane,Palmitoyl Tetrapeptide-7,Palmitoyl Tripeptide-1,Fructan,Butylene Glycol,Sodium Hyaluronate Crosspolymer,Glyceryl Polymethacrylate,Sodium Hyaluronate,Hydrolyzed Glycosaminoglycans,Butyrospermum Parkii (Shea) Butter,1,2-Hexanediol,Olea Europaea (Olive) Leaf Extract,Mannan,Glycyrrhiza Glabra (Licorice) Root Extract,Taraxacum Officinale (Dandelion) Leaf Extract,Benzyl Glycol,Ceramide NP,Phytosphingosine,Hydrolyzed Hyaluronic Acid,Rosa Damascena Flower Extract,Rhodiola Rosea Root Extract,Origanum Vulgare Leaf Extract,Palmitoyl Tripeptide-5,Chamaecyparis Obtusa Leaf Extract,Salix Alba (Willow) Bark Extract,Usnea Barbata (Lichen) Extract,Zanthoxylum Piperitum Fruit Extract,Pulsatilla Koreana Extract,Lactobacillus/​Soybean Ferment Extract,Portulaca Oleracea Extract,Citric Acid,Cinnamomum Cassia Bark Extract,Scutellaria Baicalensis Root Extract,Raspberry Ketone,Hyaluronic Acid,Acetyl Hexapeptide-8,Copper Tripeptide-1,Oligopeptide-29,Oligopeptide-32,Palmitoyl Oligopeptide,Palmitoyl Pentapeptide-4,Fragrance,Hexyl Cinnamal,Limonene,Linalool,Citronellol[less]",
     "nameEnglish": "MEDI-PEELCica",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-cica"
+    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-cica",
+    "keyIngredients": [
+      "Глутатион (600 ppm) — мощный антиоксидант, осветляет пигментацию и выравнивает тон кожи",
+      "Ниацинамид — осветляющий компонент, улучшает текстуру и тон кожи",
+      "Комплекс из 5 церамидов (NP, NS, AP, AS, EP) — восстанавливает и укрепляет кожный барьер",
+      "Комплекс из 5 пептидов — стимулирует выработку коллагена, повышает упругость",
+      "Гиалуронат натрия — глубокое увлажнение и удержание влаги"
+    ]
   },
   {
     "id": "prod_59402633",
@@ -6678,7 +6821,7 @@
       "Niacinamide",
       "Betaine"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную и тонизированную кожу лица в качестве завершающего этапа ухода. Мягко распределите по лицу и шее до полного впитывания. Подходит для утреннего и вечернего применения. Идеален для чувствительной и склонной к раздражениям кожи.",
     "skinTypes": [
       "sensitive"
     ],
@@ -6698,7 +6841,14 @@
     "inciList": "Water,Glycerin,Methylpropanediol,C13-15 Alkane,1,2-Hexanediol,Niacinamide,Betaine,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Vinyl Dimethicone,[more]Caprylyl Methicone,Polymethylsilsesquioxane,Butylene Glycol,Dimethiconol,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Cyclohexasiloxane,Tromethamine,Ethylhexylglycerin,Glyceryl Acrylate/​Acrylic Acid Copolymer,Xanthan Gum,Sorbitan Isostearate,Adenosine,Disodium EDTA,Melia Azadirachta Leaf Extract,Hydrogenated Lecithin,Centella Asiatica Extract,Ficus Carica (Fig) Fruit Extract,Melia Azadirachta Flower Extract,Cryptomeria Japonica Leaf Extract,Nelumbo Nucifera Leaf Extract,Saccharomyces Ferment Filtrate,Ceramide NP,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Curcuma Longa (Turmeric) Root Extract,Ocimum Sanctum Leaf Extract,Corallina Officinalis Extract,Tocopherol[less]",
     "nameEnglish": "CelimaxThe Real Cica Soothing Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/celimax-the-real-cica-soothing-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/celimax-the-real-cica-soothing-cream",
+    "keyIngredients": [
+      "Экстракт центеллы азиатской (73%) — снимает покраснения и раздражение, восстанавливает кожный барьер",
+      "Экстракт инжира — антиоксидантная защита благодаря полифенолам и омега-кислотам",
+      "Ниацинамид — осветление тона и антивозрастной эффект",
+      "Церамид NP — укрепление защитного барьера кожи и удержание влаги",
+      "Аденозин — антивозрастной компонент, уплотняет кожу"
+    ]
   },
   {
     "id": "prod_59402634",
@@ -6949,7 +7099,7 @@
       "2-Hexanediol",
       "C12-16 Alcohols"
     ],
-    "usage": "",
+    "usage": "Нанесите необходимое количество крема на очищенную и тонизированную кожу лица на завершающем этапе ухода. Мягко распределите по лицу и шее до полного впитывания. Используйте утром и вечером. Подходит для сухой и чувствительной кожи.",
     "skinTypes": [
       "dry",
       "sensitive"
@@ -6970,7 +7120,14 @@
     "inciList": "Water,Dipropylene Glycol,Butylene Glycol,Betula Platyphylla Japonica Juice,Squalane,Caprylic/​Capric Triglyceride,1,2-Hexanediol,C12-16 Alcohols,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,[more]Ammonium Acryloyldimethyltaurate/​VP Copolymer,Polyglyceryl-2 Stearate,Glyceryl Stearate,Palmitic Acid,Hydrogenated Lecithin,Stearyl Alcohol,Hydroxyacetophenone,Ethylhexylglycerin,Caprylyl Glycol,Sorbitan Isostearate,Disodium EDTA,Dextrin,Allantoin,Gluconolactone,Panthenol,Betaine,Gardenia Florida Fruit Extract,Ulmus Davidiana Root Extract,Pinus Palustris Leaf Extract,Pueraria Lobata Root Extract,Oenothera Biennis (Evening Primrose) Flower Extract,Dipotassium Glycyrrhizate,Cucumis Sativus (Cucumber) Fruit Extract,Tocopherol,Malachite Extract[less]",
     "nameEnglish": "AnuaBirch Moisture Boosting Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/anua-birch-moisture-boosting-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/anua-birch-moisture-boosting-cream",
+    "keyIngredients": [
+      "Берёзовый сок (70%) — насыщает кожу минералами и аминокислотами, увлажняет и тонизирует",
+      "Пантенол — укрепляет гидролипидный барьер, устраняет сухость и шелушение",
+      "Комплекс из 8 видов гиалуроновой кислоты — многоуровневое глубокое увлажнение",
+      "Аллантоин и бетаин (ABC-комплекс) — успокаивают чувствительную кожу",
+      "Сквалан — смягчает и защищает кожу от потери влаги"
+    ]
   },
   {
     "id": "prod_59402729",
@@ -7124,7 +7281,7 @@
       "Cetearyl Olivate",
       "Sorbitan Olivate"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица после тонера и сыворотки. Равномерно распределите по лицу и шее лёгкими похлопывающими движениями до полного впитывания. Используйте утром и вечером. Подходит для всех типов кожи, особенно для сухой и чувствительной.",
     "skinTypes": [
       "dry"
     ],
@@ -7146,7 +7303,14 @@
     "inciList": "Snail Secretion Filtrate,Betaine,Caprylic/​Capric Triglyceride,Butylene Glycol,Cetearyl Olivate,Sorbitan Olivate,Cetearyl Alcohol,Carbomer,Ethyl Hexanediol,[more]Phenoxyethanol,Arginine,Dimethicone,Sodium Polyacrylate,Sodium Hyaluronate,Allantoin,Palmitic Acid,Panthenol,Xanthan Gum,Stearic Acid,Adenosine,Water,Myristic Acid[less]",
     "nameEnglish": "COSRXAdvanced Snail 92 All In One Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/cosrx-advanced-snail-92-all-in-one-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/cosrx-advanced-snail-92-all-in-one-cream",
+    "keyIngredients": [
+      "Фильтрат муцина улитки (92%) — заживляет, регенерирует клетки и дарит коже естественное сияние",
+      "Гиалуронат натрия — глубокое долговременное увлажнение и разглаживание мелких морщин",
+      "Аденозин — антивозрастной компонент, повышает упругость и эластичность кожи",
+      "Пантенол — провитамин B5, успокаивает раздражённую кожу и удерживает влагу",
+      "Аллантоин — смягчает и успокаивает кожу, способствует обновлению клеток"
+    ]
   },
   {
     "id": "prod_59411080",
@@ -7172,7 +7336,7 @@
       "Dicaprylyl Carbonate",
       "PEG-7 Caprylic/​Capric Glycerides"
     ],
-    "usage": "",
+    "usage": "Принимайте по 3 капсулы в день во время или после еды, запивая водой. Рекомендуемый курс: 2-3 месяца, 1-2 раза в год. Не является лекарственным средством. Противопоказано при индивидуальной непереносимости компонентов, беременности и кормлении грудью.",
     "skinTypes": [
       "normal"
     ],
@@ -7192,7 +7356,12 @@
     "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
     "nameEnglish": "DHCWater-friendly Cleansing Oil",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil",
+    "keyIngredients": [
+      "Экстракт свиной печени (600 мг) — содержит витамины группы B и микроэлементы для регенерации гепатоцитов",
+      "Орнитин (120 мг) — природный гепатопротектор, снижает уровень аммиака и восстанавливает ткани печени",
+      "Цинк (6 мг) — нормализует обмен веществ, участвует в процессах детоксикации"
+    ]
   },
   {
     "id": "prod_59411081",
@@ -7258,7 +7427,7 @@
       "Palmitoyl Tetrapeptide-7",
       "Teprenone"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на предварительно очищенную и тонизированную кожу лица. Небольшое количество средства распределите по массажным линиям, уделяя внимание зонам с выраженными морщинами — лоб, область вокруг глаз, носогубные складки. Используйте утром и/или вечером как завершающий этап ухода.",
     "skinTypes": [
       "dry",
       "aging"
@@ -7279,7 +7448,14 @@
     "inciList": "Hyaluronic Acid,EGF (Proprietary Formula),Palmitoyl Tripeptide-1,Palmitoyl Tetrapeptide-7,Teprenone,Carboxymethyl Beta-Glucan,Superoxide Dismutase,Sodium PCA,Pseudoalteromonas Ferment Extract,[more]Resveratrol,Trehalose,Triacetin,Sodium Hyaluronate,Oryza Sativa (Rice) Bran Water,Palmitoyl Tripeptide-5,Yeast Polypeptides (Proprietary Mitochondrial Peptide Blend),Glutathione,Glycerin,Phospholipids,Argania Spinosa Sprout Cell Extract,Rhododendron Ferrugineum (Alpine Rose) Cell Culture Extract,Saccharomyces Cerevisiae Extract,Urea,Laminaria Cloustoni Extract,Dipalmitoyl Hydroxyproline,Lecithin,Linoleic Acid,Mannitol,Sodium Ascorbate,Tall Oil Sterol,Tocopherol,Dipotassium Glycyrrhizate,Vitis Vinifera (Grape) Seed Extract,Allantoin,Panthenol,Aloe Barbadensis Leaf Juice,Squalane,Glucose,Glucose Oxidase,Lactoperoxidase[less]",
     "nameEnglish": "Le MieuxStemcell EGF",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/le-mieux-stemcell-efg"
+    "inciSourceUrl": "https://incidecoder.com/products/le-mieux-stemcell-efg",
+    "keyIngredients": [
+      "Matrixyl 3000 (Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7) — стимулирует синтез коллагена и укрепляет внеклеточный матрикс",
+      "Аргирелин (Acetyl Hexapeptide-8) — расслабляет мимическую мускулатуру, ботулоподобный эффект",
+      "Пептид меди (Copper Tripeptide-1) — запускает регенерацию, противовоспалительное действие",
+      "Эпидермальные факторы роста (EGF) — ускоряют обновление клеток кожи",
+      "5 видов гиалуроновой кислоты — многоуровневое увлажнение"
+    ]
   },
   {
     "id": "prod_59411262",
@@ -7305,7 +7481,7 @@
       "Sodium Cocoyl Isethionate",
       "Sodium Chloride"
     ],
-    "usage": "",
+    "usage": "Нанесите небольшое количество геля на предварительно очищенную и тонизированную кожу лица по массажным линиям. Слегка помассируйте и дайте впитаться. Используйте утром и вечером вместо крема для жирной и комбинированной кожи.",
     "skinTypes": [
       "dry",
       "oily",
@@ -7327,7 +7503,14 @@
     "inciList": "Water,Prunus Mume Fruit Water,Cocamidopropyl Hydroxysultaine,Phaseolus Radiatus Seed Extract,Sodium Cocoyl Isethionate,Glycerin,Sodium Chloride,Camellia Sinensis Leaf Extract,Houttuynia Cordata Extract,[more]Nelumbo Nucifera Flower Extract,Oryza Sativa (Rice) Extract,Prunus Mume Fruit Extract,Vaccinium Angustifolium (Blueberry) Fruit Extract,Guar Hydroxypropyltrimonium Chloride,Coconut Acid,Ethylhexylglycerin,Caprylyl Glycol,Sodium Isethionate,Citric Acid,Butylene Glycol,1,2-Hexanediol,Punica Granatum Extract,Clitoria Ternatea Flower Extract,Garcinia Mangostana Peel Extract,Propylene Glycol Laurate,Sodium Citrate,Disodium EDTA[less]",
     "nameEnglish": "Beauty of JoseonBeauty Of Josen Green Plum",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/beauty-of-joseon-beauty-of-josen-green-plum"
+    "inciSourceUrl": "https://incidecoder.com/products/beauty-of-joseon-beauty-of-josen-green-plum",
+    "keyIngredients": [
+      "Экстракт красной фасоли адзуки (44%) — регулирует выработку себума, натуральное отшелушивание",
+      "Аргирелин (Acetyl Hexapeptide-8) — расслабляет мимические мышцы, антивозрастной эффект",
+      "3 фактора роста (sh-Oligopeptide-1/2, sh-Polypeptide-1) — стимулируют обновление и регенерацию кожи",
+      "Бета-глюкан — противовоспалительное действие, интенсивное увлажнение",
+      "Витамин B12 (Cyanocobalamin) — успокаивает, подавляет воспаления, помогает при акне"
+    ]
   },
   {
     "id": "prod_59413837",
@@ -7486,7 +7669,7 @@
       "Dicaprylyl Carbonate",
       "PEG-7 Caprylic/​Capric Glycerides"
     ],
-    "usage": "",
+    "usage": "Принимайте по 2 капсулы в день, запивая водой или тёплой водой. Рекомендуется разделить приём на утро и вечер. Не превышайте рекомендуемую суточную дозу. Не рекомендуется беременным, кормящим женщинам и детям. Перед применением проконсультируйтесь с врачом.",
     "skinTypes": [
       "normal"
     ],
@@ -7506,7 +7689,12 @@
     "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
     "nameEnglish": "DHCWater-friendly Cleansing Oil",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil",
+    "keyIngredients": [
+      "Альфа-липоевая кислота (210 мг/день) — ускоряет метаболизм углеводов, белков и жиров",
+      "Витамин E (токоферол) — антиоксидантная защита клеток",
+      "Циклодекстрин — улучшает биодоступность активного вещества"
+    ]
   },
   {
     "id": "prod_59447107",
@@ -7532,7 +7720,7 @@
       "Hydrolyzed Hyaluronic Acid(1Ppm)",
       "Sodium Acetylated Hyaluronate(1Ppm)"
     ],
-    "usage": "",
+    "usage": "С помощью лопаточки достаньте патчи из упаковки. Плотно приложите к чистой сухой коже под глазами широкой стороной к внешнему уголку глаза. Оставьте на 20–30 минут. Снимите патчи и вбейте остатки эссенции лёгкими похлопывающими движениями. Также можно использовать на области носогубных складок и межбровья.",
     "skinTypes": [
       "normal"
     ],
@@ -7555,7 +7743,14 @@
     "inciList": "Water,Glycerin,Carrageenan,Butylene Glycol,Hydrolyzed Collagen,Sodium Hyaluronate(110Ppm),Hydrolyzed Hyaluronic Acid(1Ppm),Sodium Acetylated Hyaluronate(1Ppm),Hydroxypropyltrimonium Hyaluronate(10Ppm),[more]Potassium Hyaluronate(0.02Ppm),Sodium Hyaluronate Crosspolymer(0.1Ppm),Hyaluronic Acid(0.25Ppm),Pearl Extract,Polysorbate 80,Tocopheryl Acetate,Ubiquinone,Acetyl Hexapeptide-8(0.001Ppm),Copper Tripeptide-1(0.001Ppm),Oligopeptide-29(0.0005Ppm),Oligopeptide-32(0.0005Ppm),Palmitoyl Pentapeptide-4(0.0001Ppm),Palmitoyl Tripeptide-1(0.001Ppm),Palmitoyl Tetrapeptide-7(0.005Ppm),Glyceryl Polymethacrylate,Propylene Glycol,Palmitoyl Oligopeptide(0.001Ppm),Palmitoyl Tripeptide-5(0.1Ppm),Propanediol,Pentylene Glycol,Cocos Nucifera (Coconut) Fruit Extract,Pinus Sylvestris Leaf Extract,Ricinus Communis (Castor) Seed Oil,Butyrospermum Parkii (Shea) Butter,Betaine,Allantoin,Dipotassium Glycyrrhizate,Ceratonia Siliqua (Carob) Gum,Sucrose,Cyamopsis Tetragonoloba (Guar) Gum,Cellulose Gum,Potassium Chloride,Calcium Chloride,Calcium Lactate,Caprylic/​Capric Triglyceride,Sorbitan Caprylate,PEG-60 Hydrogenated Castor Oil,Diamond Powder(1Ppm),Titanium Dioxide,Oleth-10,Triethoxycaprylylsilane,Polysorbate 60,Simethicone,Methyl Methacrylate Crosspolymer,Aluminum Hydroxide,Synthetic Fluorphlogopite,Arginine,Disodium EDTA,Chlorphenesin,Ethyl Hexanediol,1,2-Hexanediol,Ethylhexylglycerin,Fragrance[less]",
     "nameEnglish": "MEDI-PEELHyaluron Dark Benone Peptide 9 Ampoule Eye Patch",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-hyaluron-dark-benone-peptide-9-ampoule-eye-patch"
+    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-hyaluron-dark-benone-peptide-9-ampoule-eye-patch",
+    "keyIngredients": [
+      "9 пептидов (Acetyl Hexapeptide-8, Copper Tripeptide-1, Palmitoyl Tripeptide-1 и др.) — стимулируют коллаген, разглаживают морщины",
+      "7 видов гиалуроновой кислоты — многоуровневое увлажнение на разных слоях кожи",
+      "Жемчужный экстракт — осветляет тёмные круги, антивозрастной эффект",
+      "Коэнзим Q10 (Ubiquinone) — антиоксидантная защита",
+      "Гидролизованный коллаген — повышает упругость и эластичность кожи"
+    ]
   },
   {
     "id": "prod_59447166",
@@ -7669,7 +7864,7 @@
       "Methyl Trimethicone",
       "Neopentyl Glycol Diheptanoate"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на лицо после очищения, тонизирования и нанесения сыворотки. Распределите небольшое количество средства мягкими массирующими движениями снизу вверх. Для усиленного восстановления нанесите в несколько слоёв в качестве ночной маски. Также можно смешать с тональным средством в соотношении 1:4 для эффекта увлажнения в течение дня.",
     "skinTypes": [
       "normal"
     ],
@@ -7689,7 +7884,14 @@
     "inciList": "Morinda Citrifolia Fruit Extract (57%),Glycerin,Methylpropanediol,Hydrogenated Poly(C6-14 Olefin),Methyl Trimethicone,Neopentyl Glycol Diheptanoate,1,2-Hexanediol,Niacinamide,Butyrospermum Parkii (Shea) Butter,[more]Trehalose,Caprylic/​Capric Triglyceride,Polyglyceryl-3 Methylglucose Distearate,Dimethicone/​Vinyl Dimethicone Crosspolymer,Cetyl Alcohol,Glyceryl Stearate SE,Morinda Citrifolia Seed Oil,Butylene Glycol,Dipropylene Glycol,Eclipta Prostrata Leaf Extract,Laminaria Japonica Extract,Behenyl Alcohol,Hydrogenated Lecithin,Cetearyl Alcohol,Ethylhexylglycerin,Polyglyceryl-10 Myristate,Rosmarinus Officinalis (Rosemary) Leaf Oil,Melia Azadirachta Leaf Extract,Propanediol,Adenosine,Fructooligosaccharides,Sodium Stearoyl Glutamate,Malt Extract,Beta-Glucan,Cholesterol,Melia Azadirachta Flower Extract,Carbomer,Sodium Hyaluronate,Tromethamine,Acmella Oleracea Extract,Hydrolyzed Hyaluronic Acid,Ceramide NP,Palmitic Acid,Ficus Carica (Fig) Fruit Extract,Centella Asiatica Extract,Stearic Acid,Arginine,Tocopherol,Myristic Acid,Phenoxyethanol,Aloe Barbadensis Leaf Extract,Althaea Rosea Flower Extract[less]",
     "nameEnglish": "CelimaxThe Real Noni Energy Repair Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/celimax-the-real-noni-energy-repair-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/celimax-the-real-noni-energy-repair-cream",
+    "keyIngredients": [
+      "Экстракт нони (57%) — тропический суперфуд, снимает воспаления, нейтрализует свободные радикалы",
+      "Церамиды (Ceramide NP) — восстанавливают гидролипидную мантию, удерживают влагу",
+      "Аденозин — стимулирует выработку коллагена, повышает упругость",
+      "Масло ши (Shea Butter) — интенсивное питание и смягчение кожи",
+      "Центелла азиатская — успокаивает, ускоряет регенерацию"
+    ]
   },
   {
     "id": "prod_59447422",
