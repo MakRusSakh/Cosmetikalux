@@ -28,7 +28,7 @@ export default function PriceDisplay({
     : null;
 
   return (
-    <div className={`flex flex-col ${className}`}>
+    <div className={`flex flex-col font-heading ${className}`}>
       <div className="flex items-center gap-2 flex-wrap">
         <span className={`font-heading font-bold text-text-primary ${priceSizes[size]}`}>
           {formatPrice(price)}

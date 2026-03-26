@@ -7,7 +7,7 @@ interface ProductDetailsProps {
 }
 
 const sectionCls =
-  'bg-bg-surface border border-border-light rounded-[var(--radius-md)] p-6 mb-6';
+  'bg-bg-surface border border-border-light rounded-[var(--radius-md)] p-6 mb-6 font-heading';
 
 function parseDescription(desc: string) {
   const lines = desc.split('\n').filter((l) => l.trim());
