@@ -99,8 +99,8 @@ export default async function ProductPage({ params }: PageProps) {
 
       {/* Стрелка "скролл вниз" */}
       <div className="hidden md:flex justify-center mt-8 animate-bounce">
-        <a href="#details" className="text-accent-primary/60 hover:text-accent-primary transition-colors">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <a href="#details" className="text-accent-primary hover:text-accent-hover transition-colors">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M7 10l5 5 5-5" />
           </svg>
         </a>
