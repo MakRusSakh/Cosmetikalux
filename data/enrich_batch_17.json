@@ -1,0 +1,68 @@
+[
+  {
+    "id": "prod_59354402",
+    "name": "Осветляющий крем MP Glutathione Bio-Intense White Cream с глутатионом",
+    "brand": "MEDI-PEEL",
+    "ingredients": "Purified Water, Butylene Glycol, Caprylic/Capric Triglyceride, Beeswax, Niacinamide, Cetearyl Alcohol, Isononyl Isononanoate, Arachidyl Alcohol, 1,2-Hexanediol, Polyglyceryl-3 Methylglucose Distearate, Behenyl Alcohol, Glyceryl Stearate, Betaine, Simethicone, Arachidyl Glucoside, Cetearyl Olivate, Arginine, Carbomer, Sorbitan Olivate, Allantoin, Glycerin, Panthenol, Tocopherol, Xanthan Gum, Glutathione, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Disodium EDTA, Sodium Hyaluronate, Glucose, Alcohol, Malva Sylvestris (Mallow) Extract, Melissa Officinalis Leaf Extract, Alchemilla Vulgaris Extract, Achillea Millefolium Extract, Veronica Officinalis Extract, Mentha Piperita (Peppermint) Leaf Extract, Primula Veris Extract, Lycopodium Clavatum Extract, Equisetum Arvense Extract, Ceramide NP, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Sodium Hydroxide, Sodium Ascorbyl Phosphate, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Thiamine HCl, Acetyl Hexapeptide-8, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-1",
+    "keyIngredients": [
+      "Glutathione (600 ppm) — мощный антиоксидант, осветляет пигментные пятна и выравнивает тон кожи",
+      "Niacinamide — укрепляет защитный барьер кожи, осветляет и увлажняет",
+      "Ceramide NP — восстанавливает и поддерживает липидный барьер кожи",
+      "Sodium Ascorbyl Phosphate — стабильная форма витамина C, антиоксидантная защита",
+      "Acetyl Hexapeptide-8 — пептид, разглаживающий мимические морщины"
+    ],
+    "usage": "Нанесите крем на очищенную кожу лица на завершающем этапе ухода. Равномерно распределите по лицу и шее мягкими движениями до полного впитывания. Подходит для утреннего и вечернего применения."
+  },
+  {
+    "id": "prod_59360848",
+    "name": "Крем с эффектом ботокса Meditime Botalinum Concentrate Care Cream",
+    "brand": "Meditime",
+    "keyIngredients": [
+      "Methionyl R-Clostridium Botulinum Polypeptide-1 Hexapeptide-40 — ботулинический полипептид, расслабляет мимические мышцы и разглаживает морщины",
+      "Centella Asiatica Extract (Madecassoside, Asiaticoside) — успокаивает кожу, укрепляет барьер, стимулирует синтез коллагена",
+      "Niacinamide — выравнивает тон, сокращает поры, укрепляет защитный барьер",
+      "Acetyl Hexapeptide-8 — пептид-миорелаксант, сокращает глубину мимических морщин",
+      "Sodium Hyaluronate + Hydrolyzed Hyaluronic Acid — многоуровневое увлажнение кожи"
+    ],
+    "usage": "На завершающем этапе ухода за кожей возьмите небольшое количество крема и равномерно распределите по всему лицу. Слегка вбейте подушечками пальцев до полного впитывания. Используйте утром и вечером."
+  },
+  {
+    "id": "prod_59360870",
+    "name": "Отбеливающий крем против пигментации MEDITIME Melaban Cream",
+    "brand": "Meditime",
+    "keyIngredients": [
+      "Tranexamic Acid (74 000 ppm) — подавляет избыточный синтез меланина, предотвращает появление новой пигментации",
+      "Niacinamide (5%) — осветляет пигментные пятна, укрепляет барьер кожи",
+      "Glutathione — мощный антиоксидант, выравнивает тон и осветляет кожу",
+      "3-O-Ethyl Ascorbic Acid (COS-VCE) — стабильное производное витамина C для глубокого осветления",
+      "Madecassoside (MadeWhite) — компонент центеллы азиатской, восстанавливает барьер и снимает воспаление"
+    ],
+    "usage": "Нанесите небольшое количество крема на лицо в качестве завершающего этапа ухода, утром и вечером. На проблемные зоны с выраженной пигментацией можно нанести дополнительный слой для более интенсивного осветляющего эффекта. Днём обязательно используйте солнцезащитное средство."
+  },
+  {
+    "id": "prod_59362016",
+    "name": "Fujima АКУЛИЙ СКВАЛЕН + ОМЕГА 3 180 таб на 30 дней",
+    "brand": "Fujima",
+    "ingredients": "Очищенный жир глубоководной акулы (содержит не менее 99,6% сквалена), очищенный рыбий жир (содержит EPA и DHA), витамин E, желатин (оболочка капсулы), глицерин",
+    "keyIngredients": [
+      "Сквален (99,6%) — природный антиоксидант из печени глубоководной акулы, замедляет старение, укрепляет иммунитет",
+      "EPA (эйкозапентаеновая кислота) — незаменимая омега-3 жирная кислота, поддерживает здоровье сердца и сосудов",
+      "DHA (докозагексаеновая кислота) — омега-3 жирная кислота, необходимая для работы мозга и нервной системы",
+      "Витамин E — антиоксидант, защищает клетки от окислительного стресса"
+    ],
+    "usage": "Принимайте по 6 капсул в день, запивая водой. Можно разделить на несколько приёмов (например, по 2 капсулы 3 раза в день во время еды). Не является лекарственным средством. Перед применением проконсультируйтесь с врачом."
+  },
+  {
+    "id": "prod_59362090",
+    "name": "Крем с кислотами против черных точек MANYO Blackhead & Pore Cream",
+    "brand": "MA:NYO",
+    "keyIngredients": [
+      "Capryloyl Salicylic Acid (LHA) — липогидроксикислота, глубоко очищает поры и растворяет сальные пробки",
+      "Salicylic Acid (BHA) — противовоспалительное и антибактериальное действие, предотвращает образование комедонов",
+      "Hamamelis Virginiana (Witch Hazel) Water — экстракт гамамелиса, сужает поры и успокаивает кожу",
+      "Camellia Sinensis Leaf Extract — мощный антиоксидант, защищает кожу от свободных радикалов",
+      "PHA (полигидроксикислота) — мягко отшелушивает ороговевшие клетки, выравнивает текстуру кожи"
+    ],
+    "usage": "Возьмите достаточное количество крема и равномерно нанесите на кожу лица по массажным линиям. Слегка вбейте подушечками пальцев до полного впитывания. Используйте на завершающем этапе ухода. Подходит для ежедневного применения."
+  }
+]
