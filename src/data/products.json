@@ -12138,7 +12138,7 @@
       "Hydrogenated Starch Hydrolysate",
       "Palmitic Acid"
     ],
-    "usage": "",
+    "usage": "Принимать по 1–2 пакетика (по 7 таблеток) в день во время еды, запивая водой. Один пакетик содержит суточную норму основных витаминов и минералов для мужчин 50–59 лет. Упаковка рассчитана на 15–30 дней приёма.",
     "skinTypes": [
       "normal"
     ],
@@ -12158,7 +12158,14 @@
     "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
     "nameEnglish": "FanclAcne Care Washing Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream",
+    "keyIngredients": [
+      "Восстановленный коэнзим Q10 — поддерживает энергетический метаболизм и молодость клеток",
+      "Лютеин и астаксантин — защищают зрение и нейтрализуют свободные радикалы",
+      "DHA и EPA — поддерживают здоровье сердечно-сосудистой системы и мозга",
+      "Натокиназа и витамин E — улучшают кровообращение",
+      "Экстракт ямса (диосгенин) и цинк — поддерживают мужскую витальность"
+    ]
   },
   {
     "id": "prod_59679863",
@@ -12184,7 +12191,7 @@
       "Hydrogenated Starch Hydrolysate",
       "Palmitic Acid"
     ],
-    "usage": "",
+    "usage": "Принимать по 1–2 пакетика (по 7 таблеток) в день во время еды, запивая водой. Формула разработана специально для мужчин старше 60 лет с учётом возрастных потребностей в поддержке суставов, когнитивных функций и зрения. Упаковка рассчитана на 15–30 дней приёма.",
     "skinTypes": [
       "normal"
     ],
@@ -12204,7 +12211,14 @@
     "inciList": "Aqua,Glycerin,Myristic Acid,Stearic Acid,Potassium Hydroxide,Butylene Glycol,Hydrogenated Starch Hydrolysate,Palmitic Acid,Sorbitol,[more]Sodium Methyl Cocoyl Taurate,Glyceryl Stearate SE,PEG 4000,Sage Extract,Prunus Mume Fruit Extract,Paeonia Lactiflora Extract,Peach Kernel Extract,Perilla Ocymoides Leaf Extract,Agar,Polyoxyethylene 45,Glyceryl Isostearate,Phytosteryl Isostearyl Dimer Dilinoleate,Dipotassium Glycyrrhizate,Polyquaternium-7,Potassium Phosphate,Disodium Phosphate,Tocopherol[less]",
     "nameEnglish": "FanclAcne Care Washing Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/fancl-acne-care-washing-cream",
+    "keyIngredients": [
+      "Экстракт гинкго билоба и феруловая кислота — поддерживают когнитивные функции и ясность ума",
+      "Протеогликан и коллаген II типа — поддерживают подвижность суставов",
+      "Восстановленный коэнзим Q10 — энергетический метаболизм и антиоксидантная защита",
+      "DHA и EPA — здоровье сердечно-сосудистой системы и мозга",
+      "Лютеин и астаксантин — защита зрения"
+    ]
   },
   {
     "id": "prod_59699886",
@@ -12407,7 +12421,7 @@
       "2-Hexanediol",
       "Stearic Acid"
     ],
-    "usage": "",
+    "usage": "После очищения и тонизирования кожи нанесите небольшое количество эмульсии на лицо и шею, равномерно распределите лёгкими движениями. Мягко вбейте подушечками пальцев для лучшего впитывания. Может использоваться как самостоятельное увлажняющее средство «всё в одном» после тонера. Подходит для всех типов кожи.",
     "skinTypes": [
       "dry",
       "aging"
@@ -12431,7 +12445,14 @@
     "inciList": "Water,Mineral Oil,Butylene Glycol,Triethanolamine,Cetearyl Alcohol,1,2-Hexanediol,Stearic Acid,Palmitic Acid,Moringa Oleifera Seed Oil(3,920Ppm),[more]Carbomer,Glyceryl Stearate,PEG-100 Stearate,Illicium Verum (Anise) Fruit Extract,Glycerin,Octyldodecanol,Oleyl Alcohol,Scutellaria Baicalensis Root Extract,Butyrospermum Parkii (Shea) Butter,Hydrolyzed Soy Flour,Collagen Extract(980Ppm),Ceramide NP(40Ppm),Phytosphingosine,Hydrogenated Lecithin,Glycine Soja (Soybean) Sterols,Candida Bombicola?Glucose/​Methyl Rapeseedate Ferment,Tocopherol,Beta-Glucan,Centella Asiatica Extract,Fragrance[less]",
     "nameEnglish": "HeimishMoringa Ceramide Collagen Enriched Moisturizer",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/heimish-moringa-ceramide-collagen-enriched-moisturizer"
+    "inciSourceUrl": "https://incidecoder.com/products/heimish-moringa-ceramide-collagen-enriched-moisturizer",
+    "keyIngredients": [
+      "Масло моринги (3920 ppm) — питает кожу жирными кислотами и обеспечивает антиоксидантную защиту",
+      "Коллаген (98 ppm) — повышает упругость и эластичность кожи",
+      "Церамид NP (40 ppm) — укрепляет защитный барьер и удерживает влагу",
+      "Экстракт центеллы азиатской — успокаивает кожу и способствует восстановлению",
+      "Масло ши — смягчает, питает и защищает от внешних воздействий"
+    ]
   },
   {
     "id": "prod_59729959",
@@ -12631,7 +12652,7 @@
       "Polyglyceryl-4 Caprate",
       "Coco-Glucoside"
     ],
-    "usage": "",
+    "usage": "Принимать по 4 таблетки в день перед или во время еды, запивая тёплой водой. Упаковка рассчитана на 30 дней приёма. Хранить в прохладном сухом месте, после вскрытия плотно закрывать упаковку во избежание попадания влаги. Не рекомендуется принимать одновременно с антикоагулянтами (варфарин, гепарин).",
     "skinTypes": [
       "normal"
     ],
@@ -12651,7 +12672,12 @@
     "inciList": "Aqua (Water),Synthetic Wax,Cocamidopropyl Betaine,Glycerin,Polyglyceryl-4 Caprate,Coco-Glucoside,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Methyl Gluceth-20,Sodium Hyaluronate,[more]Citrus Junos Fruit Extract,Helianthus Annuus (Sunflower) Seed Oil,Hydroxyacetophenone,Sodium Hydroxide,Litchi Chinensis Seed Powder,Butylene Glycol,Ascorbyl Palmitate,Tocopherol,Sodium Benzoate,Potassium Sorbate,Parfum (Fragrance),Capsanthin/​Capsorubin[less]",
     "nameEnglish": "LireneVitamin Shot Vitamin Face Peeling",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/lirene-vitamin-shot-vitamin-face-peeling"
+    "inciSourceUrl": "https://incidecoder.com/products/lirene-vitamin-shot-vitamin-face-peeling",
+    "keyIngredients": [
+      "Фукоидан из мэкабу (80%) — полисахарид из бурых водорослей с иммуномодулирующим и антиоксидантным действием",
+      "Витамин С — усиливает иммунный ответ и защищает клетки от окислительного стресса",
+      "Экстракт мэкабу — природный источник минералов и биоактивных веществ из морских водорослей"
+    ]
   },
   {
     "id": "prod_59752019",
@@ -12677,7 +12703,7 @@
       "Dicaprylyl Carbonate",
       "PEG-7 Caprylic/​Capric Glycerides"
     ],
-    "usage": "",
+    "usage": "Принимать по 1 капсуле в день во время еды, предпочтительно утром, запивая водой. Упаковка содержит 30 капсул и рассчитана на 30 дней приёма. Витамин А поддерживает остроту зрения, укрепляет кожу и иммунитет.",
     "skinTypes": [
       "normal"
     ],
@@ -12697,7 +12723,12 @@
     "inciList": "Triethylhexanoin,Dipropylene Glycol,PEG-20 Glyceryl Triisostearate,Octyldodecanol,Dicaprylyl Carbonate,PEG-7 Caprylic/​Capric Glycerides,C14-18 Alkyl Ethylhexanoate,Caprylic/​Capric Triglyceride,Olea Europaea (Olive) Fruit Oil,[more]Squalane,Stearyl Glycyrrhetinate,Tocopherol,Aloe Barbadensis Leaf Extract,Morus Alba Root Extract,Phenoxyethanol[less]",
     "nameEnglish": "DHCWater-friendly Cleansing Oil",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil"
+    "inciSourceUrl": "https://incidecoder.com/products/dhc-water-friendly-cleansing-oil",
+    "keyIngredients": [
+      "Ретинол (витамин А, 550 мкг) — поддерживает зрение, здоровье кожи и слизистых оболочек",
+      "Каротиноиды (7 мг) — натуральные предшественники витамина А с антиоксидантным действием",
+      "Токотриенол (3 мг) — мощный антиоксидант из семейства витамина E"
+    ]
   },
   {
     "id": "prod_59753605",
