@@ -82,6 +82,10 @@ export function getRelatedProducts(product: Product, limit = 8): Product[] {
     .slice(0, limit);
 }
 
+export function hasNewImage(product: Product): boolean {
+  return product.images?.some((img) => img.startsWith('/images/categories/')) ?? false;
+}
+
 export function getCategories(): Category[] {
   return categoriesData as Category[];
 }
