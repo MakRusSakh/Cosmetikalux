@@ -2800,7 +2800,7 @@
       "Xanthan Gum",
       "Cyclopentasiloxane"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица после тонера и сыворотки. Равномерно распределите мягкими движениями по массажным линиям до полного впитывания. Используйте утром и вечером как завершающий этап ухода.",
     "skinTypes": [
       "dry"
     ],
@@ -2820,7 +2820,14 @@
     "inciList": "Water,Glycerin,Butylene Glycol,Niacinamide,Dipentaerythrityl Hexa C5-0 Acid Esters,Sodium Hyaluronate,Xanthan Gum,Cyclopentasiloxane,Cyclohexasiloxane,[more]Polyacrylate-13,Polyisobutene,Polysorbate 20,Hydrogenated Lecithin,C14-28 Alkyl Acid,Stearyl Alcohol,Behenyl Alcohol,Dimethicone/​Vinyl Dimethicone Crosspolymer,Dimethicone,Adenosine,Glyceryl Stearate Se,Cetearyl Alcohol,Polyglyceryl-3 Methylglucose Distearate,Tocopheryl Acetate,Sodium Polyacrylate,Olea Europaea (Olive) Fruit Oil,Helianthus Annuus (Sunflower) Seed Oil,Butyrospermum Parkii (Shea) Butter,Ceramide Np,Trehalose,Calendula Officinalis Flower Extract,Caprylhydroxamic Acid,1,2-Hexanediol,Raphanus Sativus (Radish) Leaf Extract,Oryza Sativa (Rice) Bran Extract,Cucurbitaceae (Gourd) Extract,Orchid Extract,Honey Extract,Panax Ginseng Root Extract,Carthamus Tinctorius (Safflower) Seed Oil,Phytosphingosine,Ceteareth-20,Glyceryl Citrate/​Lactate/​Linoleate/​Oleate,Fragrance[less]",
     "nameEnglish": "Beauty of JoseonDynasty Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/beauty-of-joseon-dynasty-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/beauty-of-joseon-dynasty-cream",
+    "keyIngredients": [
+      "Oryza Sativa (Rice) Bran Water (29%) — восстанавливает гидролипидный баланс, питает и омолаживает кожу",
+      "Panax Ginseng Root Water (5%) — мощное антивозрастное и антиоксидантное действие, стимулирует микроциркуляцию",
+      "Niacinamide (2%) — выравнивает тон кожи, осветляет пигментацию",
+      "Squalane (2%) — защищает от потери влаги, замедляет старение кожи",
+      "Ceramide NP — восстанавливает липидный барьер, глубоко увлажняет"
+    ]
   },
   {
     "id": "prod_57015916",
@@ -2846,7 +2853,7 @@
       "2-Hexanediol",
       "Hydrogenated Polydecene"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица после тонера и сыворотки. Распределите равномерно по лицу и шее лёгкими похлопывающими движениями до полного впитывания. Используйте утром и вечером как завершающий этап ухода.",
     "skinTypes": [
       "dry"
     ],
@@ -2866,7 +2873,14 @@
     "inciList": "Aqua,Centella Asiatica Leaf Water,Propanediol,Glycerin,Butylene Glycol,Niacinamide,Isononyl Isononanoate,1,2-Hexanediol,Hydrogenated Polydecene,[more]Pentylene Glycol,Bifida Ferment Lysate,Dimethicone,Pentaerythrityl Tetraethylhexanoate,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Adenosine,Agar,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Anastatica Hierochuntica Extract,Artemisia Capillaris Extract,Asiatic Acid,Asiaticoside,Benzyl Glycol,Betaine Salicylate,Bifida Ferment Filtrate,Borago Officinalis Extract,Centaurea Cyanus Flower Extract,Ceramide NP,Chamomilla Recutita Flower/​Leaf Extract,Chlorella Vulgaris Extract,Chrysanthemum Zawadskii Extract,Cutibacterium Granulosum Ferment Extract Filtrate,Cyamopsis Tetragonoloba Gum,Cynanchum Atratum Extract,Cyperus Rotundus Root Extract,Dextrin,Dimethyl Sulfone,Ethylhexylglycerin,Fructooligosaccharides,Fructose,Glucose,Glyceryl Acrylate/​Acrylic Acid Copolymer,Glycyrrhiza Uralensis Root Extract,Gossypium Herbaceum Seed Extract,Hamamelis Virginiana Water,Hyacinthus Orientalis Extract,Hyaluronic Acid,Hydrogenated Lecithin,Hydrogenated Olive Oil Unsaponifiables,Hydrolyzed Glycosaminoglycans,Hydrolyzed Hyaluronic Acid,Lactobacillus Ferment,Lactobacillus Ferment Lysate,Lactobacillus/​Pumpkin Fruit Ferment Filtrate,Lactococcus Ferment Lysate,Lavandula Angustifolia Flower Water,Leonurus Sibiricus Extract,Madecassic Acid,Oenothera Biennis Flower Extract,Paeonia Albiflora Flower Extract,Panthenol,Pinus Palustris Leaf Extract,Polydecene,Polyglyceryl-3 Methylglucose Distearate,Pueraria Lobata Root Extract,Saccharomyces Ferment Filtrate,Salvia Sclarea Extract,Sodium Hyaluronate,Sodium Hyaluronate Crosspolymer,Sodium Phytate,Squalane,Theobroma Cacao Extract,Tocopherol,Tromethamine,Ulmus Davidiana Root Extract,Xanthan Gum[less]",
     "nameEnglish": "manyoBifida Biome Aqua Barrier Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/manyo-bifida-biome-aqua-barrier-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/manyo-bifida-biome-aqua-barrier-cream",
+    "keyIngredients": [
+      "Bifida Ferment Lysate — пробиотик, укрепляет защитный барьер кожи и повышает эластичность",
+      "Centella Asiatica Leaf Water — успокаивает раздражения и восстанавливает кожу",
+      "Niacinamide (2%) — выравнивает тон, укрепляет барьерную функцию кожи",
+      "Panthenol — ускоряет заживление, интенсивно увлажняет",
+      "Ceramide NP — восстанавливает липидный барьер и предотвращает потерю влаги"
+    ]
   },
   {
     "id": "prod_57015920",
@@ -2936,7 +2950,7 @@
       "Caprylic/​Capric Triglyceride",
       "Isodecyl Neopentanoate"
     ],
-    "usage": "",
+    "usage": "После очищения и тонизирования кожи нанесите умеренное количество крема равномерно на лицо. Аккуратно распределите до полного впитывания. Используйте утром и вечером как завершающий этап ухода. Подходит для жирной, комбинированной и склонной к акне кожи.",
     "skinTypes": [
       "sensitive",
       "acne"
@@ -2957,7 +2971,14 @@
     "inciList": "Purified Water,Zinc Oxide,Cyclopentasiloxane,Caprylic/​Capric Triglyceride,Glycerin,Isodecyl Neopentanoate,Cyclohexasiloxane,Diethylhexyl Carbonate,Quaternium-18 Bentonite,[more]PEG-10 Dimethicone,Butylene Glycol,Niacinamide,Beeswax,Sodium Chloride,Sorbitan Sesquioleate,1,2-Hexanediol,Vinyl-Dimethicone-Methicone-Silsesquioxane-Crosspolymer,Purslane Extract,Triethoxycaprylyl Silane,Dimethicone/​Vinyl Dimethicone Crosspolymer,Caprylyl Glycol,Chlorphenesin,Adenosine,Jojoba Seed Oil,Squalane,Tomato Extract[less]",
     "nameEnglish": "MedicubeRed Erasing Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/medicube-red-erasing-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/medicube-red-erasing-cream",
+    "keyIngredients": [
+      "Melaleuca Alternifolia (Tea Tree) Leaf Oil — антибактериальное и противовоспалительное действие, борется с акне",
+      "Salicylic Acid (BHA) — очищает поры, уменьшает избыток себума и предотвращает комедоны",
+      "Niacinamide — укрепляет кожный барьер, осветляет следы постакне",
+      "Centella Asiatica Leaf Extract — успокаивает воспалённую кожу, ускоряет заживление",
+      "Zinc PCA — контролирует жирность кожи и поддерживает заживление"
+    ]
   },
   {
     "id": "prod_57407256",
@@ -2976,8 +2997,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Двойная сила лифтинга — ретинол и коллаген в одном креме\n\n◈ Разглаживание морщин — комплекс ретиноидов запускает клеточное обновление, сокращая глубину заломов и складок\n◈ Восстановление упругости — гидролизованный коллаген увлажняет и укрепляет каркас кожи, подтягивая овал лица\n◈ Выравнивание тона — ретинол осветляет пигментацию и улучшает текстуру, возвращая коже гладкость\n\nНосогубные складки, заломы от подушки, потеря чёткости овала — эти признаки требуют средства с доказанной антивозрастной эффективностью. Двойной лифтинг-крем с ретинолом и коллагеном сочетает два самых действенных омолаживающих компонента в уникальной двухфазной формуле.\n\nКремовая текстура и лёгкий гель смешиваются в нужной пространции: больше геля — для комбинированной и жирной кожи, больше крема — для нормальной и сухой. Ретиноиды стимулируют синтез коллагена и эластина, а гидролизованный коллаген удерживает влагу и предотвращает сухость.\n\nРезультат — подтянутая кожа с разглаженными морщинами, ровным тоном и здоровым сиянием. Подходит для всех типов кожи и любого сезона. Объём 50 мл.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Glycerin, Niacinamide, Cetearyl Alcohol, Palmitic Acid, Propanediol, Stearic Acid, Cetearyl Olivate, Sorbitan Olivate, Hydrogenated Polydecene, 1,2-Hexanediol, Dimethicone, Madecassoside, Pentylene Glycol, Camellia Japonica Flower Extract, Solanum Lycopersicum (Tomato) Fruit Extract, Panthenol, Anastatica Hierochuntica Extract, Lecithin, Arachis Hypogaea (Peanut) Oil, Silibin, Retinal, Retinol, Retinyl Palmitate, Retinyl Retinoate, Soluble Collagen, Hydrolyzed Collagen, Tocopherol, Adenosine, Xanthan Gum, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Ethylhexylglycerin, Carbomer",
+    "usage": "Нанесите крем на очищенную кожу лица после тонера и сыворотки. Двухфазную формулу рекомендуется перемешать перед применением. Распределите равномерно по лицу и шее мягкими движениями до полного впитывания. Используйте вечером. При первом применении ретинола начинайте с использования через день для адаптации кожи.",
     "skinTypes": [
       "aging"
     ],
@@ -2993,7 +3014,14 @@
       "source": "generated"
     },
     "purchaseCount": 273,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Retinolgen™ (6 видов ретинола) — комплекс инкапсулированного ретинола запускает клеточное обновление и разглаживает морщины",
+      "Soluble Collagen + Hydrolyzed Collagen — два типа коллагена восстанавливают упругость и увлажняют кожу",
+      "Niacinamide — осветляет пигментацию и нормализует выработку себума",
+      "Madecassoside (MadeWhite™) — производное центеллы, предотвращает воспаления и следы постакне",
+      "Panthenol — успокаивает, ускоряет заживление и восстановление кожи"
+    ]
   },
   {
     "id": "prod_57542386",
@@ -3019,7 +3047,7 @@
       "Glyceryl Stearate",
       "2-Hexanediol"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица после тонера и эмульсии. Равномерно распределите по лицу и шее мягкими массажными движениями от центра к периферии до полного впитывания. Используйте утром и вечером как завершающий этап антивозрастного ухода.",
     "skinTypes": [
       "aging"
     ],
@@ -3039,7 +3067,13 @@
     "inciList": "Water,Glycerin,Dipropylene Glycol,Hydrogenated Polydecene,Triethylhexanoin,Caprylic/​Capric Triglyceride,Glyceryl Stearate,1,2-Hexanediol,Butyrospermum Parkii (Shea) Butter,[more]C14-22 Alcohols,Cetearyl Alcohol,Hdi/​Trimethylol Hexyllactone Crosspolymer,PEG-40 Stearate,Dimethicone,Beeswax,Macadamia Ternifolia Seed Oil,Panthenol,Butylene Glycol,PEG-100 Stearate,Niacinamide,Sorbitan Stearate,C12-20 Alkyl Glucoside,Methyl Trimethicone,Fragrance,Carbomer,Hydrogenated Lecithin,Sodium Polyacrylate,Dimethicone/​Vinyl Dimethicone Crosspolymer,Tromethamine,Chondrus Crispus Extract,2.3-Butanediol,Titanium Dioxide (Ci 77891),Mica,Cholesterol,Glycosyl Trehalose,Adenosine,Silica,Polygonum Cuspidatum Root Extract,Hydrogenated Starch Hydrolysate,Alcohol Denat,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Trisodium EDTA,Iron Oxides (Ci 77491),Pyridoxine Hcl,Helianthus Annuus (Sunflower Seed Oil,Hesperidin,Beta-Carotene,Daucus Carota Sativa (Carrot) Root Extract,Daucus Carota Sativa (Carrot) Seed Oil,Sodium Lactate,Polysorbate 20,Tocopherol,Palmitoyl Tripeptide-1,Desamido Collagen,Glycine,Hydroxyproline,Palmitoyl Tetrapeptide-7,Proline,Limonene,Linalool,Hexyl Cinnamal,Benzyl Salicylate,Citronellol,Geraniol[less]",
     "nameEnglish": "O HuiAge Recovery Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/o-hui-age-recovery-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/o-hui-age-recovery-cream",
+    "keyIngredients": [
+      "Desamido Collagen — активный коллаген, сокращает морщины и повышает упругость кожи",
+      "Proline + Hydroxyproline + Glycine — аминокислоты-строители коллагена, стимулируют его естественную выработку",
+      "Adenosine — разглаживает морщины, увлажняет и стимулирует выработку собственного коллагена",
+      "Asiaticoside — укрепляет кожу, ускоряет регенерацию и заживление"
+    ]
   },
   {
     "id": "prod_57800343",
@@ -3327,8 +3361,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Видимый лифтинг и плотность — контур лица становится чётким и подтянутым\n\n◈ Экстракты корейских лекарственных трав питают кожу и стимулируют выработку коллагена\n◈ Гранат и гинкго билоба укрепляют контур и повышают плотность кожи\n◈ Экстракт проса выводит токсины и возвращает здоровое сияние\n\nС возрастом кожа теряет упругость, контур лица «плывёт», а отражение в зеркале всё реже радует. Sulwhasoo Essential Comfort Firming Cream EX — укрепляющий крем из базовой линейки легендарного корейского бренда, который возвращает лицу скульптурную чёткость.\n\nВ основе — философия ханбан: экстракты корейских лекарственных трав работают в синергии, питая кожу изнутри. Гранат и гинкго билоба увеличивают плотность тканей, экстракт проса освобождает кожу от накопленных токсинов. Результат — ощутимый лифтинг-эффект, улучшенная эластичность и здоровое сияние.\n\nСливочная текстура крема тает на коже, распределяется без усилий и не оставляет ни жирности, ни липкости. Объём 75 мл рассчитан на регулярное применение утром и вечером — каждый день ваша кожа становится плотнее, а овал лица — выразительнее.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water/Aqua/Eau, Butylene Glycol, Glycerin, Butylene Glycol Dicaprylate/Dicaprate, Cetyl Ethylhexanoate, Caprylic/Capric Triglyceride, Cyclopentasiloxane, Diisostearyl Malate, 1,2-Hexanediol, Glyceryl Stearate, Polyglyceryl-3 Methylglucose Distearate, Cyclohexasiloxane, PEG-100 Stearate, Cetearyl Alcohol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyacrylate-13, Polymethylsilsesquioxane, Polyisobutene, Fragrance/Parfum, Honey/Mel/Miel, Ziziphus Jujuba Fruit Extract, Glyceryl Caprylate, Limonene, Lycium Chinense Fruit Extract, Sorbitan Isostearate, Propanediol, Ethylhexylglycerin, Disodium EDTA, Adenosine, Polysorbate 20, Pueraria Lobata Root Extract, Polysorbate 60, Dioscorea Japonica Root Extract, Crataegus Pinnatifida Fruit Extract, Linalool, Narcissus Tazetta Bulb Extract, Pueraria Thunbergiana Flower/Leaf/Stem Extract, Citronellol, Dextrin, Theobroma Cacao (Cocoa) Extract, Morus Alba Leaf Extract",
+    "usage": "Нанесите крем на очищенную кожу лица и шеи после тонера и сыворотки. Возьмите небольшое количество средства и равномерно распределите по лицу мягкими восходящими движениями, уделяя особое внимание зонам с потерей упругости — овалу лица, скулам, подбородку. Используйте утром и вечером.",
     "skinTypes": [
       "aging"
     ],
@@ -3344,7 +3378,14 @@
       "source": "generated"
     },
     "purchaseCount": 257,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Lycium Chinense Fruit Extract (экстракт ягод годжи) — антиоксидант, укрепление упругости",
+      "Pueraria Lobata Root Extract (экстракт корня пуэрарии) — стимуляция коллагена, лифтинг",
+      "Honey (мёд) — питание и смягчение кожи",
+      "Adenosine (аденозин) — разглаживание морщин, антивозрастной уход",
+      "Ziziphus Jujuba Fruit Extract (экстракт плодов зизифуса) — восстановление и укрепление барьера"
+    ]
   },
   {
     "id": "prod_58361788",
@@ -3363,8 +3404,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Молодая гладкая шея — морщины и складки разглаживаются день за днём\n\n◈ Ретинол ускоряет обновление клеток и выравнивает текстуру кожи шеи\n◈ Коллаген мелких молекул проникает в глубокие слои, восстанавливая упругость\n◈ Роликовый аппликатор-гуаша улучшает микроциркуляцию при каждом нанесении\n\nШея выдаёт возраст быстрее лица — тонкая кожа здесь особенно уязвима перед морщинами и потерей тонуса. CKD Retino Collagen Small Molecule 300 Guasha Neck Cream — специализированное средство, которое объединяет мощную антивозрастную формулу и встроенный роликовый массажёр.\n\nРетинол стимулирует клеточное обновление и борется с признаками старения. Коллаген мелких молекул — в 300 раз меньше обычного — легко преодолевает эпидермальный барьер, восстанавливая каркас кожи изнутри. Пептиды и антиоксиданты усиливают регенерацию и защищают от повреждений.\n\nРоликовый аппликатор превращает нанесение крема в полноценный массаж гуаша: движения снизу вверх разгоняют кровоток, снимают отёчность и усиливают проникновение активных компонентов. Нежная текстура впитывается мгновенно, без жирного блеска. Объём 50 мл — для ежедневного ритуала, который возвращает шее и декольте гладкость и подтянутость.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Hydrolyzed Collagen Extract (71.73%), Glycerin, Propanediol, Water, Pentylene Glycol, Niacinamide, 1,2-Hexanediol, Squalane, Xylitylglucoside, Chondrus Crispus Extract, Saccharum Officinarum (Sugarcane) Extract, Xylitol, Macadamia Ternifolia Seed Oil, Limnanthes Alba (Meadowfoam) Seed Oil, Citrus Aurantium Bergamia (Bergamot) Fruit Oil, Lavandula Angustifolia (Lavender) Oil, Sodium Hyaluronate, Butyrospermum Parkii (Shea) Butter, Phellinus Linteus Extract, Salvia Sclarea (Clary) Oil, Caesalpinia Spinosa Fruit Extract, Retinal (10000 ppb), Kappaphycus Alvarezii Extract, Hydrolyzed Hyaluronic Acid, Hydrolyzed Collagen (98 ppb), Hyaluronic Acid, Betaine, Butylene Glycol, Panthenol, Anhydroxylitol, Polyglyceryl-3 Distearate, Hydrogenated Lecithin, Ammonium Acryloyldimethyltaurate/VP Copolymer, Tromethamine, Ethylhexylglycerin, Adenosine, Hydrogenated Polydecene, Triisostearin, Glyceryl Stearate Citrate, Caprylic/Capric Triglyceride, Sodium Phytate, Palmitoyl Tripeptide-5, Ceramide NP",
+    "usage": "Нанесите крем на чистую кожу шеи и зоны декольте. Используя встроенный роликовый аппликатор-гуаша, распределите средство движениями снизу вверх — от ключиц к подбородку. Выполните 5–10 массажных движений для улучшения микроциркуляции. Применяйте ежедневно утром и/или вечером после основного ухода за лицом.",
     "skinTypes": [
       "aging"
     ],
@@ -3380,7 +3421,14 @@
       "source": "generated"
     },
     "purchaseCount": 380,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Hydrolyzed Collagen Extract 71.73% (гидролизованный коллаген 300 Дальтон) — восстановление упругости кожи шеи",
+      "Retinal (ретиналь) — ускорение обновления клеток, разглаживание морщин и складок",
+      "Niacinamide (ниацинамид) — выравнивание тона и укрепление барьера кожи",
+      "Hyaluronic Acid (гиалуроновая кислота, 3 вида) — глубокое увлажнение до 100 часов",
+      "Palmitoyl Tripeptide-5 (пептид) — стимуляция синтеза коллагена"
+    ]
   },
   {
     "id": "prod_59098691",
@@ -3399,8 +3447,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Упругость и сияние без единой капли животного коллагена\n\n◈ 36% растительного коллагена укрепляют кожу и разглаживают морщины\n◈ Запатентованный комплекс Collageneer стимулирует выработку собственного коллагена\n◈ Ниацинамид и экстракт гриба тремелла выравнивают тон и глубоко увлажняют\n\nКогда кожа теряет коллаген, появляются морщины, овал лица теряет чёткость, а цвет становится тусклым. Ma:nyo VCollagen Heart Fit Cream — веганский антивозрастной крем, который восстанавливает то, что время забирает, без компромиссов в составе.\n\nФормула с рекордной концентрацией растительного коллагена — 36% — работает на укрепление и эластичность кожи. Запатентованный комплекс Collageneer на основе экстракта белого люпина запускает собственный синтез коллагена. Экстракт гриба тремелла обеспечивает интенсивное увлажнение, ниацинамид осветляет пигментацию, а аденозин стимулирует выработку эластина. Масло и гидролат дамасской розы успокаивают кожу и дарят утончённый аромат.\n\nПлотная, но невесомая текстура не утяжеляет лицо и не оставляет жирного блеска. Объём 50 мл — для ежедневного антивозрастного ухода, который день за днём возвращает коже молодость, упругость и здоровое сияние.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Collagen Extract (36%), Water, Propanediol, Glycerin, Acetylated Hydrogenated Vegetable Glyceride, Hydrogenated Poly(C6-14 Olefin), Niacinamide, Helianthus Annuus (Sunflower) Seed Oil, 1,2-Hexanediol, Ammonium Acryloyldimethyltaurate/VP Copolymer, Tremella Fuciformis (Mushroom) Extract, Lupinus Albus Seed Extract, Leuconostoc/Radish Root Ferment Filtrate, Rosa Damascena Flower Oil, Rosa Damascena Flower Water, Collagen (900ppm), Butylene Glycol, Tocopherol, Lecithin, Pentylene Glycol, Sorbitan Olivate, Cetearyl Olivate, Cetyl Alcohol, Stearyl Alcohol, Cetearyl Alcohol, Synthetic Beeswax, Polyglyceryl-3 Methylglucose Distearate, Sodium Polyacrylate, Caramel, Gluconolactone, Disodium EDTA, Ethylhexylglycerin, Sodium Hydroxide, Pelargonium Graveolens Flower Oil, Adenosine, Citronellol, Geraniol, Linalool",
+    "usage": "Нанесите крем на очищенную кожу лица после тонера и сыворотки. Возьмите небольшое количество (размером с вишню) и распределите по лицу и шее мягкими массирующими движениями от центра к периферии, двигаясь снизу вверх. Для усиления лифтинг-эффекта слегка прижмите ладони к щекам и подтяните кожу вверх. Используйте утром и вечером.",
     "skinTypes": [
       "aging"
     ],
@@ -3416,7 +3464,14 @@
       "source": "generated"
     },
     "purchaseCount": 476,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Collagen Extract 36% (растительный коллаген) — укрепление кожи и разглаживание морщин",
+      "Tremella Fuciformis Extract (экстракт гриба тремелла) — интенсивное увлажнение, удержание влаги",
+      "Niacinamide (ниацинамид) — выравнивание тона и сияние кожи",
+      "Lupinus Albus Seed Extract (экстракт белого люпина, COLLAGENEER) — стимуляция выработки собственного коллагена",
+      "Adenosine (аденозин) — антивозрастной уход, разглаживание морщин"
+    ]
   },
   {
     "id": "prod_59098694",
@@ -3488,7 +3543,7 @@
       "Cetearyl Alcohol",
       "Phenyl Trimethicone"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица после тонера и сыворотки. Возьмите небольшое количество средства и равномерно распределите по лицу лёгкими похлопывающими движениями до полного впитывания. Благодаря лёгкой гелево-кремовой текстуре подходит для ежедневного использования утром (под макияж) и вечером. Идеально для нормальной и комбинированной кожи.",
     "skinTypes": [
       "dry"
     ],
@@ -3508,7 +3563,14 @@
     "inciList": "Water,Glycerin,Pentaerythrityl Tetraethylhexanoate,Hydrogenated Polydecene,Macadamia Integrifolia Seed Oil,Cetearyl Alcohol,Phenyl Trimethicone,Pentylene Glycol,Polymethylsilsesquioxane,[more]Polyglyceryl-3 Distearate,Hydrogenated Lecithin,1,2-Hexanediol,Sea Water,Hyaluronic Acid,Hydrolyzed Hyaluronic Acid,Sodium Hyaluronate,Bacillus Ferment,Micrococcus Lysate,Hydrogenated Olive Oil Lauryl Esters,Hydrogenated Rice Bran Oil,Panthenol,Squalane,Dipotassium Glycyrrhizate,Allantoin,Betaine,Melia Azadirachta Flower Extract,Melia Azadirachta Leaf Extract,Theobroma Cacao (Cocoa) Seed Extract,Curcuma Longa (Turmeric) Root Extract,Ocimum Sanctum Leaf Extract,Corallina Officinalis Extract,Polyglyceryl-3 Methylglucose Distearate,Glyceryl Stearate,Ethylhexylglycerin,Myristic Acid,Sodium Phytate,Silica,Polyglyceryl-10 Stearate,Butylene Glycol,Dextrin,Glyceryl Stearate Citrate,Dimethicone/​Vinyl Dimethicone Crosspolymer,Behenic Acid,Caprylic/​Capric Triglyceride,Stearic Acid,Palmitic Acid,Tromethamine,Ammonium Acryloyldimethyltaurate/​VP Copolymer,Tocopherol,C12-16 Alcohols,Behenyl Alcohol,Stearyl Alcohol,Carbomer,Xanthan Gum[less]",
     "nameEnglish": "ROUND LAB1025 Dokdo Light Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/round-lab-1025-dokdo-light-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/round-lab-1025-dokdo-light-cream",
+    "keyIngredients": [
+      "Sea Water (глубинная морская вода Уллындо, 72 минерала) — пролонгированное увлажнение до 48 часов",
+      "Hyaluronic Acid + Sodium Hyaluronate + Hydrolyzed Hyaluronic Acid (3 вида гиалуроновой кислоты) — многоуровневое увлажнение",
+      "Bacillus Ferment + Micrococcus Lysate (пробиотики Dokdo Biom) — восстановление микробиома и укрепление защитного барьера",
+      "Panthenol (пантенол) — успокаивание и регенерация кожи",
+      "Squalane (сквалан) — питание и предотвращение потери влаги"
+    ]
   },
   {
     "id": "prod_59139320",
@@ -3527,8 +3589,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Чистые поры и матовая кожа — четыре себорегулирующих комплекса против жирного блеска\n\n◈ Контроль себума — комплекс SEPICONTROL A5 подавляет фермент 5-альфа-редуктазу, нормализуя выработку кожного сала\n◈ Антибактериальная защита — AC NET устраняет воспаления и предотвращает появление комедонов и чёрных точек\n◈ Сужение пор — Sopholiance S регулирует секрецию себума, визуально уменьшая поры и выравнивая рельеф\n\nРасширенные поры, жирный блеск, воспаления — когда микрофлора кожи нарушена, сальные железы работают в аварийном режиме. Dr.Ceuracle 5alpha Control Clearing Serum in Emulsion воздействует на саму причину проблемы, а не маскирует симптомы.\n\nЧетыре специализированных комплекса работают синергетически: контролируют выработку кожного сала, матируют, борются с бактериями и предотвращают закупорку пор. Комплекс REGU-SEB на основе масел арганы и кунжута дополнительно выравнивает текстуру кожи.\n\nГустая эмульсионная текстура быстро впитывается без липкости и жирной плёнки. Результат — матовая, ровная кожа с чистыми порами и здоровым тоном. Подходит для жирной и комбинированной кожи. Объём 100 г.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Butylene Glycol, Dimethicone, Sorbitan Stearate, Cetyl Alcohol, Hamamelis Virginiana (Witch Hazel) Bark/Leaf/Twig Extract, Cinnamomum Zeylanicum Bark Extract, 1,2-Hexanediol, Hydroxyacetophenone, Sucrose Stearate, Argania Spinosa Kernel Oil, Capryloyl Glycine, Hexylene Glycol, Sarcosine, Magnesium Aluminum Silicate, Polysorbate 60, Tocopheryl Acetate, Sodium Hyaluronate, Glyceryl Stearate, PEG-100 Stearate, Saccharomyces Cerevisiae Extract, Triticum Vulgare (Wheat) Germ Extract, Bisabolol, Sorbitan Sesquioleate, Spent Grain Wax, Sucrose Cocoate, Butyrospermum Parkii (Shea) Butter Extract, Carbomer, PEG-60 Almond Glycerides, Serenoa Serrulata Fruit Extract, Sesamum Indicum (Sesame) Seed Extract, Caprylyl Glycol, Fragrance, Tromethamine, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Phellinus Linteus Extract, Cordyceps Sinensis Extract, Ganoderma Lucidum (Mushroom) Extract, Xanthan Gum, Disodium EDTA, Glycerin",
+    "usage": "Нанесите сыворотку-эмульсию на очищенную кожу лица после тонера. Выдавите 2–3 нажатия помпы на ладонь и равномерно распределите по лицу, уделяя особое внимание Т-зоне и участкам с расширенными порами. Мягко вбейте средство подушечками пальцев до полного впитывания. Используйте утром и вечером. Подходит для жирной и комбинированной кожи.",
     "skinTypes": [
       "normal"
     ],
@@ -3547,7 +3609,14 @@
       "source": "generated"
     },
     "purchaseCount": 150,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "SEPICONTROL A5 (Capryloyl Glycine + Cinnamomum Zeylanicum + Sarcosine) — подавление 5-альфа-редуктазы, нормализация выработки себума",
+      "Hamamelis Virginiana Extract (экстракт гамамелиса) — сужение пор и выравнивание текстуры кожи",
+      "Sodium Hyaluronate (гиалуронат натрия) — глубокое увлажнение без утяжеления",
+      "Serenoa Serrulata Fruit Extract (экстракт пальметто) — себорегуляция и контроль жирного блеска",
+      "Argania Spinosa Kernel Oil (масло арганы) — питание и восстановление липидного барьера"
+    ]
   },
   {
     "id": "prod_59139330",
@@ -3573,7 +3642,7 @@
       "Polyglyceryl-3 Methylglucose Distearate",
       "Cetearyl Alcohol"
     ],
-    "usage": "",
+    "usage": "Нанесите лосьон на чистую кожу лица после тонера. Возьмите небольшое количество средства, равномерно распределите по лицу и шее мягкими похлопывающими движениями до полного впитывания. Используйте утром и вечером как этап увлажнения в ежедневном уходе.",
     "skinTypes": [
       "dry"
     ],
@@ -3596,7 +3665,14 @@
     "inciList": "Water,Glycerin,Macadamia Integrifolia Seed Oil,1,2-Hexanediol,Pentylene Glycol,Polyglyceryl-3 Methylglucose Distearate,Cetearyl Alcohol,Glyceryl Stearate,Hydrogenated Polydecene,[more]Jojoba Esters,Chondrus Crispus Extract,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Saccharum Officinarum (Sugarcane) Extract,Caprylyl Glycol,Carbomer,Tromethamine,Sea Water,Sodium Phytate,Panthenol,Squalane,Butylene Glycol,Tocopherol,Sodium Carboxymethyl Beta-Glucan,Ethylhexylglycerin,Hyaluronic Acid,Hydrolyzed Hyaluronic Acid,Sodium Hyaluronate[less]",
     "nameEnglish": "ROUND LABDokdo Lotion",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/round-lab-dokdo-lotion-2"
+    "inciSourceUrl": "https://incidecoder.com/products/round-lab-dokdo-lotion-2",
+    "keyIngredients": [
+      "Глубоководная морская вода острова Докдо — насыщает кожу минералами и поддерживает водный баланс",
+      "Гиалуроновая кислота (3 вида) — увлажняет на разных уровнях эпидермиса",
+      "Пантенол — успокаивает раздражённую кожу и укрепляет барьер",
+      "Сквалан — смягчает и предотвращает потерю влаги",
+      "Масло макадамии — питает и восстанавливает липидный слой"
+    ]
   },
   {
     "id": "prod_59139374",
@@ -3622,7 +3698,7 @@
       "Centella Asiatica Extract (10",
       "000Ppm)"
     ],
-    "usage": "",
+    "usage": "Нанесите крем на очищенную кожу лица в качестве завершающего этапа ухода. Возьмите небольшое количество средства и распределите мягкими движениями по лицу и шее, избегая области вокруг глаз. Подходит для утреннего и вечернего применения. Особенно рекомендован для чувствительной и раздражённой кожи.",
     "skinTypes": [
       "sensitive"
     ],
@@ -3642,7 +3718,14 @@
     "inciList": "Purified Water,Butylene Glycol,Glycerin,Heptyl Undecylenate,1,2-Hexanediol,Centella Asiatica Extract (10,000Ppm),Madecassic Acid,Asiaticoside,Asiatic Acid,[more]Madecassoside,Panthenol,Allantoin,Hydrolyzed Hyaluronic Acid,Swertia Japonica Extract,Nymphaea Caerulea Flower Extract,Lactobacillus Ferment,Althaea Rosea (Hollyhock) Flower Extract,Carthamus Tinctorius (Safflower) Flower Extract,Betaine,Caprylic/​Capric Triglyceride,Cetearyl Alcohol,Propanediol,C14-22 Alcohols,Dipeptide-2,Acrylates/​C10-30 Alkyl Acrylate Crosspolymer,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Sodium Polyacrylate,Glyceryl Acrylate/​Acrylic Acid Copolymer,Pvm/​Ma Copolymer,Sorbitan Isostearate,Polyglyceryl-3 Polyricinoleate,Isopentyldiol,Capryloyl Salicylic Acid,C12-20 Alkyl Glucoside,Polyglyceryl-4 Oleate,Sodium Stearoyl Glutamate,Sodium Surfactin,Caproic Acid,Xanthan Gum,Tromethamine,Sodium Acetate,Disodium EDTA,Ethylhexylglycerin,Gardenia Florida Fruit Extract[less]",
     "nameEnglish": "TorridenBalanceful Cica Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/torriden-balanceful-cica-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/torriden-balanceful-cica-cream",
+    "keyIngredients": [
+      "5D CICA-комплекс (экстракт центеллы, мадекассовая кислота, азиатикозид, азиатиковая кислота, мадекассозид) — интенсивно успокаивает и снимает покраснения",
+      "Гидролизованная гиалуроновая кислота — глубокое увлажнение",
+      "Пантенол — восстанавливает и удерживает влагу",
+      "Аллантоин — снимает раздражение и способствует регенерации",
+      "Экстракт голубого лотоса — антиоксидантная защита и успокоение"
+    ]
   },
   {
     "id": "prod_59175782",
@@ -3662,7 +3745,7 @@
     "countryCode": "KR",
     "description": "Ваш стильный щит от ультрафиолета на каждый день\n\n◈ Эффективная UV-защита — козырёк блокирует прямые солнечные лучи, оберегая кожу лица от фотостарения\n◈ Лёгкий и удобный — продуманная конструкция не давит и не сползает даже при активном движении\n◈ Универсальный аксессуар — элегантный дизайн дополняет любой летний образ\n\nСолнце дарит энергию, но именно оно — главный враг молодости кожи. Этот козырёк с UV-защитой создан для тех, кто заботится о своей красоте не только с помощью кремов, но и грамотной физической защиты. Надевайте его на прогулку, пробежку или поездку за город — и наслаждайтесь летом без тревоги.\n\nКорейский подход к защите от солнца предполагает многоуровневую стратегию: санскрин плюс физический барьер. Козырёк идеально работает в паре с вашим солнцезащитным кремом, усиливая общую степень защиты. Стильная форма и качественные материалы делают его не просто функциональным предметом, а полноценным аксессуаром, с которым вы выглядите безупречно.\n\nРезультат — кожа под надёжной защитой, а вы чувствуете себя уверенно в самый солнечный день.",
     "ingredients": [],
-    "usage": "",
+    "usage": "Наденьте козырёк, отрегулировав размер по голове. Используйте при прогулках, занятиях спортом на открытом воздухе или в повседневной жизни для защиты кожи лица от прямых солнечных лучей и фотостарения. Козырёк дополняет солнцезащитный крем, обеспечивая физический барьер от ультрафиолета.",
     "skinTypes": [
       "normal"
     ],
@@ -3701,7 +3784,7 @@
     "countryCode": "KR",
     "description": "Элегантная защита от солнца для безупречной кожи\n\n◈ UV-барьер — широкий козырёк перекрывает прямой поток ультрафиолета, снижая нагрузку на кожу лица\n◈ Комфортная посадка — лёгкая конструкция весом всего 100 г не утяжеляет и не вызывает дискомфорта\n◈ Корейский стандарт качества — продуманный дизайн сочетает функциональность и эстетику\n\nКаждая минута под открытым солнцем без защиты приближает появление пигментных пятен и мелких морщин. Этот козырёк — ваш ежедневный союзник в борьбе за ровный тон и молодость кожи. Он создан в Корее, где культура солнцезащиты возведена в абсолют.\n\nИспользуйте козырёк вместе с солнцезащитным кремом — именно так рекомендуют корейские дерматологи. Физический барьер плюс SPF-средство дают максимальный эффект. Аккуратный силуэт вписывается в повседневный гардероб: на пляже, в городе или на загородной прогулке вы будете выглядеть стильно и чувствовать себя защищённо.\n\nИтог — сияющая кожа без последствий солнечного воздействия и аксессуар, который хочется носить каждый день.",
     "ingredients": [],
-    "usage": "",
+    "usage": "Наденьте козырёк и отрегулируйте посадку. Используйте во время прогулок, активного отдыха или повседневных дел для защиты лица от солнца. Лёгкая конструкция весом около 100 г обеспечивает комфортное ношение в течение всего дня. Рекомендуется сочетать с солнцезащитным кремом для максимальной UV-защиты.",
     "skinTypes": [
       "normal"
     ],
@@ -3746,7 +3829,7 @@
       "Isopropyl Palmitate",
       "Ceteareth-20"
     ],
-    "usage": "",
+    "usage": "Набор из 10 детских трусов Guess для повседневного ношения. Доступны размеры от 5 до 14 лет. Рекомендуется стирка при температуре не выше 40 °C, не использовать отбеливатель. Яркие принты сохраняют вид после многократных стирок.",
     "skinTypes": [
       "normal"
     ],
@@ -3792,7 +3875,7 @@
       "Isopropyl Palmitate",
       "Ceteareth-20"
     ],
-    "usage": "",
+    "usage": "Повседневное нижнее бельё для детей. Рекомендуется стирка при температуре до 40 °C, допускается машинная стирка. Не использовать отбеливатели. Сушить в расправленном виде.",
     "skinTypes": [
       "normal"
     ],
@@ -3812,7 +3895,12 @@
     "inciList": "Water/​Eau (Aqua),Glycerin,Cetearyl Alcohol,Butylene Glycol,Di-C12-13 Alkyl Malate,Isopropyl Palmitate,Ceteareth-20,Phenoxyethanol,Fragrance/​Parfum,[more]Caffeine,Caprylyl Glycol,Tocopheryl Acetate,Carbomer,Triethanolamine,BHT,Butyl Methoxydibenzoylmethane,Ethylhexyl Methoxycinnamate,Ethylhexyl Salicylate,Aloe Barbadensis Leaf Juice,Benzoic Acid,Dehydroacetic Acid,Alpha-Isomethyl Ionone,Coumarin,Hexyl Cinnamal,Hydroxycitronellal,Limonene,Linalool[less]",
     "nameEnglish": "Guess EffectProtect Face Moisturizer",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/guess-effect-protect-face-moisturizer"
+    "inciSourceUrl": "https://incidecoder.com/products/guess-effect-protect-face-moisturizer",
+    "keyIngredients": [
+      "Хлопок",
+      "Целлюлозное волокно",
+      "Эластан"
+    ]
   },
   {
     "id": "prod_59181630",
@@ -3838,7 +3926,7 @@
       "Isopropyl Palmitate",
       "Ceteareth-20"
     ],
-    "usage": "",
+    "usage": "Базовые детские майки для повседневной носки. Подходят для детей от 5 до 14 лет. Рекомендуется машинная стирка при температуре до 40 °C, сушить в расправленном виде.",
     "skinTypes": [
       "normal"
     ],
@@ -3858,7 +3946,12 @@
     "inciList": "Water/​Eau (Aqua),Glycerin,Cetearyl Alcohol,Butylene Glycol,Di-C12-13 Alkyl Malate,Isopropyl Palmitate,Ceteareth-20,Phenoxyethanol,Fragrance/​Parfum,[more]Caffeine,Caprylyl Glycol,Tocopheryl Acetate,Carbomer,Triethanolamine,BHT,Butyl Methoxydibenzoylmethane,Ethylhexyl Methoxycinnamate,Ethylhexyl Salicylate,Aloe Barbadensis Leaf Juice,Benzoic Acid,Dehydroacetic Acid,Alpha-Isomethyl Ionone,Coumarin,Hexyl Cinnamal,Hydroxycitronellal,Limonene,Linalool[less]",
     "nameEnglish": "Guess EffectProtect Face Moisturizer",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/guess-effect-protect-face-moisturizer"
+    "inciSourceUrl": "https://incidecoder.com/products/guess-effect-protect-face-moisturizer",
+    "keyIngredients": [
+      "Хлопок",
+      "Целлюлозное волокно",
+      "Эластан"
+    ]
   },
   {
     "id": "prod_59181636",
@@ -3884,7 +3977,7 @@
       "Isopropyl Palmitate",
       "Ceteareth-20"
     ],
-    "usage": "",
+    "usage": "Детские майки на каждый день с оригинальным принтом Guess. Подходят для детей от 5 до 14 лет. Стирать при температуре до 40 °C, не использовать отбеливатели, сушить в расправленном виде.",
     "skinTypes": [
       "normal"
     ],
@@ -3904,7 +3997,12 @@
     "inciList": "Water/​Eau (Aqua),Glycerin,Cetearyl Alcohol,Butylene Glycol,Di-C12-13 Alkyl Malate,Isopropyl Palmitate,Ceteareth-20,Phenoxyethanol,Fragrance/​Parfum,[more]Caffeine,Caprylyl Glycol,Tocopheryl Acetate,Carbomer,Triethanolamine,BHT,Butyl Methoxydibenzoylmethane,Ethylhexyl Methoxycinnamate,Ethylhexyl Salicylate,Aloe Barbadensis Leaf Juice,Benzoic Acid,Dehydroacetic Acid,Alpha-Isomethyl Ionone,Coumarin,Hexyl Cinnamal,Hydroxycitronellal,Limonene,Linalool[less]",
     "nameEnglish": "Guess EffectProtect Face Moisturizer",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/guess-effect-protect-face-moisturizer"
+    "inciSourceUrl": "https://incidecoder.com/products/guess-effect-protect-face-moisturizer",
+    "keyIngredients": [
+      "Хлопок",
+      "Целлюлозное волокно",
+      "Эластан"
+    ]
   },
   {
     "id": "prod_59296236",
@@ -3923,8 +4021,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Здоровый кишечник — сияющая кожа: корейские пробиотики нового поколения\n\n◈ Синбиотическая формула 3-в-1 — пробиотики, пребиотики и постбиотики в каждом стике\n◈ 5 ключевых штаммов лактобактерий плюс витамины E, C, B1, B2, B6 и кальций\n◈ Формула устойчива к кислотам и желчи — активные компоненты работают непосредственно в кишечнике\n\nВсё начинается изнутри. Состояние кожи, уровень энергии, качество пищеварения — за всё это отвечает микрофлора кишечника. LACTO-FIT — корейский синбиотик, созданный на основе 80-летнего опыта изучения традиционной ферментации лактобактерий.\n\nВ каждом стике — пять штаммов живых лактобактерий, обогащённых витаминами и минералами. Формула разработана так, чтобы пройти через агрессивную среду желудка и начать действовать именно там, где это необходимо. Приятный виноградный вкус превращает приём в удовольствие: просто высыпьте порошок из саше и запейте глотком воды.\n\n50 стиков в упаковке — полный курс на 50 дней. Не требует хранения в холодильнике, удобно брать с собой. Нормализация микрофлоры, поддержка иммунитета и улучшение состояния кожи — день за днём.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Комплекс LACTO-5X: Streptococcus thermophilus, Lactobacillus plantarum, Lactobacillus acidophilus, Bifidobacterium bifidum, Bifidobacterium lactis (animalis ssp. lactis); витамин E, витамин C, витамин B1, витамин B2, витамин B6, кальций, порошок красного винограда, мальтодекстрин, фруктоолигосахариды (пребиотик), постбиотики",
+    "usage": "Принимать по 1 стику (саше) в день до или во время еды. Высыпать содержимое стика в рот и запить небольшим количеством воды. Упаковка рассчитана на 50 дней приёма. Хранить при комнатной температуре в сухом и тёмном месте, недоступном для детей.",
     "skinTypes": [
       "normal"
     ],
@@ -3940,7 +4038,14 @@
       "source": "generated"
     },
     "purchaseCount": 496,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Комплекс 5 штаммов лактобактерий LACTO-5X (2 млрд КОЕ)",
+      "Фруктоолигосахариды (пребиотик)",
+      "Витамины E, C, B1, B2, B6",
+      "Кальций",
+      "Постбиотики"
+    ]
   },
   {
     "id": "prod_59296253",
@@ -4002,8 +4107,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Витаминная забота о глазах: японские капли WIBI с шестью активными компонентами\n\n◈ Витамин B12 регулирует функцию зрительного нерва и снимает глубокую усталость\n◈ Витамин B6 и таурин поддерживают метаболизм и предотвращают сухость\n◈ Хондроитинсульфат натрия защищает поверхность роговицы\n\nСовременный ритм жизни не щадит наши глаза. Экраны, кондиционированный воздух, недосып — всё это накапливается и проявляется покраснением, зудом и ощущением песка. Японские капли WIBI созданы, чтобы дать глазам то, чего им не хватает, — витаминную поддержку и мгновенное облегчение.\n\nШесть типов активных ингредиентов работают в связке. Витамин B12 — редкий компонент в глазных каплях — целенаправленно воздействует на зрительный нерв. Витамин B6 ускоряет клеточный метаболизм, таурин предотвращает сухость, а нафазолина гидрохлорид быстро устраняет покраснение. Хлорфенирамин малеат снимает зуд и аллергические проявления.\n\nФлакон 15 мл рассчитан на продолжительное применение. Ощутите разницу уже после первого закапывания — глаза благодарят за настоящую японскую заботу.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Cyanocobalamin (Vitamin B12), Pyridoxine Hydrochloride (Vitamin B6), Taurine, Sodium Chondroitin Sulfate, Neostigmine Methylsulfate, Chlorpheniramine Maleate, Sodium Chloride, Boric Acid, Sodium Borate, Edetate Disodium, Polysorbate 80, Purified Water",
+    "usage": "Закапывать по 1-3 капли в каждый глаз 3-6 раз в день. Перед применением вымыть руки. Не касаться кончиком флакона поверхности глаза или век. После вскрытия использовать в течение 3 месяцев. Хранить при комнатной температуре, избегать прямых солнечных лучей.",
     "skinTypes": [
       "normal"
     ],
@@ -4019,7 +4124,14 @@
       "source": "generated"
     },
     "purchaseCount": 270,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Витамин B12 (цианокобаламин) — регулирует функцию зрительного нерва",
+      "Витамин B6 (пиридоксин) — поддерживает метаболизм тканей глаза",
+      "Таурин — восстанавливает клеточные структуры",
+      "Хондроитинсульфат натрия — защищает поверхность роговицы",
+      "Неостигмина метилсульфат — улучшает фокусировку"
+    ]
   },
   {
     "id": "prod_59317815",
@@ -4045,7 +4157,7 @@
       "Sodium Citrate",
       "Hexylglycerin"
     ],
-    "usage": "",
+    "usage": "Закапывать по 2–3 капли в каждый глаз, 5–6 раз в день по мере необходимости. Не касаться кончиком флакона поверхности глаза. Хранить в прохладном месте, избегая прямых солнечных лучей.",
     "skinTypes": [
       "dry"
     ],
@@ -4065,7 +4177,13 @@
     "inciList": "Aqua (Water),Saccharide Isomerate,Phenoxyethanol,Sodium Citrate,Butylene Glycol,Hexylglycerin,Citric Acid,Alteromonas Ferment Extract,Tocopherol[less]",
     "nameEnglish": "RohtoDermacept Rx Face Mist",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/rohto-dermacept-rx-face-mist"
+    "inciSourceUrl": "https://incidecoder.com/products/rohto-dermacept-rx-face-mist",
+    "keyIngredients": [
+      "Натуральный витамин E (D-α-токоферола ацетат) — улучшает кровообращение и снимает усталость глаз",
+      "Витамин B6 (пиридоксина гидрохлорид) — стимулирует клеточный метаболизм тканей глаза",
+      "Хондроитин сульфат натрия — защищает роговицу и поддерживает увлажнение",
+      "Калий L-аспартат — улучшает тканевое дыхание и кислородный обмен"
+    ]
   },
   {
     "id": "prod_59317816",
@@ -4091,7 +4209,7 @@
       "Sodium Citrate",
       "Hexylglycerin"
     ],
-    "usage": "",
+    "usage": "Закапывать по 2–3 капли в каждый глаз, 5–6 раз в день по мере необходимости. Не касаться кончиком флакона поверхности глаза. Хранить в прохладном месте, избегая прямых солнечных лучей.",
     "skinTypes": [
       "dry"
     ],
@@ -4111,7 +4229,13 @@
     "inciList": "Aqua (Water),Saccharide Isomerate,Phenoxyethanol,Sodium Citrate,Butylene Glycol,Hexylglycerin,Citric Acid,Alteromonas Ferment Extract,Tocopherol[less]",
     "nameEnglish": "RohtoDermacept Rx Face Mist",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/rohto-dermacept-rx-face-mist"
+    "inciSourceUrl": "https://incidecoder.com/products/rohto-dermacept-rx-face-mist",
+    "keyIngredients": [
+      "Натуральный витамин E (D-α-токоферола ацетат) — улучшает кровообращение и снимает усталость глаз",
+      "Витамин B6 (пиридоксина гидрохлорид) — стимулирует клеточный метаболизм тканей глаза",
+      "Хондроитин сульфат натрия — защищает роговицу и предотвращает глазные заболевания",
+      "Калий L-аспартат — улучшает тканевое дыхание и кислородный обмен"
+    ]
   },
   {
     "id": "prod_59317817",
@@ -4130,8 +4254,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "12 активных компонентов для глубокого восстановления уставших глаз\n\n◈ Максимальная концентрация — 12 витаминов и активных веществ в одном флаконе обеспечивают комплексное воздействие\n◈ Восстановление фокусировки — прозерин воздействует на цилиарную мышцу, возвращая чёткость зрения после длительных нагрузок\n◈ Увлажнение и защита — хондроитин сульфат натрия и гиалуроновая кислота в составе оберегают роговицу от пересыхания\n\nДолгий рабочий день за монитором, поездка за рулём или вечер с книгой — и вот перед глазами словно пелена. Santen Medical разработаны для тех, кому нужна серьёзная поддержка зрения. Витамин В12 улучшает работу цилиарной мышцы, дикалий глицирризинат снимает воспаление, а пантенол питает и восстанавливает ткани.\n\nТаурин и калий L-аспартат усиливают метаболизм и кислородное дыхание тканей глаза, цинка сульфат активизирует обменные процессы. Тетрагидрозолин уменьшает покраснение конъюнктивы, а хлорфенирамин малеат снимает зуд, в том числе аллергический. Капли совместимы со всеми типами контактных линз.\n\nРезультат — глаза получают полноценное питание и восстановление, а вы возвращаете себе комфортное, чёткое зрение без тумана и усталости.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Cyanocobalamin (Vitamin B12) 0.02%, Neostigmine Methyl Sulfate 0.005%, Chondroitin Sulfate Sodium 0.5%, Pyridoxine Hydrochloride (Vitamin B6) 0.05%, Panthenol 0.05%, Potassium L-Aspartate 0.5%, Taurine 0.5%, Chlorpheniramine Maleate 0.03%, ε-Aminocaproic Acid 1.0%, Dipotassium Glycyrrhizinate 0.1%, Zinc Sulfate Hydrate 0.05%, Tetrahydrozoline Hydrochloride 0.03%. Вспомогательные: sodium edetate hydrate, chlorobutanol, sodium hyaluronate, benzalkonium chloride, boric acid, d-borneol, L-menthol, isotonicity agent, pH adjusting agent.",
+    "usage": "Закапывать по 1–3 капли в каждый глаз, 5–6 раз в день по мере необходимости. Содержит 12 активных компонентов в максимальных концентрациях для комплексного восстановления уставших глаз.",
     "skinTypes": [
       "normal"
     ],
@@ -4147,7 +4271,14 @@
       "source": "generated"
     },
     "purchaseCount": 461,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Витамин B12 (цианокобаламин) — активирует цилиарную мышцу и снимает усталость глаз",
+      "Хондроитин сульфат натрия — защищает и увлажняет роговицу, предотвращает испарение слёзной плёнки",
+      "Таурин — активирует клеточный метаболизм тканей глаза",
+      "Неостигмина метилсульфат — улучшает функцию фокусировки зрения",
+      "ε-аминокапроновая кислота — подавляет воспалительные процессы"
+    ]
   },
   {
     "id": "prod_59317818",
@@ -4166,8 +4297,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Семь витаминов и мощная свежесть для яркого, чистого взгляда\n\n◈ 7 активных компонентов — таурин, витамин В6, калий L-аспартат и другие вещества комплексно питают и восстанавливают глаза\n◈ Индекс свежести 5 — интенсивное охлаждение мгновенно тонизирует и снимает ощущение тяжести\n◈ Устранение покраснений — тетрагидрозолин и аминокапроновая кислота убирают красноту и воспаление, возвращая белкам глаз чистоту\n\nПосле многочасовой работы за экраном глаза краснеют и устают — знакомая картина для каждого, кто живёт в ритме современного города. Sante FX-V+ — это японское решение, которое не просто маскирует симптомы, а действует на причину. Таурин в концентрации 1% усиливает метаболизм тканей, а калий L-аспартат улучшает кислородное дыхание клеток.\n\nНеостигмин метилсульфат восстанавливает функцию фокусировки — именно поэтому эти капли особенно ценят водители и офисные сотрудники. Хлорфенирамин малеат подавляет действие гистамина, снимая зуд и раздражение от внешних факторов: пыли, пота, ультрафиолета. Подходят для применения с 12 лет.\n\nРезультат — яркие, отдохнувшие глаза без покраснений и мощный заряд свежести, который чувствуется с первой капли.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Pyridoxine Hydrochloride (Vitamin B6) 0.1%, Taurine 1.0%, Potassium L-Aspartate 1.0%, Neostigmine Methyl Sulfate 0.005%, Tetrahydrozoline Hydrochloride 0.05%, Chlorpheniramine Maleate 0.03%, ε-Aminocaproic Acid 1.0%. Вспомогательные: chlorobutanol, dextran, hydroxyethyl cellulose, hypromellose, benzalkonium chloride solution, boric acid, d-camphor, d-borneol, l-menthol, pH regulator.",
+    "usage": "Закапывать по 2–3 капли в каждый глаз, 5–6 раз в день. Индекс свежести 5 — обеспечивает интенсивное охлаждение и тонизирующий эффект. Подходит для снятия усталости глаз, покраснения, зуда, а также для профилактики глазных заболеваний после плавания или попадания пыли.",
     "skinTypes": [
       "normal"
     ],
@@ -4183,7 +4314,14 @@
       "source": "generated"
     },
     "purchaseCount": 305,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Таурин — активирует клеточный метаболизм тканей глаза",
+      "Витамин B6 (пиридоксина гидрохлорид) — стимулирует обменные процессы в тканях глаза",
+      "Калий L-аспартат — улучшает тканевое дыхание",
+      "Тетрагидрозолина гидрохлорид — снимает покраснение конъюнктивы",
+      "ε-аминокапроновая кислота — оказывает противовоспалительное действие"
+    ]
   },
   {
     "id": "prod_59317819",
@@ -4209,7 +4347,7 @@
       "Helianthus Annuus (Sunflower) Seed Oil",
       "Sodium Hyaluronate"
     ],
-    "usage": "",
+    "usage": "Закапывать по 2–3 капли в каждый глаз, 5–6 раз в день. Индекс свежести 8 — максимально интенсивный охлаждающий эффект. Специальный наконечник «free angle nozzle» позволяет закапывать под любым углом. Применять при усталости глаз, нечёткости зрения, покраснении и зуде.",
     "skinTypes": [
       "dry",
       "sensitive"
@@ -4230,7 +4368,14 @@
     "inciList": "Water,Dipropylene Glycol,Soluble Collagen,Hydrolyzed Soy Protein,Limnanthes Alba (Meadowfoam) Seed Oil,Helianthus Annuus (Sunflower) Seed Oil,Sodium Hyaluronate,Hydroxypropyltrimonium Hyaluronate,Sodium Hyaluronate Crosspolymer,[more]Hydrolyzed Hyaluronic Acid,Hydrolyzed Elastin,Retinyl Palmitate,Beta-Carotene,Zea Mays (Corn) Oil,Tocopherol,PEG-20 Sorbitan Isostearate,Carbomer,Citric Acid,Sodium Citrate,Disodium EDTA,Triethanolamine,Pentylene Glycol,BHT,Ethylhexylglycerin,Phenoxyethanol,Methylparaben[less]",
     "nameEnglish": "Hada LaboPro Anti Aging Α Lifting Lotion",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/hada-labo-pro-anti-aging-a-lifting-lotion"
+    "inciSourceUrl": "https://incidecoder.com/products/hada-labo-pro-anti-aging-a-lifting-lotion",
+    "keyIngredients": [
+      "Аллантоин — стимулирует регенерацию повреждённых тканей глаза",
+      "Цинка сульфат — оказывает вяжущее действие, подавляет воспаление",
+      "Хондроитин сульфат натрия — защищает роговицу и поддерживает увлажнение",
+      "Витамин B6 (пиридоксина гидрохлорид) — улучшает остроту зрения и кровообращение",
+      "Неостигмина метилсульфат — восстанавливает функцию фокусировки"
+    ]
   },
   {
     "id": "prod_59317820",
@@ -4250,7 +4395,7 @@
     "countryCode": "JP",
     "description": "Спокойное путешествие без укачивания — всего одна таблетка перед поездкой\n\n◈ Быстрое действие — дименгидринат начинает работать в течение 30 минут, предотвращая тошноту и головокружение\n◈ Приятный лимонный вкус — таблетка разжёвывается без воды, что особенно удобно в дороге и для детей\n◈ Компактная упаковка — 4 таблетки, идеальный формат для поездки или перелёта\n\nДорога должна приносить радость, а не мучения. Жевательные таблетки Бонаринг — это японское средство от укачивания, которое позволяет забыть о тошноте, головокружении и холодном поте в транспорте. Достаточно разжевать одну таблетку за полчаса до отправления — и поездка пройдёт в комфорте.\n\nДименгидринат — проверенное действующее вещество с противорвотным и противоукачивающим эффектом. Он блокирует сигналы вестибулярного аппарата, которые вызывают неприятные симптомы кинетоза. Подходит для автомобильных, морских и воздушных путешествий. Для взрослых и детей старше 12 лет рекомендуется 1-2 таблетки, для детей младше — дозировка согласовывается с врачом.\n\nРезультат — спокойная дорога без неприятных ощущений и компактное средство, которое всегда под рукой в сумке или кармане.",
     "ingredients": [],
-    "usage": "",
+    "usage": "Разжевать 1 таблетку за 30 минут до поездки. Таблетку разжёвывать без воды. Подходит для взрослых и детей. При необходимости принимать повторно согласно инструкции на упаковке. Удобно использовать в дороге благодаря компактной упаковке.",
     "skinTypes": [
       "normal"
     ],
@@ -4266,7 +4411,12 @@
       "source": "generated"
     },
     "purchaseCount": 42,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Дименгидринат — противорвотное средство, предотвращает тошноту и головокружение при укачивании",
+      "Лимонный ароматизатор — обеспечивает приятный вкус при разжёвывании",
+      "Лактоза — вспомогательный наполнитель жевательной таблетки"
+    ]
   },
   {
     "id": "prod_59317821",
@@ -4292,7 +4442,7 @@
       "Stearic Acid",
       "Liquid Paraffin"
     ],
-    "usage": "",
+    "usage": "Снять защитный колпачок и направить насадку-дозатор в ротовую полость. Нажать на распылитель 2–3 раза, направляя спрей на заднюю стенку горла или поражённые участки. Применять 2–3 раза в день. Длительность курса — до 6 дней. Для детей от 2 лет и взрослых. Перед применением у детей рекомендуется консультация педиатра.",
     "skinTypes": [
       "normal"
     ],
@@ -4315,7 +4465,13 @@
     "inciList": "Active Ingredients:L-Ascorbic Acid 2-Glucoside,Stearyl Glycyrrhetinate,Tocopheryl AcetateInactive Ingredients:Triacontanyl Palmitate,Stearic Acid,Liquid Paraffin,Hydrogenated Oil,Self-Emulsifying Glyceryl Monostearate,Glyceryl Lipophilic,[more]Glyceryl Monostearate,Behenyl Alcohol,Polyethylene,Glycol Monostearate,(Adsorbed Purified) Lanolin,Methylpolysiloxane,Propyl Parahydroxybenzoate,Concentrated Glycerin,1,3 Butylene glycol,Methyl Parahydroxybenzoate,Sodium Stearoyl Glutamate,Xanthan Gum,Citric Acid,Potassium Hydroxide,Oil Soluble Licorice Extract (2),Prune Enzyme Digest,Phenoxyethanol,Glycol 2-Ethylhexyl Ether,Purified Water[less]",
     "nameEnglish": "KOBAYASHIKeshimin Brightening Cream For Melasma Freckles Dark Spots",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/kobayashi-keshimin-brightening-cream-for-melasma-freckles-dark-spots"
+    "inciSourceUrl": "https://incidecoder.com/products/kobayashi-keshimin-brightening-cream-for-melasma-freckles-dark-spots",
+    "keyIngredients": [
+      "Повидон-йод 0,45% — антисептик широкого спектра, оказывает антибактериальное, противовирусное и противогрибковое действие",
+      "L-ментол — местный анестетик, снимает болевые ощущения в горле и обеспечивает лёгкий охлаждающий эффект",
+      "Калия йодид — усиливает антисептическое действие повидон-йода",
+      "Глицерин — смягчает и увлажняет слизистую оболочку горла"
+    ]
   },
   {
     "id": "prod_59317823",
@@ -4335,7 +4491,7 @@
     "countryCode": "",
     "description": "Свободное дыхание до 12 часов — японский назальный спрей при заложенности носа\n\n◈ Длительное действие — ксилометазолин снимает отёк и возвращает свободное дыхание на срок до 12 часов\n◈ Двойная формула — противоотёчный и антигистаминный компоненты работают вместе против заложенности, чихания и насморка\n◈ Увлажнение слизистой — гиалуронат натрия предотвращает сухость и дискомфорт в носу\n\nЗаложенный нос лишает сна, концентрации и хорошего настроения. Спрей Komakiten разработан для быстрого избавления от этих мучений: активный компонент ксилометазолин расширяет носовые ходы за считанные минуты, а эффект сохраняется до половины суток. Вы снова дышите полной грудью.\n\nФормула усилена малеатом хлорфенирамина — антигистаминным веществом, которое устраняет чихание и обильные выделения. Средство помогает при остром рините, аллергическом насморке и синусите. Гиалуронат натрия в составе заботится о слизистой, не позволяя ей пересыхать, а фитонцидный ароматизатор дарит ощущение свежести.\n\nИтог — чистое носовое дыхание, комфортная слизистая и возможность спокойно заниматься делами весь день.",
     "ingredients": [],
-    "usage": "",
+    "usage": "Встряхнуть флакон перед применением. Очистить носовые ходы. Ввести наконечник спрея в носовой ход и произвести 1 впрыскивание. Повторить для второго носового хода. Применять 2–3 раза в день. Не использовать непрерывно более 7 дней во избежание развития медикаментозного ринита. Подходит при остром и аллергическом рините, синусите, заложенности носа.",
     "skinTypes": [
       "normal"
     ],
@@ -4354,7 +4510,12 @@
       "source": "generated"
     },
     "purchaseCount": 471,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Ксилометазолина гидрохлорид — сосудосуживающее средство, снимает отёк слизистой носа и восстанавливает свободное дыхание на срок до 12 часов",
+      "Антигистаминный компонент — устраняет чихание и зуд, борется с проявлениями аллергического ринита",
+      "Бензалкония хлорид — антисептик, предотвращает развитие бактериальной инфекции в полости носа"
+    ]
   },
   {
     "id": "prod_59317850",
@@ -4373,8 +4534,8 @@
     "country": "США",
     "countryCode": "US",
     "description": "Нежная забота о детских глазах — японские капли с витамином B6\n\n◈ Мягкая формула без консервантов — pH близок к натуральной слезе, не вызывает жжения при закапывании\n◈ Витамин B6 в составе — питает ткани глаз, активирует обменные и восстановительные процессы\n◈ Защита от экранов — снимает усталость и сухость после телевизора, компьютера и планшета\n\nСовременные дети проводят перед экранами всё больше времени, и их глаза нуждаются в поддержке. Капли Rohto Child разработаны в Японии специально для детских глаз: формула без консервантов, красителей и охлаждающих веществ действует предельно деликатно. Закапывание не вызывает слёз и неприятных ощущений.\n\nВитамин B6 и аминоэтил-сульфокислота насыщают ткани глаз кислородом и запускают естественную регенерацию. Капли снимают зуд, усталость и покраснение, помогают при попадании пыли и после плавания. Компактный флакон 8 мл удобно взять с собой на прогулку или в бассейн.\n\nРезультат — отдохнувшие, увлажнённые глаза ребёнка и спокойствие родителей, выбравших проверенное японское качество.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Пиридоксин гидрохлорид (витамин B6) 0,1%, таурин 1%, калия L-аспартат 1%, хлорфенирамин малеат 0,03%, бензалкония хлорид, борная кислота, регулятор pH, вода очищенная",
+    "usage": "При лёгкой усталости глаз: закапывать по 1 капле в каждый глаз 1 раз в день. При выраженной усталости: по 1–2 капли в каждый глаз 2–4 раза в день. Подходит для детей от 4 месяцев до 15 лет. Мягкая формула не вызывает жжения. Снимает усталость и раздражение глаз после длительного чтения, просмотра экранов, посещения бассейна. Не применять при глаукоме и при ношении мягких контактных линз.",
     "skinTypes": [
       "normal"
     ],
@@ -4392,7 +4553,13 @@
       "source": "generated"
     },
     "purchaseCount": 137,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Витамин B6 (пиридоксин) 0,1% — питает ткани глаз, улучшает метаболизм и восстановительные процессы",
+      "Таурин 1% — ускоряет обменные процессы в тканях глаза, способствует регенерации",
+      "Калия L-аспартат 1% — улучшает клеточное дыхание тканей глаза",
+      "Хлорфенирамин малеат 0,03% — антигистаминный компонент, снимает раздражение и зуд глаз"
+    ]
   },
   {
     "id": "prod_59340101",
@@ -4418,7 +4585,7 @@
       "Glucomannan",
       "Ceratonia Siliqua (Carob) Gum"
     ],
-    "usage": "",
+    "usage": "После очищения кожи нанести тонер. С помощью прилагаемой лопатки аккуратно извлечь гелевый патч. Наложить на область под глазами широкой стороной вниз. Оставить на 20–30 минут. После снятия аккуратно вбить остатки эссенции в кожу подушечками пальцев. Применять 2–3 раза в неделю или ежедневно. Можно также использовать в области носогубных складок, между бровями и на шее.",
     "skinTypes": [
       "dry"
     ],
@@ -4443,7 +4610,14 @@
     "inciList": "Water,Glycerin,Niacinamide,Acrylates Copolymer,Carrageenan,Glucomannan,Ceratonia Siliqua (Carob) Gum,Bakuchiol (10Ppm),Ascorbic Acid,[more]Phaseolus Radiatus Seed Extract,Tocopheryl Acetate,Acetyl Hexapeptide-8,Retinol,Hydrogenated Lecithin,Pinus Sylvestris Leaf Extract,Illicium Verum (Anise) Fruit Extract,Calcium Chloride,Cyamopsis Tetragonoloba (Guar) Gum,Allantoin,Hydroxyacetophenone,Chlorphenesin,1,2-Hexanediol,Synthetic Fluorphlogopite,Ethyl Hexanediol,Hexylene Glycol,PEG-60 Hydrogenated Castor Oil,Pentylene Glycol,Butylene Glycol,Arginine,Propanediol,Caprylic/​Capric Triglyceride,Caprylyl Glycol,Polyglyceryl-10 Myristate,Sucrose,Gellan Gum,Adenosine,Dipotassium Glycyrrhizate,Ethylhexylglycerin,Titanium Dioxide,Disodium EDTA,Fragrance[less]",
     "nameEnglish": "BuenoBakuchiol Anti Wrinkle Ampoule Eye Patch",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/bueno-bakuchiol-anti-wrinkle-ampoule-eye-patch"
+    "inciSourceUrl": "https://incidecoder.com/products/bueno-bakuchiol-anti-wrinkle-ampoule-eye-patch",
+    "keyIngredients": [
+      "Бакучиол — растительный аналог ретинола, стимулирует выработку коллагена и эластина, разглаживает микрорельеф кожи",
+      "Ретинол — активирует обновление клеток, уменьшает глубину морщин и осветляет пигментацию",
+      "Ацетил Гексапептид-8 — расслабляет мимические мышцы, обеспечивая ботоксоподобный эффект без инъекций",
+      "Ниацинамид — выравнивает тон кожи, осветляет тёмные круги под глазами",
+      "Аденозин — стимулирует выработку коллагена и эластина, уменьшает возрастные морщины"
+    ]
   },
   {
     "id": "prod_59351150",
@@ -4462,8 +4636,8 @@
     "country": "США",
     "countryCode": "US",
     "description": "Японский витаминный дуэт C + D — сила иммунитета и сияние изнутри\n\n◈ Высокая дозировка — 1000 мг витамина C и 340 МЕ витамина D в двух капсулах обеспечивают суточную потребность\n◈ Двойное действие — витамин C стимулирует выработку коллагена, витамин D укрепляет костную ткань и иммунитет\n◈ Курс на 30 дней — 60 капсул в упаковке для стабильного результата без перебоев\n\nКрасота начинается изнутри, и этот принцип лежит в основе японского подхода к здоровью. Витаминный комплекс Fine Vitamin C+D восполняет дефицит двух важнейших нутриентов, от которых зависят упругость кожи, крепость костей и способность организма противостоять вирусам и бактериям.\n\nВитамин C — мощный антиоксидант, который борется со свободными радикалами, стимулирует синтез собственного коллагена и улучшает усвоение железа. Витамин D нормализует обмен веществ, поддерживает гормональный баланс и помогает организму усваивать кальций — фундамент здоровых костей, зубов и волос. Вместе они создают основу для отличного самочувствия.\n\nРезультат — крепкий иммунитет, сияющая кожа и заряд энергии на каждый день благодаря проверенному японскому качеству.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Maltodextrin, Ascorbic Acid (Vitamin C), Hydroxypropyl Methylcellulose (Hypromellose), Cholecalciferol (Vitamin D), Silicon Dioxide",
+    "usage": "Принимать по 2 капсулы в день, запивая достаточным количеством воды. Курс рассчитан на 30 дней. Не превышать рекомендуемую суточную дозу. Перед приёмом рекомендуется проконсультироваться с врачом. Хранить в сухом месте, избегая высоких и низких температур.",
     "skinTypes": [
       "normal"
     ],
@@ -4481,7 +4655,12 @@
       "source": "generated"
     },
     "purchaseCount": 288,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Vitamin C (1000 мг) — антиоксидант, стимулирует синтез коллагена, укрепляет иммунитет",
+      "Vitamin D (8,5 мкг / 340 МЕ) — поддерживает костную ткань, иммунную и нервную системы",
+      "Гипромеллоза — растительная оболочка капсулы для комфортного приёма"
+    ]
   },
   {
     "id": "prod_59351702",
@@ -4507,7 +4686,7 @@
       "C14-22 Alcohols",
       "Triethylhexanoin"
     ],
-    "usage": "",
+    "usage": "После очищения и тонизирования лица нанесите крем как завершающий этап ухода (после тонера, эссенции и сыворотки). Равномерно распределите по лицу, избегая области вокруг глаз. Аккуратно вбейте кончиками пальцев до полного впитывания. Используйте утром и вечером для достижения оптимального результата.",
     "skinTypes": [
       "aging"
     ],
@@ -4529,7 +4708,14 @@
     "inciList": "Water,Butylene Glycol,Hydrogenated Polyisobutene,Behenyl Alcohol,Glycerin,Butyrospermum Parkii (Shea) Butter,C14-22 Alcohols,Triethylhexanoin,1,2-Hexanediol,[more]Stearic Acid,Palmitic Acid,Cetearyl Olivate,Ethylhexyl Palmitate,Caprylic/​Capric Triglyceride,Propanediol,Sorbitan Olivate,C12-20 Alkyl Glucoside,Simethicone,Hydroxyethyl Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Tocopherol,Allantoin,Arginine,Trehalose,Panthenol,Sorbitan Isostearate,Leontopodium Alpinum Callus Culture Extract,Saccharomyces/​Rice Ferment Filtrate,Lactobacillus Ferment,Lactobacillus/​Pear Juice Ferment Filtrate,Lactobacillus/​Punica Granatum Fruit Ferment Extract,Lactobacillus/​Soybean Ferment Extract,Saccharomyces/​Barley Seed Ferment Filtrate,Lactococcus Ferment,Chondrus Crispus Extract,Jania Rubens Extract,Anemarrhena Asphodeloides Root Extract (20 Ppm),Malt Extract,Hydrolyzed Collagen,Hydrolyzed Elastin,Sodium Hyaluronate,Copper Tripeptide-1(20 Ppb),Acetyl Hexapeptide-8(10 Ppb),Palmitoyl Pentapeptide-4(10 Ppb),Palmitoyl Tetrapeptide-7(5 Ppb),Palmitoyl Tripeptide-1(5 Ppb),Ethylhexylglycerin,Adenosine,Polysorbate 60,Disodium EDTA,Fragrance[less]",
     "nameEnglish": "MEDI-PEELBor-tox Peptide Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-bor-tox-peptide-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/medi-peel-bor-tox-peptide-cream",
+    "keyIngredients": [
+      "Пептидный комплекс (5 видов: Copper Tripeptide-1, Acetyl Hexapeptide-8, Palmitoyl Pentapeptide-4 и др.) — стимулирует коллаген, разглаживает морщины",
+      "Волюфилин (Anemarrhena Asphodeloides Root Extract, 20 ppm) — заполняет морщины, восстанавливает объём кожи",
+      "Гидролизованный коллаген и эластин — укрепляют структуру и упругость кожи",
+      "7 видов ферментированных экстрактов — улучшают тон кожи и увлажняют",
+      "Аденозин — клинически доказанное уменьшение морщин"
+    ]
   },
   {
     "id": "prod_59354381",
@@ -4555,7 +4741,7 @@
       "Niacinamide",
       "Prunus Persica (Peach) Fruit Extract"
     ],
-    "usage": "",
+    "usage": "Смешайте капсулу с гелевой основой до однородной консистенции. Нанесите умеренное количество крема равномерно на всё лицо и слегка вбейте похлопывающими движениями для лучшего впитывания. Используйте 1-2 раза в день. Не рекомендуется сочетать с кислотными средствами и средствами с аскорбиновой кислотой.",
     "skinTypes": [
       "dry"
     ],
@@ -4575,7 +4761,14 @@
     "inciList": "Oryza Sativa (Rice) Bran Extract,Butylene Glycol,Glycerin,Dimethicone,Titanium Dioxide,Niacinamide,Prunus Persica (Peach) Fruit Extract,Isohexadecane,Cyclopentasiloxane,[more]Polysorbate 80,Hippophae Rhamnoides Fruit Extract,Rosmarinus Officinalis (Rosemary) Leaf Extract,Chamomilla Recutita (Matricaria) Flower Extract,Camellia Sinensis Leaf Extract,Polygonum Cuspidatum Root Extract,Scutellaria Baicalensis Root Extract,Glycyrrhiza Glabra (Licorice) Root Extract,Centella Asiatica Extract,Morus Alba Bark Extract,Aloe Barbadensis Leaf Juice,Boswellia Serrata Resin Extract,Oryza Sativa (Rice) Bran Oil,Ascorbyl Tetraisopalmitate,Retinyl Palmitate,Tocopheryl Acetate,Allantoin,Glutathione,Dimethiconol,Saccharide Isomerate,Sodium Acrylate/​Sodium Acryloyldimethyl Taurate Copolymer,Adenosine,1,2-Hexanediol,Caprylhydroxamic Acid,Disodium EDTA,Triethoxycaprylylsilane,Fragrance[less]",
     "nameEnglish": "LangsreMini Aqua Hydrating Power Cream",
     "inciSource": "incidecoder",
-    "inciSourceUrl": "https://incidecoder.com/products/langsre-mini-aqua-hydrating-power-cream"
+    "inciSourceUrl": "https://incidecoder.com/products/langsre-mini-aqua-hydrating-power-cream",
+    "keyIngredients": [
+      "8 типов гиалуроновой кислоты — многоуровневое увлажнение от поверхности до глубоких слоёв кожи",
+      "Ниацинамид — выравнивает тон кожи, сужает поры, замедляет старение",
+      "Acetyl Hexapeptide-8 (аргирелин) — антивозрастной пептид, подтягивает овал лица",
+      "Астаксантин — мощный антиоксидант, защищает от свободных радикалов",
+      "Экстракты синих цветов (лаванда, василёк, шалфей) — успокаивают и снимают раздражение"
+    ]
   },
   {
     "id": "prod_59354389",
@@ -4594,8 +4787,8 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Интенсивное омоложение силой стволовых клеток и пептидов\n\n◈ Стволовые клетки дамасской розы — укрепляют барьерные функции кожи и регулируют водный баланс\n◈ Стволовые клетки белой лилии — природный антиоксидант, стимулирующий собственный синтез коллагена\n◈ 4 вида пептидов — целенаправленное anti-age воздействие, сокращающее видимость морщин\n\nВозраст оставляет следы — потеря упругости, пигментация, размытый контур лица. Cell Toxing Dermajours Cream от Medi-Peel — это ответ на все эти изменения в одном средстве. Крем сочетает силу растительных стволовых клеток с точным действием пептидного комплекса, возвращая коже молодость и здоровое сияние.\n\nСтволовые клетки дамасской розы глубоко увлажняют и препятствуют испарению влаги, а клетки белой лилии замедляют процессы увядания и защищают от фотостарения. Четыре вида пептидов работают на клеточном уровне: подтягивают овал лица, разглаживают морщины и мягко осветляют возрастную пигментацию и следы постакне. Формула подходит для всех типов кожи.\n\nРезультат — здоровый ровный тон, подтянутый контур и заметно более молодая кожа при регулярном применении.",
-    "ingredients": [],
-    "usage": "",
+    "ingredients": "Water, Glycerin, Caprylic/Capric Triglyceride, 1,2-Hexanediol, Cetyl Ethylhexanoate, Hydrogenated Polydecene, Methylpropanediol, Niacinamide, Cyclopentasiloxane, Butylene Glycol, Cetearyl Alcohol, Butyrospermum Parkii (Shea Butter), Cyclohexasiloxane, PEG-40 Hydrogenated Castor Oil, Sorbitan Stearate, Glyceryl Stearate SE, Dimethicone, Beeswax, Glyceryl Stearate, PEG-100 Stearate, Lilium Candidum Callus Culture Extract (10,000ppm), Polyacrylate-13, Trehalose, Tromethamine, Carbomer, Polyisobutene, Prunus Persica (Peach) Fruit Extract, Crataegus Cuneata Fruit Extract, Pyrus Communis (Pear) Fruit Extract, Adenosine, Hedera Helix (Ivy) Extract, Musa Sapientum (Banana) Fruit Extract, Vanilla Planifolia Fruit Extract, Malt Extract, Polysorbate 20, Magnolia Officinalis Bark Extract, Rosa Damascena Callus Culture Extract (30ppm), Glycine Soja (Soybean) Oil, Sodium Hyaluronate, Phosphatidylcholine, Fructan, Caprylyl Glycol, Hydrogenated Lecithin, Palmitoyl Tripeptide-5, Sodium Phosphate, Disodium Phosphate, Palmitoyl Tetrapeptide-7, Acetyl Octapeptide-3, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Acetyl Hexapeptide-8",
+    "usage": "На очищенную кожу лица после тонера и сыворотки нанесите небольшое количество крема. Равномерно распределите по массажным линиям лица и шеи, избегая области вокруг глаз. Мягко вбейте подушечками пальцев до полного впитывания. Рекомендуется использовать утром и вечером. Подходит для кожи от 35 лет с признаками старения и потерей упругости.",
     "skinTypes": [
       "aging"
     ],
@@ -4611,7 +4804,14 @@
       "source": "generated"
     },
     "purchaseCount": 322,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Стволовые клетки белой лилии (Lilium Candidum, 10 000 ppm) — антиоксидант, стимулирует синтез коллагена III типа",
+      "Стволовые клетки дамасской розы (Rosa Damascena, 30 ppm) — восстанавливает водный баланс, укрепляет барьерные функции",
+      "Комплекс из 4 видов пептидов (Palmitoyl Tripeptide-5, Acetyl Hexapeptide-8 и др.) — ботоксоподобный лифтинг-эффект",
+      "Ниацинамид — осветляет пигментацию, укрепляет защитный барьер кожи",
+      "Аденозин — разглаживает морщины, ускоряет клеточный метаболизм"
+    ]
   },
   {
     "id": "prod_59354393",
@@ -4630,7 +4830,7 @@
     "country": "Япония",
     "countryCode": "JP",
     "description": "Ночное восстановление кожи с комплексом из 10 видов коллагена\n\n◈ 10 видов коллагена — проникают в глубокие слои, восстанавливая эластичность и укрепляя овал лица\n◈ Работает во время сна — формула активна в период максимального клеточного обновления\n◈ Экстракт граната и аденозин — антиоксидантная защита и ускоренная регенерация\n\nНочь — самое ценное время для вашей кожи. Именно в эти часы клетки обновляются с удвоенной скоростью, и правильно подобранный уход способен многократно усилить этот процесс. Collagen Super 10 Sleeping Cream превращает каждую ночь в интенсивную восстанавливающую процедуру.\n\nДесять видов коллагена различной молекулярной массы работают на разных уровнях эпидермиса: одни укрепляют структуру, другие выравнивают рельеф и разглаживают морщины. Гиалуроновая кислота и пантенол обеспечивают глубокое увлажнение, а экстракт граната насыщает антиоксидантами. Плотная, но нежирная текстура легко распределяется и не пачкает постельное бельё. Крем особенно подходит для зрелой и обезвоженной кожи, утратившей тонус.\n\nРезультат — утром вы просыпаетесь с отдохнувшей, упругой кожей, а с каждой неделей морщины становятся менее заметными, а овал лица — чётче.",
-    "ingredients": [],
+    "ingredients": "Water, Glycerin, Niacinamide, Dimethicone, Butylene Glycol, Avena Sativa (Oat) Meal Extract, PEG-240/HDI Copolymer Bis-Decyltetradeceth-20 Ether, Dimethicone/Vinyl Dimethicone Crosspolymer, Hydroxyacetophenone, PEG-60 Hydrogenated Castor Oil, Glyceryl Stearate, PEG-10 Dimethicone, PEG-100 Stearate, Carbomer, Arginine, Allium Sativum (Garlic) Bulb Extract, Juglans Regia (Walnut) Seed Extract, Hydrolyzed Collagen (1,000ppm), Prunus Amygdalus Dulcis (Sweet Almond) Oil, Solanum Lycopersicum (Tomato) Fruit/Leaf/Stem Extract, Spinacia Oleracea (Spinach) Leaf Extract, Squalane, Wine Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Propanediol, Ethylhexylglycerin, Allantoin, Trehalose, Adenosine, Sodium Hyaluronate, Disodium EDTA, Argania Spinosa Kernel Oil, Camellia Sinensis Leaf Extract, Simmondsia Chinensis (Jojoba) Seed Oil, Ceramide 3, Hydrogenated Lecithin, Aloe Barbadensis Leaf Extract, Dipropylene Glycol, Glycereth-20, Bioflavonoids, PEG-10 Rapeseed Sterol, 1,2-Hexanediol, Olea Europaea (Olive) Leaf Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Palmitoyl Pentapeptide-4, Oligopeptide-32, Acetyl Hexapeptide-8, Copper Tripeptide-1",
     "usage": "После вечернего очищения и нанесения тонера и сыворотки, равномерно распределите крем по лицу и шее. Легкими движениями вмассируйте до полного впитывания. Используйте ежедневно как завершающий этап ночного ухода.",
     "skinTypes": [
       "oily",
@@ -4649,7 +4849,14 @@
       "source": "generated"
     },
     "purchaseCount": 270,
-    "isActive": true
+    "isActive": true,
+    "keyIngredients": [
+      "Гидролизованный коллаген (1 000 ppm) — восстанавливает эластичность, заполняет морщины изнутри",
+      "Комплекс суперфудов (10 видов: черника, шпинат, томат, овёс, грецкий орех, чеснок, вино, брокколи и др.) — антиоксидантная защита",
+      "Пептидный комплекс (Palmitoyl Pentapeptide-4, Acetyl Hexapeptide-8, Copper Tripeptide-1) — стимулирует выработку собственного коллагена",
+      "Ниацинамид — выравнивает тон кожи, осветляет пигментацию",
+      "Керамиды и сквалан — восстанавливают липидный барьер, удерживают влагу"
+    ]
   },
   {
     "id": "prod_59354402",

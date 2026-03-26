@@ -1,0 +1,70 @@
+[
+  {
+    "id": "prod_59351150",
+    "name": "Витамины C + D для поддержания красоты и здоровья (60капсул)",
+    "brand": "Fine Japan",
+    "ingredients": "Maltodextrin, Ascorbic Acid (Vitamin C), Hydroxypropyl Methylcellulose (Hypromellose), Cholecalciferol (Vitamin D), Silicon Dioxide",
+    "keyIngredients": [
+      "Vitamin C (1000 мг) — антиоксидант, стимулирует синтез коллагена, укрепляет иммунитет",
+      "Vitamin D (8,5 мкг / 340 МЕ) — поддерживает костную ткань, иммунную и нервную системы",
+      "Гипромеллоза — растительная оболочка капсулы для комфортного приёма"
+    ],
+    "usage": "Принимать по 2 капсулы в день, запивая достаточным количеством воды. Курс рассчитан на 30 дней. Не превышать рекомендуемую суточную дозу. Перед приёмом рекомендуется проконсультироваться с врачом. Хранить в сухом месте, избегая высоких и низких температур."
+  },
+  {
+    "id": "prod_59351702",
+    "name": "Лифтинг-крем с пептидным комплексом Bor-Tox Peptide Cream, 50g",
+    "brand": "Medi-Peel",
+    "ingredients": "Water, Butylene Glycol, Hydrogenated Polyisobutene, Behenyl Alcohol, Glycerin, Butyrospermum Parkii (Shea) Butter, C14-22 Alcohols, Triethylhexanoin, 1,2-Hexanediol, Stearic Acid, Palmitic Acid, Cetearyl Olivate, Ethylhexyl Palmitate, Caprylic/Capric Triglyceride, Propanediol, Sorbitan Olivate, C12-20 Alkyl Glucoside, Simethicone, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Tocopherol, Allantoin, Arginine, Trehalose, Panthenol, Sorbitan Isostearate, Leontopodium Alpinum Callus Culture Extract, Saccharomyces/Rice Ferment Filtrate, Lactobacillus Ferment, Lactobacillus/Pear Juice Ferment Filtrate, Lactobacillus/Punica Granatum Fruit Ferment Extract, Lactobacillus/Soybean Ferment Extract, Saccharomyces/Barley Seed Ferment Filtrate, Lactococcus Ferment, Chondrus Crispus Extract, Jania Rubens Extract, Anemarrhena Asphodeloides Root Extract, Malt Extract, Hydrolyzed Collagen, Hydrolyzed Elastin, Sodium Hyaluronate, Copper Tripeptide-1, Acetyl Hexapeptide-8, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Adenosine",
+    "keyIngredients": [
+      "Пептидный комплекс (5 видов: Copper Tripeptide-1, Acetyl Hexapeptide-8, Palmitoyl Pentapeptide-4 и др.) — стимулирует коллаген, разглаживает морщины",
+      "Волюфилин (Anemarrhena Asphodeloides Root Extract, 20 ppm) — заполняет морщины, восстанавливает объём кожи",
+      "Гидролизованный коллаген и эластин — укрепляют структуру и упругость кожи",
+      "7 видов ферментированных экстрактов — улучшают тон кожи и увлажняют",
+      "Аденозин — клинически доказанное уменьшение морщин"
+    ],
+    "usage": "После очищения и тонизирования лица нанесите крем как завершающий этап ухода (после тонера, эссенции и сыворотки). Равномерно распределите по лицу, избегая области вокруг глаз. Аккуратно вбейте кончиками пальцев до полного впитывания. Используйте утром и вечером для достижения оптимального результата."
+  },
+  {
+    "id": "prod_59354381",
+    "name": "Увлажняющий крем POWER AQUA CREAM 50 мл",
+    "brand": "Medi-Peel",
+    "ingredients": "Water, Dipropylene Glycol, Glycerin, Butylene Glycol, 1,2-Hexanediol, Isopropyl Isostearate, Niacinamide, Sodium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Caprylic/Capric Triglyceride, Hydrolyzed Hyaluronic Acid, Sodium Acetylated Hyaluronate, Hyaluronic Acid, Acetyl Hexapeptide-8, Sodium Hyaluronate Crosspolymer, Hydrolyzed Sodium Hyaluronate, Astaxanthin, Potassium Hyaluronate, Lavandula Angustifolia (Lavender) Extract, Salvia Officinalis (Sage) Extract, Hyacinthus Orientalis Extract, Chamomilla Recutita (Matricaria) Flower Extract, Borago Officinalis Extract, Centaurea Cyanus Flower Extract, Carbomer, Arginine, Cera Alba (Beeswax), Butyrospermum Parkii (Shea) Butter, Panthenol, Adenosine, Tocopherol",
+    "keyIngredients": [
+      "8 типов гиалуроновой кислоты — многоуровневое увлажнение от поверхности до глубоких слоёв кожи",
+      "Ниацинамид — выравнивает тон кожи, сужает поры, замедляет старение",
+      "Acetyl Hexapeptide-8 (аргирелин) — антивозрастной пептид, подтягивает овал лица",
+      "Астаксантин — мощный антиоксидант, защищает от свободных радикалов",
+      "Экстракты синих цветов (лаванда, василёк, шалфей) — успокаивают и снимают раздражение"
+    ],
+    "usage": "Смешайте капсулу с гелевой основой до однородной консистенции. Нанесите умеренное количество крема равномерно на всё лицо и слегка вбейте похлопывающими движениями для лучшего впитывания. Используйте 1-2 раза в день. Не рекомендуется сочетать с кислотными средствами и средствами с аскорбиновой кислотой."
+  },
+  {
+    "id": "prod_59354389",
+    "name": "Омолаживающий крем со стволовыми клетками Cell Toxing Dermajou Cream",
+    "brand": "Medi-Peel",
+    "ingredients": "Water, Glycerin, Caprylic/Capric Triglyceride, 1,2-Hexanediol, Cetyl Ethylhexanoate, Hydrogenated Polydecene, Methylpropanediol, Niacinamide, Cyclopentasiloxane, Butylene Glycol, Cetearyl Alcohol, Butyrospermum Parkii (Shea Butter), Cyclohexasiloxane, PEG-40 Hydrogenated Castor Oil, Sorbitan Stearate, Glyceryl Stearate SE, Dimethicone, Beeswax, Glyceryl Stearate, PEG-100 Stearate, Lilium Candidum Callus Culture Extract (10,000ppm), Polyacrylate-13, Trehalose, Tromethamine, Carbomer, Polyisobutene, Prunus Persica (Peach) Fruit Extract, Crataegus Cuneata Fruit Extract, Pyrus Communis (Pear) Fruit Extract, Adenosine, Hedera Helix (Ivy) Extract, Musa Sapientum (Banana) Fruit Extract, Vanilla Planifolia Fruit Extract, Malt Extract, Polysorbate 20, Magnolia Officinalis Bark Extract, Rosa Damascena Callus Culture Extract (30ppm), Glycine Soja (Soybean) Oil, Sodium Hyaluronate, Phosphatidylcholine, Fructan, Caprylyl Glycol, Hydrogenated Lecithin, Palmitoyl Tripeptide-5, Sodium Phosphate, Disodium Phosphate, Palmitoyl Tetrapeptide-7, Acetyl Octapeptide-3, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Acetyl Hexapeptide-8",
+    "keyIngredients": [
+      "Стволовые клетки белой лилии (Lilium Candidum, 10 000 ppm) — антиоксидант, стимулирует синтез коллагена III типа",
+      "Стволовые клетки дамасской розы (Rosa Damascena, 30 ppm) — восстанавливает водный баланс, укрепляет барьерные функции",
+      "Комплекс из 4 видов пептидов (Palmitoyl Tripeptide-5, Acetyl Hexapeptide-8 и др.) — ботоксоподобный лифтинг-эффект",
+      "Ниацинамид — осветляет пигментацию, укрепляет защитный барьер кожи",
+      "Аденозин — разглаживает морщины, ускоряет клеточный метаболизм"
+    ],
+    "usage": "На очищенную кожу лица после тонера и сыворотки нанесите небольшое количество крема. Равномерно распределите по массажным линиям лица и шеи, избегая области вокруг глаз. Мягко вбейте подушечками пальцев до полного впитывания. Рекомендуется использовать утром и вечером. Подходит для кожи от 35 лет с признаками старения и потерей упругости."
+  },
+  {
+    "id": "prod_59354393",
+    "name": "Омолаживающий ночной крем MP Collagen Super 10 Sleeping Cream",
+    "brand": "Medi-Peel",
+    "ingredients": "Water, Glycerin, Niacinamide, Dimethicone, Butylene Glycol, Avena Sativa (Oat) Meal Extract, PEG-240/HDI Copolymer Bis-Decyltetradeceth-20 Ether, Dimethicone/Vinyl Dimethicone Crosspolymer, Hydroxyacetophenone, PEG-60 Hydrogenated Castor Oil, Glyceryl Stearate, PEG-10 Dimethicone, PEG-100 Stearate, Carbomer, Arginine, Allium Sativum (Garlic) Bulb Extract, Juglans Regia (Walnut) Seed Extract, Hydrolyzed Collagen (1,000ppm), Prunus Amygdalus Dulcis (Sweet Almond) Oil, Solanum Lycopersicum (Tomato) Fruit/Leaf/Stem Extract, Spinacia Oleracea (Spinach) Leaf Extract, Squalane, Wine Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Propanediol, Ethylhexylglycerin, Allantoin, Trehalose, Adenosine, Sodium Hyaluronate, Disodium EDTA, Argania Spinosa Kernel Oil, Camellia Sinensis Leaf Extract, Simmondsia Chinensis (Jojoba) Seed Oil, Ceramide 3, Hydrogenated Lecithin, Aloe Barbadensis Leaf Extract, Dipropylene Glycol, Glycereth-20, Bioflavonoids, PEG-10 Rapeseed Sterol, 1,2-Hexanediol, Olea Europaea (Olive) Leaf Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Palmitoyl Pentapeptide-4, Oligopeptide-32, Acetyl Hexapeptide-8, Copper Tripeptide-1",
+    "keyIngredients": [
+      "Гидролизованный коллаген (1 000 ppm) — восстанавливает эластичность, заполняет морщины изнутри",
+      "Комплекс суперфудов (10 видов: черника, шпинат, томат, овёс, грецкий орех, чеснок, вино, брокколи и др.) — антиоксидантная защита",
+      "Пептидный комплекс (Palmitoyl Pentapeptide-4, Acetyl Hexapeptide-8, Copper Tripeptide-1) — стимулирует выработку собственного коллагена",
+      "Ниацинамид — выравнивает тон кожи, осветляет пигментацию",
+      "Керамиды и сквалан — восстанавливают липидный барьер, удерживают влагу"
+    ],
+    "usage": "Вечером, после полного очищения кожи и нанесения тонера и сыворотки, равномерно распределите крем по лицу и шее. Мягко вбейте подушечками пальцев до впитывания. Оставьте на ночь — формула активно работает в период максимального клеточного обновления кожи во время сна. Утром смойте тёплой водой и продолжите дневной уход."
+  }
+]
