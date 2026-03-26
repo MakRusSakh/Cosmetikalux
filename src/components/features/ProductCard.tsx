@@ -81,10 +81,10 @@ export default function ProductCard({ product, className = '', disableLink = fal
           <HeartIcon filled={isFavorite} />
         </button>
       </div>
-      <p className="text-xs uppercase tracking-wider text-text-tertiary mb-1 truncate">
+      <p className="font-heading text-xs uppercase tracking-wider text-text-tertiary mb-1 truncate">
         {product.brand}
       </p>
-      <h3 className="text-sm font-medium text-text-primary line-clamp-2 mb-2 min-h-[2.5rem] group-hover:text-accent-primary transition-colors">
+      <h3 className="font-heading text-sm font-medium text-text-primary line-clamp-2 mb-2 min-h-[2.5rem] group-hover:text-accent-primary transition-colors">
         {product.name}
       </h3>
       {product.rating?.count > 0 && (

@@ -42,12 +42,12 @@ export default function ProductQuickView({
         </div>
 
         {/* Информация */}
-        <div className="md:w-[55%] flex flex-col gap-3">
+        <div className="md:w-[55%] flex flex-col gap-3 font-heading">
           <p className="text-xs uppercase tracking-wider text-text-tertiary">
             {product.brand}
           </p>
 
-          <h2 className="font-heading text-lg font-semibold text-text-primary leading-tight">
+          <h2 className="text-lg font-semibold text-text-primary leading-tight">
             {product.name}
           </h2>
 
