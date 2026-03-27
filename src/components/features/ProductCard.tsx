@@ -57,7 +57,7 @@ export default function ProductCard({ product, className = '', disableLink = fal
   };
 
   const content = (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full bg-bg-surface rounded-[var(--radius-md)] p-2 pb-3">
       <div className="relative aspect-square overflow-hidden rounded-[var(--radius-md)] bg-bg-secondary mb-3">
         <Image
           src={mainImage}
