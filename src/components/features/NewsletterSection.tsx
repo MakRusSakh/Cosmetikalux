@@ -27,18 +27,18 @@ export default function NewsletterSection() {
           </p>
         ) : (
           <>
-            <form onSubmit={handleSubmit} className="flex gap-2 max-w-md mx-auto">
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
               <input
                 type="email"
                 required
                 placeholder="Ваш email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 px-4 py-3 border border-border-light rounded-[var(--radius-md)] text-sm focus:border-accent-primary focus:outline-none focus:ring-1 focus:ring-accent-primary"
+                className="flex-1 min-w-0 px-4 py-3 border border-border-light rounded-[var(--radius-md)] text-sm focus:border-accent-primary focus:outline-none focus:ring-1 focus:ring-accent-primary"
               />
               <button
                 type="submit"
-                className="px-6 py-3 bg-gradient-to-r from-accent-primary to-accent-rose text-text-inverse font-heading text-sm uppercase tracking-wider rounded-[var(--radius-md)] hover:opacity-90 transition whitespace-nowrap"
+                className="px-6 py-3 bg-gradient-to-r from-accent-primary to-accent-rose text-text-inverse font-heading text-sm uppercase tracking-wider rounded-[var(--radius-md)] hover:opacity-90 transition whitespace-nowrap shrink-0"
               >
                 Подписаться
               </button>
