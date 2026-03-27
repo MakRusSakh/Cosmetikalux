@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useCallback } from 'react';
+import { useRef, useCallback, useState, useEffect } from 'react';
 import Link from 'next/link';
 import type { Product } from '@/types/product';
 import ProductCard from '@/components/features/ProductCard';
@@ -12,6 +12,73 @@ interface ProductSectionProps {
   onProductClick?: (product: Product) => void;
   variant?: 'grid' | 'carousel';
   className?: string;
+}
+
+function Carousel3D({ products, onCardClick, disableLink }: { products: Product[]; onCardClick?: (p: Product) => (e: React.MouseEvent) => void; disableLink: boolean }) {
+  const [active, setActive] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const N = products.length;
+
+  const next = useCallback(() => setActive((p) => (p + 1) % N), [N]);
+  const prev = useCallback(() => setActive((p) => (p - 1 + N) % N), [N]);
+
+  useEffect(() => {
+    if (paused || N === 0) return;
+    const id = setInterval(next, 4000);
+    return () => clearInterval(id);
+  }, [paused, next, N]);
+
+  if (N === 0) return null;
+
+  return (
+    <div>
+      <div
+        className="relative h-[420px] md:h-[480px] mx-auto max-w-6xl"
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}
+        style={{ perspective: '1200px' }}
+      >
+        {products.map((product, i) => {
+          let offset = i - active;
+          if (offset > N / 2) offset -= N;
+          if (offset < -N / 2) offset += N;
+          const abs = Math.abs(offset);
+          const isCenter = offset === 0;
+
+          return (
+            <div
+              key={product.id}
+              className="absolute left-1/2 top-1/2 w-[200px] md:w-[260px] transition-all duration-500 ease-out"
+              style={{
+                transform: `translate(-50%, -50%) translateX(${offset * 230}px) translateZ(${isCenter ? 40 : -abs * 50}px) rotateY(${offset * -5}deg) scale(${isCenter ? 1.08 : Math.max(0.75, 1 - abs * 0.08)})`,
+                zIndex: 20 - abs,
+                opacity: abs > 3 ? 0 : 1 - abs * 0.15,
+                filter: isCenter ? 'none' : `brightness(${1 - abs * 0.04})`,
+                pointerEvents: abs > 3 ? 'none' : 'auto',
+              }}
+              onClick={isCenter ? (onCardClick ? onCardClick(product) : undefined) : (e) => { e.preventDefault(); setActive(i); }}
+            >
+              <ProductCard product={product} disableLink={disableLink || !isCenter} />
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="flex items-center justify-center gap-4 mt-4">
+        <button onClick={prev} className="w-11 h-11 rounded-full bg-bg-surface/90 shadow-md flex items-center justify-center text-text-secondary hover:text-accent-primary transition-colors">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M15 18l-6-6 6-6" /></svg>
+        </button>
+        <div className="flex gap-2">
+          {products.map((_, i) => (
+            <button key={i} onClick={() => setActive(i)} className={`rounded-full transition-all duration-300 ${i === active ? 'w-8 h-2.5 bg-accent-primary' : 'w-2.5 h-2.5 bg-border-medium hover:bg-accent-light'}`} />
+          ))}
+        </div>
+        <button onClick={next} className="w-11 h-11 rounded-full bg-bg-surface/90 shadow-md flex items-center justify-center text-text-secondary hover:text-accent-primary transition-colors">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6" /></svg>
+        </button>
+      </div>
+    </div>
+  );
 }
 
 function NavButton({
@@ -116,24 +183,7 @@ export default function ProductSection({
           </div>
         </div>
       ) : (
-        <div className="relative max-w-7xl mx-auto">
-          <NavButton direction="left" onClick={() => scroll('left')} />
-          <NavButton direction="right" onClick={() => scroll('right')} />
-          <div
-            ref={scrollRef}
-            className="overflow-x-auto snap-x snap-mandatory scrollbar-hide flex gap-4 px-4"
-          >
-            {products.map((product) => (
-              <div
-                key={product.id}
-                className="w-[200px] md:w-[260px] snap-start flex-shrink-0"
-                onClick={handleCardClick(product)}
-              >
-                <ProductCard product={product} disableLink={!!onProductClick} />
-              </div>
-            ))}
-          </div>
-        </div>
+        <Carousel3D products={products} onCardClick={onProductClick ? handleCardClick : undefined} disableLink={!!onProductClick} />
       )}
     </section>
   );
