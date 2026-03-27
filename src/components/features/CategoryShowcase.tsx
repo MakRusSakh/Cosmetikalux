@@ -83,6 +83,7 @@ export default function CategoryShowcase() {
             </Link>
           );
         })}
+      </div>
 
       <div className="flex items-center justify-center gap-4 mt-6">
         <button onClick={prev} className="w-11 h-11 rounded-full bg-bg-surface/90 shadow-md flex items-center justify-center text-text-secondary hover:text-accent-primary transition-colors">
