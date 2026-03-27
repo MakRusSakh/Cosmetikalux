@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { getProducts } from '@/lib/products'
+import { getProducts, hasNewImage } from '@/lib/products'
 import HomeClient from './HomeClient'
 
 export const metadata: Metadata = {
@@ -9,10 +9,16 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
-  const bestsellers = getProducts({ sort: 'popular' }).products.slice(0, 8)
-  const newArrivals = getProducts({ sort: 'new' }).products.slice(0, 8)
-  const cosmetika = getProducts({ category: 'kosmetika', sort: 'popular' }).products.slice(0, 8)
-  const zdorovye = getProducts({ category: 'zdorovye', sort: 'popular' }).products.slice(0, 8)
+  const allPopular = getProducts({ sort: 'popular' }).products
+  const allNew = getProducts({ sort: 'new' }).products
+  const allCosmetika = getProducts({ category: 'kosmetika', sort: 'popular' }).products
+  const allZdorovye = getProducts({ category: 'zdorovye', sort: 'popular' }).products
+
+  // На главной — только товары с обновлёнными фото
+  const bestsellers = allPopular.filter(hasNewImage).slice(0, 8)
+  const newArrivals = allNew.filter(hasNewImage).slice(0, 8)
+  const cosmetika = allCosmetika.filter(hasNewImage).slice(0, 8)
+  const zdorovye = allZdorovye.filter(hasNewImage).slice(0, 8)
 
   return (
     <HomeClient
