@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
-import { getProducts, hasNewImage } from '@/lib/products'
+import { hasNewImage } from '@/lib/products'
+import type { Product } from '@/types/product'
+import productsData from '@/data/products.json'
 import HomeClient from './HomeClient'
 
 export const metadata: Metadata = {
@@ -9,14 +11,15 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
-  // Все товары с обновлёнными фото
-  const allWithNewImg = getProducts({ sort: 'popular' }).products.filter(hasNewImage)
-  const allNewByDate = getProducts({ sort: 'new' }).products.filter(hasNewImage)
+  const all = (productsData as unknown as Product[]).filter((p) => p.isActive && hasNewImage(p))
 
-  const bestsellers = allWithNewImg.slice(0, 8)
-  const newArrivals = allNewByDate.slice(0, 8)
-  const cosmetika = allWithNewImg.slice(8, 16)
-  const zdorovye = allWithNewImg.slice(16, 24)
+  const byPopular = [...all].sort((a, b) => b.purchaseCount - a.purchaseCount)
+  const byNew = [...all].sort((a, b) => b.id.localeCompare(a.id))
+
+  const bestsellers = byPopular.slice(0, 8)
+  const newArrivals = byNew.slice(0, 8)
+  const cosmetika = byPopular.slice(8, 16)
+  const zdorovye = byPopular.slice(16, 24)
 
   return (
     <HomeClient
