@@ -9,16 +9,14 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
-  const allPopular = getProducts({ sort: 'popular' }).products
-  const allNew = getProducts({ sort: 'new' }).products
-  const allCosmetika = getProducts({ category: 'kosmetika', sort: 'popular' }).products
-  const allZdorovye = getProducts({ category: 'zdorovye', sort: 'popular' }).products
+  // Все товары с обновлёнными фото
+  const allWithNewImg = getProducts({ sort: 'popular' }).products.filter(hasNewImage)
+  const allNewByDate = getProducts({ sort: 'new' }).products.filter(hasNewImage)
 
-  // На главной — только товары с обновлёнными фото
-  const bestsellers = allPopular.filter(hasNewImage).slice(0, 8)
-  const newArrivals = allNew.filter(hasNewImage).slice(0, 8)
-  const cosmetika = allCosmetika.filter(hasNewImage).slice(0, 8)
-  const zdorovye = allZdorovye.filter(hasNewImage).slice(0, 8)
+  const bestsellers = allWithNewImg.slice(0, 8)
+  const newArrivals = allNewByDate.slice(0, 8)
+  const cosmetika = allWithNewImg.slice(8, 16)
+  const zdorovye = allWithNewImg.slice(16, 24)
 
   return (
     <HomeClient
