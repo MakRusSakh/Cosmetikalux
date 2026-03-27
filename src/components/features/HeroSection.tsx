@@ -25,7 +25,7 @@ export default function HeroSection() {
         </div>
 
         {/* Text content */}
-        <div className="md:w-1/2 px-8 md:px-16 py-8 md:py-0 text-center md:text-left">
+        <div className="md:w-1/2 py-8 md:py-0 text-center md:text-left">
           <h1 className="font-heading text-4xl md:text-6xl font-bold text-text-primary leading-tight">
             Секреты
             <br />
@@ -57,7 +57,7 @@ export default function HeroSection() {
         </div>
 
         {/* Desktop: image on right */}
-        <div className="hidden md:flex md:w-1/2 items-center justify-center p-8">
+        <div className="hidden md:flex md:w-1/2 items-center justify-end">
           <div className="aspect-square w-full max-w-lg relative rounded-[var(--radius-lg)] overflow-hidden shadow-2xl">
             <Image
               src="/images/hero/hero_001_foto_1.png"
