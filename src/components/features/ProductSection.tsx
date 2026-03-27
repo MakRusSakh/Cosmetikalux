@@ -15,65 +15,49 @@ interface ProductSectionProps {
 }
 
 function Carousel3D({ products, onCardClick, disableLink }: { products: Product[]; onCardClick?: (p: Product) => (e: React.MouseEvent) => void; disableLink: boolean }) {
-  const [active, setActive] = useState(0);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const [paused, setPaused] = useState(false);
-  const N = products.length;
 
-  const next = useCallback(() => setActive((p) => (p + 1) % N), [N]);
-  const prev = useCallback(() => setActive((p) => (p - 1 + N) % N), [N]);
+  const scroll = useCallback((dir: 'left' | 'right') => {
+    const el = scrollRef.current;
+    if (!el) return;
+    el.scrollBy({ left: dir === 'left' ? -280 : 280, behavior: 'smooth' });
+  }, []);
 
   useEffect(() => {
-    if (paused || N === 0) return;
-    const id = setInterval(next, 4000);
+    if (paused) return;
+    const id = setInterval(() => scroll('right'), 4000);
     return () => clearInterval(id);
-  }, [paused, next, N]);
+  }, [paused, scroll]);
 
-  if (N === 0) return null;
+  if (products.length === 0) return null;
 
   return (
-    <div>
-      <div
-        className="relative h-[420px] md:h-[480px] mx-auto max-w-6xl"
-        onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setPaused(false)}
-        style={{ perspective: '1200px' }}
-      >
-        {products.map((product, i) => {
-          let offset = i - active;
-          if (offset > N / 2) offset -= N;
-          if (offset < -N / 2) offset += N;
-          const abs = Math.abs(offset);
-          const isCenter = offset === 0;
-
-          return (
-            <div
-              key={product.id}
-              className="absolute left-1/2 top-1/2 w-[200px] md:w-[260px] transition-all duration-500 ease-out"
-              style={{
-                transform: `translate(-50%, -50%) translateX(${offset * 230}px) translateZ(${isCenter ? 40 : -abs * 50}px) rotateY(${offset * -5}deg) scale(${isCenter ? 1.08 : Math.max(0.75, 1 - abs * 0.08)})`,
-                zIndex: 20 - abs,
-                opacity: abs > 3 ? 0 : 1 - abs * 0.12,
-                pointerEvents: abs > 3 ? 'none' : 'auto',
-                visibility: abs > 3 ? 'hidden' : 'visible',
-              }}
-              onClick={isCenter ? (onCardClick ? onCardClick(product) : undefined) : (e) => { e.preventDefault(); setActive(i); }}
-            >
-              <ProductCard product={product} disableLink={disableLink || !isCenter} />
-            </div>
-          );
-        })}
+    <div
+      className="relative max-w-7xl mx-auto"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+    >
+      <div ref={scrollRef} className="overflow-x-auto snap-x snap-mandatory flex gap-5 px-4 pb-2" style={{ scrollbarWidth: 'none' }}>
+        {products.map((product) => (
+          <div
+            key={product.id}
+            className="w-[220px] md:w-[260px] snap-start flex-shrink-0"
+            onClick={onCardClick ? onCardClick(product) : undefined}
+          >
+            <ProductCard product={product} disableLink={disableLink} />
+          </div>
+        ))}
       </div>
 
       <div className="flex items-center justify-center gap-4 mt-4">
-        <button onClick={prev} className="w-11 h-11 rounded-full bg-bg-surface/90 shadow-md flex items-center justify-center text-text-secondary hover:text-accent-primary transition-colors">
+        <button onClick={() => scroll('left')} className="w-11 h-11 rounded-full bg-bg-surface/90 shadow-md flex items-center justify-center text-text-secondary hover:text-accent-primary transition-colors">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M15 18l-6-6 6-6" /></svg>
         </button>
-        <div className="flex gap-2">
-          {products.map((_, i) => (
-            <button key={i} onClick={() => setActive(i)} className={`rounded-full transition-all duration-300 ${i === active ? 'w-8 h-2.5 bg-accent-primary' : 'w-2.5 h-2.5 bg-border-medium hover:bg-accent-light'}`} />
-          ))}
+        <div className="w-48 h-1.5 bg-border-light rounded-full overflow-hidden">
+          <div className="h-full bg-accent-primary/60 rounded-full" style={{ width: '40%' }} />
         </div>
-        <button onClick={next} className="w-11 h-11 rounded-full bg-bg-surface/90 shadow-md flex items-center justify-center text-text-secondary hover:text-accent-primary transition-colors">
+        <button onClick={() => scroll('right')} className="w-11 h-11 rounded-full bg-bg-surface/90 shadow-md flex items-center justify-center text-text-secondary hover:text-accent-primary transition-colors">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6" /></svg>
         </button>
       </div>
