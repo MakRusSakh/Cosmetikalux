@@ -48,13 +48,13 @@ function Carousel3D({ products, onCardClick, disableLink }: { products: Product[
           return (
             <div
               key={product.id}
-              className="absolute left-1/2 top-1/2 w-[200px] md:w-[260px] transition-all duration-500 ease-out bg-bg-surface rounded-[var(--radius-md)] shadow-md"
+              className="absolute left-1/2 top-1/2 w-[200px] md:w-[260px] transition-all duration-500 ease-out"
               style={{
                 transform: `translate(-50%, -50%) translateX(${offset * 230}px) translateZ(${isCenter ? 40 : -abs * 50}px) rotateY(${offset * -5}deg) scale(${isCenter ? 1.08 : Math.max(0.75, 1 - abs * 0.08)})`,
                 zIndex: 20 - abs,
-                opacity: abs > 3 ? 0 : 1 - abs * 0.15,
-                filter: isCenter ? 'none' : `brightness(${1 - abs * 0.04})`,
+                opacity: abs > 3 ? 0 : 1 - abs * 0.12,
                 pointerEvents: abs > 3 ? 'none' : 'auto',
+                visibility: abs > 3 ? 'hidden' : 'visible',
               }}
               onClick={isCenter ? (onCardClick ? onCardClick(product) : undefined) : (e) => { e.preventDefault(); setActive(i); }}
             >
