@@ -29,9 +29,11 @@ export default async function CatalogPage({ searchParams }: CatalogPageProps) {
     page: params.page ? Number(params.page) : 1,
   };
 
-  const result = getProducts(filters);
-  const categories = getCategories();
-  const brands = getBrands();
+  const [result, categories, brands] = await Promise.all([
+    getProducts(filters),
+    getCategories(),
+    getBrands(),
+  ]);
 
   return (
     <CatalogClient

@@ -8,3 +8,5 @@ data/enriched/
 node_modules/
 tsconfig.tsbuildinfo
 .next/
+
+/src/generated/prisma

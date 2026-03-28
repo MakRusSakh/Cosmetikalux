@@ -18,7 +18,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { productSlug } = await params
-  const product = getProduct(productSlug)
+  const product = await getProduct(productSlug)
   if (!product) return {}
   return {
     title: product.name,
@@ -29,10 +29,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ProductPage({ params }: PageProps) {
   const { categorySlug, productSlug } = await params
-  const product = getProduct(productSlug)
+  const product = await getProduct(productSlug)
   if (!product) notFound()
 
-  const related = getRelatedProducts(product, 8)
+  const related = await getRelatedProducts(product, 8)
 
   return (
     <main className="max-w-7xl mx-auto px-4 py-8">
