@@ -9,7 +9,9 @@ import { useCartStore } from '@/stores/cartStore'
 import { useAuth } from '@/hooks/useAuth'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ChevronDown, ChevronUp } from 'lucide-react'
+
+const ChevronDown = () => <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 9l6 6 6-6"/></svg>
+const ChevronUp = () => <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 15l-6-6-6 6"/></svg>
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Введите имя'),
@@ -90,7 +92,7 @@ export default function CheckoutClient() {
       <div className="md:hidden mb-4">
         <button onClick={() => setCartOpen(!cartOpen)} className="w-full flex items-center justify-between rounded-lg border border-gray-200 px-4 py-2.5 text-sm font-heading">
           <span>Заказ · {total.toLocaleString('ru-RU')} ₽</span>
-          {cartOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+          {cartOpen ? <ChevronUp /> : <ChevronDown />}
         </button>
         {cartOpen && <div className="mt-2"><MiniCart /></div>}
       </div>
