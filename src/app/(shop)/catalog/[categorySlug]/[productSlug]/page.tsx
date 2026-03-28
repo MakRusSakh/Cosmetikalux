@@ -84,7 +84,7 @@ export default async function ProductPage({ params }: PageProps) {
             <p className="text-sm text-text-secondary mb-6">{product.unit}</p>
           )}
 
-          <AddToCartButton productId={product.id} productName={product.name} />
+          <AddToCartButton product={product} />
 
           <div className="mt-6 p-4 bg-bg-tertiary rounded-[var(--radius-md)] text-sm text-text-secondary">
             🚚 Доставка по Южно-Сахалинску — бесплатно от 3000₽

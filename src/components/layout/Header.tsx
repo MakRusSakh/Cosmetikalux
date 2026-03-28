@@ -2,6 +2,9 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useCartStore } from '@/stores/cartStore'
+import { useUIStore } from '@/stores/uiStore'
+import MiniCart from '@/components/features/MiniCart'
 
 const navLinks = [
   { href: '/catalog', label: 'Каталог' },
@@ -12,7 +15,8 @@ const navLinks = [
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const cartCount = 0
+  const cartCount = useCartStore((s) => s.totalItems())
+  const openCart = useUIStore((s) => s.openCart)
 
   return (
     <header className="sticky top-0 z-40 bg-bg-surface/95 backdrop-blur-sm border-b border-border-light">
@@ -56,7 +60,7 @@ export default function Header() {
           </button>
 
           {/* Cart */}
-          <button className="relative text-text-secondary hover:text-accent-primary transition-colors cursor-pointer" aria-label="Корзина">
+          <button onClick={openCart} className="relative text-text-secondary hover:text-accent-primary transition-colors cursor-pointer" aria-label="Корзина">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" /><path d="M3 6h18" /><path d="M16 10a4 4 0 0 1-8 0" />
             </svg>
@@ -99,6 +103,7 @@ export default function Header() {
           ))}
         </nav>
       )}
+      <MiniCart />
     </header>
   )
 }
