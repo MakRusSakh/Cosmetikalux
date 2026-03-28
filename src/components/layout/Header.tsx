@@ -6,6 +6,7 @@ import { useCartStore } from '@/stores/cartStore'
 import { useUIStore } from '@/stores/uiStore'
 import { useAuth } from '@/hooks/useAuth'
 import MiniCart from '@/components/features/MiniCart'
+import SearchBar from '@/components/features/SearchBar'
 
 const navLinks = [
   { href: '/catalog', label: 'Каталог' },
@@ -18,6 +19,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const cartCount = useCartStore((s) => s.totalItems())
   const openCart = useUIStore((s) => s.openCart)
+  const toggleSearch = useUIStore((s) => s.toggleSearch)
   const { user, isAuthenticated, isLoading } = useAuth()
 
   return (
@@ -48,7 +50,7 @@ export default function Header() {
         {/* Right icons */}
         <div className="flex items-center gap-4">
           {/* Search */}
-          <button className="text-text-secondary hover:text-accent-primary transition-colors cursor-pointer" aria-label="Поиск">
+          <button onClick={toggleSearch} className="text-text-secondary hover:text-accent-primary transition-colors cursor-pointer" aria-label="Поиск">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
             </svg>
@@ -134,6 +136,7 @@ export default function Header() {
         </nav>
       )}
       <MiniCart />
+      <SearchBar />
     </header>
   )
 }
