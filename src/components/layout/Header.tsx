@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useCartStore } from '@/stores/cartStore'
 import { useUIStore } from '@/stores/uiStore'
+import { useAuth } from '@/hooks/useAuth'
 import MiniCart from '@/components/features/MiniCart'
 
 const navLinks = [
@@ -17,6 +18,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const cartCount = useCartStore((s) => s.totalItems())
   const openCart = useUIStore((s) => s.openCart)
+  const { user, isAuthenticated, isLoading } = useAuth()
 
   return (
     <header className="sticky top-0 z-40 bg-bg-surface/95 backdrop-blur-sm border-b border-border-light">
@@ -58,6 +60,34 @@ export default function Header() {
               <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21.3l7.8-7.8 1-1.1a5.5 5.5 0 0 0 0-7.8z" />
             </svg>
           </button>
+
+          {/* Account / Login */}
+          {!isLoading && (
+            isAuthenticated ? (
+              <Link
+                href="/account"
+                className="text-sm text-text-secondary hover:text-accent-primary transition-colors font-medium hidden sm:flex items-center gap-1.5"
+                aria-label="Личный кабинет"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+                <span className="max-w-[80px] truncate">{user?.name ?? 'Профиль'}</span>
+              </Link>
+            ) : (
+              <Link
+                href="/login"
+                className="text-text-secondary hover:text-accent-primary transition-colors"
+                aria-label="Войти"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </Link>
+            )
+          )}
 
           {/* Cart */}
           <button onClick={openCart} className="relative text-text-secondary hover:text-accent-primary transition-colors cursor-pointer" aria-label="Корзина">

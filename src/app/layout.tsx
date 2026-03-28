@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AuthProvider from "@/providers/AuthProvider";
 import StoreProvider from "@/providers/StoreProvider";
 import "./globals.css";
 
@@ -25,7 +26,9 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col antialiased">
-          <StoreProvider>{children}</StoreProvider>
+          <AuthProvider>
+            <StoreProvider>{children}</StoreProvider>
+          </AuthProvider>
         </body>
     </html>
   );
