@@ -10,7 +10,8 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { categorySlug } = await params;
-  const category = getCategories().find((c) => c.slug === categorySlug);
+  const categories = await getCategories();
+  const category = categories.find((c) => c.slug === categorySlug);
   if (!category) return { title: 'Категория не найдена' };
   return {
     title: `${category.name} — купить корейскую косметику | CosmetikaLux`,
@@ -18,16 +19,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export function generateStaticParams() {
-  return getCategories().map((c) => ({ categorySlug: c.slug }));
+export async function generateStaticParams() {
+  const categories = await getCategories();
+  return categories.map((c) => ({ categorySlug: c.slug }));
 }
 
 export default async function CategoryPage({ params }: PageProps) {
   const { categorySlug } = await params;
-  const category = getCategories().find((c) => c.slug === categorySlug);
+  const [allCategories, productResult] = await Promise.all([
+    getCategories(),
+    getProducts({ category: categorySlug }),
+  ]);
+  const category = allCategories.find((c) => c.slug === categorySlug);
   if (!category) notFound();
 
-  const { products } = getProducts({ category: categorySlug });
+  const { products } = productResult;
 
   return (
     <CategoryClient

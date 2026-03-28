@@ -13,6 +13,8 @@ interface CatalogFiltersProps {
   filters: CatalogFiltersType;
   onFilterChange: (filters: CatalogFiltersType) => void;
   className?: string;
+  isOpen?: boolean;
+  onClose?: () => void;
 }
 
 const SKIN_TYPES: FilterOption[] = [
@@ -113,6 +115,8 @@ export default function CatalogFilters({
   filters,
   onFilterChange,
   className = '',
+  isOpen,
+  onClose,
 }: CatalogFiltersProps) {
   const update = (patch: Partial<CatalogFiltersType>) =>
     onFilterChange({ ...filters, ...patch, page: 1 });
@@ -128,14 +132,8 @@ export default function CatalogFilters({
     filters.skinType ||
     filters.country;
 
-  return (
-    <aside
-      className={[
-        'hidden md:block w-full md:w-64 bg-bg-surface p-4',
-        'rounded-[var(--radius-md)] border border-border-light',
-        className,
-      ].join(' ')}
-    >
+  const filtersContent = (
+    <>
       <CheckboxGroup
         label="Категория"
         options={categories}
@@ -179,6 +177,56 @@ export default function CatalogFilters({
           Сбросить фильтры
         </button>
       )}
-    </aside>
+    </>
+  );
+
+  return (
+    <>
+      {/* Desktop sidebar */}
+      <aside
+        className={[
+          'hidden md:block w-full md:w-64 bg-bg-surface p-4',
+          'rounded-[var(--radius-md)] border border-border-light',
+          className,
+        ].join(' ')}
+      >
+        {filtersContent}
+      </aside>
+
+      {/* Mobile drawer */}
+      {isOpen && (
+        <div className="fixed inset-0 z-50 md:hidden">
+          <div
+            className="absolute inset-0 bg-black/40"
+            onClick={onClose}
+            onKeyDown={(e) => e.key === 'Escape' && onClose?.()}
+            role="button"
+            tabIndex={0}
+            aria-label="Закрыть фильтры"
+          />
+          <aside className="absolute inset-y-0 left-0 w-[85%] max-w-xs bg-bg-surface p-4 overflow-y-auto animate-slide-in-left shadow-xl">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="font-heading text-lg font-semibold">Фильтры</h2>
+              <button
+                type="button"
+                className="min-h-[44px] min-w-[44px] flex items-center justify-center text-text-secondary"
+                onClick={onClose}
+                aria-label="Закрыть"
+              >
+                ✕
+              </button>
+            </div>
+            {filtersContent}
+            <button
+              type="button"
+              className="mt-6 w-full min-h-[44px] rounded-[var(--radius-md)] bg-gradient-to-r from-accent-primary to-accent-rose text-text-inverse font-heading uppercase tracking-wider font-semibold text-sm"
+              onClick={onClose}
+            >
+              Применить
+            </button>
+          </aside>
+        </div>
+      )}
+    </>
   );
 }

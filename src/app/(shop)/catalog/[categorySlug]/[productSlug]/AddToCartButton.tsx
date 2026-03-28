@@ -1,30 +1,40 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
+import type { Product } from '@/types/product'
+import { useCartStore } from '@/stores/cartStore'
 
 interface AddToCartButtonProps {
-  productId: string
-  productName: string
+  product: Product
 }
 
-export default function AddToCartButton({ productId, productName }: AddToCartButtonProps) {
+export default function AddToCartButton({ product }: AddToCartButtonProps) {
   const [added, setAdded] = useState(false)
+  const addToCart = useCartStore((s) => s.add)
 
-  const handleAdd = () => {
-    // TODO: интеграция с Zustand cart store
+  const handleAdd = useCallback(() => {
+    addToCart({
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      image: product.images?.[0] ?? '',
+      slug: product.slug,
+      categorySlug: product.categorySlug,
+      brand: product.brand,
+    })
     setAdded(true)
-    setTimeout(() => setAdded(false), 1500)
-  }
+    setTimeout(() => setAdded(false), 2000)
+  }, [addToCart, product])
 
   return (
     <div>
       <button
         type="button"
         onClick={handleAdd}
-        aria-label={`Добавить ${productName} в корзину`}
+        aria-label={`Добавить ${product.name} в корзину`}
         className="w-full py-3.5 bg-gradient-to-r from-accent-primary to-accent-rose text-text-inverse font-heading uppercase tracking-wider rounded-[var(--radius-md)] hover:opacity-90 transition"
       >
-        {added ? 'Добавлено ✓' : 'В корзину'}
+        {added ? 'Добавлено \u2713' : 'В корзину'}
       </button>
       <button
         type="button"

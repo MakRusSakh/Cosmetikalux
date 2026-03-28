@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import AuthProvider from "@/providers/AuthProvider";
+import StoreProvider from "@/providers/StoreProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -23,7 +25,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-full flex flex-col antialiased">{children}</body>
+      <body className="min-h-full flex flex-col antialiased">
+          <AuthProvider>
+            <StoreProvider>{children}</StoreProvider>
+          </AuthProvider>
+        </body>
     </html>
   );
 }

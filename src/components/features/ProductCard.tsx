@@ -1,12 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Product } from '@/types/product';
 import PriceDisplay from '@/components/ui/PriceDisplay';
 import StarRating from '@/components/ui/StarRating';
 import Badge from '@/components/ui/Badge';
+import { useCartStore } from '@/stores/cartStore';
 
 interface ProductCardProps {
   product: Product;
@@ -35,6 +36,8 @@ function HeartIcon({ filled }: { filled: boolean }) {
 
 export default function ProductCard({ product, className = '', disableLink = false, hitNumber }: ProductCardProps) {
   const [isFavorite, setIsFavorite] = useState(false);
+  const [added, setAdded] = useState(false);
+  const addToCart = useCartStore((s) => s.add);
 
   const discount = product.oldPrice
     ? Math.round((1 - product.price / product.oldPrice) * 100)
@@ -50,11 +53,21 @@ export default function ProductCard({ product, className = '', disableLink = fal
     setIsFavorite((prev) => !prev);
   };
 
-  const handleAddToCart = (e: React.MouseEvent) => {
+  const handleAddToCart = useCallback((e: React.MouseEvent) => {
     e.stopPropagation();
     e.preventDefault();
-    // TODO: интеграция с Zustand cart store
-  };
+    addToCart({
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      image: product.images?.[0] ?? '',
+      slug: product.slug,
+      categorySlug: product.categorySlug,
+      brand: product.brand,
+    });
+    setAdded(true);
+    setTimeout(() => setAdded(false), 2000);
+  }, [addToCart, product]);
 
   const content = (
     <div className="flex flex-col h-full bg-bg-surface rounded-[var(--radius-md)] p-2 pb-3">
@@ -105,7 +118,7 @@ export default function ProductCard({ product, className = '', disableLink = fal
         onClick={handleAddToCart}
         className="w-full py-2.5 bg-gradient-to-r from-accent-primary to-accent-rose text-text-inverse font-heading text-xs uppercase tracking-widest rounded-[var(--radius-md)] hover:opacity-90 transition mt-auto pt-3"
       >
-        В корзину
+        {added ? 'Добавлено \u2713' : 'В корзину'}
       </button>
     </div>
   );

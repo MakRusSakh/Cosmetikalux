@@ -38,7 +38,7 @@ export default function Button({
   return (
     <button
       className={[
-        'inline-flex items-center justify-center',
+        'inline-flex items-center justify-center min-h-[44px]',
         'font-heading uppercase tracking-wider font-semibold',
         'rounded-[var(--radius-md)]',
         'transition-all duration-200',

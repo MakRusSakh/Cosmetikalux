@@ -62,3 +62,47 @@ export interface CatalogFilters {
   sort?: "popular" | "price-asc" | "price-desc" | "new";
   page?: number;
 }
+
+// === Типы для бэкенда (соответствие Prisma-схеме) ===
+
+export interface CreateOrderInput {
+  items: { productId: string; quantity: number }[];
+  deliveryMethod: 'PICKUP' | 'COURIER' | 'PVZ';
+  deliveryAddress?: {
+    city: string;
+    street: string;
+    apartment?: string;
+    zip: string;
+  };
+  paymentMethod: 'CARD' | 'SBP' | 'CASH';
+  comment?: string;
+  promoCode?: string;
+  contactName: string;
+  contactPhone: string;
+  contactEmail?: string;
+}
+
+export interface OrderSummary {
+  id: string;
+  orderNumber: string;
+  status: string;
+  totalAmount: number;
+  discountAmount: number;
+  itemsCount: number;
+  createdAt: string;
+}
+
+export interface UserProfile {
+  id: string;
+  name: string | null;
+  phone: string | null;
+  email: string | null;
+  role: 'USER' | 'ADMIN';
+}
+
+export interface SearchResult {
+  products: Product[];
+  categories: Category[];
+  brands: Brand[];
+  total: number;
+}
